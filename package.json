@@ -1,9 +1,13 @@
 {
   "name": "vue-pancake-icons",
   "private": false,
-  "version": "0.0.8",
+  "version": "2.2.1",
   "files": [
-    "dist"
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
   ],
   "main": "./dist/vue-pancake-icons.umd.js",
   "module": "./dist/vue-pancake-icons.es.js",

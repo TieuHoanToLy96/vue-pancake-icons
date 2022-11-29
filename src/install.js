@@ -4,7 +4,7 @@ const VuePancakeIcons = {
   install(Vue) {
     for (let props in components) {
       const component = components[props]
-      console.log(component, "componentcomponentcomponent")
+      console.log(component, "rrrmmmm")
       Vue.component(component.name, component)
     }
   }

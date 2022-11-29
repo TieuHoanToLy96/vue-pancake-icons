@@ -20,11 +20,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [vue({
-    template: {
-      compilerOptions: {
-        isCustomElement: (tag) => tag,
-      }
-    }
-  })],
+  plugins: [vue()],
 })
