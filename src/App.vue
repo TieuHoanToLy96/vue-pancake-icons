@@ -182,7 +182,8 @@ export default {
             <div :style="{ display: 'flex', flexWrap: 'wrap' }">
               <div v-for="(component, idx) in el.data" :key="`module_${component.name}_${idx}`" class="icon-wrapper"
                 @click="e => click(idx, component.name)">
-                <component :ref="`${idx}`" :is="component" :color="colorSvg" :size="iconSize"></component>
+                <component :ref="`${idx}`" :is="{ ...component }" :color="colorSvg" :size="parseInt(iconSize)">
+                </component>
               </div>
             </div>
           </div>
