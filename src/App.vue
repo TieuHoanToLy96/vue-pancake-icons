@@ -1,7 +1,8 @@
 <script>
 import { message } from 'ant-design-vue'
 import FuzzySearch from 'fuzzy-search'
-import { cloneDeep } from 'lodash'
+import { cloneDeep, debounce } from 'lodash'
+import { nextTick, shallowRef, markRaw } from 'vue'
 
 import * as arrows from "./components/arrows"
 import * as brands from "./components/brands"
@@ -22,18 +23,22 @@ import * as systems from "./components/systems"
 import * as times from "./components/times"
 import * as weathers from "./components/weathers"
 import Pickr from "./components/Pickr.vue"
+import Lazy from "./components/Lazy.vue"
 
 export default {
+  setup() {
+    return { shallowRef, markRaw }
+  },
   data() {
-    return { array: [], templateString: "", tag: "", visibleModal: false, key: 'all', searchTerm: "", resultArray: [], pickr: null, colorSvg: "", iconSize: '24' }
+    return { array: [], templateString: "", tag: "", visibleModal: false, key: 'all', searchTerm: "", pickr: null, colorSvg: "", iconSize: '24' }
   },
   computed: {
     totalIcon() {
-      return (this.searchTerm ? this.resultArray : this.array).reduce((acc, el) => el.data.length + acc, 0)
+      return this.array.reduce((acc, el) => el.data.length + acc, 0)
     }
   },
   components: {
-    Pickr
+    Pickr, Lazy
   },
   mounted() {
     let icons = [
@@ -104,19 +109,26 @@ export default {
     handleChangeTerm(e) {
       let value = e.target.value
       this.searchTerm = value
-      this.resultArray = cloneDeep(this.array).map(el => {
-        let data = el.data.filter(e => {
-          const searcher = new FuzzySearch([this.useNonAccentVietnamese(e.name.toLowerCase())], [], {
-            caseSensitive: false,
-          });
-          let result = searcher.search(this.useNonAccentVietnamese(value.toLowerCase()));
+      this.filter(value)
+    },
+    filter: debounce(function (value) {
+      this.array = this.array.map(el => {
+        let data = el.data.map(e => {
+          // const searcher = new FuzzySearch([this.useNonAccentVietnamese(e.name.toLowerCase())], [], {
+          //   caseSensitive: false,
+          // });
+          // let result = searcher.search(this.useNonAccentVietnamese(value.toLowerCase()));
 
-          return !!result.length
+          let check = this.useNonAccentVietnamese(e.name.toLowerCase()).includes(this.useNonAccentVietnamese(value.toLowerCase()))
+          e.isHidden = !check
+          return e
+          // return !!result.length
         })
+
         el.data = data
         return el
       })
-    },
+    }, 0),
     handleChangeColor(color) {
       this.colorSvg = color
     }
@@ -139,7 +151,7 @@ export default {
             </span>
           </span>
         </a-menu-item>
-        <a-menu-item v-for="(el, index) in (searchTerm ? this.resultArray : this.array)" :key="el.key">
+        <a-menu-item v-for="(el, index) in array" :key="el.key">
           <span :style="{ display: 'flex', width: '100%', justifyContent: 'space-between' }">
             <span>
               {{ el.title }}
@@ -155,7 +167,7 @@ export default {
       <a-layout-header>
         <a-input :style="{ width: '250px' }" :value="searchTerm" @change="handleChangeTerm" />
       </a-layout-header>
-      <a-layout-content :style="{ overFlow: 'scroll', height: '100vh' }">
+      <a-layout-content :style="{ overFlow: 'scroll', height: 'calc(100vh - 64px)' }">
         <div :style="{ padding: '10px' }">
           <div :style="{ display: 'flex', padding: '20px 40px' }">
             <div>
@@ -176,15 +188,14 @@ export default {
             </div>
 
           </div>
-          <div
-            v-for="(el, index) in (searchTerm ? this.resultArray : this.array).filter(el => key == 'all' ? el : el.key == key)"
-            :key="index">
-            <div :style="{ display: 'flex', flexWrap: 'wrap' }">
-              <div v-for="(component, idx) in el.data" :key="`module_${component.name}_${idx}`" class="icon-wrapper"
-                @click="e => click(idx, component.name)">
-                <component :ref="`${idx}`" :is="{ ...component }" :color="colorSvg" :size="parseInt(iconSize)">
+          <div v-for="(el, index) in array" :key="el.key">
+            <div :style="{ display: 'flex', flexWrap: 'wrap', }" v-show="key == 'all' || key == el.key">
+              <Lazy v-for="(component, idx) in el.data" :key="`module_${component.name}_${idx}`" class="icon-wrapper"
+                @click="e => click(idx, component.name)" v-show="!component.isHidden">
+                <component :ref="`${idx}`" :is="markRaw(component)" :color="colorSvg" :size="parseInt(iconSize)">
                 </component>
-              </div>
+                <div></div>
+              </Lazy>
             </div>
           </div>
         </div>
