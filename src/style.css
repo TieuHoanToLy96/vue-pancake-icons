@@ -11,19 +11,18 @@
   background: #fff !important;
 }
 .ant-radio-group>.ant-radio-button-wrapper {
-  border-color: #fff;
+  border-color: #fff !important;
 }
 .ant-radio-group>.ant-radio-button-wrapper-checked{
   background: #384add !important;
-  border-radius: 4px !important;
   border-color: #384add !important;
 }
 .ant-radio-button-wrapper:last-child {
-  border-radius: 4px 20px 20px 4px !important;
+  border-radius: 0px 20px 20px 0px !important;
 }
 
 .ant-radio-button-wrapper:first-child {
-  border-radius: 20px 4px 4px 20px !important;
+  border-radius: 20px 0px 0px 20px !important;
 }
 
 .ant-radio-group>.ant-radio-button-wrapper::before {
