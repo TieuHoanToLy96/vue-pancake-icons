@@ -168,43 +168,46 @@ export default {
         <a-input :style="{ width: '250px' }" :value="searchTerm" @change="handleChangeTerm" />
       </a-layout-header>
       <a-layout-content :style="{ overFlow: 'scroll', height: 'calc(100vh - 64px)' }">
-        <div :style="{ padding: '10px' }">
-          <div :style="{ display: 'flex', padding: '20px 40px', alignItems: 'center' }">
-            <div>
-              <div>Color</div>
-              <div>
-                <Pickr :change="handleChangeColor" />
+        <div :style="{ padding: '10px', display: 'flex' }">
+          <div>
+            <div v-for="(el, index) in array" :key="el.key">
+              <div :style="{ display: 'flex', flexWrap: 'wrap', }" v-show="key == 'all' || key == el.key">
+                <Lazy v-for="(component, idx) in el.data" :key="`module_${component.name}_${idx}`" class="icon-wrapper"
+                  @click="e => click(idx, component.name)" v-show="!component.isHidden">
+                  <component :ref="`${idx}`" :is="markRaw(component)" :color="colorSvg" :size="parseInt(iconSize)">
+                  </component>
+                  <div></div>
+                </Lazy>
               </div>
             </div>
-
-            <div :style="{ marginLeft: '30px' }">
-              <div>Size</div>
-              <a-radio-group :value="iconSize" button-style="solid" @change="e => iconSize = e.target.value">
-                <a-radio-button value="24">S</a-radio-button>
-                <a-radio-button value="32">M</a-radio-button>
-                <a-radio-button value="40">L</a-radio-button>
-                <a-radio-button value="48">XL</a-radio-button>
-              </a-radio-group>
-            </div>
-
           </div>
-          <div :style="{ display: 'flex', padding: '20px 40px' }">
-            <div>Props</div>
-            <div :style="{ marginLeft: '20px' }">
-              size=Number,
-              strokeWidth=Number,
-              color=String
-            </div>
 
-          </div>
-          <div v-for="(el, index) in array" :key="el.key">
-            <div :style="{ display: 'flex', flexWrap: 'wrap', }" v-show="key == 'all' || key == el.key">
-              <Lazy v-for="(component, idx) in el.data" :key="`module_${component.name}_${idx}`" class="icon-wrapper"
-                @click="e => click(idx, component.name)" v-show="!component.isHidden">
-                <component :ref="`${idx}`" :is="markRaw(component)" :color="colorSvg" :size="parseInt(iconSize)">
-                </component>
-                <div></div>
-              </Lazy>
+          <div :style="{ width: '250px', height: 'fit-content', position: 'sticky', top: '20px' }">
+            <div :style="{ padding: '20px 0px', alignItems: 'center' }">
+              <div>
+                <div>Size</div>
+                <a-radio-group :value="iconSize" button-style="solid" @change="e => iconSize = e.target.value">
+                  <a-radio-button value="24">S</a-radio-button>
+                  <a-radio-button value="32">M</a-radio-button>
+                  <a-radio-button value="40">L</a-radio-button>
+                  <a-radio-button value="48">XL</a-radio-button>
+                </a-radio-group>
+              </div>
+
+              <div>
+                <div>Color</div>
+                <div>
+                  <Pickr :change="handleChangeColor" />
+                </div>
+              </div>
+            </div>
+            <div :style="{ display: 'flex' }">
+              <div>Props</div>
+              <div :style="{ marginLeft: '20px' }">
+                size=Number,
+                strokeWidth=Number,
+                color=String
+              </div>
             </div>
           </div>
         </div>

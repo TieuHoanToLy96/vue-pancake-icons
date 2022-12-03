@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import { Modal, Button, Menu, Layout, Input, Radio } from 'ant-design-vue'
+import { Modal, Button, Menu, Layout, Input, Radio, Anchor } from 'ant-design-vue'
 
 import './style.css'
 import 'ant-design-vue/dist/antd.css'
@@ -14,4 +14,5 @@ app.use(Button)
 app.use(Menu)
 app.use(Layout)
 app.use(Radio)
+app.use(Anchor)
 app.mount('#app')
