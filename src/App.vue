@@ -169,7 +169,7 @@ export default {
       </a-layout-header>
       <a-layout-content :style="{ overFlow: 'scroll', height: 'calc(100vh - 64px)' }">
         <div :style="{ padding: '10px' }">
-          <div :style="{ display: 'flex', padding: '20px 40px' }">
+          <div :style="{ display: 'flex', padding: '20px 40px', alignItems: 'center' }">
             <div>
               <div>Color</div>
               <div>
@@ -185,6 +185,15 @@ export default {
                 <a-radio-button value="40">L</a-radio-button>
                 <a-radio-button value="48">XL</a-radio-button>
               </a-radio-group>
+            </div>
+
+          </div>
+          <div :style="{ display: 'flex', padding: '20px 40px' }">
+            <div>Props</div>
+            <div :style="{ marginLeft: '20px' }">
+              size=Number,
+              strokeWidth=Number,
+              color=String
             </div>
 
           </div>
