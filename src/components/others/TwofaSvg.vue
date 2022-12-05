@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: '2fa-svg',
+  name: 'twofa-svg',
   props: {
     size: {
       type: Number,

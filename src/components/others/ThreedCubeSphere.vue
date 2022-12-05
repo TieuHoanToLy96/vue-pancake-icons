@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: '3d-cube-sphere',
+  name: 'threed-cube-sphere',
   props: {
     size: {
       type: Number,

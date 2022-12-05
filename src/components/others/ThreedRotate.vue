@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: '3d-rotate',
+  name: 'threed-rotate',
   props: {
     size: {
       type: Number,
