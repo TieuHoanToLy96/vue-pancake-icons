@@ -75,7 +75,8 @@ export default {
     }
   },
   methods: {
-    click(refName, componentName) {
+    click(idx, componentName) {
+      let refName = `module_${componentName}_${idx}`
       this.templateString = this.$refs[`${refName}`][0].$el.outerHTML
       this.tag = `<${componentName}-pcon`
       if (this.colorSvg) {
@@ -135,6 +136,11 @@ export default {
     handleChangeColor(color) {
       this.colorSvg = color
     },
+    cancelModal() {
+      this.visibleModal = false
+      this.templateString = ""
+      this.tag = ""
+    }
   }
 }
 </script>
@@ -181,7 +187,7 @@ export default {
               <div :style="{ display: 'flex', flexWrap: 'wrap', }" v-show="key == 'all' || key == el.key">
                 <Lazy v-for="(component, idx) in el.data" :key="`module_${component.name}_${idx}`" class="icon-wrapper"
                   @click="e => click(idx, component.name)" v-show="!component.isHidden">
-                  <component :ref="`${idx}`" :is="markRaw(component)" :color="colorSvg" :size="parseInt(iconSize)">
+                  <component :ref="`module_${component.name}_${idx}`" :is="component" :color="colorSvg" :size="parseInt(iconSize)">
                   </component>
                   <div></div>
                 </Lazy>
@@ -248,7 +254,7 @@ export default {
     </a-layout>
   </a-layout>
 
-  <a-modal :visible="visibleModal" @cancel="() => visibleModal = false" centered class="modal-svg" :footer="false">
+  <a-modal :visible="visibleModal" @cancel="cancelModal" centered class="modal-svg" :footer="false">
     <div>
       <div class="icon-svg" v-html="templateString"></div>
       <div class="icon-tag" @click="e => copy(tag, 'tag')"> {{ tag }}</div>
