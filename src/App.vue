@@ -22,6 +22,8 @@ import * as securitys from "./components/securitys"
 import * as systems from "./components/systems"
 import * as times from "./components/times"
 import * as weathers from "./components/weathers"
+import * as othes from "./components/others"
+
 import Pickr from "./components/Pickr.vue"
 import Lazy from "./components/Lazy.vue"
 
@@ -30,7 +32,7 @@ export default {
     return { shallowRef, markRaw }
   },
   data() {
-    return { array: [], templateString: "", tag: "", visibleModal: false, key: 'all', searchTerm: "", pickr: null, colorSvg: "", iconSize: '24' }
+    return { array: [], templateString: "", tag: "", visibleModal: false, key: 'all', searchTerm: "", pickr: null, colorSvg: "", iconSize: '24', exampleColors: ["#000", "#e01a4f", "#5f19dd", "#0ead69", "#53b3cb"] }
   },
   computed: {
     totalIcon() {
@@ -60,6 +62,7 @@ export default {
       { key: "systems", components: systems, title: "Systems" },
       { key: "times", components: times, title: "Times" },
       { key: "weathers", components: weathers, title: "Weather" },
+      { key: "othes", components: othes, title: "Othes" }
     ]
 
     for (let i = 0; i < icons.length; i++) {
@@ -119,7 +122,7 @@ export default {
           // });
           // let result = searcher.search(this.useNonAccentVietnamese(value.toLowerCase()));
 
-          let check = this.useNonAccentVietnamese(e.name.toLowerCase()).includes(this.useNonAccentVietnamese(value.toLowerCase()))
+          let check = this.useNonAccentVietnamese(e.name.toLowerCase().replaceAll("-", " ")).includes(this.useNonAccentVietnamese(value.toLowerCase()))
           e.isHidden = !check
           return e
           // return !!result.length
@@ -131,16 +134,19 @@ export default {
     }, 0),
     handleChangeColor(color) {
       this.colorSvg = color
-    }
+    },
   }
 }
 </script>
 
 <template>
   <a-layout>
-    <a-layout-sider :width="250">
-      <a-menu :style="{ width: '250px', height: '100%', paddingTop: '61px' }" :selectedKeys="[key]"
-        @select="selectItem">
+    <a-layout-sider :width="250" :style="{ background: '#fff' }">
+      <div :style="{ display: 'flex', height: '64px', alignItems: 'center', justifyContent: 'center' }">
+        <img :style="{ width: '150px' }"
+          src="https://statics.pancake.vn/web-media/08/57/24/b0/01f0af106e9cbb6ad173d034a942ed39e7c5acb460beb981c0868b13.svg" />
+      </div>
+      <a-menu :style="{ width: '250px', height: '100%' }" :selectedKeys="[key]" @select="selectItem">
         <a-menu-item key="all">
           <span :style="{ display: 'flex', width: '100%', justifyContent: 'space-between' }">
             <span>
@@ -151,7 +157,7 @@ export default {
             </span>
           </span>
         </a-menu-item>
-        <a-menu-item v-for="(el, index) in array" :key="el.key">
+        <a-menu-item v-for="el in array" :key="el.key">
           <span :style="{ display: 'flex', width: '100%', justifyContent: 'space-between' }">
             <span>
               {{ el.title }}
@@ -165,12 +171,13 @@ export default {
     </a-layout-sider>
     <a-layout>
       <a-layout-header>
-        <a-input :style="{ width: '250px' }" :value="searchTerm" @change="handleChangeTerm" />
+        <a-input :style="{ width: '250px', borderRadius: '20px' }" :value="searchTerm" @change="handleChangeTerm"
+          placeholder="Search icon" />
       </a-layout-header>
       <a-layout-content :style="{ overFlow: 'scroll', height: 'calc(100vh - 64px)' }">
         <div :style="{ padding: '10px', display: 'flex' }">
-          <div>
-            <div v-for="(el, index) in array" :key="el.key">
+          <div :style="{ flex: '1' }">
+            <div v-for="el in array" :key="el.key">
               <div :style="{ display: 'flex', flexWrap: 'wrap', }" v-show="key == 'all' || key == el.key">
                 <Lazy v-for="(component, idx) in el.data" :key="`module_${component.name}_${idx}`" class="icon-wrapper"
                   @click="e => click(idx, component.name)" v-show="!component.isHidden">
@@ -194,21 +201,47 @@ export default {
                 </a-radio-group>
               </div>
 
-              <div>
+              <div :style="{ marginTop: '16px' }">
                 <div>Color</div>
-                <div>
+                <div :style="{ display: 'flex', alignItems: 'center' }">
+                  <div v-for="(el) in exampleColors" :key="el" :style="{
+                    marginRight: '8px', cursor: 'pointer', padding: '4px',
+                    border: el == colorSvg ? `3px solid ${el}` : 'none',
+                    borderRadius: '20px'
+                  }" @click="handleChangeColor(el)">
+                    <div
+                      :style="{ background: el, width: el == colorSvg ? '18px' : '26px', height: el == colorSvg ? '8px' : '16px', borderRadius: '20px' }">
+                    </div>
+                  </div>
+
                   <Pickr :change="handleChangeColor" />
                 </div>
               </div>
             </div>
-            <div :style="{ display: 'flex' }">
+            <div :style="{ marginTop: '16px' }">
               <div>Props</div>
-              <div :style="{ marginLeft: '20px' }">
-                size=Number,
-                strokeWidth=Number,
+              <div :style="{
+                background: '#fff',
+                padding: '16px 20px',
+                borderRadius: '6px',
+                marginTop: '10px',
+                border: '1px solid #e8e8e8'
+              }">
+                size=Number
+                strokeWidth=Number
                 color=String
               </div>
             </div>
+
+            <div :style="{
+              background: '#fff',
+              padding: '16px 20px',
+              borderRadius: '6px',
+              marginTop: '10px',
+              border: '1px solid #e8e8e8',
+              cursor: 'pointer',
+              fontSize: '18px'
+            }" @click="copy('npm i vue-pancake-icons', 'npm')">npm i vue-pancake-icons</div>
           </div>
         </div>
       </a-layout-content>
