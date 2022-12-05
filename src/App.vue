@@ -22,7 +22,7 @@ import * as securitys from "./components/securitys"
 import * as systems from "./components/systems"
 import * as times from "./components/times"
 import * as weathers from "./components/weathers"
-import * as othes from "./components/others"
+// import * as othes from "./components/others"
 
 import Pickr from "./components/Pickr.vue"
 import Lazy from "./components/Lazy.vue"
@@ -62,7 +62,7 @@ export default {
       { key: "systems", components: systems, title: "Systems" },
       { key: "times", components: times, title: "Times" },
       { key: "weathers", components: weathers, title: "Weather" },
-      { key: "othes", components: othes, title: "Othes" }
+      // { key: "othes", components: othes, title: "Othes" }
     ]
 
     for (let i = 0; i < icons.length; i++) {
