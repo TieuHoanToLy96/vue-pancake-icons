@@ -17,7 +17,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "buildx": "vite buildx",
     "preview": "vite preview"
   },
   "dependencies": {
