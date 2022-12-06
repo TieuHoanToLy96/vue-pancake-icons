@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/install.js'),
       name: 'VuePancakeIcons',
-      fileName: (format) => `vue-pancake-icons.${format}.js`,
+      fileName: (format) => `lib/vue-pancake-icons.${format}.js`,
     },
     target: 'es2015',
     rollupOptions: {

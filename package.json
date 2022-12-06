@@ -5,12 +5,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-pancake-icons.umd.js",
-  "module": "./dist/vue-pancake-icons.es.js",
+  "main": "./dist/lib/vue-pancake-icons.umd.js",
+  "module": "./dist/lib/vue-pancake-icons.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-pancake-icons.es.js",
-      "require": "./dist/vue-pancake-icons.umd.js"
+      "import": "./dist/lib/vue-pancake-icons.es.js",
+      "require": "./dist/lib/vue-pancake-icons.umd.js"
     }
   },
   "type": "module",
