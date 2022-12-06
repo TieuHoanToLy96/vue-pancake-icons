@@ -9,16 +9,25 @@ export default defineConfig({
       name: 'VuePancakeIcons',
       fileName: (format) => `vue-pancake-icons.${format}.js`,
     },
+    target: 'es2015',
     rollupOptions: {
-      external: ['vue'],
-      output: {
-        // Provide global variables to use in the UMD build
-        // Add external deps here
-        globals: {
-          vue: 'Vue',
-        },
-      },
+      input: {
+        main: path.resolve(__dirname, 'index.html')
+      }
     },
+    // rollupOptions: {
+    //   external: ['vue'],
+    //   output: {
+    //     // Provide global variables to use in the UMD build
+    //     // Add external deps here
+    //     globals: {
+    //       vue: 'Vue',
+    //     },
+    //   },
+    // },
+  },
+  server: {
+    port: 10000
   },
   plugins: [vue()]
 })
