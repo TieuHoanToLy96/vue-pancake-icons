@@ -12,7 +12,7 @@ export default defineConfig({
     target: 'es2015',
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html')
+        main: path.resolve(__dirname, 'index.html')
       },
       external: ['vue'],
       output: {
