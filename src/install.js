@@ -16,10 +16,11 @@ import * as securitys from "./components/securitys"
 import * as systems from "./components/systems"
 import * as times from "./components/times"
 import * as weathers from "./components/weathers"
+import * as others from "./components/others"
 
 const VuePancakeIcons = {
   install(Vue) {
-    let icons = [arrows, brands, commerces, communications, designs, developments, educations, games, healths, maps, maths, medias, offices, peoples, securitys, systems, times, weathers]
+    let icons = [arrows, brands, commerces, communications, designs, developments, educations, games, healths, maps, maths, medias, offices, peoples, securitys, systems, times, weathers, others]
     for (let i = 0; i < icons.length; i++) {
       for (let props in icons[i]) {
         const component = icons[i][props]
