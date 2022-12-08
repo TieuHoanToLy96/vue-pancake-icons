@@ -7,13 +7,10 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/install.js'),
       name: 'VuePancakeIcons',
-      fileName: (format) => `lib/vue-pancake-icons.${format}.js`,
+      fileName: (format) => `vue-pancake-icons.${format}.js`,
     },
     target: 'es2015',
     rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'index.html')
-      },
       external: ['vue'],
       output: {
         // Provide global variables to use in the UMD build
