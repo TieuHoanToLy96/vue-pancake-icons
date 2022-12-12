@@ -17,13 +17,17 @@ export default {
     strokeWidth: {
       type: Number,
       default: 1.7
+    },
+    color: {
+      type: String,
+      default: "currentColor"
     }
   }
 }
 </script>
   
 <template>
-  <svg :width="width || size" :height="height || size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg :style='{color: color}' :width="width || size" :height="height || size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14 11C14 11 20.054 9.95 20 6.5C19.962 4.176 17.515 3.31 16.984 5C16.984 5 16.482 3 14.974 3C13.466 3 11.99 6 14 11V11Z" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M13.98 11C13.98 11 20.055 9.95 20 6.5C19.962 4.176 17.507 3.31 16.975 5C16.975 5 16.47 3 14.958 3C13.445 3 11.964 6 13.981 11H13.98Z" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M13 13.98L13.062 14.289L13.143 14.639L13.218 14.929L13.31 15.257L13.42 15.615L13.481 15.803L13.62 16.195C14.26 17.925 15.461 20.032 17.5 20C19.824 19.962 20.69 17.507 19 16.975L19.148 16.93L19.313 16.872C19.3458 16.8594 19.3785 16.8464 19.411 16.833L19.633 16.735C20.219 16.455 21 15.903 21 14.958C21 13.445 18 11.964 13 13.981V13.98Z" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round"/>

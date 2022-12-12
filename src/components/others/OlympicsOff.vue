@@ -17,13 +17,17 @@ export default {
     strokeWidth: {
       type: Number,
       default: 1.7
+    },
+    color: {
+      type: String,
+      default: "currentColor"
     }
   }
 }
 </script>
   
 <template>
-  <svg :width="width || size" :height="height || size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg :style='{color: color}' :width="width || size" :height="height || size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6 6C5.40666 6 4.82664 6.17595 4.33329 6.50559C3.83994 6.83524 3.45543 7.30377 3.22836 7.85195C3.0013 8.40013 2.94189 9.00333 3.05765 9.58527C3.1734 10.1672 3.45912 10.7018 3.87868 11.1213C4.29824 11.5409 4.83279 11.8266 5.41473 11.9424C5.99667 12.0581 6.59987 11.9987 7.14805 11.7716C7.69623 11.5446 8.16477 11.1601 8.49441 10.6667C8.82405 10.1734 9 9.59334 9 9" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18 12C19.6569 12 21 10.6569 21 9C21 7.34315 19.6569 6 18 6C16.3431 6 15 7.34315 15 9C15 10.6569 16.3431 12 18 12Z" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 9.0001C9 9.79575 9.31607 10.5588 9.87868 11.1214C10.4413 11.684 11.2044 12.0001 12 12.0001M14.566 10.5551C14.9154 9.97973 15.0611 9.30359 14.9797 8.63539C14.8983 7.9672 14.5946 7.34578 14.1174 6.87108C13.6401 6.39638 13.0171 6.09597 12.3485 6.01816C11.6799 5.94035 11.0045 6.08967 10.431 6.4421" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round"/>

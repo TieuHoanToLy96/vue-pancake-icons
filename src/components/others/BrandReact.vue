@@ -17,13 +17,17 @@ export default {
     strokeWidth: {
       type: Number,
       default: 1.7
+    },
+    color: {
+      type: String,
+      default: "currentColor"
     }
   }
 }
 </script>
   
 <template>
-  <svg :width="width || size" :height="height || size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg :style='{color: color}' :width="width || size" :height="height || size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.306 8.71094C3.704 9.43394 2 10.6369 2 11.9999C2 14.2099 6.477 15.9999 12 15.9999C12.773 15.9999 13.526 15.9649 14.248 15.8979" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M17.692 15.289C20.295 14.567 22 13.363 22 12C22 9.79 17.523 8 12 8C11.227 8 10.474 8.035 9.75 8.102" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M6.30511 15.287C5.62911 17.902 5.82011 19.98 7.00011 20.66C8.91311 21.765 12.7031 18.783 15.4641 14C15.8511 13.33 16.1971 12.661 16.5001 12.002" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round"/>
