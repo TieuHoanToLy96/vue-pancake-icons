@@ -1,3 +1,5 @@
+import { defineAsyncComponent } from "vue"
+
 import * as arrows from "./components/arrows"
 import * as brands from "./components/brands"
 import * as commerces from "./components/commerces"
@@ -24,7 +26,11 @@ const VuePancakeIcons = {
     for (let i = 0; i < icons.length; i++) {
       for (let props in icons[i]) {
         const component = icons[i][props]
-        Vue.component(component.name + "-pcon", component)
+        // Vue.component(component.name + "-pcon", component)
+
+        Vue.component(component.name + "-pcon", defineAsyncComponent(() =>
+          component
+        ))
       }
     }
   }
