@@ -16,7 +16,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build-component": "node build.js", 
+    "build-npm": "vite build",
+    "publish-npm": "npm publish",
     "preview": "vite preview --host"
   },
   "dependencies": {
