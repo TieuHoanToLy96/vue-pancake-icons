@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('phone-check-pcon', component)
+  },
   name: 'phone-check',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('knife-svg-pcon', component)
+  },
   name: 'knife-svg',
   props: {
     size: {

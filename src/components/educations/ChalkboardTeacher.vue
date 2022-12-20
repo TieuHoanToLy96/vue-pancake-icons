@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chalkboard-teacher-pcon', component)
+  },
   name: 'chalkboard-teacher',
   props: {
     size: {

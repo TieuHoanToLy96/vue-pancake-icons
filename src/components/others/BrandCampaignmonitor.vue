@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-campaignmonitor-pcon', component)
+  },
   name: 'brand-campaignmonitor',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cup-off-pcon', component)
+  },
   name: 'cup-off',
   props: {
     size: {

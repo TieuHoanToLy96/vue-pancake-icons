@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-facebook-pcon', component)
+  },
   name: 'brand-facebook',
   props: {
     size: {

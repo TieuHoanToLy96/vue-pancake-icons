@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('map-search-pcon', component)
+  },
   name: 'map-search',
   props: {
     size: {

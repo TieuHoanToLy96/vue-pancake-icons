@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hand-stop-pcon', component)
+  },
   name: 'hand-stop',
   props: {
     size: {

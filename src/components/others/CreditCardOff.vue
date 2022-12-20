@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('credit-card-off-pcon', component)
+  },
   name: 'credit-card-off',
   props: {
     size: {

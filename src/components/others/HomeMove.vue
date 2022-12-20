@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-move-pcon', component)
+  },
   name: 'home-move',
   props: {
     size: {

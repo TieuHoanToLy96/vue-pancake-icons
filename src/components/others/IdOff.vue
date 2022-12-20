@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('id-off-pcon', component)
+  },
   name: 'id-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-orientation-pcon', component)
+  },
   name: 'file-orientation',
   props: {
     size: {

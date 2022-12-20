@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-nextjs-pcon', component)
+  },
   name: 'brand-nextjs',
   props: {
     size: {

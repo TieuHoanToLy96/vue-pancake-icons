@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-peanut-pcon', component)
+  },
   name: 'brand-peanut',
   props: {
     size: {

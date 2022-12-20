@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-quetzal-pcon', component)
+  },
   name: 'currency-quetzal',
   props: {
     size: {

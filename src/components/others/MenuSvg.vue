@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('menu-svg-pcon', component)
+  },
   name: 'menu-svg',
   props: {
     size: {

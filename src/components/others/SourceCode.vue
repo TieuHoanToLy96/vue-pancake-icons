@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('source-code-pcon', component)
+  },
   name: 'source-code',
   props: {
     size: {

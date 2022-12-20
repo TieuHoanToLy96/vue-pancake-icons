@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('moped-svg-pcon', component)
+  },
   name: 'moped-svg',
   props: {
     size: {

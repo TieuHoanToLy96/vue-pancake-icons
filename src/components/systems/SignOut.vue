@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sign-out-pcon', component)
+  },
   name: 'sign-out',
   props: {
     size: {

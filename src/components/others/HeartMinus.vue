@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('heart-minus-pcon', component)
+  },
   name: 'heart-minus',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('book-download-pcon', component)
+  },
   name: 'book-download',
   props: {
     size: {

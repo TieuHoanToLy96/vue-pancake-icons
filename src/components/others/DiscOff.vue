@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('disc-off-pcon', component)
+  },
   name: 'disc-off',
   props: {
     size: {

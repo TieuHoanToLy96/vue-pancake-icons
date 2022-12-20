@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('discount-check-pcon', component)
+  },
   name: 'discount-check',
   props: {
     size: {

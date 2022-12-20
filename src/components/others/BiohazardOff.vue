@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('biohazard-off-pcon', component)
+  },
   name: 'biohazard-off',
   props: {
     size: {

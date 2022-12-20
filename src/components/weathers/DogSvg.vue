@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dog-svg-pcon', component)
+  },
   name: 'dog-svg',
   props: {
     size: {

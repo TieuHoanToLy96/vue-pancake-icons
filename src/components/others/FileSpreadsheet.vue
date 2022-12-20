@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-spreadsheet-pcon', component)
+  },
   name: 'file-spreadsheet',
   props: {
     size: {

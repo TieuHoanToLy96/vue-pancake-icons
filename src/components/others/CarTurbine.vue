@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('car-turbine-pcon', component)
+  },
   name: 'car-turbine',
   props: {
     size: {

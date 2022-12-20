@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('table-shortcut-pcon', component)
+  },
   name: 'table-shortcut',
   props: {
     size: {

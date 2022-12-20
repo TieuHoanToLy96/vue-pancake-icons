@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-strikethrough-pcon', component)
+  },
   name: 'text-strikethrough',
   props: {
     size: {

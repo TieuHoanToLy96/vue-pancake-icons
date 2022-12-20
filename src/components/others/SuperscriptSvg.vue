@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('superscript-svg-pcon', component)
+  },
   name: 'superscript-svg',
   props: {
     size: {

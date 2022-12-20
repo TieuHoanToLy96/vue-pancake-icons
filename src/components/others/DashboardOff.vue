@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dashboard-off-pcon', component)
+  },
   name: 'dashboard-off',
   props: {
     size: {

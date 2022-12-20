@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('settings-automation-pcon', component)
+  },
   name: 'settings-automation',
   props: {
     size: {

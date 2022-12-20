@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-church-pcon', component)
+  },
   name: 'building-church',
   props: {
     size: {

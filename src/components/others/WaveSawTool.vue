@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wave-saw-tool-pcon', component)
+  },
   name: 'wave-saw-tool',
   props: {
     size: {

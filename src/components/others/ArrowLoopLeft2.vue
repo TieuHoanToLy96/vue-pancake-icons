@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-loop-left-2-pcon', component)
+  },
   name: 'arrow-loop-left-2',
   props: {
     size: {

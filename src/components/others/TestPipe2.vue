@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('test-pipe-2-pcon', component)
+  },
   name: 'test-pipe-2',
   props: {
     size: {

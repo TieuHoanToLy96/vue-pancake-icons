@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('threed-rotate-pcon', component)
+  },
   name: 'threed-rotate',
   props: {
     size: {

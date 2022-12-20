@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('book-open-pcon', component)
+  },
   name: 'book-open',
   props: {
     size: {

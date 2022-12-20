@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('aperture-off-pcon', component)
+  },
   name: 'aperture-off',
   props: {
     size: {

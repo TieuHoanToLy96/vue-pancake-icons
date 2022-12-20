@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-signal-pcon', component)
+  },
   name: 'file-signal',
   props: {
     size: {

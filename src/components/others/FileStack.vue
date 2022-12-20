@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-stack-pcon', component)
+  },
   name: 'file-stack',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lollipop-off-pcon', component)
+  },
   name: 'lollipop-off',
   props: {
     size: {

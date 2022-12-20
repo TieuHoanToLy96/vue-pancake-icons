@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('uf-off-pcon', component)
+  },
   name: 'uf-off',
   props: {
     size: {

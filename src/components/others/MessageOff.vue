@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('message-off-pcon', component)
+  },
   name: 'message-off',
   props: {
     size: {

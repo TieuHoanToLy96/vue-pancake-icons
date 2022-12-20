@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('free-rights-pcon', component)
+  },
   name: 'free-rights',
   props: {
     size: {

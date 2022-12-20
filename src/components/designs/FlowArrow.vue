@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flow-arrow-pcon', component)
+  },
   name: 'flow-arrow',
   props: {
     size: {

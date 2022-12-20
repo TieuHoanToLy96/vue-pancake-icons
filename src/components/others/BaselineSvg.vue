@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('baseline-svg-pcon', component)
+  },
   name: 'baseline-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('vibrate-svg-pcon', component)
+  },
   name: 'vibrate-svg',
   props: {
     size: {

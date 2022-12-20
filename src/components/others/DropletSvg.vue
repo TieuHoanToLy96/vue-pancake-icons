@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('droplet-svg-pcon', component)
+  },
   name: 'droplet-svg',
   props: {
     size: {

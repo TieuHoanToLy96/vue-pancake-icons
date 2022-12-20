@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-warehouse-pcon', component)
+  },
   name: 'building-warehouse',
   props: {
     size: {

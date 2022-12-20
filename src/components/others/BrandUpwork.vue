@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-upwork-pcon', component)
+  },
   name: 'brand-upwork',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sausage-svg-pcon', component)
+  },
   name: 'sausage-svg',
   props: {
     size: {

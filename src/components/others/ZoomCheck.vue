@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zoom-check-pcon', component)
+  },
   name: 'zoom-check',
   props: {
     size: {

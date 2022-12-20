@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rocket-off-pcon', component)
+  },
   name: 'rocket-off',
   props: {
     size: {

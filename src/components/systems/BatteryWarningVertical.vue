@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('battery-warning-vertical-pcon', component)
+  },
   name: 'battery-warning-vertical',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('browsers-svg-pcon', component)
+  },
   name: 'browsers-svg',
   props: {
     size: {

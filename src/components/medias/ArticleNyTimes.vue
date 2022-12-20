@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('article-ny-times-pcon', component)
+  },
   name: 'article-ny-times',
   props: {
     size: {

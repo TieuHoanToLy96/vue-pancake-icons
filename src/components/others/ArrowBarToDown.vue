@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-bar-to-down-pcon', component)
+  },
   name: 'arrow-bar-to-down',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('airplane-in-flight-pcon', component)
+  },
   name: 'airplane-in-flight',
   props: {
     size: {

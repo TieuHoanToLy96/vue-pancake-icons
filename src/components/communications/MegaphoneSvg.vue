@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('megaphone-svg-pcon', component)
+  },
   name: 'megaphone-svg',
   props: {
     size: {

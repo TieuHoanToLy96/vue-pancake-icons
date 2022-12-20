@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-my-oppo-pcon', component)
+  },
   name: 'brand-my-oppo',
   props: {
     size: {

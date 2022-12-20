@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chat-dots-pcon', component)
+  },
   name: 'chat-dots',
   props: {
     size: {

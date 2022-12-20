@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('antenna-svg-pcon', component)
+  },
   name: 'antenna-svg',
   props: {
     size: {

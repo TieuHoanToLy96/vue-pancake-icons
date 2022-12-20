@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zip-svg-pcon', component)
+  },
   name: 'zip-svg',
   props: {
     size: {

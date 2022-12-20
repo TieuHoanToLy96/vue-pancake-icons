@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-ubuntu-pcon', component)
+  },
   name: 'brand-ubuntu',
   props: {
     size: {

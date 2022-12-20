@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('salad-svg-pcon', component)
+  },
   name: 'salad-svg',
   props: {
     size: {

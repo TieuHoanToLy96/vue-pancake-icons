@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tallymarks-svg-pcon', component)
+  },
   name: 'tallymarks-svg',
   props: {
     size: {

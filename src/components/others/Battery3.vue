@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('battery-3-pcon', component)
+  },
   name: 'battery-3',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circuit-inductor-pcon', component)
+  },
   name: 'circuit-inductor',
   props: {
     size: {

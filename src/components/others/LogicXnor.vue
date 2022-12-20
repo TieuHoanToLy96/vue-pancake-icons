@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('logic-xnor-pcon', component)
+  },
   name: 'logic-xnor',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('markdown-off-pcon', component)
+  },
   name: 'markdown-off',
   props: {
     size: {

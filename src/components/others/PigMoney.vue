@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pig-money-pcon', component)
+  },
   name: 'pig-money',
   props: {
     size: {

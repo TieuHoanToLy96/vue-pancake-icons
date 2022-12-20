@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-bitbucket-pcon', component)
+  },
   name: 'brand-bitbucket',
   props: {
     size: {

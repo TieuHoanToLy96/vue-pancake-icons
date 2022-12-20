@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('close-svg-pcon', component)
+  },
   name: 'close-svg',
   props: {
     size: {

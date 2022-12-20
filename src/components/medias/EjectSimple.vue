@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('eject-simple-pcon', component)
+  },
   name: 'eject-simple',
   props: {
     size: {

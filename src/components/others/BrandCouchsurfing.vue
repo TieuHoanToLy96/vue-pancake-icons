@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-couchsurfing-pcon', component)
+  },
   name: 'brand-couchsurfing',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('forms-svg-pcon', component)
+  },
   name: 'forms-svg',
   props: {
     size: {

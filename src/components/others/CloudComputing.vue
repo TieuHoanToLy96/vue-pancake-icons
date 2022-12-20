@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-computing-pcon', component)
+  },
   name: 'cloud-computing',
   props: {
     size: {

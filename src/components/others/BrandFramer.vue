@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-framer-pcon', component)
+  },
   name: 'brand-framer',
   props: {
     size: {

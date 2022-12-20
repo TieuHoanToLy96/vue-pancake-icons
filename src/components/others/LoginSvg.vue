@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('login-svg-pcon', component)
+  },
   name: 'login-svg',
   props: {
     size: {

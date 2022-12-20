@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clock-hour-6-pcon', component)
+  },
   name: 'clock-hour-6',
   props: {
     size: {

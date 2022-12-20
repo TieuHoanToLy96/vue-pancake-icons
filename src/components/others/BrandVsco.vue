@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-vsco-pcon', component)
+  },
   name: 'brand-vsco',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cookie-man-pcon', component)
+  },
   name: 'cookie-man',
   props: {
     size: {

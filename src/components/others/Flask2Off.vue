@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flask-2-off-pcon', component)
+  },
   name: 'flask-2-off',
   props: {
     size: {

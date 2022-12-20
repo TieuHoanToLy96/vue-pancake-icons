@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-kanban-pcon', component)
+  },
   name: 'layout-kanban',
   props: {
     size: {

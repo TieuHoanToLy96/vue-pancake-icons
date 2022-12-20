@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shoe-off-pcon', component)
+  },
   name: 'shoe-off',
   props: {
     size: {

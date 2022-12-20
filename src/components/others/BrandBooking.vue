@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-booking-pcon', component)
+  },
   name: 'brand-booking',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('relation-one-to-many-pcon', component)
+  },
   name: 'relation-one-to-many',
   props: {
     size: {

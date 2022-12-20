@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ice-skating-pcon', component)
+  },
   name: 'ice-skating',
   props: {
     size: {

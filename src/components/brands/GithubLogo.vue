@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('github-logo-pcon', component)
+  },
   name: 'github-logo',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-codepen-pcon', component)
+  },
   name: 'brand-codepen',
   props: {
     size: {

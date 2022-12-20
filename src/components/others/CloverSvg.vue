@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clover-svg-pcon', component)
+  },
   name: 'clover-svg',
   props: {
     size: {

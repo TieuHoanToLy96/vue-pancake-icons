@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-tablet-pcon', component)
+  },
   name: 'device-tablet',
   props: {
     size: {

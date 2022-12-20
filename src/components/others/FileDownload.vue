@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-download-pcon', component)
+  },
   name: 'file-download',
   props: {
     size: {

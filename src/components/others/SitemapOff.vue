@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sitemap-off-pcon', component)
+  },
   name: 'sitemap-off',
   props: {
     size: {

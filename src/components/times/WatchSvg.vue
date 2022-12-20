@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('watch-svg-pcon', component)
+  },
   name: 'watch-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('fence-off-pcon', component)
+  },
   name: 'fence-off',
   props: {
     size: {

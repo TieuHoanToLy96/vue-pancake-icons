@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('border-top-pcon', component)
+  },
   name: 'border-top',
   props: {
     size: {

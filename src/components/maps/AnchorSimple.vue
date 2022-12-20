@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('anchor-simple-pcon', component)
+  },
   name: 'anchor-simple',
   props: {
     size: {

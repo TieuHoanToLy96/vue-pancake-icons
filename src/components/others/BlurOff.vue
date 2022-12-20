@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('blur-off-pcon', component)
+  },
   name: 'blur-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-apple-pcon', component)
+  },
   name: 'brand-apple',
   props: {
     size: {

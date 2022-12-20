@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cursor-off-pcon', component)
+  },
   name: 'cursor-off',
   props: {
     size: {

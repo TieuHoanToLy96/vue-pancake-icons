@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bell-simple-ringing-pcon', component)
+  },
   name: 'bell-simple-ringing',
   props: {
     size: {

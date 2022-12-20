@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-zalando-pcon', component)
+  },
   name: 'brand-zalando',
   props: {
     size: {

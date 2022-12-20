@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('medicine-syrup-pcon', component)
+  },
   name: 'medicine-syrup',
   props: {
     size: {

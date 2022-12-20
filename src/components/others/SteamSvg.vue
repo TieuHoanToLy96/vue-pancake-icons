@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('steam-svg-pcon', component)
+  },
   name: 'steam-svg',
   props: {
     size: {

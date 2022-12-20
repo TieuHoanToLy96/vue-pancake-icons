@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('person-simple-walk-pcon', component)
+  },
   name: 'person-simple-walk',
   props: {
     size: {

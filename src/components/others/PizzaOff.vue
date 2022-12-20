@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pizza-off-pcon', component)
+  },
   name: 'pizza-off',
   props: {
     size: {

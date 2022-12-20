@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('box-modal-pcon', component)
+  },
   name: 'box-modal',
   props: {
     size: {

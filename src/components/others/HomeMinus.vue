@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-minus-pcon', component)
+  },
   name: 'home-minus',
   props: {
     size: {

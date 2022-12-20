@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('atom-svg-pcon', component)
+  },
   name: 'atom-svg',
   props: {
     size: {

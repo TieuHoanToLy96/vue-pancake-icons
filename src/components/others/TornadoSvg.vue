@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tornado-svg-pcon', component)
+  },
   name: 'tornado-svg',
   props: {
     size: {

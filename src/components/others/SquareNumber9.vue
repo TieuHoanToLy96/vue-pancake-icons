@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-number-9-pcon', component)
+  },
   name: 'square-number-9',
   props: {
     size: {

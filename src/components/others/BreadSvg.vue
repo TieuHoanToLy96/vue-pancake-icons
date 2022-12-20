@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bread-svg-pcon', component)
+  },
   name: 'bread-svg',
   props: {
     size: {

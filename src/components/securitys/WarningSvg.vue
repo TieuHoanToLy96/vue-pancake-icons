@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('warning-svg-pcon', component)
+  },
   name: 'warning-svg',
   props: {
     size: {

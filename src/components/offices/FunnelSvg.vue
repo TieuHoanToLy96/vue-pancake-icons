@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('funnel-svg-pcon', component)
+  },
   name: 'funnel-svg',
   props: {
     size: {

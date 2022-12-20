@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('abacus-off-pcon', component)
+  },
   name: 'abacus-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('prohibit-inset-pcon', component)
+  },
   name: 'prohibit-inset',
   props: {
     size: {

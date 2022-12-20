@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-upload-pcon', component)
+  },
   name: 'file-upload',
   props: {
     size: {

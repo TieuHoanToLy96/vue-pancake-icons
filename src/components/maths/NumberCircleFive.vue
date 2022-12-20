@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('number-circle-five-pcon', component)
+  },
   name: 'number-circle-five',
   props: {
     size: {

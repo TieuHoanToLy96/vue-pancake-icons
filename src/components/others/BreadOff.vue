@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bread-off-pcon', component)
+  },
   name: 'bread-off',
   props: {
     size: {

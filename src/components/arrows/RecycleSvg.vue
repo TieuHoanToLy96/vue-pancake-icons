@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('recycle-svg-pcon', component)
+  },
   name: 'recycle-svg',
   props: {
     size: {

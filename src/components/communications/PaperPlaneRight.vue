@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('paper-plane-right-pcon', component)
+  },
   name: 'paper-plane-right',
   props: {
     size: {

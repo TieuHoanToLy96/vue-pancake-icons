@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mail-opened-pcon', component)
+  },
   name: 'mail-opened',
   props: {
     size: {

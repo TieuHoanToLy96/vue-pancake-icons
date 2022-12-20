@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('christmas-tree-off-pcon', component)
+  },
   name: 'christmas-tree-off',
   props: {
     size: {

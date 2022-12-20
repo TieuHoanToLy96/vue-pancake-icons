@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('baby-carriage-pcon', component)
+  },
   name: 'baby-carriage',
   props: {
     size: {

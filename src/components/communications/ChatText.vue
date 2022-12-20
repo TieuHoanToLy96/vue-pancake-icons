@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chat-text-pcon', component)
+  },
   name: 'chat-text',
   props: {
     size: {

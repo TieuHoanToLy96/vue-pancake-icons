@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-wrap-disabled-pcon', component)
+  },
   name: 'text-wrap-disabled',
   props: {
     size: {

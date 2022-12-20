@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-comedy-central-pcon', component)
+  },
   name: 'brand-comedy-central',
   props: {
     size: {

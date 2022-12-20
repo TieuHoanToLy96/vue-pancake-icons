@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-unsplash-pcon', component)
+  },
   name: 'brand-unsplash',
   props: {
     size: {

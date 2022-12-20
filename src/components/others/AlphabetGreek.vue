@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('alphabet-greek-pcon', component)
+  },
   name: 'alphabet-greek',
   props: {
     size: {

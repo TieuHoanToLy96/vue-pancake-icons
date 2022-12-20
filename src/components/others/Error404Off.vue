@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('error-404-off-pcon', component)
+  },
   name: 'error-404-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('playstation-circle-pcon', component)
+  },
   name: 'playstation-circle',
   props: {
     size: {

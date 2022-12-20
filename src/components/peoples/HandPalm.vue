@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hand-palm-pcon', component)
+  },
   name: 'hand-palm',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gallery-svg-pcon', component)
+  },
   name: 'gallery-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('crosshair-svg-pcon', component)
+  },
   name: 'crosshair-svg',
   props: {
     size: {

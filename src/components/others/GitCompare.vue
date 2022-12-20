@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('git-compare-pcon', component)
+  },
   name: 'git-compare',
   props: {
     size: {

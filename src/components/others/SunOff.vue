@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sun-off-pcon', component)
+  },
   name: 'sun-off',
   props: {
     size: {

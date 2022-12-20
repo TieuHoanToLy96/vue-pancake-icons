@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bus-svg-pcon', component)
+  },
   name: 'bus-svg',
   props: {
     size: {

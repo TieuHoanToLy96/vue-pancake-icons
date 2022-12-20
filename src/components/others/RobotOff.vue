@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('robot-off-pcon', component)
+  },
   name: 'robot-off',
   props: {
     size: {

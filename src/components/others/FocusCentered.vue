@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('focus-centered-pcon', component)
+  },
   name: 'focus-centered',
   props: {
     size: {

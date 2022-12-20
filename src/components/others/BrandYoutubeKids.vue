@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-youtube-kids-pcon', component)
+  },
   name: 'brand-youtube-kids',
   props: {
     size: {

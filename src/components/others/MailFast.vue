@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mail-fast-pcon', component)
+  },
   name: 'mail-fast',
   props: {
     size: {

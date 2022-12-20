@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cactus-svg-pcon', component)
+  },
   name: 'cactus-svg',
   props: {
     size: {

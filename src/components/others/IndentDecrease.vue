@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('indent-decrease-pcon', component)
+  },
   name: 'indent-decrease',
   props: {
     size: {

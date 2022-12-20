@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cardboards-svg-pcon', component)
+  },
   name: 'cardboards-svg',
   props: {
     size: {

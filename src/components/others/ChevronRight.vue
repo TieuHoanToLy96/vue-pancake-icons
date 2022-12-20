@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chevron-right-pcon', component)
+  },
   name: 'chevron-right',
   props: {
     size: {

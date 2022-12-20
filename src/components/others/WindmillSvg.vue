@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('windmill-svg-pcon', component)
+  },
   name: 'windmill-svg',
   props: {
     size: {

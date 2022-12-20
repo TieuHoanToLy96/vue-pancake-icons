@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('number-three-pcon', component)
+  },
   name: 'number-three',
   props: {
     size: {

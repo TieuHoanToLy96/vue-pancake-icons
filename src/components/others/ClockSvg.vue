@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clock-svg-pcon', component)
+  },
   name: 'clock-svg',
   props: {
     size: {

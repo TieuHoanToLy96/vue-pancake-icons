@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('coffee-off-pcon', component)
+  },
   name: 'coffee-off',
   props: {
     size: {

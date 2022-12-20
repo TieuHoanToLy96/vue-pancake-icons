@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bucket-off-pcon', component)
+  },
   name: 'bucket-off',
   props: {
     size: {

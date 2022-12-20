@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lightbulb-svg-pcon', component)
+  },
   name: 'lightbulb-svg',
   props: {
     size: {

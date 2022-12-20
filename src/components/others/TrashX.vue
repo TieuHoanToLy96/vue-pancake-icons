@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('trash-x-pcon', component)
+  },
   name: 'trash-x',
   props: {
     size: {

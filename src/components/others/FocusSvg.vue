@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('focus-svg-pcon', component)
+  },
   name: 'focus-svg',
   props: {
     size: {

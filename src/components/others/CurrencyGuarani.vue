@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-guarani-pcon', component)
+  },
   name: 'currency-guarani',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cell-signal-4-pcon', component)
+  },
   name: 'cell-signal-4',
   props: {
     size: {

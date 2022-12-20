@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-rain-pcon', component)
+  },
   name: 'cloud-rain',
   props: {
     size: {

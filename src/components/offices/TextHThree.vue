@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-hthree-pcon', component)
+  },
   name: 'text-hthree',
   props: {
     size: {

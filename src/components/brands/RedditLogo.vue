@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('reddit-logo-pcon', component)
+  },
   name: 'reddit-logo',
   props: {
     size: {

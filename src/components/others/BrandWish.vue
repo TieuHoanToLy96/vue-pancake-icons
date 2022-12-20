@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-wish-pcon', component)
+  },
   name: 'brand-wish',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shuffle-simple-pcon', component)
+  },
   name: 'shuffle-simple',
   props: {
     size: {

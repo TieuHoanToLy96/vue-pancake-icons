@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('math-lower-pcon', component)
+  },
   name: 'math-lower',
   props: {
     size: {

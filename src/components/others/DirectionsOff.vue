@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('directions-off-pcon', component)
+  },
   name: 'directions-off',
   props: {
     size: {

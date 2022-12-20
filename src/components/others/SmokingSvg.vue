@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('smoking-svg-pcon', component)
+  },
   name: 'smoking-svg',
   props: {
     size: {

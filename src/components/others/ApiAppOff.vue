@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('api-app-off-pcon', component)
+  },
   name: 'api-app-off',
   props: {
     size: {

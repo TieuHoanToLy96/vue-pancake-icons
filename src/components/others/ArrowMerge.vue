@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-merge-pcon', component)
+  },
   name: 'arrow-merge',
   props: {
     size: {

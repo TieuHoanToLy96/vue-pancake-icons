@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-shazam-pcon', component)
+  },
   name: 'brand-shazam',
   props: {
     size: {

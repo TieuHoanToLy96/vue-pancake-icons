@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('empathize-off-pcon', component)
+  },
   name: 'empathize-off',
   props: {
     size: {

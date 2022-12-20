@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('backspace-svg-pcon', component)
+  },
   name: 'backspace-svg',
   props: {
     size: {

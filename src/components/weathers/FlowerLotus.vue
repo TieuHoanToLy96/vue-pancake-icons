@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flower-lotus-pcon', component)
+  },
   name: 'flower-lotus',
   props: {
     size: {

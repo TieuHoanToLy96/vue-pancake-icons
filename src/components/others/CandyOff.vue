@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('candy-off-pcon', component)
+  },
   name: 'candy-off',
   props: {
     size: {

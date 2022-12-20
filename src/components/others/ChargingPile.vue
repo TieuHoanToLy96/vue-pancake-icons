@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('charging-pile-pcon', component)
+  },
   name: 'charging-pile',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('no-copyright-pcon', component)
+  },
   name: 'no-copyright',
   props: {
     size: {

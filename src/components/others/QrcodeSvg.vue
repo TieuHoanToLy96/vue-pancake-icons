@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('qrcode-svg-pcon', component)
+  },
   name: 'qrcode-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('assembly-off-pcon', component)
+  },
   name: 'assembly-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('world-off-pcon', component)
+  },
   name: 'world-off',
   props: {
     size: {

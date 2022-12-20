@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('grip-vertical-pcon', component)
+  },
   name: 'grip-vertical',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('droplet-off-pcon', component)
+  },
   name: 'droplet-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('new-section-pcon', component)
+  },
   name: 'new-section',
   props: {
     size: {

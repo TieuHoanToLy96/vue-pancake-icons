@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gauge-svg-pcon', component)
+  },
   name: 'gauge-svg',
   props: {
     size: {

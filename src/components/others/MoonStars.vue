@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('moon-stars-pcon', component)
+  },
   name: 'moon-stars',
   props: {
     size: {

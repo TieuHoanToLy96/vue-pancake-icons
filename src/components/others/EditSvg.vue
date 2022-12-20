@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('edit-svg-pcon', component)
+  },
   name: 'edit-svg',
   props: {
     size: {

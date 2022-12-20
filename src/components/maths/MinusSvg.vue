@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('minus-svg-pcon', component)
+  },
   name: 'minus-svg',
   props: {
     size: {

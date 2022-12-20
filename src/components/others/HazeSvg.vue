@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('haze-svg-pcon', component)
+  },
   name: 'haze-svg',
   props: {
     size: {

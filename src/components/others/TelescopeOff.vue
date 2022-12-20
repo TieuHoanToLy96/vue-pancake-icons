@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('telescope-off-pcon', component)
+  },
   name: 'telescope-off',
   props: {
     size: {

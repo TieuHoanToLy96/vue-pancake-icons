@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('list-numbers-pcon', component)
+  },
   name: 'list-numbers',
   props: {
     size: {

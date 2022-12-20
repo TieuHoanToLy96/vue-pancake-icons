@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('phone-slash-pcon', component)
+  },
   name: 'phone-slash',
   props: {
     size: {

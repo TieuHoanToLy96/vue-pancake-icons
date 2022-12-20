@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shield-svg-pcon', component)
+  },
   name: 'shield-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pencil-line-pcon', component)
+  },
   name: 'pencil-line',
   props: {
     size: {

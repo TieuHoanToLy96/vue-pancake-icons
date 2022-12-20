@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gender-genderless-pcon', component)
+  },
   name: 'gender-genderless',
   props: {
     size: {

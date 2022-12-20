@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-rotated-forbid-2-pcon', component)
+  },
   name: 'square-rotated-forbid-2',
   props: {
     size: {

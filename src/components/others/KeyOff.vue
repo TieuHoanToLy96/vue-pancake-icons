@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('key-off-pcon', component)
+  },
   name: 'key-off',
   props: {
     size: {

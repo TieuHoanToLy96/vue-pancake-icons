@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('venus-svg-pcon', component)
+  },
   name: 'venus-svg',
   props: {
     size: {

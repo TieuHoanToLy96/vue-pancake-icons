@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('axis-y-pcon', component)
+  },
   name: 'axis-y',
   props: {
     size: {

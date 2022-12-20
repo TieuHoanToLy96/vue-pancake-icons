@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-patreon-pcon', component)
+  },
   name: 'brand-patreon',
   props: {
     size: {

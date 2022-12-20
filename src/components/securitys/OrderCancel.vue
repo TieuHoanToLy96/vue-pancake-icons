@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('order-cancel-pcon', component)
+  },
   name: 'order-cancel',
   props: {
     size: {

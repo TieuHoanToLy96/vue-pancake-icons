@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chart-pie-3-pcon', component)
+  },
   name: 'chart-pie-3',
   props: {
     size: {

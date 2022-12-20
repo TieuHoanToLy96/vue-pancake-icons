@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('curling-svg-pcon', component)
+  },
   name: 'curling-svg',
   props: {
     size: {

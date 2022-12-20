@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hotel-service-pcon', component)
+  },
   name: 'hotel-service',
   props: {
     size: {

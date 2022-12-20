@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('calendar-check-pcon', component)
+  },
   name: 'calendar-check',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('eyeglass-off-pcon', component)
+  },
   name: 'eyeglass-off',
   props: {
     size: {

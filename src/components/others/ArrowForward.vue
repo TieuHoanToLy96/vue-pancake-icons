@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-forward-pcon', component)
+  },
   name: 'arrow-forward',
   props: {
     size: {

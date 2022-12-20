@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-pound-off-pcon', component)
+  },
   name: 'currency-pound-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('windows-logo-pcon', component)
+  },
   name: 'windows-logo',
   props: {
     size: {

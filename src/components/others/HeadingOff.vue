@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('heading-off-pcon', component)
+  },
   name: 'heading-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-disqus-pcon', component)
+  },
   name: 'brand-disqus',
   props: {
     size: {

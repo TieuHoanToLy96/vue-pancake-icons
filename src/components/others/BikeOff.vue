@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bike-off-pcon', component)
+  },
   name: 'bike-off',
   props: {
     size: {

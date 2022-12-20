@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-zwift-pcon', component)
+  },
   name: 'brand-zwift',
   props: {
     size: {

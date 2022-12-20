@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('recycle-off-pcon', component)
+  },
   name: 'recycle-off',
   props: {
     size: {

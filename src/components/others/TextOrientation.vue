@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-orientation-pcon', component)
+  },
   name: 'text-orientation',
   props: {
     size: {

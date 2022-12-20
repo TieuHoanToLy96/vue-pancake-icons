@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('variable-plus-pcon', component)
+  },
   name: 'variable-plus',
   props: {
     size: {

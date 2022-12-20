@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('broadcast-off-pcon', component)
+  },
   name: 'broadcast-off',
   props: {
     size: {

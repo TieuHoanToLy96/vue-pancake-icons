@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ban-svg-pcon', component)
+  },
   name: 'ban-svg',
   props: {
     size: {

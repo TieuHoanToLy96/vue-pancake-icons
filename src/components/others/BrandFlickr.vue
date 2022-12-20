@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-flickr-pcon', component)
+  },
   name: 'brand-flickr',
   props: {
     size: {

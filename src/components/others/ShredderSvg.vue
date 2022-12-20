@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shredder-svg-pcon', component)
+  },
   name: 'shredder-svg',
   props: {
     size: {

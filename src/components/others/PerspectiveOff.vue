@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('perspective-off-pcon', component)
+  },
   name: 'perspective-off',
   props: {
     size: {

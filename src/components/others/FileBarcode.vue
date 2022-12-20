@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-barcode-pcon', component)
+  },
   name: 'file-barcode',
   props: {
     size: {

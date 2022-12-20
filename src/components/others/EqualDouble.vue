@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('equal-double-pcon', component)
+  },
   name: 'equal-double',
   props: {
     size: {

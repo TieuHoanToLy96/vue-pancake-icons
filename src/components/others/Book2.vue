@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('book-2-pcon', component)
+  },
   name: 'book-2',
   props: {
     size: {

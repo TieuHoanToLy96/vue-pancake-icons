@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flame-off-pcon', component)
+  },
   name: 'flame-off',
   props: {
     size: {

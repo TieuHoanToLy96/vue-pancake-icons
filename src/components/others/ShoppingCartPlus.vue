@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shopping-cart-plus-pcon', component)
+  },
   name: 'shopping-cart-plus',
   props: {
     size: {

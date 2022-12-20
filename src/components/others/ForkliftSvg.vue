@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('forklift-svg-pcon', component)
+  },
   name: 'forklift-svg',
   props: {
     size: {

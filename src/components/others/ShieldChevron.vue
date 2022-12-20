@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shield-chevron-pcon', component)
+  },
   name: 'shield-chevron',
   props: {
     size: {

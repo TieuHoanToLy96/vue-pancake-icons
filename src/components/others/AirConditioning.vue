@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('air-conditioning-pcon', component)
+  },
   name: 'air-conditioning',
   props: {
     size: {

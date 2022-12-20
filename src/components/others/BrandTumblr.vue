@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-tumblr-pcon', component)
+  },
   name: 'brand-tumblr',
   props: {
     size: {

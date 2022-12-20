@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('check-square-offset-pcon', component)
+  },
   name: 'check-square-offset',
   props: {
     size: {

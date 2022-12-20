@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('photo-shield-pcon', component)
+  },
   name: 'photo-shield',
   props: {
     size: {

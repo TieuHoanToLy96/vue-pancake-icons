@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-google-drive-pcon', component)
+  },
   name: 'brand-google-drive',
   props: {
     size: {

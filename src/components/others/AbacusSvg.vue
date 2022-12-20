@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('abacus-svg-pcon', component)
+  },
   name: 'abacus-svg',
   props: {
     size: {

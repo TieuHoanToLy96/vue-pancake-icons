@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-angular-pcon', component)
+  },
   name: 'brand-angular',
   props: {
     size: {

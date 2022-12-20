@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-tongue-wink-pcon', component)
+  },
   name: 'mood-tongue-wink',
   props: {
     size: {

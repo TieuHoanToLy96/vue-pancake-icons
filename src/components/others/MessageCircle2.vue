@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('message-circle-2-pcon', component)
+  },
   name: 'message-circle-2',
   props: {
     size: {

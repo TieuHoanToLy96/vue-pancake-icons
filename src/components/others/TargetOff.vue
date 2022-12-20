@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('target-off-pcon', component)
+  },
   name: 'target-off',
   props: {
     size: {

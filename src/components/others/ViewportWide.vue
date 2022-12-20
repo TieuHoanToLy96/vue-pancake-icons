@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('viewport-wide-pcon', component)
+  },
   name: 'viewport-wide',
   props: {
     size: {

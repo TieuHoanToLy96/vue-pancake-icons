@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('map-2-pcon', component)
+  },
   name: 'map-2',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-beats-pcon', component)
+  },
   name: 'brand-beats',
   props: {
     size: {

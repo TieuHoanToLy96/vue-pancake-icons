@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('polygon-svg-pcon', component)
+  },
   name: 'polygon-svg',
   props: {
     size: {

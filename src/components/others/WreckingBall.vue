@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wrecking-ball-pcon', component)
+  },
   name: 'wrecking-ball',
   props: {
     size: {

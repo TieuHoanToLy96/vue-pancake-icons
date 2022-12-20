@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bell-school-pcon', component)
+  },
   name: 'bell-school',
   props: {
     size: {

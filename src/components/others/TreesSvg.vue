@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('trees-svg-pcon', component)
+  },
   name: 'trees-svg',
   props: {
     size: {

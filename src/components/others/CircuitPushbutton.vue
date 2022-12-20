@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circuit-pushbutton-pcon', component)
+  },
   name: 'circuit-pushbutton',
   props: {
     size: {

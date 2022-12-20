@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circuit-cell-pcon', component)
+  },
   name: 'circuit-cell',
   props: {
     size: {

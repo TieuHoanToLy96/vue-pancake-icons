@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('parking-svg-pcon', component)
+  },
   name: 'parking-svg',
   props: {
     size: {

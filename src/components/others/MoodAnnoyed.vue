@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-annoyed-pcon', component)
+  },
   name: 'mood-annoyed',
   props: {
     size: {

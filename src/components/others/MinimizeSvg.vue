@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('minimize-svg-pcon', component)
+  },
   name: 'minimize-svg',
   props: {
     size: {

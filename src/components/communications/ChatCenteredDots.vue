@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chat-centered-dots-pcon', component)
+  },
   name: 'chat-centered-dots',
   props: {
     size: {

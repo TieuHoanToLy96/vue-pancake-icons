@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('contrast-off-pcon', component)
+  },
   name: 'contrast-off',
   props: {
     size: {

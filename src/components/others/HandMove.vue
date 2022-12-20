@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hand-move-pcon', component)
+  },
   name: 'hand-move',
   props: {
     size: {

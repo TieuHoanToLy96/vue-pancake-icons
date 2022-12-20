@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('title-blog-pcon', component)
+  },
   name: 'title-blog',
   props: {
     size: {

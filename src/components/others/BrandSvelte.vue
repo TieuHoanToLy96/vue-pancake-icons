@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-svelte-pcon', component)
+  },
   name: 'brand-svelte',
   props: {
     size: {

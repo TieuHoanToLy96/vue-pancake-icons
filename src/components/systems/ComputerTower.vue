@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('computer-tower-pcon', component)
+  },
   name: 'computer-tower',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-notion-pcon', component)
+  },
   name: 'brand-notion',
   props: {
     size: {

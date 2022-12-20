@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-circus-pcon', component)
+  },
   name: 'building-circus',
   props: {
     size: {

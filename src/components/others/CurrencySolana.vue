@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-solana-pcon', component)
+  },
   name: 'currency-solana',
   props: {
     size: {

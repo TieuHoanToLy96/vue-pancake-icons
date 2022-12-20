@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-twitch-pcon', component)
+  },
   name: 'brand-twitch',
   props: {
     size: {

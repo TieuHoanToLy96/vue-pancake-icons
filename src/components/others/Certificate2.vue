@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('certificate-2-pcon', component)
+  },
   name: 'certificate-2',
   props: {
     size: {

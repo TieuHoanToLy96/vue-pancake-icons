@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-half-tilt-pcon', component)
+  },
   name: 'circle-half-tilt',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('photo-down-pcon', component)
+  },
   name: 'photo-down',
   props: {
     size: {

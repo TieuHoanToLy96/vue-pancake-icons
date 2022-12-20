@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-lock-open-pcon', component)
+  },
   name: 'cloud-lock-open',
   props: {
     size: {

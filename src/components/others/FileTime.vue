@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-time-pcon', component)
+  },
   name: 'file-time',
   props: {
     size: {

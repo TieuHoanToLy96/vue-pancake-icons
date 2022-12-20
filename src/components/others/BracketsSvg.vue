@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brackets-svg-pcon', component)
+  },
   name: 'brackets-svg',
   props: {
     size: {

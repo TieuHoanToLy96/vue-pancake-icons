@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pointer-svg-pcon', component)
+  },
   name: 'pointer-svg',
   props: {
     size: {

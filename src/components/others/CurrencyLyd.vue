@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-lyd-pcon', component)
+  },
   name: 'currency-lyd',
   props: {
     size: {

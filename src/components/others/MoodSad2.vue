@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-sad-2-pcon', component)
+  },
   name: 'mood-sad-2',
   props: {
     size: {

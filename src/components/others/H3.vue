@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('h-3-pcon', component)
+  },
   name: 'h-3',
   props: {
     size: {

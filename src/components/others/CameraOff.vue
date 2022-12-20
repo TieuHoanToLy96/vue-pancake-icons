@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('camera-off-pcon', component)
+  },
   name: 'camera-off',
   props: {
     size: {

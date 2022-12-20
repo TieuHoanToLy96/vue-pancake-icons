@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-shredder-pcon', component)
+  },
   name: 'file-shredder',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-circle-minus-pcon', component)
+  },
   name: 'user-circle-minus',
   props: {
     size: {

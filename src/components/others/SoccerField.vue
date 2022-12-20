@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('soccer-field-pcon', component)
+  },
   name: 'soccer-field',
   props: {
     size: {

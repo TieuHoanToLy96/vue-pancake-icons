@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cookie-svg-pcon', component)
+  },
   name: 'cookie-svg',
   props: {
     size: {

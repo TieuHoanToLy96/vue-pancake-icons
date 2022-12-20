@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cash-off-pcon', component)
+  },
   name: 'cash-off',
   props: {
     size: {

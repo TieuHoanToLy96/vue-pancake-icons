@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sunset-2-pcon', component)
+  },
   name: 'sunset-2',
   props: {
     size: {

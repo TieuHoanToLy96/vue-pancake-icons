@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pacman-svg-pcon', component)
+  },
   name: 'pacman-svg',
   props: {
     size: {

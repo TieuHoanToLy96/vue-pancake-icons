@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('folders-off-pcon', component)
+  },
   name: 'folders-off',
   props: {
     size: {

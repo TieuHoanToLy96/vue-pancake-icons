@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-laravel-pcon', component)
+  },
   name: 'brand-laravel',
   props: {
     size: {

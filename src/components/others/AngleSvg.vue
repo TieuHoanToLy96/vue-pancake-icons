@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('angle-svg-pcon', component)
+  },
   name: 'angle-svg',
   props: {
     size: {

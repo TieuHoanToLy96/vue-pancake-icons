@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('paint-brush-household-pcon', component)
+  },
   name: 'paint-brush-household',
   props: {
     size: {

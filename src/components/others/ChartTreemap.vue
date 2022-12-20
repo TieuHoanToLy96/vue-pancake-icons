@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chart-treemap-pcon', component)
+  },
   name: 'chart-treemap',
   props: {
     size: {

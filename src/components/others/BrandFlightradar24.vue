@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-flightradar24-pcon', component)
+  },
   name: 'brand-flightradar24',
   props: {
     size: {

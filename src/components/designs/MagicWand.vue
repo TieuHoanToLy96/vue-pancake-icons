@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('magic-wand-pcon', component)
+  },
   name: 'magic-wand',
   props: {
     size: {

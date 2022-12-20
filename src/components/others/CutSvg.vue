@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cut-svg-pcon', component)
+  },
   name: 'cut-svg',
   props: {
     size: {

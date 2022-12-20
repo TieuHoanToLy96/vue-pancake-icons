@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mask-svg-pcon', component)
+  },
   name: 'mask-svg',
   props: {
     size: {

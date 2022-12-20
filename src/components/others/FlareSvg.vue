@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flare-svg-pcon', component)
+  },
   name: 'flare-svg',
   props: {
     size: {

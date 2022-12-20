@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-caption-pcon', component)
+  },
   name: 'text-caption',
   props: {
     size: {

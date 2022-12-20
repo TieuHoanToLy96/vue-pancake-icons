@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('truck-delivery-pcon', component)
+  },
   name: 'truck-delivery',
   props: {
     size: {

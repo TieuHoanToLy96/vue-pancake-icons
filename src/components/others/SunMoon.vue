@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sun-moon-pcon', component)
+  },
   name: 'sun-moon',
   props: {
     size: {

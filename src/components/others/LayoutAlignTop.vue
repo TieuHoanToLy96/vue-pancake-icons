@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-align-top-pcon', component)
+  },
   name: 'layout-align-top',
   props: {
     size: {

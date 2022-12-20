@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('database-export-pcon', component)
+  },
   name: 'database-export',
   props: {
     size: {

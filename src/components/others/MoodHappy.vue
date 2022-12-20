@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-happy-pcon', component)
+  },
   name: 'mood-happy',
   props: {
     size: {

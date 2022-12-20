@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cricket-svg-pcon', component)
+  },
   name: 'cricket-svg',
   props: {
     size: {

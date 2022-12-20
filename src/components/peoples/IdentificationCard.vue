@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('identification-card-pcon', component)
+  },
   name: 'identification-card',
   props: {
     size: {

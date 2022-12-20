@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shirt-off-pcon', component)
+  },
   name: 'shirt-off',
   props: {
     size: {

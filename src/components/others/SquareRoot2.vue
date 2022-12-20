@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-root-2-pcon', component)
+  },
   name: 'square-root-2',
   props: {
     size: {

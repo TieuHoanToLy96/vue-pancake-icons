@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('input-svg-pcon', component)
+  },
   name: 'input-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-infinity-pcon', component)
+  },
   name: 'home-infinity',
   props: {
     size: {

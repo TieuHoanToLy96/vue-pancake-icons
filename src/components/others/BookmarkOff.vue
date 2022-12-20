@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bookmark-off-pcon', component)
+  },
   name: 'bookmark-off',
   props: {
     size: {

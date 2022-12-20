@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('podium-off-pcon', component)
+  },
   name: 'podium-off',
   props: {
     size: {

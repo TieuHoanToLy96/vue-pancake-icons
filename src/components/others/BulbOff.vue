@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bulb-off-pcon', component)
+  },
   name: 'bulb-off',
   props: {
     size: {

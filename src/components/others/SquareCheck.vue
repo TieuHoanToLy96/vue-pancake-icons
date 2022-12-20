@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-check-pcon', component)
+  },
   name: 'square-check',
   props: {
     size: {

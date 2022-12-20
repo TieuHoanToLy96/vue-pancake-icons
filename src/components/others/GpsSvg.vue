@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gps-svg-pcon', component)
+  },
   name: 'gps-svg',
   props: {
     size: {

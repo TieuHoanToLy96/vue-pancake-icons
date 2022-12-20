@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('image-square-pcon', component)
+  },
   name: 'image-square',
   props: {
     size: {

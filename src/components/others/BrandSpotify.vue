@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-spotify-pcon', component)
+  },
   name: 'brand-spotify',
   props: {
     size: {

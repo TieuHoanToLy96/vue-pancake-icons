@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('border-bottom-pcon', component)
+  },
   name: 'border-bottom',
   props: {
     size: {

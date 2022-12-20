@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cross-svg-pcon', component)
+  },
   name: 'cross-svg',
   props: {
     size: {

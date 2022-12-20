@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('satellite-off-pcon', component)
+  },
   name: 'satellite-off',
   props: {
     size: {

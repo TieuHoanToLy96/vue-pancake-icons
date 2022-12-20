@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('server-off-pcon', component)
+  },
   name: 'server-off',
   props: {
     size: {

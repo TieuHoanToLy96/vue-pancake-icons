@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('martini-svg-pcon', component)
+  },
   name: 'martini-svg',
   props: {
     size: {

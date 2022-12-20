@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-kotlin-pcon', component)
+  },
   name: 'brand-kotlin',
   props: {
     size: {

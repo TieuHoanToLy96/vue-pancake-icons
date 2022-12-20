@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrows-join-2-pcon', component)
+  },
   name: 'arrows-join-2',
   props: {
     size: {

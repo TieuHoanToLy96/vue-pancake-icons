@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('atom-off-pcon', component)
+  },
   name: 'atom-off',
   props: {
     size: {

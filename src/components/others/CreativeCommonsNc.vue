@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('creative-commons-nc-pcon', component)
+  },
   name: 'creative-commons-nc',
   props: {
     size: {

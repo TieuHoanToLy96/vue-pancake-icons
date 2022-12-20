@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-dotted-pcon', component)
+  },
   name: 'circle-dotted',
   props: {
     size: {

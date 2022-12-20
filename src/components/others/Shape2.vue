@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shape-2-pcon', component)
+  },
   name: 'shape-2',
   props: {
     size: {

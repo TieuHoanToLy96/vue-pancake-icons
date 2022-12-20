@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-yatse-pcon', component)
+  },
   name: 'brand-yatse',
   props: {
     size: {

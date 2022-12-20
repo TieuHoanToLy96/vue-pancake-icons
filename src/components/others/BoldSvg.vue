@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bold-svg-pcon', component)
+  },
   name: 'bold-svg',
   props: {
     size: {

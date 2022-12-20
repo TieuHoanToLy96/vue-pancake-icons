@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('contrast-svg-pcon', component)
+  },
   name: 'contrast-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-sing-pcon', component)
+  },
   name: 'mood-sing',
   props: {
     size: {

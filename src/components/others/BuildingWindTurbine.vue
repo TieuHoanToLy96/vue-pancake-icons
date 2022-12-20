@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-wind-turbine-pcon', component)
+  },
   name: 'building-wind-turbine',
   props: {
     size: {

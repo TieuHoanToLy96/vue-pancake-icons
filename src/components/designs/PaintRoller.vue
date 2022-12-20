@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('paint-roller-pcon', component)
+  },
   name: 'paint-roller',
   props: {
     size: {

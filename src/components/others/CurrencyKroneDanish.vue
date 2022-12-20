@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-krone-danish-pcon', component)
+  },
   name: 'currency-krone-danish',
   props: {
     size: {

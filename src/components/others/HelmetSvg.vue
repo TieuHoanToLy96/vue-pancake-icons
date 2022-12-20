@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('helmet-svg-pcon', component)
+  },
   name: 'helmet-svg',
   props: {
     size: {

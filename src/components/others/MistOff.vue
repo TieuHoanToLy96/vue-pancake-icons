@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mist-off-pcon', component)
+  },
   name: 'mist-off',
   props: {
     size: {

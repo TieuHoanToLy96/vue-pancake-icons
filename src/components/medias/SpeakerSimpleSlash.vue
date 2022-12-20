@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('speaker-simple-slash-pcon', component)
+  },
   name: 'speaker-simple-slash',
   props: {
     size: {

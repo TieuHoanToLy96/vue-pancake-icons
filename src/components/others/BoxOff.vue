@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('box-off-pcon', component)
+  },
   name: 'box-off',
   props: {
     size: {

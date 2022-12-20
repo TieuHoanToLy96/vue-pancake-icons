@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lamp-2-pcon', component)
+  },
   name: 'lamp-2',
   props: {
     size: {

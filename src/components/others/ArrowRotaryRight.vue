@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-rotary-right-pcon', component)
+  },
   name: 'arrow-rotary-right',
   props: {
     size: {

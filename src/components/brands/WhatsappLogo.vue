@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('whatsapp-logo-pcon', component)
+  },
   name: 'whatsapp-logo',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('phone-svg-pcon', component)
+  },
   name: 'phone-svg',
   props: {
     size: {

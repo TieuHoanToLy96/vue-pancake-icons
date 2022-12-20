@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('phone-disconnect-pcon', component)
+  },
   name: 'phone-disconnect',
   props: {
     size: {

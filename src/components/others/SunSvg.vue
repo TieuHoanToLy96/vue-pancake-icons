@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sun-svg-pcon', component)
+  },
   name: 'sun-svg',
   props: {
     size: {

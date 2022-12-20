@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-amongus-pcon', component)
+  },
   name: 'brand-amongus',
   props: {
     size: {

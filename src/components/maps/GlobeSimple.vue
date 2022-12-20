@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('globe-simple-pcon', component)
+  },
   name: 'globe-simple',
   props: {
     size: {

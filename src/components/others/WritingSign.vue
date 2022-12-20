@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('writing-sign-pcon', component)
+  },
   name: 'writing-sign',
   props: {
     size: {

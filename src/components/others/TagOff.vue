@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tag-off-pcon', component)
+  },
   name: 'tag-off',
   props: {
     size: {

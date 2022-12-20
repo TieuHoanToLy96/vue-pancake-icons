@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-tiktok-pcon', component)
+  },
   name: 'brand-tiktok',
   props: {
     size: {

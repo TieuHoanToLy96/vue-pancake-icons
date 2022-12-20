@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('view-360-off-pcon', component)
+  },
   name: 'view-360-off',
   props: {
     size: {

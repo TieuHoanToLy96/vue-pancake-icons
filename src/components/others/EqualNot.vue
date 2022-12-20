@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('equal-not-pcon', component)
+  },
   name: 'equal-not',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('letter-f-pcon', component)
+  },
   name: 'letter-f',
   props: {
     size: {

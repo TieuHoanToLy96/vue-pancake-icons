@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('drop-svg-pcon', component)
+  },
   name: 'drop-svg',
   props: {
     size: {

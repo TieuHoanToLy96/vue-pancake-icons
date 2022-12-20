@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('fish-simple-pcon', component)
+  },
   name: 'fish-simple',
   props: {
     size: {

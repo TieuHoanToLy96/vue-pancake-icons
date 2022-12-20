@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('messenger-logo-pcon', component)
+  },
   name: 'messenger-logo',
   props: {
     size: {

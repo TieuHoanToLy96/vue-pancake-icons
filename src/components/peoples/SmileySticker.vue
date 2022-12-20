@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('smiley-sticker-pcon', component)
+  },
   name: 'smiley-sticker',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-plus-pcon', component)
+  },
   name: 'file-plus',
   props: {
     size: {

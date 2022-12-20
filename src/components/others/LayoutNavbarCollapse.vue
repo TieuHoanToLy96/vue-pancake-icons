@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-navbar-collapse-pcon', component)
+  },
   name: 'layout-navbar-collapse',
   props: {
     size: {

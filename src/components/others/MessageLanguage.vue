@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('message-language-pcon', component)
+  },
   name: 'message-language',
   props: {
     size: {

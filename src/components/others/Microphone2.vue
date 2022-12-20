@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('microphone-2-pcon', component)
+  },
   name: 'microphone-2',
   props: {
     size: {

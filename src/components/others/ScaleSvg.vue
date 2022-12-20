@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('scale-svg-pcon', component)
+  },
   name: 'scale-svg',
   props: {
     size: {

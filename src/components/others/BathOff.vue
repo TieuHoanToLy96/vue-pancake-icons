@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bath-off-pcon', component)
+  },
   name: 'bath-off',
   props: {
     size: {

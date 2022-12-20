@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('box-multiple-5-pcon', component)
+  },
   name: 'box-multiple-5',
   props: {
     size: {

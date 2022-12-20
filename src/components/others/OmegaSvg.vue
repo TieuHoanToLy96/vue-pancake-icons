@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('omega-svg-pcon', component)
+  },
   name: 'omega-svg',
   props: {
     size: {

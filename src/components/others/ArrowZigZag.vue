@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-zig-zag-pcon', component)
+  },
   name: 'arrow-zig-zag',
   props: {
     size: {

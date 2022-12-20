@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('files-off-pcon', component)
+  },
   name: 'files-off',
   props: {
     size: {

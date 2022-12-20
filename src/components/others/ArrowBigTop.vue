@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-big-top-pcon', component)
+  },
   name: 'arrow-big-top',
   props: {
     size: {

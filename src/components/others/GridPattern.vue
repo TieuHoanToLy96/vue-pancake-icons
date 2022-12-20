@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('grid-pattern-pcon', component)
+  },
   name: 'grid-pattern',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-sad-squint-pcon', component)
+  },
   name: 'mood-sad-squint',
   props: {
     size: {

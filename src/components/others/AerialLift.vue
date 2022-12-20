@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('aerial-lift-pcon', component)
+  },
   name: 'aerial-lift',
   props: {
     size: {

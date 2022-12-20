@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mug-svg-pcon', component)
+  },
   name: 'mug-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cell-signal-slash-pcon', component)
+  },
   name: 'cell-signal-slash',
   props: {
     size: {

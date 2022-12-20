@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rss-svg-pcon', component)
+  },
   name: 'rss-svg',
   props: {
     size: {

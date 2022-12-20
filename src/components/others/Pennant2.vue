@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pennant-2-pcon', component)
+  },
   name: 'pennant-2',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-dislike-pcon', component)
+  },
   name: 'file-dislike',
   props: {
     size: {

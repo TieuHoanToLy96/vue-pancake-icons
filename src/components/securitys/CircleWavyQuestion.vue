@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-wavy-question-pcon', component)
+  },
   name: 'circle-wavy-question',
   props: {
     size: {

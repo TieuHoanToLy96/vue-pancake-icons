@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pig-svg-pcon', component)
+  },
   name: 'pig-svg',
   props: {
     size: {

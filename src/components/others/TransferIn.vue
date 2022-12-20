@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('transfer-in-pcon', component)
+  },
   name: 'transfer-in',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wiper-wash-pcon', component)
+  },
   name: 'wiper-wash',
   props: {
     size: {

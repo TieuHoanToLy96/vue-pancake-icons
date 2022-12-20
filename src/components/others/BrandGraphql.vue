@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-graphql-pcon', component)
+  },
   name: 'brand-graphql',
   props: {
     size: {

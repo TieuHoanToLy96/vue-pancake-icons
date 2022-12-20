@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circuit-changeover-pcon', component)
+  },
   name: 'circuit-changeover',
   props: {
     size: {

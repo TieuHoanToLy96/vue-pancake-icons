@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('stack-3-pcon', component)
+  },
   name: 'stack-3',
   props: {
     size: {

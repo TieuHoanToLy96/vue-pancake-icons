@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('repeat-once-pcon', component)
+  },
   name: 'repeat-once',
   props: {
     size: {

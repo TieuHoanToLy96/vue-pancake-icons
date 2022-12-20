@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('router-off-pcon', component)
+  },
   name: 'router-off',
   props: {
     size: {

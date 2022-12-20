@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wash-dry-dip-pcon', component)
+  },
   name: 'wash-dry-dip',
   props: {
     size: {

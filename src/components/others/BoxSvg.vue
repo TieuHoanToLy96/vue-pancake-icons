@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('box-svg-pcon', component)
+  },
   name: 'box-svg',
   props: {
     size: {

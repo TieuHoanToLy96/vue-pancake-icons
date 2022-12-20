@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('highlighter-circle-pcon', component)
+  },
   name: 'highlighter-circle',
   props: {
     size: {

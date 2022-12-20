@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-broken-pcon', component)
+  },
   name: 'file-broken',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-sun-pcon', component)
+  },
   name: 'cloud-sun',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('writing-off-pcon', component)
+  },
   name: 'writing-off',
   props: {
     size: {

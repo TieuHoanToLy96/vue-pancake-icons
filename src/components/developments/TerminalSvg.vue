@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('terminal-svg-pcon', component)
+  },
   name: 'terminal-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wash-machine-pcon', component)
+  },
   name: 'wash-machine',
   props: {
     size: {

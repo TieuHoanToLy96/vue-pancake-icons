@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bounding-box-pcon', component)
+  },
   name: 'bounding-box',
   props: {
     size: {

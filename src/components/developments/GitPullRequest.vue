@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('git-pull-request-pcon', component)
+  },
   name: 'git-pull-request',
   props: {
     size: {

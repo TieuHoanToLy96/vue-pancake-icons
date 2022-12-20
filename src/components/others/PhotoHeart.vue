@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('photo-heart-pcon', component)
+  },
   name: 'photo-heart',
   props: {
     size: {

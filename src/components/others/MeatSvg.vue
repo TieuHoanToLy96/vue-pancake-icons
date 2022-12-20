@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('meat-svg-pcon', component)
+  },
   name: 'meat-svg',
   props: {
     size: {

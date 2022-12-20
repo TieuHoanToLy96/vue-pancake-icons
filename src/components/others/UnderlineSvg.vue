@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('underline-svg-pcon', component)
+  },
   name: 'underline-svg',
   props: {
     size: {

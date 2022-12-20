@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('plug-x-pcon', component)
+  },
   name: 'plug-x',
   props: {
     size: {

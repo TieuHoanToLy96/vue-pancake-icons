@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('parentheses-off-pcon', component)
+  },
   name: 'parentheses-off',
   props: {
     size: {

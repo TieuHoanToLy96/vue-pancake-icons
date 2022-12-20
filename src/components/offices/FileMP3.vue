@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-mp3-pcon', component)
+  },
   name: 'file-mp3',
   props: {
     size: {

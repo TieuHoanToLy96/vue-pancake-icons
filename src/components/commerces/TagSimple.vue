@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tag-simple-pcon', component)
+  },
   name: 'tag-simple',
   props: {
     size: {

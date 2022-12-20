@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pencil-off-pcon', component)
+  },
   name: 'pencil-off',
   props: {
     size: {

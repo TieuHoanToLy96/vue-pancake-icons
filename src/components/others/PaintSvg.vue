@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('paint-svg-pcon', component)
+  },
   name: 'paint-svg',
   props: {
     size: {

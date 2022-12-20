@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sign-right-pcon', component)
+  },
   name: 'sign-right',
   props: {
     size: {

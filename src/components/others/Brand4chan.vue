@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-4chan-pcon', component)
+  },
   name: 'brand-4chan',
   props: {
     size: {

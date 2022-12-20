@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('language-hiragana-pcon', component)
+  },
   name: 'language-hiragana',
   props: {
     size: {

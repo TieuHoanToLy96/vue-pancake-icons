@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('stethoscope-off-pcon', component)
+  },
   name: 'stethoscope-off',
   props: {
     size: {

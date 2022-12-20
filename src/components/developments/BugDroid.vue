@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bug-droid-pcon', component)
+  },
   name: 'bug-droid',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('caret-circle-down-pcon', component)
+  },
   name: 'caret-circle-down',
   props: {
     size: {

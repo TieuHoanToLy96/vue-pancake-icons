@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-dogecoin-pcon', component)
+  },
   name: 'currency-dogecoin',
   props: {
     size: {

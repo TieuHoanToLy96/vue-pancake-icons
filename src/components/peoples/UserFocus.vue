@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-focus-pcon', component)
+  },
   name: 'user-focus',
   props: {
     size: {

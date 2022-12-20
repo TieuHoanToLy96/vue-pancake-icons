@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('message-chatbot-pcon', component)
+  },
   name: 'message-chatbot',
   props: {
     size: {

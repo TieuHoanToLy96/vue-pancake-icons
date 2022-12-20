@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-list-pcon', component)
+  },
   name: 'layout-list',
   props: {
     size: {

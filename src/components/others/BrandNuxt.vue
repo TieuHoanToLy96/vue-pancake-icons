@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-nuxt-pcon', component)
+  },
   name: 'brand-nuxt',
   props: {
     size: {

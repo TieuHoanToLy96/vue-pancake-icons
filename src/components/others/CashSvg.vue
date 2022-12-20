@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cash-svg-pcon', component)
+  },
   name: 'cash-svg',
   props: {
     size: {

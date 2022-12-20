@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-steam-pcon', component)
+  },
   name: 'brand-steam',
   props: {
     size: {

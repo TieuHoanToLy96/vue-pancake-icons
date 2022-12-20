@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-hospital-pcon', component)
+  },
   name: 'building-hospital',
   props: {
     size: {

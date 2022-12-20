@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('karate-svg-pcon', component)
+  },
   name: 'karate-svg',
   props: {
     size: {

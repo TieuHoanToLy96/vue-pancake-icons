@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pig-off-pcon', component)
+  },
   name: 'pig-off',
   props: {
     size: {

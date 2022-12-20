@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('send-off-pcon', component)
+  },
   name: 'send-off',
   props: {
     size: {

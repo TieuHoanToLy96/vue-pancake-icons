@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layers-union-pcon', component)
+  },
   name: 'layers-union',
   props: {
     size: {

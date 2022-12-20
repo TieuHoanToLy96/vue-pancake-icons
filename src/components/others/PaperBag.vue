@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('paper-bag-pcon', component)
+  },
   name: 'paper-bag',
   props: {
     size: {

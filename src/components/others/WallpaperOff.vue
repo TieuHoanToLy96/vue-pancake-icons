@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wallpaper-off-pcon', component)
+  },
   name: 'wallpaper-off',
   props: {
     size: {

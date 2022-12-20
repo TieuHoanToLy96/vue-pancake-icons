@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('quotes-svg-pcon', component)
+  },
   name: 'quotes-svg',
   props: {
     size: {

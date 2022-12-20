@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flag-2-pcon', component)
+  },
   name: 'flag-2',
   props: {
     size: {

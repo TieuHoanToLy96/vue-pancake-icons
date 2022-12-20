@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ripple-svg-pcon', component)
+  },
   name: 'ripple-svg',
   props: {
     size: {

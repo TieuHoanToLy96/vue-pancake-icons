@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrows-down-up-pcon', component)
+  },
   name: 'arrows-down-up',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('line-segment-pcon', component)
+  },
   name: 'line-segment',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-slash-pcon', component)
+  },
   name: 'cloud-slash',
   props: {
     size: {

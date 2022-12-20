@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('access-point-pcon', component)
+  },
   name: 'access-point',
   props: {
     size: {

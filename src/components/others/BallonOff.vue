@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ballon-off-pcon', component)
+  },
   name: 'ballon-off',
   props: {
     size: {

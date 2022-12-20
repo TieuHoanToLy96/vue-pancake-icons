@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('unlink-svg-pcon', component)
+  },
   name: 'unlink-svg',
   props: {
     size: {

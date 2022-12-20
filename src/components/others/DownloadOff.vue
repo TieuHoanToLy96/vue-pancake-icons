@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('download-off-pcon', component)
+  },
   name: 'download-off',
   props: {
     size: {

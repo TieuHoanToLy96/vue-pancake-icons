@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('test-tube-pcon', component)
+  },
   name: 'test-tube',
   props: {
     size: {

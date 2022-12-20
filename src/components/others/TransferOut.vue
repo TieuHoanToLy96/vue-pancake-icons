@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('transfer-out-pcon', component)
+  },
   name: 'transfer-out',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('list-search-pcon', component)
+  },
   name: 'list-search',
   props: {
     size: {

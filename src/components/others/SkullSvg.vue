@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('skull-svg-pcon', component)
+  },
   name: 'skull-svg',
   props: {
     size: {

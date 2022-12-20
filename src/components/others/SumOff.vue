@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sum-off-pcon', component)
+  },
   name: 'sum-off',
   props: {
     size: {

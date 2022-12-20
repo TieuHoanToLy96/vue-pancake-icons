@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-circle-dollar-pcon', component)
+  },
   name: 'currency-circle-dollar',
   props: {
     size: {

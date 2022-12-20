@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-instagram-pcon', component)
+  },
   name: 'brand-instagram',
   props: {
     size: {

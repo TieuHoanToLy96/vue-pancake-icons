@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-xbox-pcon', component)
+  },
   name: 'brand-xbox',
   props: {
     size: {

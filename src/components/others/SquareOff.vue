@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-off-pcon', component)
+  },
   name: 'square-off',
   props: {
     size: {

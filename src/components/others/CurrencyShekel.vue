@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-shekel-pcon', component)
+  },
   name: 'currency-shekel',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-pinterest-pcon', component)
+  },
   name: 'brand-pinterest',
   props: {
     size: {

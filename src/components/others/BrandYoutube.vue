@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-youtube-pcon', component)
+  },
   name: 'brand-youtube',
   props: {
     size: {

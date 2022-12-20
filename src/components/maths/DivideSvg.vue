@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('divide-svg-pcon', component)
+  },
   name: 'divide-svg',
   props: {
     size: {

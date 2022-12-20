@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('car-svg-pcon', component)
+  },
   name: 'car-svg',
   props: {
     size: {

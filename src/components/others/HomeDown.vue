@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-down-pcon', component)
+  },
   name: 'home-down',
   props: {
     size: {

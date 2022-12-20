@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('spiral-off-pcon', component)
+  },
   name: 'spiral-off',
   props: {
     size: {

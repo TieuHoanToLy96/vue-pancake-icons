@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('razor-svg-pcon', component)
+  },
   name: 'razor-svg',
   props: {
     size: {

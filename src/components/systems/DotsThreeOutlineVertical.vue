@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dots-three-outline-vertical-pcon', component)
+  },
   name: 'dots-three-outline-vertical',
   props: {
     size: {

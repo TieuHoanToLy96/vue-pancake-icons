@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-arrow-left-pcon', component)
+  },
   name: 'file-arrow-left',
   props: {
     size: {

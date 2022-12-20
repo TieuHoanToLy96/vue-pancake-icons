@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('aspect-ratio-pcon', component)
+  },
   name: 'aspect-ratio',
   props: {
     size: {

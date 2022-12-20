@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-apple-podcast-pcon', component)
+  },
   name: 'brand-apple-podcast',
   props: {
     size: {

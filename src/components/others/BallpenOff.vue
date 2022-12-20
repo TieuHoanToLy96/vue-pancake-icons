@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ballpen-off-pcon', component)
+  },
   name: 'ballpen-off',
   props: {
     size: {

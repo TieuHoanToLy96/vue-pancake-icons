@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rocket-launch-pcon', component)
+  },
   name: 'rocket-launch',
   props: {
     size: {

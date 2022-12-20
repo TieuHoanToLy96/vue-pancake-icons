@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-tailwind-pcon', component)
+  },
   name: 'brand-tailwind',
   props: {
     size: {

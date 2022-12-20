@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-export-pcon', component)
+  },
   name: 'file-export',
   props: {
     size: {

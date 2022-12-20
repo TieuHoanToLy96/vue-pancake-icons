@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('eyedropper-svg-pcon', component)
+  },
   name: 'eyedropper-svg',
   props: {
     size: {

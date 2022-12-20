@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hand-finger-off-pcon', component)
+  },
   name: 'hand-finger-off',
   props: {
     size: {

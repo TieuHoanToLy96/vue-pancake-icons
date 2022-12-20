@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('marquee-svg-pcon', component)
+  },
   name: 'marquee-svg',
   props: {
     size: {

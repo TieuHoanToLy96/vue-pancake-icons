@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-arrow-up-pcon', component)
+  },
   name: 'cloud-arrow-up',
   props: {
     size: {

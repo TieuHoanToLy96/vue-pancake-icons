@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('battery-eco-pcon', component)
+  },
   name: 'battery-eco',
   props: {
     size: {

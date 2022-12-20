@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ship-svg-pcon', component)
+  },
   name: 'ship-svg',
   props: {
     size: {

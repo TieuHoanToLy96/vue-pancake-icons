@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-sd-card-pcon', component)
+  },
   name: 'device-sd-card',
   props: {
     size: {

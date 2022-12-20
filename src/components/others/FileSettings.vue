@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-settings-pcon', component)
+  },
   name: 'file-settings',
   props: {
     size: {

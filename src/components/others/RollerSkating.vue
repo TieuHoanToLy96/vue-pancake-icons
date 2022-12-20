@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('roller-skating-pcon', component)
+  },
   name: 'roller-skating',
   props: {
     size: {

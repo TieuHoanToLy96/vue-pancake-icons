@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-appstore-pcon', component)
+  },
   name: 'brand-appstore',
   props: {
     size: {

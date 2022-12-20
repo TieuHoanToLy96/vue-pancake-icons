@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-lira-pcon', component)
+  },
   name: 'currency-lira',
   props: {
     size: {

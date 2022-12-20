@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('luggage-svg-pcon', component)
+  },
   name: 'luggage-svg',
   props: {
     size: {

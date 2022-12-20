@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sort-ascending-letters-pcon', component)
+  },
   name: 'sort-ascending-letters',
   props: {
     size: {

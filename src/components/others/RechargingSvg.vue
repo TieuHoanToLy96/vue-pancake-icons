@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('recharging-svg-pcon', component)
+  },
   name: 'recharging-svg',
   props: {
     size: {

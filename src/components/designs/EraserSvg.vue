@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('eraser-svg-pcon', component)
+  },
   name: 'eraser-svg',
   props: {
     size: {

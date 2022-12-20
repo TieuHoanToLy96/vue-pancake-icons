@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-safari-pcon', component)
+  },
   name: 'brand-safari',
   props: {
     size: {

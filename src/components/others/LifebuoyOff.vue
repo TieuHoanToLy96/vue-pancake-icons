@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lifebuoy-off-pcon', component)
+  },
   name: 'lifebuoy-off',
   props: {
     size: {

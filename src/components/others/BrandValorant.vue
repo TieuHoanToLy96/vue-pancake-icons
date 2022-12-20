@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-valorant-pcon', component)
+  },
   name: 'brand-valorant',
   props: {
     size: {

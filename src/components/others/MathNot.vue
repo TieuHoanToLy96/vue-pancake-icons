@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('math-not-pcon', component)
+  },
   name: 'math-not',
   props: {
     size: {

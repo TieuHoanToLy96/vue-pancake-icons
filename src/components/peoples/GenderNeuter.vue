@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gender-neuter-pcon', component)
+  },
   name: 'gender-neuter',
   props: {
     size: {

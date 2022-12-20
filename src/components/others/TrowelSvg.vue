@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('trowel-svg-pcon', component)
+  },
   name: 'trowel-svg',
   props: {
     size: {

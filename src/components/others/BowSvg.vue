@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bow-svg-pcon', component)
+  },
   name: 'bow-svg',
   props: {
     size: {

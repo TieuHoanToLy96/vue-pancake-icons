@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tallymark-4-pcon', component)
+  },
   name: 'tallymark-4',
   props: {
     size: {

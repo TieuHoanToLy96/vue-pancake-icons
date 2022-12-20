@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('steering-wheel-off-pcon', component)
+  },
   name: 'steering-wheel-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zodiac-gemini-pcon', component)
+  },
   name: 'zodiac-gemini',
   props: {
     size: {

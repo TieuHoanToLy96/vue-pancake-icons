@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('map-trifold-pcon', component)
+  },
   name: 'map-trifold',
   props: {
     size: {

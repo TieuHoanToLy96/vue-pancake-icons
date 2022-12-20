@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('maximize-off-pcon', component)
+  },
   name: 'maximize-off',
   props: {
     size: {

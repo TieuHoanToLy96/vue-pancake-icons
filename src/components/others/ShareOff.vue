@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('share-off-pcon', component)
+  },
   name: 'share-off',
   props: {
     size: {

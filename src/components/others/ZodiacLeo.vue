@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zodiac-leo-pcon', component)
+  },
   name: 'zodiac-leo',
   props: {
     size: {

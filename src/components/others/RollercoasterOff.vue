@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rollercoaster-off-pcon', component)
+  },
   name: 'rollercoaster-off',
   props: {
     size: {

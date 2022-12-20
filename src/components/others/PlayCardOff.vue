@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('play-card-off-pcon', component)
+  },
   name: 'play-card-off',
   props: {
     size: {

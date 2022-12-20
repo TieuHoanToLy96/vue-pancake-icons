@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('traffic-sign-pcon', component)
+  },
   name: 'traffic-sign',
   props: {
     size: {

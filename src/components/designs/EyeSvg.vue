@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('eye-svg-pcon', component)
+  },
   name: 'eye-svg',
   props: {
     size: {

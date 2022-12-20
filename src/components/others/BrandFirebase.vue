@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-firebase-pcon', component)
+  },
   name: 'brand-firebase',
   props: {
     size: {

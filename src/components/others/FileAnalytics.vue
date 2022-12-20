@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-analytics-pcon', component)
+  },
   name: 'file-analytics',
   props: {
     size: {

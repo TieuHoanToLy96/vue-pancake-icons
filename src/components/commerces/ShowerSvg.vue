@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shower-svg-pcon', component)
+  },
   name: 'shower-svg',
   props: {
     size: {

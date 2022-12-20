@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-react-pcon', component)
+  },
   name: 'brand-react',
   props: {
     size: {

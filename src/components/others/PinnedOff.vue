@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pinned-off-pcon', component)
+  },
   name: 'pinned-off',
   props: {
     size: {

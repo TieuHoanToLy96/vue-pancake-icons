@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-invoice-pcon', component)
+  },
   name: 'file-invoice',
   props: {
     size: {

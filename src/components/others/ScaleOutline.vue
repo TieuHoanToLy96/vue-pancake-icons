@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('scale-outline-pcon', component)
+  },
   name: 'scale-outline',
   props: {
     size: {

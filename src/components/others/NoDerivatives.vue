@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('no-derivatives-pcon', component)
+  },
   name: 'no-derivatives',
   props: {
     size: {

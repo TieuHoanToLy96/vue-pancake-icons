@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dribbble-logo-pcon', component)
+  },
   name: 'dribbble-logo',
   props: {
     size: {

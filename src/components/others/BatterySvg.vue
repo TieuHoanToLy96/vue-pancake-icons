@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('battery-svg-pcon', component)
+  },
   name: 'battery-svg',
   props: {
     size: {

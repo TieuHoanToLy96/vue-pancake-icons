@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('check-circle-pcon', component)
+  },
   name: 'check-circle',
   props: {
     size: {

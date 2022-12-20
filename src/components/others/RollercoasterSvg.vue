@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rollercoaster-svg-pcon', component)
+  },
   name: 'rollercoaster-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('fire-hydrant-pcon', component)
+  },
   name: 'fire-hydrant',
   props: {
     size: {

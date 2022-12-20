@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-manat-pcon', component)
+  },
   name: 'currency-manat',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('school-off-pcon', component)
+  },
   name: 'school-off',
   props: {
     size: {

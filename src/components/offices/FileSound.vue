@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-sound-pcon', component)
+  },
   name: 'file-sound',
   props: {
     size: {

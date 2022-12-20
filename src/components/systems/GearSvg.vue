@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gear-svg-pcon', component)
+  },
   name: 'gear-svg',
   props: {
     size: {

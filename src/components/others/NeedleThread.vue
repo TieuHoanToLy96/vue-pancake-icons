@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('needle-thread-pcon', component)
+  },
   name: 'needle-thread',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('fridge-svg-pcon', component)
+  },
   name: 'fridge-svg',
   props: {
     size: {

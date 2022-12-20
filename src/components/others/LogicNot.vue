@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('logic-not-pcon', component)
+  },
   name: 'logic-not',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ear-slash-pcon', component)
+  },
   name: 'ear-slash',
   props: {
     size: {

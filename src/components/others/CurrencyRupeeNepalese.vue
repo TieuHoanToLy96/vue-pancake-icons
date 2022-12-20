@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-rupee-nepalese-pcon', component)
+  },
   name: 'currency-rupee-nepalese',
   props: {
     size: {

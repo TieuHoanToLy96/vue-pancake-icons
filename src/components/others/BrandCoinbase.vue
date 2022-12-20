@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-coinbase-pcon', component)
+  },
   name: 'brand-coinbase',
   props: {
     size: {

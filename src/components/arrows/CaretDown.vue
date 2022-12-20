@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('caret-down-pcon', component)
+  },
   name: 'caret-down',
   props: {
     size: {

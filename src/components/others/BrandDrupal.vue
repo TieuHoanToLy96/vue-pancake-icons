@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-drupal-pcon', component)
+  },
   name: 'brand-drupal',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('finn-the-human-pcon', component)
+  },
   name: 'finn-the-human',
   props: {
     size: {

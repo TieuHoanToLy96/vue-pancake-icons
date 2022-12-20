@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ticket-off-pcon', component)
+  },
   name: 'ticket-off',
   props: {
     size: {

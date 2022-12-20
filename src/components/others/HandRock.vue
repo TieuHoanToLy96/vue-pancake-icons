@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hand-rock-pcon', component)
+  },
   name: 'hand-rock',
   props: {
     size: {

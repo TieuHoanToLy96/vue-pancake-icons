@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrows-split-pcon', component)
+  },
   name: 'arrows-split',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('radical-svg-pcon', component)
+  },
   name: 'radical-svg',
   props: {
     size: {

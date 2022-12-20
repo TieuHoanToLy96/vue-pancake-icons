@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('loader-2-pcon', component)
+  },
   name: 'loader-2',
   props: {
     size: {

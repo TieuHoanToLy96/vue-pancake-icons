@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('truck-off-pcon', component)
+  },
   name: 'truck-off',
   props: {
     size: {

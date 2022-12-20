@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('badge-off-pcon', component)
+  },
   name: 'badge-off',
   props: {
     size: {

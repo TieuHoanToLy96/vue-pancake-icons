@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('keyboard-show-pcon', component)
+  },
   name: 'keyboard-show',
   props: {
     size: {

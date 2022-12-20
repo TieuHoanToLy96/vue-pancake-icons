@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brackets-contain-start-pcon', component)
+  },
   name: 'brackets-contain-start',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-arch-pcon', component)
+  },
   name: 'building-arch',
   props: {
     size: {

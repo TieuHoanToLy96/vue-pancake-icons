@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-baht-pcon', component)
+  },
   name: 'currency-baht',
   props: {
     size: {

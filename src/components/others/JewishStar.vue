@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('jewish-star-pcon', component)
+  },
   name: 'jewish-star',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('menu-2-pcon', component)
+  },
   name: 'menu-2',
   props: {
     size: {

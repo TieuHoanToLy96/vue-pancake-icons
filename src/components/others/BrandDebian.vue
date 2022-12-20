@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-debian-pcon', component)
+  },
   name: 'brand-debian',
   props: {
     size: {

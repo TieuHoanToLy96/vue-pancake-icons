@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-headlessui-pcon', component)
+  },
   name: 'brand-headlessui',
   props: {
     size: {

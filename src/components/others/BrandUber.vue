@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-uber-pcon', component)
+  },
   name: 'brand-uber',
   props: {
     size: {

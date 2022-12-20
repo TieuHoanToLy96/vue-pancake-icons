@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('headset-svg-pcon', component)
+  },
   name: 'headset-svg',
   props: {
     size: {

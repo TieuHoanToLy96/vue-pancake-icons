@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-github-copilot-pcon', component)
+  },
   name: 'brand-github-copilot',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('copy-off-pcon', component)
+  },
   name: 'copy-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('globe-off-pcon', component)
+  },
   name: 'globe-off',
   props: {
     size: {

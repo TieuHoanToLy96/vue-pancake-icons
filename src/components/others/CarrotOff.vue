@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('carrot-off-pcon', component)
+  },
   name: 'carrot-off',
   props: {
     size: {

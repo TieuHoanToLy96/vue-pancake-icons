@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-twitter-pcon', component)
+  },
   name: 'brand-twitter',
   props: {
     size: {

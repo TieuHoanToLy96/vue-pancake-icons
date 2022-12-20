@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('scuba-mask-off-pcon', component)
+  },
   name: 'scuba-mask-off',
   props: {
     size: {

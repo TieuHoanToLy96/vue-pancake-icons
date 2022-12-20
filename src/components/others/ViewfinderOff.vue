@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('viewfinder-off-pcon', component)
+  },
   name: 'viewfinder-off',
   props: {
     size: {

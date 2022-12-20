@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mug-off-pcon', component)
+  },
   name: 'mug-off',
   props: {
     size: {

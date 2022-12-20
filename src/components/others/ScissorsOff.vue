@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('scissors-off-pcon', component)
+  },
   name: 'scissors-off',
   props: {
     size: {

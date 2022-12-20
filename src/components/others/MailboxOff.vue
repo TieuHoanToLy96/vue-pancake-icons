@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mailbox-off-pcon', component)
+  },
   name: 'mailbox-off',
   props: {
     size: {

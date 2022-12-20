@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('border-horizontal-pcon', component)
+  },
   name: 'border-horizontal',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('explicit-off-pcon', component)
+  },
   name: 'explicit-off',
   props: {
     size: {

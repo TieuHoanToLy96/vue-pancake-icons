@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('server-cog-pcon', component)
+  },
   name: 'server-cog',
   props: {
     size: {

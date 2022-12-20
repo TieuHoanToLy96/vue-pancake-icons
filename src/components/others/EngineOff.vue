@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('engine-off-pcon', component)
+  },
   name: 'engine-off',
   props: {
     size: {

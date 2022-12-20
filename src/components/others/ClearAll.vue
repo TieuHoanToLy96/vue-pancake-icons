@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clear-all-pcon', component)
+  },
   name: 'clear-all',
   props: {
     size: {

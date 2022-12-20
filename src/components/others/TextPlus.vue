@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-plus-pcon', component)
+  },
   name: 'text-plus',
   props: {
     size: {

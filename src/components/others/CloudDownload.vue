@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-download-pcon', component)
+  },
   name: 'cloud-download',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('translate-svg-pcon', component)
+  },
   name: 'translate-svg',
   props: {
     size: {

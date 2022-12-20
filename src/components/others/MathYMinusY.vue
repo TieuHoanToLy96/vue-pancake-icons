@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('math-y-minus-y-pcon', component)
+  },
   name: 'math-y-minus-y',
   props: {
     size: {

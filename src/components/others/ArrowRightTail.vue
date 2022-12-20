@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-right-tail-pcon', component)
+  },
   name: 'arrow-right-tail',
   props: {
     size: {

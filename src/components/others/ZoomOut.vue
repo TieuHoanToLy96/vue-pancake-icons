@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zoom-out-pcon', component)
+  },
   name: 'zoom-out',
   props: {
     size: {

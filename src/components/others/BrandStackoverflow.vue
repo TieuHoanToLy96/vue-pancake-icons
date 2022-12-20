@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-stackoverflow-pcon', component)
+  },
   name: 'brand-stackoverflow',
   props: {
     size: {

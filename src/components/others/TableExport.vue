@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('table-export-pcon', component)
+  },
   name: 'table-export',
   props: {
     size: {

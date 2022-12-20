@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('binary-svg-pcon', component)
+  },
   name: 'binary-svg',
   props: {
     size: {

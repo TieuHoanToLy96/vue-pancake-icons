@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-gear-pcon', component)
+  },
   name: 'user-gear',
   props: {
     size: {

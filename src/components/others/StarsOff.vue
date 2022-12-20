@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('stars-off-pcon', component)
+  },
   name: 'stars-off',
   props: {
     size: {

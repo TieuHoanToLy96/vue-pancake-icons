@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-nervous-pcon', component)
+  },
   name: 'mood-nervous',
   props: {
     size: {

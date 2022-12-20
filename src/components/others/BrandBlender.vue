@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-blender-pcon', component)
+  },
   name: 'brand-blender',
   props: {
     size: {

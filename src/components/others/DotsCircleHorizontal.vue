@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dots-circle-horizontal-pcon', component)
+  },
   name: 'dots-circle-horizontal',
   props: {
     size: {

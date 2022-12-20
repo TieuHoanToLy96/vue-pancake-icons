@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('emergency-bed-pcon', component)
+  },
   name: 'emergency-bed',
   props: {
     size: {

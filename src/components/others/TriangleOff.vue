@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('triangle-off-pcon', component)
+  },
   name: 'triangle-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('selection-plus-pcon', component)
+  },
   name: 'selection-plus',
   props: {
     size: {

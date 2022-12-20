@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-bend-down-right-pcon', component)
+  },
   name: 'arrow-bend-down-right',
   props: {
     size: {

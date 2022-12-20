@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('spinner-gap-pcon', component)
+  },
   name: 'spinner-gap',
   props: {
     size: {

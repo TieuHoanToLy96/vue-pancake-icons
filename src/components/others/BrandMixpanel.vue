@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-mixpanel-pcon', component)
+  },
   name: 'brand-mixpanel',
   props: {
     size: {

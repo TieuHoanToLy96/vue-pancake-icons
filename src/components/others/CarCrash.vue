@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('car-crash-pcon', component)
+  },
   name: 'car-crash',
   props: {
     size: {

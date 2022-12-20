@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-direction-ltr-pcon', component)
+  },
   name: 'text-direction-ltr',
   props: {
     size: {

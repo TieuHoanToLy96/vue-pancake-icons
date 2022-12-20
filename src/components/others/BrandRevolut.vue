@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-revolut-pcon', component)
+  },
   name: 'brand-revolut',
   props: {
     size: {

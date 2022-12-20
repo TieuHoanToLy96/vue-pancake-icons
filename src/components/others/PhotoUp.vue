@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('photo-up-pcon', component)
+  },
   name: 'photo-up',
   props: {
     size: {

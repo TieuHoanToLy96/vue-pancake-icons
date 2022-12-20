@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('anchor-off-pcon', component)
+  },
   name: 'anchor-off',
   props: {
     size: {

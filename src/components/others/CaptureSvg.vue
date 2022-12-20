@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('capture-svg-pcon', component)
+  },
   name: 'capture-svg',
   props: {
     size: {

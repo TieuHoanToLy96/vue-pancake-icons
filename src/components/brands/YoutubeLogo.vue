@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('youtube-logo-pcon', component)
+  },
   name: 'youtube-logo',
   props: {
     size: {

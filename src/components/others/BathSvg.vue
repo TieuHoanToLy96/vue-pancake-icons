@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bath-svg-pcon', component)
+  },
   name: 'bath-svg',
   props: {
     size: {

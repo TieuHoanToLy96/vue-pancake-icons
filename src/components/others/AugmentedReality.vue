@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('augmented-reality-pcon', component)
+  },
   name: 'augmented-reality',
   props: {
     size: {

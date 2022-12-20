@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('strikethrough-svg-pcon', component)
+  },
   name: 'strikethrough-svg',
   props: {
     size: {

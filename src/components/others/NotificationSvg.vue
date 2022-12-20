@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('notification-svg-pcon', component)
+  },
   name: 'notification-svg',
   props: {
     size: {

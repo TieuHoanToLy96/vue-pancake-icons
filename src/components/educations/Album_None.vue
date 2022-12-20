@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('album-none-pcon', component)
+  },
   name: 'album-none',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('columns-off-pcon', component)
+  },
   name: 'columns-off',
   props: {
     size: {

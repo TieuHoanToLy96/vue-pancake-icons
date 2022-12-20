@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-wave-right-down-pcon', component)
+  },
   name: 'arrow-wave-right-down',
   props: {
     size: {

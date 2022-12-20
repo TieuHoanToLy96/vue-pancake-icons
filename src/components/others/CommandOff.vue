@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('command-off-pcon', component)
+  },
   name: 'command-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-mobile-rotated-pcon', component)
+  },
   name: 'device-mobile-rotated',
   props: {
     size: {

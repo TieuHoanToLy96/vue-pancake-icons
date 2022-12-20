@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rewind-svg-pcon', component)
+  },
   name: 'rewind-svg',
   props: {
     size: {

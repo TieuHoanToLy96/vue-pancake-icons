@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tent-svg-pcon', component)
+  },
   name: 'tent-svg',
   props: {
     size: {

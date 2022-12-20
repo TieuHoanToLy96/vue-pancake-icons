@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-sentry-pcon', component)
+  },
   name: 'brand-sentry',
   props: {
     size: {

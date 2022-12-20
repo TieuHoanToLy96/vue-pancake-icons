@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-x-pcon', component)
+  },
   name: 'square-x',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('monitor-play-pcon', component)
+  },
   name: 'monitor-play',
   props: {
     size: {

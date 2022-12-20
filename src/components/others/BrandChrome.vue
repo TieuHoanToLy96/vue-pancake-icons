@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-chrome-pcon', component)
+  },
   name: 'brand-chrome',
   props: {
     size: {

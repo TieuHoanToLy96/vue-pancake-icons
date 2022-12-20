@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('caret-right-pcon', component)
+  },
   name: 'caret-right',
   props: {
     size: {

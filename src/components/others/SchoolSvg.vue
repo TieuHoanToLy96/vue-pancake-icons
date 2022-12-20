@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('school-svg-pcon', component)
+  },
   name: 'school-svg',
   props: {
     size: {

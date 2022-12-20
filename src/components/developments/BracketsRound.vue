@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brackets-round-pcon', component)
+  },
   name: 'brackets-round',
   props: {
     size: {

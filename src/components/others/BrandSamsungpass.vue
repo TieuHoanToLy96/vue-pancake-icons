@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-samsungpass-pcon', component)
+  },
   name: 'brand-samsungpass',
   props: {
     size: {

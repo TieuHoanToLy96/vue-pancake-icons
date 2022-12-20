@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('popup2-svg-pcon', component)
+  },
   name: 'popup2-svg',
   props: {
     size: {

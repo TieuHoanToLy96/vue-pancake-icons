@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bottle-svg-pcon', component)
+  },
   name: 'bottle-svg',
   props: {
     size: {

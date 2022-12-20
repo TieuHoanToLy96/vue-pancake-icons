@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('terminal-window-pcon', component)
+  },
   name: 'terminal-window',
   props: {
     size: {

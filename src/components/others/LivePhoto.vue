@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('live-photo-pcon', component)
+  },
   name: 'live-photo',
   props: {
     size: {

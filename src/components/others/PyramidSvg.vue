@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pyramid-svg-pcon', component)
+  },
   name: 'pyramid-svg',
   props: {
     size: {

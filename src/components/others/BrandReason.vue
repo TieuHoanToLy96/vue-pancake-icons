@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-reason-pcon', component)
+  },
   name: 'brand-reason',
   props: {
     size: {

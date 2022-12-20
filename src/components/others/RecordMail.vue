@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('record-mail-pcon', component)
+  },
   name: 'record-mail',
   props: {
     size: {

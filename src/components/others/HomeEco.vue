@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-eco-pcon', component)
+  },
   name: 'home-eco',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('git-fork-pcon', component)
+  },
   name: 'git-fork',
   props: {
     size: {

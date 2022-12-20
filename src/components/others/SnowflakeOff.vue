@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('snowflake-off-pcon', component)
+  },
   name: 'snowflake-off',
   props: {
     size: {

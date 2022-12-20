@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bandage-off-pcon', component)
+  },
   name: 'bandage-off',
   props: {
     size: {

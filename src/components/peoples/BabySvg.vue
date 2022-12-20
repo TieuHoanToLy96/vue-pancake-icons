@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('baby-svg-pcon', component)
+  },
   name: 'baby-svg',
   props: {
     size: {

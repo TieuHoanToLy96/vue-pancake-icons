@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ad-svg-pcon', component)
+  },
   name: 'ad-svg',
   props: {
     size: {

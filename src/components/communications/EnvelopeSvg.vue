@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('envelope-svg-pcon', component)
+  },
   name: 'envelope-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gender-genderfluid-pcon', component)
+  },
   name: 'gender-genderfluid',
   props: {
     size: {

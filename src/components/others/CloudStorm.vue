@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-storm-pcon', component)
+  },
   name: 'cloud-storm',
   props: {
     size: {

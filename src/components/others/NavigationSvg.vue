@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('navigation-svg-pcon', component)
+  },
   name: 'navigation-svg',
   props: {
     size: {

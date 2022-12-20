@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('grill-off-pcon', component)
+  },
   name: 'grill-off',
   props: {
     size: {

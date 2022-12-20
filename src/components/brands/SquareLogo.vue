@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-logo-pcon', component)
+  },
   name: 'square-logo',
   props: {
     size: {

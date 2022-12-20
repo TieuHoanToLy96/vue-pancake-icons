@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('question-mark-pcon', component)
+  },
   name: 'question-mark',
   props: {
     size: {

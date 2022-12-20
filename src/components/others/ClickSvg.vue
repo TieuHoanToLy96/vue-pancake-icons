@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('click-svg-pcon', component)
+  },
   name: 'click-svg',
   props: {
     size: {

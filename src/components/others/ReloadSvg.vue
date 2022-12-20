@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('reload-svg-pcon', component)
+  },
   name: 'reload-svg',
   props: {
     size: {

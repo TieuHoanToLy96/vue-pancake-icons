@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-pepsi-pcon', component)
+  },
   name: 'brand-pepsi',
   props: {
     size: {

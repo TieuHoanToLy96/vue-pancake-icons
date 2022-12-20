@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('equal-svg-pcon', component)
+  },
   name: 'equal-svg',
   props: {
     size: {

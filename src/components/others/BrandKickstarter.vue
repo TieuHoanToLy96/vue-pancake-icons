@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-kickstarter-pcon', component)
+  },
   name: 'brand-kickstarter',
   props: {
     size: {

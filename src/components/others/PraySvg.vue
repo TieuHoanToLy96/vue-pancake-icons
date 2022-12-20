@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pray-svg-pcon', component)
+  },
   name: 'pray-svg',
   props: {
     size: {

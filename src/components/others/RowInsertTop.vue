@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('row-insert-top-pcon', component)
+  },
   name: 'row-insert-top',
   props: {
     size: {

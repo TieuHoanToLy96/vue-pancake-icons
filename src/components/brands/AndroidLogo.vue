@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('android-logo-pcon', component)
+  },
   name: 'android-logo',
   props: {
     size: {

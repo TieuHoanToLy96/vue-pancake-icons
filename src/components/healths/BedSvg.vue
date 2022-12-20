@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bed-svg-pcon', component)
+  },
   name: 'bed-svg',
   props: {
     size: {

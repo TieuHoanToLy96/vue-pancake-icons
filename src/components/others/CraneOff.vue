@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('crane-off-pcon', component)
+  },
   name: 'crane-off',
   props: {
     size: {

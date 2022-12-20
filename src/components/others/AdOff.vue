@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ad-off-pcon', component)
+  },
   name: 'ad-off',
   props: {
     size: {

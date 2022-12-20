@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('graph-svg-pcon', component)
+  },
   name: 'graph-svg',
   props: {
     size: {

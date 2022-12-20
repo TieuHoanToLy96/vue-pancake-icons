@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pool-svg-pcon', component)
+  },
   name: 'pool-svg',
   props: {
     size: {

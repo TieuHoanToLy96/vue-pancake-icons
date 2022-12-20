@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-off-pcon', component)
+  },
   name: 'cloud-off',
   props: {
     size: {

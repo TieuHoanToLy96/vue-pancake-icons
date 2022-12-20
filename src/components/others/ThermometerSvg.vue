@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('thermometer-svg-pcon', component)
+  },
   name: 'thermometer-svg',
   props: {
     size: {

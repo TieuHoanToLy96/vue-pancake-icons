@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('google-logo-pcon', component)
+  },
   name: 'google-logo',
   props: {
     size: {

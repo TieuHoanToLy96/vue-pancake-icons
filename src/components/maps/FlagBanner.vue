@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flag-banner-pcon', component)
+  },
   name: 'flag-banner',
   props: {
     size: {

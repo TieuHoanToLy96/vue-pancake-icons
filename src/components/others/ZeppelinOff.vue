@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zeppelin-off-pcon', component)
+  },
   name: 'zeppelin-off',
   props: {
     size: {

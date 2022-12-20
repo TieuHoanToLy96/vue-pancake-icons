@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-wavy-check-pcon', component)
+  },
   name: 'circle-wavy-check',
   props: {
     size: {

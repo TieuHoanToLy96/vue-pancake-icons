@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('xbox-y-pcon', component)
+  },
   name: 'xbox-y',
   props: {
     size: {

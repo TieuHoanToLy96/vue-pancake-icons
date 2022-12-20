@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hash-straight-pcon', component)
+  },
   name: 'hash-straight',
   props: {
     size: {

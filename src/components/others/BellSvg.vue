@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bell-svg-pcon', component)
+  },
   name: 'bell-svg',
   props: {
     size: {

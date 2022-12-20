@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('signal-4g-pcon', component)
+  },
   name: 'signal-4g',
   props: {
     size: {

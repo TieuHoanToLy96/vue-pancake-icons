@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cone-off-pcon', component)
+  },
   name: 'cone-off',
   props: {
     size: {

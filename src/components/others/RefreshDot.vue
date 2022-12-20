@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('refresh-dot-pcon', component)
+  },
   name: 'refresh-dot',
   props: {
     size: {

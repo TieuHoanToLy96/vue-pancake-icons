@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-exclamation-pcon', component)
+  },
   name: 'home-exclamation',
   props: {
     size: {

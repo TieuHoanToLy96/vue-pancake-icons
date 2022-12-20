@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('download-simple-pcon', component)
+  },
   name: 'download-simple',
   props: {
     size: {

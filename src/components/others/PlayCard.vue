@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('play-card-pcon', component)
+  },
   name: 'play-card',
   props: {
     size: {

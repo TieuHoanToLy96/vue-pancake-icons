@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-netflix-pcon', component)
+  },
   name: 'brand-netflix',
   props: {
     size: {

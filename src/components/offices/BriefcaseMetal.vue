@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('briefcase-metal-pcon', component)
+  },
   name: 'briefcase-metal',
   props: {
     size: {

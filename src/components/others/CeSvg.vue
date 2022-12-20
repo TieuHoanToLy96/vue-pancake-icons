@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ce-svg-pcon', component)
+  },
   name: 'ce-svg',
   props: {
     size: {

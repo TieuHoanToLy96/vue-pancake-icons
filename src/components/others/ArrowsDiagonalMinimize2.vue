@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrows-diagonal-minimize-2-pcon', component)
+  },
   name: 'arrows-diagonal-minimize-2',
   props: {
     size: {

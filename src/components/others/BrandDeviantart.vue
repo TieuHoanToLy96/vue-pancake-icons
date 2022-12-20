@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-deviantart-pcon', component)
+  },
   name: 'brand-deviantart',
   props: {
     size: {

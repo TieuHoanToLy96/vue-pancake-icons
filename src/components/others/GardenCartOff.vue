@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('garden-cart-off-pcon', component)
+  },
   name: 'garden-cart-off',
   props: {
     size: {

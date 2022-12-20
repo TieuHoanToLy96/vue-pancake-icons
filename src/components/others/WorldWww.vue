@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('world-www-pcon', component)
+  },
   name: 'world-www',
   props: {
     size: {

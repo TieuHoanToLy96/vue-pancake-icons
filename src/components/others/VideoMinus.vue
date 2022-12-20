@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('video-minus-pcon', component)
+  },
   name: 'video-minus',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-socket-io-pcon', component)
+  },
   name: 'brand-socket-io',
   props: {
     size: {

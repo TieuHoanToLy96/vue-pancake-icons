@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-minus-pcon', component)
+  },
   name: 'file-minus',
   props: {
     size: {

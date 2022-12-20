@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('triangles-svg-pcon', component)
+  },
   name: 'triangles-svg',
   props: {
     size: {

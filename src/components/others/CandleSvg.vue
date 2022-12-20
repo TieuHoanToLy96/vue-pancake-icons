@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('candle-svg-pcon', component)
+  },
   name: 'candle-svg',
   props: {
     size: {

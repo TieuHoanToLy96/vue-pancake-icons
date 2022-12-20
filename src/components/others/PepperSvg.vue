@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pepper-svg-pcon', component)
+  },
   name: 'pepper-svg',
   props: {
     size: {

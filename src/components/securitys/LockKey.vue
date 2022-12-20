@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lock-key-pcon', component)
+  },
   name: 'lock-key',
   props: {
     size: {

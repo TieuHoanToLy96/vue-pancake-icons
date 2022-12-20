@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-foursquare-pcon', component)
+  },
   name: 'brand-foursquare',
   props: {
     size: {

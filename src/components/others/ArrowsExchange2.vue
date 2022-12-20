@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrows-exchange-2-pcon', component)
+  },
   name: 'arrows-exchange-2',
   props: {
     size: {

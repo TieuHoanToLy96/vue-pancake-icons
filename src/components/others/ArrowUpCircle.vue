@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-up-circle-pcon', component)
+  },
   name: 'arrow-up-circle',
   props: {
     size: {

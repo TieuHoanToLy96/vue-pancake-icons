@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('stack-simple-pcon', component)
+  },
   name: 'stack-simple',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('vector-triangle-pcon', component)
+  },
   name: 'vector-triangle',
   props: {
     size: {

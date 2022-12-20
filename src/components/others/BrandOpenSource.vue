@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-open-source-pcon', component)
+  },
   name: 'brand-open-source',
   props: {
     size: {

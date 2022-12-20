@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('walk-svg-pcon', component)
+  },
   name: 'walk-svg',
   props: {
     size: {

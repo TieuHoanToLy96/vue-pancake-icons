@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-check-pcon', component)
+  },
   name: 'user-check',
   props: {
     size: {

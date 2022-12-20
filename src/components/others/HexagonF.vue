@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hexagon-f-pcon', component)
+  },
   name: 'hexagon-f',
   props: {
     size: {

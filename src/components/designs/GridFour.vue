@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('grid-four-pcon', component)
+  },
   name: 'grid-four',
   props: {
     size: {

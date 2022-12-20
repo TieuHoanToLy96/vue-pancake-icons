@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('info-square-pcon', component)
+  },
   name: 'info-square',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mouse-svg-pcon', component)
+  },
   name: 'mouse-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('grill-spatula-pcon', component)
+  },
   name: 'grill-spatula',
   props: {
     size: {

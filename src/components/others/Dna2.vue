@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dna-2-pcon', component)
+  },
   name: 'dna-2',
   props: {
     size: {

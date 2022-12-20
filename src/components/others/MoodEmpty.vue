@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-empty-pcon', component)
+  },
   name: 'mood-empty',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-mobile-message-pcon', component)
+  },
   name: 'device-mobile-message',
   props: {
     size: {

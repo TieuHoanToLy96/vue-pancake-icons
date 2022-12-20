@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shield-half-filled-pcon', component)
+  },
   name: 'shield-half-filled',
   props: {
     size: {

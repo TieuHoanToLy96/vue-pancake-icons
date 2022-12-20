@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('live-photo-off-pcon', component)
+  },
   name: 'live-photo-off',
   props: {
     size: {

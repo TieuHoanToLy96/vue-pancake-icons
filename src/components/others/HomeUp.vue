@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-up-pcon', component)
+  },
   name: 'home-up',
   props: {
     size: {

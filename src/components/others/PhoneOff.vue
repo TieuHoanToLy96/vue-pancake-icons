@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('phone-off-pcon', component)
+  },
   name: 'phone-off',
   props: {
     size: {

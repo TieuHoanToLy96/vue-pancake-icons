@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gavel-svg-pcon', component)
+  },
   name: 'gavel-svg',
   props: {
     size: {

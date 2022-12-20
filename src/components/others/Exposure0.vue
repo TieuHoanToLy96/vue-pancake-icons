@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('exposure-0-pcon', component)
+  },
   name: 'exposure-0',
   props: {
     size: {

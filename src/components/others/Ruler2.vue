@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ruler-2-pcon', component)
+  },
   name: 'ruler-2',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('seeding-off-pcon', component)
+  },
   name: 'seeding-off',
   props: {
     size: {

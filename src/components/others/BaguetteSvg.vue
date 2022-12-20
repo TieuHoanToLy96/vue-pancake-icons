@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('baguette-svg-pcon', component)
+  },
   name: 'baguette-svg',
   props: {
     size: {

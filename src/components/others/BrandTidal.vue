@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-tidal-pcon', component)
+  },
   name: 'brand-tidal',
   props: {
     size: {

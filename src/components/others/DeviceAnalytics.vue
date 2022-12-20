@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-analytics-pcon', component)
+  },
   name: 'device-analytics',
   props: {
     size: {

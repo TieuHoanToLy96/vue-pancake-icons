@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-php-pcon', component)
+  },
   name: 'brand-php',
   props: {
     size: {

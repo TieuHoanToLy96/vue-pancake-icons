@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('firetruck-svg-pcon', component)
+  },
   name: 'firetruck-svg',
   props: {
     size: {

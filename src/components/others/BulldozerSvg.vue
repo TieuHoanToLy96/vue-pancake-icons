@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bulldozer-svg-pcon', component)
+  },
   name: 'bulldozer-svg',
   props: {
     size: {

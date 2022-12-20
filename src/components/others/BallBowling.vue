@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ball-bowling-pcon', component)
+  },
   name: 'ball-bowling',
   props: {
     size: {

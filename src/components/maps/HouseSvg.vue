@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('house-svg-pcon', component)
+  },
   name: 'house-svg',
   props: {
     size: {

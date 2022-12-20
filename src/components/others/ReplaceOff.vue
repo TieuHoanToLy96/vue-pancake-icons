@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('replace-off-pcon', component)
+  },
   name: 'replace-off',
   props: {
     size: {

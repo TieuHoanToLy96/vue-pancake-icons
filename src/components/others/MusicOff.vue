@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('music-off-pcon', component)
+  },
   name: 'music-off',
   props: {
     size: {

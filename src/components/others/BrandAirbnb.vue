@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-airbnb-pcon', component)
+  },
   name: 'brand-airbnb',
   props: {
     size: {

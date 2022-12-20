@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('box-align-bottom-pcon', component)
+  },
   name: 'box-align-bottom',
   props: {
     size: {

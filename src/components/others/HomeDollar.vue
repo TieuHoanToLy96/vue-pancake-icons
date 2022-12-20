@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-dollar-pcon', component)
+  },
   name: 'home-dollar',
   props: {
     size: {

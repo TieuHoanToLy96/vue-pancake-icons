@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pause-svg-pcon', component)
+  },
   name: 'pause-svg',
   props: {
     size: {

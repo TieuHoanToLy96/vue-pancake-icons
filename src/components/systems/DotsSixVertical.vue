@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dots-six-vertical-pcon', component)
+  },
   name: 'dots-six-vertical',
   props: {
     size: {

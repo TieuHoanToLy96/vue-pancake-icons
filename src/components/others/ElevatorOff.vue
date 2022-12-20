@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('elevator-off-pcon', component)
+  },
   name: 'elevator-off',
   props: {
     size: {

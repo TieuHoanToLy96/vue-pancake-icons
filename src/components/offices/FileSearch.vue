@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-search-pcon', component)
+  },
   name: 'file-search',
   props: {
     size: {

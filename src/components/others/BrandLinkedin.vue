@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-linkedin-pcon', component)
+  },
   name: 'brand-linkedin',
   props: {
     size: {

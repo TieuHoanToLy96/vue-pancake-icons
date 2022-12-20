@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('accessible-off-pcon', component)
+  },
   name: 'accessible-off',
   props: {
     size: {

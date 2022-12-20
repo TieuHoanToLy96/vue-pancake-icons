@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-power-pcon', component)
+  },
   name: 'file-power',
   props: {
     size: {

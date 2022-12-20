@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('subscript-svg-pcon', component)
+  },
   name: 'subscript-svg',
   props: {
     size: {

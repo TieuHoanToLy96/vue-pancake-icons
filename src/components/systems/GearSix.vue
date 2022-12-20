@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gear-six-pcon', component)
+  },
   name: 'gear-six',
   props: {
     size: {

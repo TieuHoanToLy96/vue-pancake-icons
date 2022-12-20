@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clear-formatting-pcon', component)
+  },
   name: 'clear-formatting',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('analyze-off-pcon', component)
+  },
   name: 'analyze-off',
   props: {
     size: {

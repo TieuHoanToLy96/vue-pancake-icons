@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-arrow-down-pcon', component)
+  },
   name: 'cloud-arrow-down',
   props: {
     size: {

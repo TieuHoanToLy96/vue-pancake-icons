@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-doctrine-pcon', component)
+  },
   name: 'brand-doctrine',
   props: {
     size: {

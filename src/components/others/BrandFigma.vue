@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-figma-pcon', component)
+  },
   name: 'brand-figma',
   props: {
     size: {

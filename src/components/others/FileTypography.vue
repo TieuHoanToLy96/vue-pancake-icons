@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-typography-pcon', component)
+  },
   name: 'file-typography',
   props: {
     size: {

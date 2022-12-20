@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-xd-pcon', component)
+  },
   name: 'mood-xd',
   props: {
     size: {

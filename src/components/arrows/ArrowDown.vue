@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-down-pcon', component)
+  },
   name: 'arrow-down',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('airplay-svg-pcon', component)
+  },
   name: 'airplay-svg',
   props: {
     size: {

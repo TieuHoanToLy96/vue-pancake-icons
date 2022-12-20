@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flag-off-pcon', component)
+  },
   name: 'flag-off',
   props: {
     size: {

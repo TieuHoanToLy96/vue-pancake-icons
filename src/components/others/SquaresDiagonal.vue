@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('squares-diagonal-pcon', component)
+  },
   name: 'squares-diagonal',
   props: {
     size: {

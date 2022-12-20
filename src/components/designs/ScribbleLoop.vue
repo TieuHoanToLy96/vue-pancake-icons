@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('scribble-loop-pcon', component)
+  },
   name: 'scribble-loop',
   props: {
     size: {

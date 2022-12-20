@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cactus-off-pcon', component)
+  },
   name: 'cactus-off',
   props: {
     size: {

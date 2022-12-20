@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-tabler-pcon', component)
+  },
   name: 'brand-tabler',
   props: {
     size: {

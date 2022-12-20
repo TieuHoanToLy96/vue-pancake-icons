@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('qr-code-pcon', component)
+  },
   name: 'qr-code',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('egg-fried-pcon', component)
+  },
   name: 'egg-fried',
   props: {
     size: {

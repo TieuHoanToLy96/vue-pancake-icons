@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-nord-vpn-pcon', component)
+  },
   name: 'brand-nord-vpn',
   props: {
     size: {

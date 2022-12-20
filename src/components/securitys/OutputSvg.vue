@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('output-svg-pcon', component)
+  },
   name: 'output-svg',
   props: {
     size: {

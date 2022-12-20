@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('airplane-svg-pcon', component)
+  },
   name: 'airplane-svg',
   props: {
     size: {

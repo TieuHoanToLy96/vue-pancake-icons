@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('key-svg-pcon', component)
+  },
   name: 'key-svg',
   props: {
     size: {

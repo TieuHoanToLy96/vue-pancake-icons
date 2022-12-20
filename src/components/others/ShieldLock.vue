@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shield-lock-pcon', component)
+  },
   name: 'shield-lock',
   props: {
     size: {

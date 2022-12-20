@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-up-tail-pcon', component)
+  },
   name: 'arrow-up-tail',
   props: {
     size: {

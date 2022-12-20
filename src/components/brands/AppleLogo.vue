@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('apple-logo-pcon', component)
+  },
   name: 'apple-logo',
   props: {
     size: {

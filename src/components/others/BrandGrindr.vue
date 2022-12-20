@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-grindr-pcon', component)
+  },
   name: 'brand-grindr',
   props: {
     size: {

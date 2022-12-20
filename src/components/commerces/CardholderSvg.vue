@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cardholder-svg-pcon', component)
+  },
   name: 'cardholder-svg',
   props: {
     size: {

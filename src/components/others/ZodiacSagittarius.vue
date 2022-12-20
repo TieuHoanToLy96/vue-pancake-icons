@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zodiac-sagittarius-pcon', component)
+  },
   name: 'zodiac-sagittarius',
   props: {
     size: {

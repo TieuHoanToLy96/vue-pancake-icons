@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bible-svg-pcon', component)
+  },
   name: 'bible-svg',
   props: {
     size: {

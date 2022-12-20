@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('phone-pause-pcon', component)
+  },
   name: 'phone-pause',
   props: {
     size: {

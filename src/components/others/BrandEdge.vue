@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-edge-pcon', component)
+  },
   name: 'brand-edge',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hearts-svg-pcon', component)
+  },
   name: 'hearts-svg',
   props: {
     size: {

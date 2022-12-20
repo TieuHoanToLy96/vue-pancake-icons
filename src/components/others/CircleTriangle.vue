@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-triangle-pcon', component)
+  },
   name: 'circle-triangle',
   props: {
     size: {

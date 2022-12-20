@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tools-kitchen-2-off-pcon', component)
+  },
   name: 'tools-kitchen-2-off',
   props: {
     size: {

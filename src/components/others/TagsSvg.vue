@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tags-svg-pcon', component)
+  },
   name: 'tags-svg',
   props: {
     size: {

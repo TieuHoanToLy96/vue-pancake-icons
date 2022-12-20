@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('screencast-svg-pcon', component)
+  },
   name: 'screencast-svg',
   props: {
     size: {

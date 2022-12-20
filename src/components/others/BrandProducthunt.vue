@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-producthunt-pcon', component)
+  },
   name: 'brand-producthunt',
   props: {
     size: {

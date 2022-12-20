@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('disabled-off-pcon', component)
+  },
   name: 'disabled-off',
   props: {
     size: {

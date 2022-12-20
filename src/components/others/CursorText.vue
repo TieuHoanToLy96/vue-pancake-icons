@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cursor-text-pcon', component)
+  },
   name: 'cursor-text',
   props: {
     size: {

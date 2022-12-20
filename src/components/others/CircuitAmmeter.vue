@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circuit-ammeter-pcon', component)
+  },
   name: 'circuit-ammeter',
   props: {
     size: {

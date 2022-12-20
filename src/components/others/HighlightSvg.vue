@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('highlight-svg-pcon', component)
+  },
   name: 'highlight-svg',
   props: {
     size: {

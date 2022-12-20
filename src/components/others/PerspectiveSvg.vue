@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('perspective-svg-pcon', component)
+  },
   name: 'perspective-svg',
   props: {
     size: {

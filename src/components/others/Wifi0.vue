@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wifi-0-pcon', component)
+  },
   name: 'wifi-0',
   props: {
     size: {

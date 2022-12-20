@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('search-svg-pcon', component)
+  },
   name: 'search-svg',
   props: {
     size: {

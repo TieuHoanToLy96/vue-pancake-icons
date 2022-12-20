@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-finder-pcon', component)
+  },
   name: 'brand-finder',
   props: {
     size: {

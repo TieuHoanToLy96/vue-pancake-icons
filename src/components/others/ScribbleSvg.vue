@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('scribble-svg-pcon', component)
+  },
   name: 'scribble-svg',
   props: {
     size: {

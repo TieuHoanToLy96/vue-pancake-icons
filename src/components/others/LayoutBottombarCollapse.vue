@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-bottombar-collapse-pcon', component)
+  },
   name: 'layout-bottombar-collapse',
   props: {
     size: {

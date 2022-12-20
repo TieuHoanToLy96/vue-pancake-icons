@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-supernova-pcon', component)
+  },
   name: 'brand-supernova',
   props: {
     size: {

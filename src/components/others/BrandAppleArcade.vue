@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-apple-arcade-pcon', component)
+  },
   name: 'brand-apple-arcade',
   props: {
     size: {

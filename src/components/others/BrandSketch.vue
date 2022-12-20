@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-sketch-pcon', component)
+  },
   name: 'brand-sketch',
   props: {
     size: {

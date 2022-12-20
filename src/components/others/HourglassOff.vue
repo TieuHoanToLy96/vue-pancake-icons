@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hourglass-off-pcon', component)
+  },
   name: 'hourglass-off',
   props: {
     size: {

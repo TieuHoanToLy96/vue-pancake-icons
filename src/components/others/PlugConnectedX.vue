@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('plug-connected-x-pcon', component)
+  },
   name: 'plug-connected-x',
   props: {
     size: {

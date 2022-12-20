@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('globe-svg-pcon', component)
+  },
   name: 'globe-svg',
   props: {
     size: {

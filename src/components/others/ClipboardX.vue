@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clipboard-x-pcon', component)
+  },
   name: 'clipboard-x',
   props: {
     size: {

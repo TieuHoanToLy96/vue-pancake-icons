@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-mercedes-pcon', component)
+  },
   name: 'brand-mercedes',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('fire-simple-pcon', component)
+  },
   name: 'fire-simple',
   props: {
     size: {

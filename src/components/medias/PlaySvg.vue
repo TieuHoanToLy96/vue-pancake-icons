@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('play-svg-pcon', component)
+  },
   name: 'play-svg',
   props: {
     size: {

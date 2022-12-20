@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('needle-svg-pcon', component)
+  },
   name: 'needle-svg',
   props: {
     size: {

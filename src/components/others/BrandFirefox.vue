@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-firefox-pcon', component)
+  },
   name: 'brand-firefox',
   props: {
     size: {

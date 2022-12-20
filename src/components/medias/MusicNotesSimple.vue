@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('music-notes-simple-pcon', component)
+  },
   name: 'music-notes-simple',
   props: {
     size: {

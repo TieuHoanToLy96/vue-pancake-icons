@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('swimming-svg-pcon', component)
+  },
   name: 'swimming-svg',
   props: {
     size: {

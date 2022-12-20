@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-lari-pcon', component)
+  },
   name: 'currency-lari',
   props: {
     size: {

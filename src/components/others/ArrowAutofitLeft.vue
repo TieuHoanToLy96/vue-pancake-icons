@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-autofit-left-pcon', component)
+  },
   name: 'arrow-autofit-left',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('egg-off-pcon', component)
+  },
   name: 'egg-off',
   props: {
     size: {

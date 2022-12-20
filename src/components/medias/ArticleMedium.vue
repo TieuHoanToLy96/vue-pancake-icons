@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('article-medium-pcon', component)
+  },
   name: 'article-medium',
   props: {
     size: {

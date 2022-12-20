@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('column-insert-left-pcon', component)
+  },
   name: 'column-insert-left',
   props: {
     size: {

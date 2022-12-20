@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-suprised-pcon', component)
+  },
   name: 'mood-suprised',
   props: {
     size: {

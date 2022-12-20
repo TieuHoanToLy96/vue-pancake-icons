@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-off-pcon', component)
+  },
   name: 'user-off',
   props: {
     size: {

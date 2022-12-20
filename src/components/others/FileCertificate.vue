@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-certificate-pcon', component)
+  },
   name: 'file-certificate',
   props: {
     size: {

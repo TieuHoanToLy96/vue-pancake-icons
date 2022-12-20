@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('info-circle-pcon', component)
+  },
   name: 'info-circle',
   props: {
     size: {

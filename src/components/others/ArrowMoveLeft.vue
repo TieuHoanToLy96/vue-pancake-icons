@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-move-left-pcon', component)
+  },
   name: 'arrow-move-left',
   props: {
     size: {

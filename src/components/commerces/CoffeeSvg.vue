@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('coffee-svg-pcon', component)
+  },
   name: 'coffee-svg',
   props: {
     size: {

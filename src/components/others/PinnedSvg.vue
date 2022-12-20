@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pinned-svg-pcon', component)
+  },
   name: 'pinned-svg',
   props: {
     size: {

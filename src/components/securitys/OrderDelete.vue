@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('order-delete-pcon', component)
+  },
   name: 'order-delete',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('quote-off-pcon', component)
+  },
   name: 'quote-off',
   props: {
     size: {

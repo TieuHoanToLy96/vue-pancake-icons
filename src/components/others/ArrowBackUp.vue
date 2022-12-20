@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-back-up-pcon', component)
+  },
   name: 'arrow-back-up',
   props: {
     size: {

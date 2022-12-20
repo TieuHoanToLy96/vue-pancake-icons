@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('browser-x-pcon', component)
+  },
   name: 'browser-x',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flip-vertical-pcon', component)
+  },
   name: 'flip-vertical',
   props: {
     size: {

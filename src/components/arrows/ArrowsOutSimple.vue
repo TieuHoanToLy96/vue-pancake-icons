@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrows-out-simple-pcon', component)
+  },
   name: 'arrows-out-simple',
   props: {
     size: {

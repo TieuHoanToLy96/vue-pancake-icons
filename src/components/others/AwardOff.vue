@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('award-off-pcon', component)
+  },
   name: 'award-off',
   props: {
     size: {

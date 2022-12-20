@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('playlist-off-pcon', component)
+  },
   name: 'playlist-off',
   props: {
     size: {

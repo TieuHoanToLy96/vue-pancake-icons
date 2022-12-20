@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wall-off-pcon', component)
+  },
   name: 'wall-off',
   props: {
     size: {

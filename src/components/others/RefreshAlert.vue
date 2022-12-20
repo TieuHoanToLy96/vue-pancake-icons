@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('refresh-alert-pcon', component)
+  },
   name: 'refresh-alert',
   props: {
     size: {

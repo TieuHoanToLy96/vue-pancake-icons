@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-ctemplar-pcon', component)
+  },
   name: 'brand-ctemplar',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('table-svg-pcon', component)
+  },
   name: 'table-svg',
   props: {
     size: {

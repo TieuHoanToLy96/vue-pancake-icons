@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-guardian-pcon', component)
+  },
   name: 'brand-guardian',
   props: {
     size: {

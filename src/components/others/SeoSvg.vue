@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('seo-svg-pcon', component)
+  },
   name: 'seo-svg',
   props: {
     size: {

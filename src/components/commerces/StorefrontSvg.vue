@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('storefront-svg-pcon', component)
+  },
   name: 'storefront-svg',
   props: {
     size: {

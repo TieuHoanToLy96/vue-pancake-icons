@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('music-svg-pcon', component)
+  },
   name: 'music-svg',
   props: {
     size: {

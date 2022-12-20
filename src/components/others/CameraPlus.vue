@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('camera-plus-pcon', component)
+  },
   name: 'camera-plus',
   props: {
     size: {

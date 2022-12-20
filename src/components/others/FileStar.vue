@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-star-pcon', component)
+  },
   name: 'file-star',
   props: {
     size: {

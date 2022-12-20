@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-forbid-2-pcon', component)
+  },
   name: 'square-forbid-2',
   props: {
     size: {

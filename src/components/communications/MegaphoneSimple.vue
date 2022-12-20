@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('megaphone-simple-pcon', component)
+  },
   name: 'megaphone-simple',
   props: {
     size: {

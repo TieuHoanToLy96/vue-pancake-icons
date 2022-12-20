@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('writing-sign-off-pcon', component)
+  },
   name: 'writing-sign-off',
   props: {
     size: {

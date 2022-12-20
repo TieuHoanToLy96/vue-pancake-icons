@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('diamond-off-pcon', component)
+  },
   name: 'diamond-off',
   props: {
     size: {

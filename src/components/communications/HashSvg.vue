@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hash-svg-pcon', component)
+  },
   name: 'hash-svg',
   props: {
     size: {

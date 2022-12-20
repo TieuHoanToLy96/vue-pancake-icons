@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('plane-inflight-pcon', component)
+  },
   name: 'plane-inflight',
   props: {
     size: {

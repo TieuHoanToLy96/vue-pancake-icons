@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-cucumber-pcon', component)
+  },
   name: 'brand-cucumber',
   props: {
     size: {

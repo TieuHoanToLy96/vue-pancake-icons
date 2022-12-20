@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-sim-pcon', component)
+  },
   name: 'device-sim',
   props: {
     size: {

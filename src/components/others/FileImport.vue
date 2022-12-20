@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-import-pcon', component)
+  },
   name: 'file-import',
   props: {
     size: {

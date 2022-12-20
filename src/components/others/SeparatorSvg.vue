@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('separator-svg-pcon', component)
+  },
   name: 'separator-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lock-svg-pcon', component)
+  },
   name: 'lock-svg',
   props: {
     size: {

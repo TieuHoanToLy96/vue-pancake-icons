@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('trend-down-pcon', component)
+  },
   name: 'trend-down',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hanger-svg-pcon', component)
+  },
   name: 'hanger-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('spider-svg-pcon', component)
+  },
   name: 'spider-svg',
   props: {
     size: {

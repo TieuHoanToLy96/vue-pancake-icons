@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('route-2-pcon', component)
+  },
   name: 'route-2',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mountain-off-pcon', component)
+  },
   name: 'mountain-off',
   props: {
     size: {

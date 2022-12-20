@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('handshake-svg-pcon', component)
+  },
   name: 'handshake-svg',
   props: {
     size: {

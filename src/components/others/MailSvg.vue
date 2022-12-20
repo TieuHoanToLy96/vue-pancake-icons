@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mail-svg-pcon', component)
+  },
   name: 'mail-svg',
   props: {
     size: {

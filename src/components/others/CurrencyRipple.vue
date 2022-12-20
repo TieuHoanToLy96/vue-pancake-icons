@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-ripple-pcon', component)
+  },
   name: 'currency-ripple',
   props: {
     size: {

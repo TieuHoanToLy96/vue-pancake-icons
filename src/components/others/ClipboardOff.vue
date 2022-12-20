@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clipboard-off-pcon', component)
+  },
   name: 'clipboard-off',
   props: {
     size: {

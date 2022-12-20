@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-look-left-pcon', component)
+  },
   name: 'mood-look-left',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('template-off-pcon', component)
+  },
   name: 'template-off',
   props: {
     size: {

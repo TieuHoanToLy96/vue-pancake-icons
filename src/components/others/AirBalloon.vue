@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('air-balloon-pcon', component)
+  },
   name: 'air-balloon',
   props: {
     size: {

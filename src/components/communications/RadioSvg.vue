@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('radio-svg-pcon', component)
+  },
   name: 'radio-svg',
   props: {
     size: {

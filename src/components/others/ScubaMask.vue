@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('scuba-mask-pcon', component)
+  },
   name: 'scuba-mask',
   props: {
     size: {

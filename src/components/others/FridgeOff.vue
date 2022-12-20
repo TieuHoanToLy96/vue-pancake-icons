@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('fridge-off-pcon', component)
+  },
   name: 'fridge-off',
   props: {
     size: {

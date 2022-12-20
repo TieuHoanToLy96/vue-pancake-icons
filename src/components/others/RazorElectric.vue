@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('razor-electric-pcon', component)
+  },
   name: 'razor-electric',
   props: {
     size: {

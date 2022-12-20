@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tote-simple-pcon', component)
+  },
   name: 'tote-simple',
   props: {
     size: {

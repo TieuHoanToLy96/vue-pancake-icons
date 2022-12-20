@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('external-link-pcon', component)
+  },
   name: 'external-link',
   props: {
     size: {

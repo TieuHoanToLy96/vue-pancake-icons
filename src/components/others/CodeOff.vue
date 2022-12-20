@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('code-off-pcon', component)
+  },
   name: 'code-off',
   props: {
     size: {

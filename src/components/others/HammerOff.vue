@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hammer-off-pcon', component)
+  },
   name: 'hammer-off',
   props: {
     size: {

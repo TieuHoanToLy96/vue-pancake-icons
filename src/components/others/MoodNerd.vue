@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-nerd-pcon', component)
+  },
   name: 'mood-nerd',
   props: {
     size: {

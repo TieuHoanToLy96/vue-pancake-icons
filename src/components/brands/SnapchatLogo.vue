@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('snapchat-logo-pcon', component)
+  },
   name: 'snapchat-logo',
   props: {
     size: {

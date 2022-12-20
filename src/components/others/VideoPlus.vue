@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('video-plus-pcon', component)
+  },
   name: 'video-plus',
   props: {
     size: {

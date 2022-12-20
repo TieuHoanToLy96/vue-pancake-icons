@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('location-off-pcon', component)
+  },
   name: 'location-off',
   props: {
     size: {

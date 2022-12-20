@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shirt-svg-pcon', component)
+  },
   name: 'shirt-svg',
   props: {
     size: {

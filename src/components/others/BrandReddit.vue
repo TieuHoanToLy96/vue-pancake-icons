@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-reddit-pcon', component)
+  },
   name: 'brand-reddit',
   props: {
     size: {

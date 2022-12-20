@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cash-banknote-off-pcon', component)
+  },
   name: 'cash-banknote-off',
   props: {
     size: {

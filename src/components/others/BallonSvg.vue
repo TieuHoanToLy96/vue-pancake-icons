@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ballon-svg-pcon', component)
+  },
   name: 'ballon-svg',
   props: {
     size: {

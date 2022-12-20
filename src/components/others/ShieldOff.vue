@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shield-off-pcon', component)
+  },
   name: 'shield-off',
   props: {
     size: {

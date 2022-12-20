@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flower-svg-pcon', component)
+  },
   name: 'flower-svg',
   props: {
     size: {

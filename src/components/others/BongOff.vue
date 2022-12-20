@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bong-off-pcon', component)
+  },
   name: 'bong-off',
   props: {
     size: {

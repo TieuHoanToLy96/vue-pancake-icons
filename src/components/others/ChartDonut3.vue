@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chart-donut-3-pcon', component)
+  },
   name: 'chart-donut-3',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('page-break-pcon', component)
+  },
   name: 'page-break',
   props: {
     size: {

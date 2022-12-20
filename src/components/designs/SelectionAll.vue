@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('selection-all-pcon', component)
+  },
   name: 'selection-all',
   props: {
     size: {

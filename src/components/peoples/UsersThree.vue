@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('users-three-pcon', component)
+  },
   name: 'users-three',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rotate-2-pcon', component)
+  },
   name: 'rotate-2',
   props: {
     size: {

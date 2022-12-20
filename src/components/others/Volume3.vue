@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('volume-3-pcon', component)
+  },
   name: 'volume-3',
   props: {
     size: {

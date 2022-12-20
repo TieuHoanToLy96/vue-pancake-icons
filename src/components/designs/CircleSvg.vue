@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-svg-pcon', component)
+  },
   name: 'circle-svg',
   props: {
     size: {

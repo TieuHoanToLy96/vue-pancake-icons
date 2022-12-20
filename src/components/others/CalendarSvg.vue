@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('calendar-svg-pcon', component)
+  },
   name: 'calendar-svg',
   props: {
     size: {

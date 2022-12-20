@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clothes-rack-off-pcon', component)
+  },
   name: 'clothes-rack-off',
   props: {
     size: {

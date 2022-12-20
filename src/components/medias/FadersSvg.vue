@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('faders-svg-pcon', component)
+  },
   name: 'faders-svg',
   props: {
     size: {

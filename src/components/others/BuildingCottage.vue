@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-cottage-pcon', component)
+  },
   name: 'building-cottage',
   props: {
     size: {

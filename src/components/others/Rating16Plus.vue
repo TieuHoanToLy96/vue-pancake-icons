@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rating-16-plus-pcon', component)
+  },
   name: 'rating-16-plus',
   props: {
     size: {

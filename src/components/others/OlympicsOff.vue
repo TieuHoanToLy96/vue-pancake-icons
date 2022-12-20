@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('olympics-off-pcon', component)
+  },
   name: 'olympics-off',
   props: {
     size: {

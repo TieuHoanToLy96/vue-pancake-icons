@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('list-border-pcon', component)
+  },
   name: 'list-border',
   props: {
     size: {

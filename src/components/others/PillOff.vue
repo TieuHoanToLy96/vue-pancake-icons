@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pill-off-pcon', component)
+  },
   name: 'pill-off',
   props: {
     size: {

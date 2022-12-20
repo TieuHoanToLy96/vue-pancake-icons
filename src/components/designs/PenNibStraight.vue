@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pen-nib-straight-pcon', component)
+  },
   name: 'pen-nib-straight',
   props: {
     size: {

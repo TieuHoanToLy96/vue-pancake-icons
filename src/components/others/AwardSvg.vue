@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('award-svg-pcon', component)
+  },
   name: 'award-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('edit-circle-off-pcon', component)
+  },
   name: 'edit-circle-off',
   props: {
     size: {

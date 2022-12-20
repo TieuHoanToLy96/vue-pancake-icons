@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('luggage-off-pcon', component)
+  },
   name: 'luggage-off',
   props: {
     size: {

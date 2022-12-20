@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('calculator-off-pcon', component)
+  },
   name: 'calculator-off',
   props: {
     size: {

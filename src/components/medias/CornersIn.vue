@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('corners-in-pcon', component)
+  },
   name: 'corners-in',
   props: {
     size: {

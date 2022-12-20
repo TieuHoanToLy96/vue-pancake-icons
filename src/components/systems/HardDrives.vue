@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hard-drives-pcon', component)
+  },
   name: 'hard-drives',
   props: {
     size: {

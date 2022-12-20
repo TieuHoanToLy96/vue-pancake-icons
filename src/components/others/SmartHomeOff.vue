@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('smart-home-off-pcon', component)
+  },
   name: 'smart-home-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('swatches-svg-pcon', component)
+  },
   name: 'swatches-svg',
   props: {
     size: {

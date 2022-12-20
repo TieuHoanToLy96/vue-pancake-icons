@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ping-pong-pcon', component)
+  },
   name: 'ping-pong',
   props: {
     size: {

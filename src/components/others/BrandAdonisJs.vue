@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-adonis-js-pcon', component)
+  },
   name: 'brand-adonis-js',
   props: {
     size: {

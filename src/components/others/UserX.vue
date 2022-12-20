@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-x-pcon', component)
+  },
   name: 'user-x',
   props: {
     size: {

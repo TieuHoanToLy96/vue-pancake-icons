@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('typography-off-pcon', component)
+  },
   name: 'typography-off',
   props: {
     size: {

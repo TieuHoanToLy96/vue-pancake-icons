@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-dollar-pcon', component)
+  },
   name: 'file-dollar',
   props: {
     size: {

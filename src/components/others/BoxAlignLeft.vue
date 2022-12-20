@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('box-align-left-pcon', component)
+  },
   name: 'box-align-left',
   props: {
     size: {

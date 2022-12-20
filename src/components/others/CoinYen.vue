@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('coin-yen-pcon', component)
+  },
   name: 'coin-yen',
   props: {
     size: {

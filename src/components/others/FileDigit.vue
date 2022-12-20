@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-digit-pcon', component)
+  },
   name: 'file-digit',
   props: {
     size: {

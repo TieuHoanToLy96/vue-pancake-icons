@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-asterisk-pcon', component)
+  },
   name: 'square-asterisk',
   props: {
     size: {

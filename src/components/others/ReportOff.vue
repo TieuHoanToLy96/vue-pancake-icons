@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('report-off-pcon', component)
+  },
   name: 'report-off',
   props: {
     size: {

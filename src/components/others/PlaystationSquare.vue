@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('playstation-square-pcon', component)
+  },
   name: 'playstation-square',
   props: {
     size: {

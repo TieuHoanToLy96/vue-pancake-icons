@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zzz-off-pcon', component)
+  },
   name: 'zzz-off',
   props: {
     size: {

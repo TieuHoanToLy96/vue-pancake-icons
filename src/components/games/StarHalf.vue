@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('star-half-pcon', component)
+  },
   name: 'star-half',
   props: {
     size: {

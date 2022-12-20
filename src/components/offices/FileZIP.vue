@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-zip-pcon', component)
+  },
   name: 'file-zip',
   props: {
     size: {

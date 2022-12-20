@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-guide-pcon', component)
+  },
   name: 'arrow-guide',
   props: {
     size: {

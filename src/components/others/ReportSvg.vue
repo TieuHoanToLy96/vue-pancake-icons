@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('report-svg-pcon', component)
+  },
   name: 'report-svg',
   props: {
     size: {

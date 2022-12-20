@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-ethereum-pcon', component)
+  },
   name: 'currency-ethereum',
   props: {
     size: {

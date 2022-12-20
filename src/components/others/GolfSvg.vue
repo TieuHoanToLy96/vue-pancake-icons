@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('golf-svg-pcon', component)
+  },
   name: 'golf-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('microscope-svg-pcon', component)
+  },
   name: 'microscope-svg',
   props: {
     size: {

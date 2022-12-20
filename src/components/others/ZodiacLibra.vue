@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zodiac-libra-pcon', component)
+  },
   name: 'zodiac-libra',
   props: {
     size: {

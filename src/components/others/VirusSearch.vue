@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('virus-search-pcon', component)
+  },
   name: 'virus-search',
   props: {
     size: {

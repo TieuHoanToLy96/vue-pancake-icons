@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-kip-pcon', component)
+  },
   name: 'currency-kip',
   props: {
     size: {

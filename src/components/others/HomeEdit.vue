@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-edit-pcon', component)
+  },
   name: 'home-edit',
   props: {
     size: {

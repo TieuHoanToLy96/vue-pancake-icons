@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('heart-rate-monitor-pcon', component)
+  },
   name: 'heart-rate-monitor',
   props: {
     size: {

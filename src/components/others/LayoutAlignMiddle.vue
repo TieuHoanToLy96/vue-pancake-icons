@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-align-middle-pcon', component)
+  },
   name: 'layout-align-middle',
   props: {
     size: {

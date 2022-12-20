@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('handbag-simple-pcon', component)
+  },
   name: 'handbag-simple',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('photo-edit-pcon', component)
+  },
   name: 'photo-edit',
   props: {
     size: {

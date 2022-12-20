@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('corner-left-up-double-pcon', component)
+  },
   name: 'corner-left-up-double',
   props: {
     size: {

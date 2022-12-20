@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bug-svg-pcon', component)
+  },
   name: 'bug-svg',
   props: {
     size: {

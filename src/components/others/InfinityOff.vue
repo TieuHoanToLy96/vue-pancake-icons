@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('infinity-off-pcon', component)
+  },
   name: 'infinity-off',
   props: {
     size: {

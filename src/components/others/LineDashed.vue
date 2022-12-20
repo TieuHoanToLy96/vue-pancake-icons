@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('line-dashed-pcon', component)
+  },
   name: 'line-dashed',
   props: {
     size: {

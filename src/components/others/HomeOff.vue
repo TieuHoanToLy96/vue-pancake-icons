@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-off-pcon', component)
+  },
   name: 'home-off',
   props: {
     size: {

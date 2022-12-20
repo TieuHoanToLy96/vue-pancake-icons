@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-bitcoin-pcon', component)
+  },
   name: 'currency-bitcoin',
   props: {
     size: {

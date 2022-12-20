@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('transition-top-pcon', component)
+  },
   name: 'transition-top',
   props: {
     size: {

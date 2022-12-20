@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('math-pi-pcon', component)
+  },
   name: 'math-pi',
   props: {
     size: {

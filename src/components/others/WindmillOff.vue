@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('windmill-off-pcon', component)
+  },
   name: 'windmill-off',
   props: {
     size: {

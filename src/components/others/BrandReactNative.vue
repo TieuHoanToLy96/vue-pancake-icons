@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-react-native-pcon', component)
+  },
   name: 'brand-react-native',
   props: {
     size: {

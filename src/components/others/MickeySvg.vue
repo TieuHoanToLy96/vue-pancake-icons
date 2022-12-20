@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mickey-svg-pcon', component)
+  },
   name: 'mickey-svg',
   props: {
     size: {

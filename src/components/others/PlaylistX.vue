@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('playlist-x-pcon', component)
+  },
   name: 'playlist-x',
   props: {
     size: {

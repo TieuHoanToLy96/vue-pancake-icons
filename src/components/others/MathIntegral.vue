@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('math-integral-pcon', component)
+  },
   name: 'math-integral',
   props: {
     size: {

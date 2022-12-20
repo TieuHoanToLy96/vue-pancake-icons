@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bolt-off-pcon', component)
+  },
   name: 'bolt-off',
   props: {
     size: {

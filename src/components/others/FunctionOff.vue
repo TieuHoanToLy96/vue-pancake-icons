@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('function-off-pcon', component)
+  },
   name: 'function-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('radar-off-pcon', component)
+  },
   name: 'radar-off',
   props: {
     size: {

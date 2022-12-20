@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-mailgun-pcon', component)
+  },
   name: 'brand-mailgun',
   props: {
     size: {

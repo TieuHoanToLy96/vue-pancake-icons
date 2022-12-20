@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-check-pcon', component)
+  },
   name: 'cloud-check',
   props: {
     size: {

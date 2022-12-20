@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pages-svg-pcon', component)
+  },
   name: 'pages-svg',
   props: {
     size: {

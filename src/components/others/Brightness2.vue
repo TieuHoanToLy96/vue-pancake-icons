@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brightness-2-pcon', component)
+  },
   name: 'brightness-2',
   props: {
     size: {

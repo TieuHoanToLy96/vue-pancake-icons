@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('stack-pop-pcon', component)
+  },
   name: 'stack-pop',
   props: {
     size: {

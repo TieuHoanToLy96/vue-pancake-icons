@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('playlist-add-pcon', component)
+  },
   name: 'playlist-add',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ny-times-logo-pcon', component)
+  },
   name: 'ny-times-logo',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('step-into-pcon', component)
+  },
   name: 'step-into',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-messenger-pcon', component)
+  },
   name: 'brand-messenger',
   props: {
     size: {

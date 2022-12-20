@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cookie-off-pcon', component)
+  },
   name: 'cookie-off',
   props: {
     size: {

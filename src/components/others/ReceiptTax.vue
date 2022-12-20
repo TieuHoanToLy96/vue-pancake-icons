@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('receipt-tax-pcon', component)
+  },
   name: 'receipt-tax',
   props: {
     size: {

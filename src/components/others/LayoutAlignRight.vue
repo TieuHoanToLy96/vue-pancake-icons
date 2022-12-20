@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-align-right-pcon', component)
+  },
   name: 'layout-align-right',
   props: {
     size: {

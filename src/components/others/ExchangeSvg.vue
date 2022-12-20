@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('exchange-svg-pcon', component)
+  },
   name: 'exchange-svg',
   props: {
     size: {

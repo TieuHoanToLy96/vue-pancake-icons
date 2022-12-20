@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('section-sign-pcon', component)
+  },
   name: 'section-sign',
   props: {
     size: {

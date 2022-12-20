@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bicycle-svg-pcon', component)
+  },
   name: 'bicycle-svg',
   props: {
     size: {

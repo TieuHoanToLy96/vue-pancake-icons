@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrows-transfer-down-pcon', component)
+  },
   name: 'arrows-transfer-down',
   props: {
     size: {

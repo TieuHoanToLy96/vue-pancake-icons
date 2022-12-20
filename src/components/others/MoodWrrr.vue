@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-wrrr-pcon', component)
+  },
   name: 'mood-wrrr',
   props: {
     size: {

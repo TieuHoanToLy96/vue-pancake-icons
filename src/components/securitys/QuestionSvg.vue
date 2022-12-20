@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('question-svg-pcon', component)
+  },
   name: 'question-svg',
   props: {
     size: {

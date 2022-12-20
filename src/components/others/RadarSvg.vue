@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('radar-svg-pcon', component)
+  },
   name: 'radar-svg',
   props: {
     size: {

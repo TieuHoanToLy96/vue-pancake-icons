@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('battery-charging-pcon', component)
+  },
   name: 'battery-charging',
   props: {
     size: {

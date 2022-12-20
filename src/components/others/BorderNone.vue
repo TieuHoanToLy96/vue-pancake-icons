@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('border-none-pcon', component)
+  },
   name: 'border-none',
   props: {
     size: {

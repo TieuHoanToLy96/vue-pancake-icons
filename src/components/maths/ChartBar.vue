@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chart-bar-pcon', component)
+  },
   name: 'chart-bar',
   props: {
     size: {

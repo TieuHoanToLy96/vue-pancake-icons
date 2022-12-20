@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrows-in-cardinal-pcon', component)
+  },
   name: 'arrows-in-cardinal',
   props: {
     size: {

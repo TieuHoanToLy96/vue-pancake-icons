@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-bear-right-2-pcon', component)
+  },
   name: 'arrow-bear-right-2',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-data-connection-pcon', component)
+  },
   name: 'cloud-data-connection',
   props: {
     size: {

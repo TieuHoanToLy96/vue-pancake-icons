@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('door-enter-pcon', component)
+  },
   name: 'door-enter',
   props: {
     size: {

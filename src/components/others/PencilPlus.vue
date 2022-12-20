@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pencil-plus-pcon', component)
+  },
   name: 'pencil-plus',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('crutches-svg-pcon', component)
+  },
   name: 'crutches-svg',
   props: {
     size: {

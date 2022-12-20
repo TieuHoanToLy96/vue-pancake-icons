@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('virus-off-pcon', component)
+  },
   name: 'virus-off',
   props: {
     size: {

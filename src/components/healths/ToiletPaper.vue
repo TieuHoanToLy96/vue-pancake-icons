@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('toilet-paper-pcon', component)
+  },
   name: 'toilet-paper',
   props: {
     size: {

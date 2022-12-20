@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('parachute-off-pcon', component)
+  },
   name: 'parachute-off',
   props: {
     size: {

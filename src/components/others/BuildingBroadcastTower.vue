@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-broadcast-tower-pcon', component)
+  },
   name: 'building-broadcast-tower',
   props: {
     size: {

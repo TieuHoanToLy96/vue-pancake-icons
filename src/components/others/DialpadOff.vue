@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dialpad-off-pcon', component)
+  },
   name: 'dialpad-off',
   props: {
     size: {

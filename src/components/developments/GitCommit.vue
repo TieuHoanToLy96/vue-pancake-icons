@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('git-commit-pcon', component)
+  },
   name: 'git-commit',
   props: {
     size: {

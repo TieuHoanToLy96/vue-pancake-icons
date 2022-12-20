@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('barcode-svg-pcon', component)
+  },
   name: 'barcode-svg',
   props: {
     size: {

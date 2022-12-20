@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('palette-svg-pcon', component)
+  },
   name: 'palette-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('puzzle-off-pcon', component)
+  },
   name: 'puzzle-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chart-infographic-pcon', component)
+  },
   name: 'chart-infographic',
   props: {
     size: {

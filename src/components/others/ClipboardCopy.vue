@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clipboard-copy-pcon', component)
+  },
   name: 'clipboard-copy',
   props: {
     size: {

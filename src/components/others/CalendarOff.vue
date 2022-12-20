@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('calendar-off-pcon', component)
+  },
   name: 'calendar-off',
   props: {
     size: {

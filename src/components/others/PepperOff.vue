@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pepper-off-pcon', component)
+  },
   name: 'pepper-off',
   props: {
     size: {

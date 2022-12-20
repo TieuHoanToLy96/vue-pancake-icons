@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('leaf-off-pcon', component)
+  },
   name: 'leaf-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('slice-svg-pcon', component)
+  },
   name: 'slice-svg',
   props: {
     size: {

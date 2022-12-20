@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('virus-svg-pcon', component)
+  },
   name: 'virus-svg',
   props: {
     size: {

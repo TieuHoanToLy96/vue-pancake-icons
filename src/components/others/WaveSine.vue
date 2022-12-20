@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wave-sine-pcon', component)
+  },
   name: 'wave-sine',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chalkboard-simple-pcon', component)
+  },
   name: 'chalkboard-simple',
   props: {
     size: {

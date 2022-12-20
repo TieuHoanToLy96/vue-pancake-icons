@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('satellite-svg-pcon', component)
+  },
   name: 'satellite-svg',
   props: {
     size: {

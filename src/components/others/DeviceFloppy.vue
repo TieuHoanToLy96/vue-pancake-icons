@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-floppy-pcon', component)
+  },
   name: 'device-floppy',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('helicopter-svg-pcon', component)
+  },
   name: 'helicopter-svg',
   props: {
     size: {

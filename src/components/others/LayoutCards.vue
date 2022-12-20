@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-cards-pcon', component)
+  },
   name: 'layout-cards',
   props: {
     size: {

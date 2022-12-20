@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ballpen-svg-pcon', component)
+  },
   name: 'ballpen-svg',
   props: {
     size: {

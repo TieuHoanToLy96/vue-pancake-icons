@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lock-laminated-pcon', component)
+  },
   name: 'lock-laminated',
   props: {
     size: {

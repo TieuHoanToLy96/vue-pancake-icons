@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-plus-pcon', component)
+  },
   name: 'home-plus',
   props: {
     size: {

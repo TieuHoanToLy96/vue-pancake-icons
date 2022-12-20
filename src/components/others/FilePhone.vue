@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-phone-pcon', component)
+  },
   name: 'file-phone',
   props: {
     size: {

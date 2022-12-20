@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('help-off-pcon', component)
+  },
   name: 'help-off',
   props: {
     size: {

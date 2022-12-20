@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('premium-rights-pcon', component)
+  },
   name: 'premium-rights',
   props: {
     size: {

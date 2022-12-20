@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('address-book-off-pcon', component)
+  },
   name: 'address-book-off',
   props: {
     size: {

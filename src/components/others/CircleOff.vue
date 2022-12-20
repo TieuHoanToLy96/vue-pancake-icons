@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-off-pcon', component)
+  },
   name: 'circle-off',
   props: {
     size: {

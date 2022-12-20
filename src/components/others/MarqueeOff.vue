@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('marquee-off-pcon', component)
+  },
   name: 'marquee-off',
   props: {
     size: {

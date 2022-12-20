@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cpu-2-pcon', component)
+  },
   name: 'cpu-2',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('at-off-pcon', component)
+  },
   name: 'at-off',
   props: {
     size: {

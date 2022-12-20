@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('twitter-logo-pcon', component)
+  },
   name: 'twitter-logo',
   props: {
     size: {

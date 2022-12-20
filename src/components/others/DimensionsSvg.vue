@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dimensions-svg-pcon', component)
+  },
   name: 'dimensions-svg',
   props: {
     size: {

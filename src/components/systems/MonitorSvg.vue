@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('monitor-svg-pcon', component)
+  },
   name: 'monitor-svg',
   props: {
     size: {

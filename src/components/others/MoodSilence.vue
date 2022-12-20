@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-silence-pcon', component)
+  },
   name: 'mood-silence',
   props: {
     size: {

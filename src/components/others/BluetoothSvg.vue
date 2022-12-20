@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bluetooth-svg-pcon', component)
+  },
   name: 'bluetooth-svg',
   props: {
     size: {

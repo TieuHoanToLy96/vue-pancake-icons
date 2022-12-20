@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-t-pcon', component)
+  },
   name: 'text-t',
   props: {
     size: {

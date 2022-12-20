@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-webflow-pcon', component)
+  },
   name: 'brand-webflow',
   props: {
     size: {

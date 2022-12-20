@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('navigation-arrow-pcon', component)
+  },
   name: 'navigation-arrow',
   props: {
     size: {

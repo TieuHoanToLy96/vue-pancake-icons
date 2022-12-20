@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tractor-svg-pcon', component)
+  },
   name: 'tractor-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-circle-pcon', component)
+  },
   name: 'user-circle',
   props: {
     size: {

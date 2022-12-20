@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-d3-pcon', component)
+  },
   name: 'brand-d3',
   props: {
     size: {

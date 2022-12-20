@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-loom-pcon', component)
+  },
   name: 'brand-loom',
   props: {
     size: {

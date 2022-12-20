@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('details-off-pcon', component)
+  },
   name: 'details-off',
   props: {
     size: {

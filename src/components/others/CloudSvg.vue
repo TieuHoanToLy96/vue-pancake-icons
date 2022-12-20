@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cloud-svg-pcon', component)
+  },
   name: 'cloud-svg',
   props: {
     size: {

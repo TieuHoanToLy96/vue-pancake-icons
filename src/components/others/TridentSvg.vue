@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('trident-svg-pcon', component)
+  },
   name: 'trident-svg',
   props: {
     size: {

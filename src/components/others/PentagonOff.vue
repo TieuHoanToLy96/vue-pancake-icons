@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pentagon-off-pcon', component)
+  },
   name: 'pentagon-off',
   props: {
     size: {

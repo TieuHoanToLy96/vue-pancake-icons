@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-dots-pcon', component)
+  },
   name: 'file-dots',
   props: {
     size: {

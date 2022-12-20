@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wind-off-pcon', component)
+  },
   name: 'wind-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('link-off-pcon', component)
+  },
   name: 'link-off',
   props: {
     size: {

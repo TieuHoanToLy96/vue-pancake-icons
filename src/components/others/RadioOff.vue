@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('radio-off-pcon', component)
+  },
   name: 'radio-off',
   props: {
     size: {

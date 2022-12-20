@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('clipboard-check-pcon', component)
+  },
   name: 'clipboard-check',
   props: {
     size: {

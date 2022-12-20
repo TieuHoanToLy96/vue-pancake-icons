@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('skip-back-circle-pcon', component)
+  },
   name: 'skip-back-circle',
   props: {
     size: {

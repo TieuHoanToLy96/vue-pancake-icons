@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cake-svg-pcon', component)
+  },
   name: 'cake-svg',
   props: {
     size: {

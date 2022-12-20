@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('code-simple-pcon', component)
+  },
   name: 'code-simple',
   props: {
     size: {

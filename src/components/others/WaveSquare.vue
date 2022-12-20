@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wave-square-pcon', component)
+  },
   name: 'wave-square',
   props: {
     size: {

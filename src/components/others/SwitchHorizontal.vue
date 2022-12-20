@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('switch-horizontal-pcon', component)
+  },
   name: 'switch-horizontal',
   props: {
     size: {

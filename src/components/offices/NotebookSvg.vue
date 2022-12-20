@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('notebook-svg-pcon', component)
+  },
   name: 'notebook-svg',
   props: {
     size: {

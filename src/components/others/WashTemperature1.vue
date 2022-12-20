@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wash-temperature-1-pcon', component)
+  },
   name: 'wash-temperature-1',
   props: {
     size: {

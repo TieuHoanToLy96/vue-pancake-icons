@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('caret-double-left-pcon', component)
+  },
   name: 'caret-double-left',
   props: {
     size: {

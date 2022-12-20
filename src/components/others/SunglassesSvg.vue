@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sunglasses-svg-pcon', component)
+  },
   name: 'sunglasses-svg',
   props: {
     size: {

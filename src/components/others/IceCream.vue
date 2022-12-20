@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ice-cream-pcon', component)
+  },
   name: 'ice-cream',
   props: {
     size: {

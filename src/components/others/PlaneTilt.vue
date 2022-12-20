@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('plane-tilt-pcon', component)
+  },
   name: 'plane-tilt',
   props: {
     size: {

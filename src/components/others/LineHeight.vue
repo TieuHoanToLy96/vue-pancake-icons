@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('line-height-pcon', component)
+  },
   name: 'line-height',
   props: {
     size: {

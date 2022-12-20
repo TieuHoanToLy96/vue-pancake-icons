@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('woman-svg-pcon', component)
+  },
   name: 'woman-svg',
   props: {
     size: {

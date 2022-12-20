@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('packge-import-pcon', component)
+  },
   name: 'packge-import',
   props: {
     size: {

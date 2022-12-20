@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tower-svg-pcon', component)
+  },
   name: 'tower-svg',
   props: {
     size: {

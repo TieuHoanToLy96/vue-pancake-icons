@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ampersand-svg-pcon', component)
+  },
   name: 'ampersand-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('vector-bezier-arc-pcon', component)
+  },
   name: 'vector-bezier-arc',
   props: {
     size: {

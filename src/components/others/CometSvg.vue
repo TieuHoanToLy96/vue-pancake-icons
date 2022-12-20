@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('comet-svg-pcon', component)
+  },
   name: 'comet-svg',
   props: {
     size: {

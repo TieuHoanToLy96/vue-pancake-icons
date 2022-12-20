@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('meat-off-pcon', component)
+  },
   name: 'meat-off',
   props: {
     size: {

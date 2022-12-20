@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('funnel-simple-pcon', component)
+  },
   name: 'funnel-simple',
   props: {
     size: {

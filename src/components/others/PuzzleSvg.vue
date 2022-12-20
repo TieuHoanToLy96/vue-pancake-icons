@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('puzzle-svg-pcon', component)
+  },
   name: 'puzzle-svg',
   props: {
     size: {

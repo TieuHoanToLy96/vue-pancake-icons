@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zeppelin-svg-pcon', component)
+  },
   name: 'zeppelin-svg',
   props: {
     size: {

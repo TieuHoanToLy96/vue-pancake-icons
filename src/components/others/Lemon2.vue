@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lemon-2-pcon', component)
+  },
   name: 'lemon-2',
   props: {
     size: {

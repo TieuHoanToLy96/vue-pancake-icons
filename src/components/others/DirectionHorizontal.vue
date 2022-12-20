@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('direction-horizontal-pcon', component)
+  },
   name: 'direction-horizontal',
   props: {
     size: {

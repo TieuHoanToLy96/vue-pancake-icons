@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('selection-slash-pcon', component)
+  },
   name: 'selection-slash',
   props: {
     size: {

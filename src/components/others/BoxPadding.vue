@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('box-padding-pcon', component)
+  },
   name: 'box-padding',
   props: {
     size: {

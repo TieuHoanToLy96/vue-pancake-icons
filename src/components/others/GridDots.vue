@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('grid-dots-pcon', component)
+  },
   name: 'grid-dots',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ship-off-pcon', component)
+  },
   name: 'ship-off',
   props: {
     size: {

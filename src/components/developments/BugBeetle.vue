@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bug-beetle-pcon', component)
+  },
   name: 'bug-beetle',
   props: {
     size: {

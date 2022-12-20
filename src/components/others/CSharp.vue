@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('c-sharp-pcon', component)
+  },
   name: 'c-sharp',
   props: {
     size: {

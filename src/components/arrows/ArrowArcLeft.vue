@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-arc-left-pcon', component)
+  },
   name: 'arrow-arc-left',
   props: {
     size: {

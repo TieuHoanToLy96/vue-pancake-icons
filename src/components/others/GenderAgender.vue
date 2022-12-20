@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gender-agender-pcon', component)
+  },
   name: 'gender-agender',
   props: {
     size: {

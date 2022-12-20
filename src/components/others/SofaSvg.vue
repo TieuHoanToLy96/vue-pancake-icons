@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sofa-svg-pcon', component)
+  },
   name: 'sofa-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('float-right-pcon', component)
+  },
   name: 'float-right',
   props: {
     size: {

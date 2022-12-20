@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('run-svg-pcon', component)
+  },
   name: 'run-svg',
   props: {
     size: {

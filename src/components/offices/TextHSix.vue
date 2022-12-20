@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-hsix-pcon', component)
+  },
   name: 'text-hsix',
   props: {
     size: {

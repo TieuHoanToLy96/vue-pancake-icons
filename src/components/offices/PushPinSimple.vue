@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('push-pin-simple-pcon', component)
+  },
   name: 'push-pin-simple',
   props: {
     size: {

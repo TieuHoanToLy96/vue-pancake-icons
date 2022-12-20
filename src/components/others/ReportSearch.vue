@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('report-search-pcon', component)
+  },
   name: 'report-search',
   props: {
     size: {

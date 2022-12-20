@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('first-aid-kit-pcon', component)
+  },
   name: 'first-aid-kit',
   props: {
     size: {

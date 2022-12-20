@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hourglass-empty-pcon', component)
+  },
   name: 'hourglass-empty',
   props: {
     size: {

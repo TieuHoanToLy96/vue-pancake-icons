@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('suitcase-simple-pcon', component)
+  },
   name: 'suitcase-simple',
   props: {
     size: {

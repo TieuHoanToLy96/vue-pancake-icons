@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('planet-off-pcon', component)
+  },
   name: 'planet-off',
   props: {
     size: {

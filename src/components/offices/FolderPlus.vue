@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('folder-plus-pcon', component)
+  },
   name: 'folder-plus',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('math-x-divide-y-pcon', component)
+  },
   name: 'math-x-divide-y',
   props: {
     size: {

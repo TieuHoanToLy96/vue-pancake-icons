@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-castle-pcon', component)
+  },
   name: 'building-castle',
   props: {
     size: {

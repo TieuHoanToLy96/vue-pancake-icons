@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shuffle-angular-pcon', component)
+  },
   name: 'shuffle-angular',
   props: {
     size: {

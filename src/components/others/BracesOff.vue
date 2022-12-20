@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('braces-off-pcon', component)
+  },
   name: 'braces-off',
   props: {
     size: {

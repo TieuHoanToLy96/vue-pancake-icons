@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('vector-bezier-2-pcon', component)
+  },
   name: 'vector-bezier-2',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('paw-off-pcon', component)
+  },
   name: 'paw-off',
   props: {
     size: {

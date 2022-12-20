@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('alarm-svg-pcon', component)
+  },
   name: 'alarm-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('terminal-2-pcon', component)
+  },
   name: 'terminal-2',
   props: {
     size: {

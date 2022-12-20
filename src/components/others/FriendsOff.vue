@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('friends-off-pcon', component)
+  },
   name: 'friends-off',
   props: {
     size: {

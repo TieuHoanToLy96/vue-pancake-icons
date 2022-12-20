@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ironing-1-pcon', component)
+  },
   name: 'ironing-1',
   props: {
     size: {

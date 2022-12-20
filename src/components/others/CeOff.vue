@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ce-off-pcon', component)
+  },
   name: 'ce-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('beach-off-pcon', component)
+  },
   name: 'beach-off',
   props: {
     size: {

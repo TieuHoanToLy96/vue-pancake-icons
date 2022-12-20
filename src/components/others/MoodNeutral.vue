@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-neutral-pcon', component)
+  },
   name: 'mood-neutral',
   props: {
     size: {

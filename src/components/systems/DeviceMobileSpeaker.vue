@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-mobile-speaker-pcon', component)
+  },
   name: 'device-mobile-speaker',
   props: {
     size: {

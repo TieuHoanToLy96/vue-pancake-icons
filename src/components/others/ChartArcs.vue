@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chart-arcs-pcon', component)
+  },
   name: 'chart-arcs',
   props: {
     size: {

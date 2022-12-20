@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('math-off-pcon', component)
+  },
   name: 'math-off',
   props: {
     size: {

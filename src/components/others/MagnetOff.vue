@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('magnet-off-pcon', component)
+  },
   name: 'magnet-off',
   props: {
     size: {

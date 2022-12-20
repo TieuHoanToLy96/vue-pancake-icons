@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('spray-svg-pcon', component)
+  },
   name: 'spray-svg',
   props: {
     size: {

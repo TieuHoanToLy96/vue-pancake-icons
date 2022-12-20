@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-uleft-down-pcon', component)
+  },
   name: 'arrow-uleft-down',
   props: {
     size: {

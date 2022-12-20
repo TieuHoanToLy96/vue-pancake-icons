@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('disc-svg-pcon', component)
+  },
   name: 'disc-svg',
   props: {
     size: {

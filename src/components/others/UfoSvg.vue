@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ufo-svg-pcon', component)
+  },
   name: 'ufo-svg',
   props: {
     size: {

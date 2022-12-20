@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('status-change-pcon', component)
+  },
   name: 'status-change',
   props: {
     size: {

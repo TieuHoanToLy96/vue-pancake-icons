@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('code-asterix-pcon', component)
+  },
   name: 'code-asterix',
   props: {
     size: {

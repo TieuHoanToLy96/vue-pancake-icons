@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sim-card-pcon', component)
+  },
   name: 'sim-card',
   props: {
     size: {

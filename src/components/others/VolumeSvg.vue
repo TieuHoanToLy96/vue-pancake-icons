@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('volume-svg-pcon', component)
+  },
   name: 'volume-svg',
   props: {
     size: {

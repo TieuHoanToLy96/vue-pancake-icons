@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rainbow-svg-pcon', component)
+  },
   name: 'rainbow-svg',
   props: {
     size: {

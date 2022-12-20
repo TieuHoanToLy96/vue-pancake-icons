@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('frame-off-pcon', component)
+  },
   name: 'frame-off',
   props: {
     size: {

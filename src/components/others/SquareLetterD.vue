@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-letter-d-pcon', component)
+  },
   name: 'square-letter-d',
   props: {
     size: {

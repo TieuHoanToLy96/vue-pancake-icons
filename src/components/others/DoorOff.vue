@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('door-off-pcon', component)
+  },
   name: 'door-off',
   props: {
     size: {

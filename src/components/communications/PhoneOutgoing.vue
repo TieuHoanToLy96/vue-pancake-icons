@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('phone-outgoing-pcon', component)
+  },
   name: 'phone-outgoing',
   props: {
     size: {

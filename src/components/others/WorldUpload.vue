@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('world-upload-pcon', component)
+  },
   name: 'world-upload',
   props: {
     size: {

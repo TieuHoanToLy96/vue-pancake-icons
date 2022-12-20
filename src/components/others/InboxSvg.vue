@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('inbox-svg-pcon', component)
+  },
   name: 'inbox-svg',
   props: {
     size: {

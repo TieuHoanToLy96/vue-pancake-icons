@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('devices-off-pcon', component)
+  },
   name: 'devices-off',
   props: {
     size: {

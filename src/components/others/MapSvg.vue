@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('map-svg-pcon', component)
+  },
   name: 'map-svg',
   props: {
     size: {

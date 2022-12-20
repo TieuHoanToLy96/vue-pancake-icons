@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-store-pcon', component)
+  },
   name: 'building-store',
   props: {
     size: {

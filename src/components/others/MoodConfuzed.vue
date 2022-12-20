@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-confuzed-pcon', component)
+  },
   name: 'mood-confuzed',
   props: {
     size: {

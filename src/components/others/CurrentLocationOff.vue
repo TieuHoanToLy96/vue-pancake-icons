@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('current-location-off-pcon', component)
+  },
   name: 'current-location-off',
   props: {
     size: {

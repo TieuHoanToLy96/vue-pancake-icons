@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('heart-straight-pcon', component)
+  },
   name: 'heart-straight',
   props: {
     size: {

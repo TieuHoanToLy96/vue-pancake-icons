@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('warehouse-svg-pcon', component)
+  },
   name: 'warehouse-svg',
   props: {
     size: {

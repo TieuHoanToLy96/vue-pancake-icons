@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('world-download-pcon', component)
+  },
   name: 'world-download',
   props: {
     size: {

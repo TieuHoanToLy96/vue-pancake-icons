@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('photo-cancel-pcon', component)
+  },
   name: 'photo-cancel',
   props: {
     size: {

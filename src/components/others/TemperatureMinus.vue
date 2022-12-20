@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('temperature-minus-pcon', component)
+  },
   name: 'temperature-minus',
   props: {
     size: {

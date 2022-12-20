@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('world-latitude-pcon', component)
+  },
   name: 'world-latitude',
   props: {
     size: {

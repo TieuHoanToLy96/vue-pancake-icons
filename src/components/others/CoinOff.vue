@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('coin-off-pcon', component)
+  },
   name: 'coin-off',
   props: {
     size: {

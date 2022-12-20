@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ruler-svg-pcon', component)
+  },
   name: 'ruler-svg',
   props: {
     size: {

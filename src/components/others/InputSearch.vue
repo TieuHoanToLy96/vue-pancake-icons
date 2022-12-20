@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('input-search-pcon', component)
+  },
   name: 'input-search',
   props: {
     size: {

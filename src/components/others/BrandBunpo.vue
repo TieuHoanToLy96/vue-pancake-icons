@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-bunpo-pcon', component)
+  },
   name: 'brand-bunpo',
   props: {
     size: {

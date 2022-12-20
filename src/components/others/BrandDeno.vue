@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-deno-pcon', component)
+  },
   name: 'brand-deno',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('umbrella-off-pcon', component)
+  },
   name: 'umbrella-off',
   props: {
     size: {

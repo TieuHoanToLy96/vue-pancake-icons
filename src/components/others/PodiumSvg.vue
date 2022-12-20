@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('podium-svg-pcon', component)
+  },
   name: 'podium-svg',
   props: {
     size: {

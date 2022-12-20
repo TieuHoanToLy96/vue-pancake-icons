@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('repeat-off-pcon', component)
+  },
   name: 'repeat-off',
   props: {
     size: {

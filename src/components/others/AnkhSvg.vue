@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ankh-svg-pcon', component)
+  },
   name: 'ankh-svg',
   props: {
     size: {

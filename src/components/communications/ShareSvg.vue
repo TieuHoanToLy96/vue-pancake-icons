@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('share-svg-pcon', component)
+  },
   name: 'share-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-direction-rtl-pcon', component)
+  },
   name: 'text-direction-rtl',
   props: {
     size: {

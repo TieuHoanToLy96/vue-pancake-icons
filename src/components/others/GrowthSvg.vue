@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('growth-svg-pcon', component)
+  },
   name: 'growth-svg',
   props: {
     size: {

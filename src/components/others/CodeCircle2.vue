@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('code-circle-2-pcon', component)
+  },
   name: 'code-circle-2',
   props: {
     size: {

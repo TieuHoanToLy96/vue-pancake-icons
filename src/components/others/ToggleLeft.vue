@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('toggle-left-pcon', component)
+  },
   name: 'toggle-left',
   props: {
     size: {

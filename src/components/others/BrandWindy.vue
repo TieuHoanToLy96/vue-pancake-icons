@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-windy-pcon', component)
+  },
   name: 'brand-windy',
   props: {
     size: {

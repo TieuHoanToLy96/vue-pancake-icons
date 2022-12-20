@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('table-import-pcon', component)
+  },
   name: 'table-import',
   props: {
     size: {

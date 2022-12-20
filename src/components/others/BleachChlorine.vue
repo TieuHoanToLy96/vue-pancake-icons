@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bleach-chlorine-pcon', component)
+  },
   name: 'bleach-chlorine',
   props: {
     size: {

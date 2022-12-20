@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('picture-in-picture-pcon', component)
+  },
   name: 'picture-in-picture',
   props: {
     size: {

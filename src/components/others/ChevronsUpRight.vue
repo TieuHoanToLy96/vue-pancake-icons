@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chevrons-up-right-pcon', component)
+  },
   name: 'chevrons-up-right',
   props: {
     size: {

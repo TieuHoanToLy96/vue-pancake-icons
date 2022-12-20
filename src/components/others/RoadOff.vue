@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('road-off-pcon', component)
+  },
   name: 'road-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('moon-2-pcon', component)
+  },
   name: 'moon-2',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-recognition-pcon', component)
+  },
   name: 'text-recognition',
   props: {
     size: {

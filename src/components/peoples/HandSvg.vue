@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hand-svg-pcon', component)
+  },
   name: 'hand-svg',
   props: {
     size: {

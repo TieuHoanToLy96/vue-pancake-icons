@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shoe-svg-pcon', component)
+  },
   name: 'shoe-svg',
   props: {
     size: {

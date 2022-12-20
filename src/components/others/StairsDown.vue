@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('stairs-down-pcon', component)
+  },
   name: 'stairs-down',
   props: {
     size: {

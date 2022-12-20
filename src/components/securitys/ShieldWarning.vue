@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shield-warning-pcon', component)
+  },
   name: 'shield-warning',
   props: {
     size: {

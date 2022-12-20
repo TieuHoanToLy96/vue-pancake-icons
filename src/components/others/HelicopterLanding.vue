@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('helicopter-landing-pcon', component)
+  },
   name: 'helicopter-landing',
   props: {
     size: {

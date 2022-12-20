@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('presentation-off-pcon', component)
+  },
   name: 'presentation-off',
   props: {
     size: {

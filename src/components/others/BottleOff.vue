@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bottle-off-pcon', component)
+  },
   name: 'bottle-off',
   props: {
     size: {

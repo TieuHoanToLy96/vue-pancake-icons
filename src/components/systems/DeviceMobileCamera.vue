@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-mobile-camera-pcon', component)
+  },
   name: 'device-mobile-camera',
   props: {
     size: {

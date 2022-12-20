@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('trash-svg-pcon', component)
+  },
   name: 'trash-svg',
   props: {
     size: {

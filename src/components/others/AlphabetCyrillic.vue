@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('alphabet-cyrillic-pcon', component)
+  },
   name: 'alphabet-cyrillic',
   props: {
     size: {

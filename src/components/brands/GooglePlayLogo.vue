@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('google-play-logo-pcon', component)
+  },
   name: 'google-play-logo',
   props: {
     size: {

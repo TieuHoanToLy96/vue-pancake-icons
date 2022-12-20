@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-bolt-pcon', component)
+  },
   name: 'home-bolt',
   props: {
     size: {

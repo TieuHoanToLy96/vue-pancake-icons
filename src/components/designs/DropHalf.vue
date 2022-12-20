@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('drop-half-pcon', component)
+  },
   name: 'drop-half',
   props: {
     size: {

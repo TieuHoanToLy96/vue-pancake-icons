@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tree-evergreen-pcon', component)
+  },
   name: 'tree-evergreen',
   props: {
     size: {

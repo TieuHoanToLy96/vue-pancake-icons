@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cpu-svg-pcon', component)
+  },
   name: 'cpu-svg',
   props: {
     size: {

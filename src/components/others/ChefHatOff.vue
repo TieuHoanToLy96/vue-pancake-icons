@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chef-hat-off-pcon', component)
+  },
   name: 'chef-hat-off',
   props: {
     size: {

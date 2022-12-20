@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('discount-svg-pcon', component)
+  },
   name: 'discount-svg',
   props: {
     size: {

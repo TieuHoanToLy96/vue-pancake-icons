@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-paypal-pcon', component)
+  },
   name: 'brand-paypal',
   props: {
     size: {

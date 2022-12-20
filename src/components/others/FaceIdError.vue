@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('face-id-error-pcon', component)
+  },
   name: 'face-id-error',
   props: {
     size: {

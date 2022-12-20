@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('polygon-off-pcon', component)
+  },
   name: 'polygon-off',
   props: {
     size: {

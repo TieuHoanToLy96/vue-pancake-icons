@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('physotherapist-svg-pcon', component)
+  },
   name: 'physotherapist-svg',
   props: {
     size: {

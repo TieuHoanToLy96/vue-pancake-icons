@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('parachute-svg-pcon', component)
+  },
   name: 'parachute-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dice-svg-pcon', component)
+  },
   name: 'dice-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bell-simple-slash-pcon', component)
+  },
   name: 'bell-simple-slash',
   props: {
     size: {

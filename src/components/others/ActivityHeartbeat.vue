@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('activity-heartbeat-pcon', component)
+  },
   name: 'activity-heartbeat',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('eyeglass-svg-pcon', component)
+  },
   name: 'eyeglass-svg',
   props: {
     size: {

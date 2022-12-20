@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circuit-voltmeter-pcon', component)
+  },
   name: 'circuit-voltmeter',
   props: {
     size: {

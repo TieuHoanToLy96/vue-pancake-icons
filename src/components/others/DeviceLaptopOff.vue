@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-laptop-off-pcon', component)
+  },
   name: 'device-laptop-off',
   props: {
     size: {

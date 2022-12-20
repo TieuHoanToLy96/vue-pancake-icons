@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('plant-2-pcon', component)
+  },
   name: 'plant-2',
   props: {
     size: {

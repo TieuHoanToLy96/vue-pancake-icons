@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('trademark-svg-pcon', component)
+  },
   name: 'trademark-svg',
   props: {
     size: {

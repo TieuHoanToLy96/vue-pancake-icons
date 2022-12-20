@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('radius-bottom-right-pcon', component)
+  },
   name: 'radius-bottom-right',
   props: {
     size: {

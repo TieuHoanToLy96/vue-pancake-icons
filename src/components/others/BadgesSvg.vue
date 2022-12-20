@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('badges-svg-pcon', component)
+  },
   name: 'badges-svg',
   props: {
     size: {

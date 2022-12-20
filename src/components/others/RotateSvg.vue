@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rotate-svg-pcon', component)
+  },
   name: 'rotate-svg',
   props: {
     size: {

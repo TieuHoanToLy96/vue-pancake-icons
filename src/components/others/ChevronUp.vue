@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chevron-up-pcon', component)
+  },
   name: 'chevron-up',
   props: {
     size: {

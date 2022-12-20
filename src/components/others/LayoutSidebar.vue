@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-sidebar-pcon', component)
+  },
   name: 'layout-sidebar',
   props: {
     size: {

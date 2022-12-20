@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('briefcase-svg-pcon', component)
+  },
   name: 'briefcase-svg',
   props: {
     size: {

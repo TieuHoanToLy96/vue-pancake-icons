@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gauge-off-pcon', component)
+  },
   name: 'gauge-off',
   props: {
     size: {

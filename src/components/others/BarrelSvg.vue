@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('barrel-svg-pcon', component)
+  },
   name: 'barrel-svg',
   props: {
     size: {

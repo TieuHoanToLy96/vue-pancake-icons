@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('instagram-logo-pcon', component)
+  },
   name: 'instagram-logo',
   props: {
     size: {

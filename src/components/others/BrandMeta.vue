@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-meta-pcon', component)
+  },
   name: 'brand-meta',
   props: {
     size: {

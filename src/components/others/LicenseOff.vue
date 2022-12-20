@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('license-off-pcon', component)
+  },
   name: 'license-off',
   props: {
     size: {

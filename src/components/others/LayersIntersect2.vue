@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layers-intersect-2-pcon', component)
+  },
   name: 'layers-intersect-2',
   props: {
     size: {

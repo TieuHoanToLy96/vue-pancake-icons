@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('exclamation-mark-pcon', component)
+  },
   name: 'exclamation-mark',
   props: {
     size: {

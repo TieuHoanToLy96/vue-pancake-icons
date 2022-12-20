@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-paanga-pcon', component)
+  },
   name: 'currency-paanga',
   props: {
     size: {

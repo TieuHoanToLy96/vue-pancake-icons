@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('regex-svg-pcon', component)
+  },
   name: 'regex-svg',
   props: {
     size: {

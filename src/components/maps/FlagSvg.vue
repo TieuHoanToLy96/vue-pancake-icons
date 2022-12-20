@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flag-svg-pcon', component)
+  },
   name: 'flag-svg',
   props: {
     size: {

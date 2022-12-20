@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cake-off-pcon', component)
+  },
   name: 'cake-off',
   props: {
     size: {

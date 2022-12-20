@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('stack-push-pcon', component)
+  },
   name: 'stack-push',
   props: {
     size: {

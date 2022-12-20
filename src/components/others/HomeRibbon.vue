@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-ribbon-pcon', component)
+  },
   name: 'home-ribbon',
   props: {
     size: {

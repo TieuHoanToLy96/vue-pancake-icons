@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('stop-svg-pcon', component)
+  },
   name: 'stop-svg',
   props: {
     size: {

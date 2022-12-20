@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brackets-curly-pcon', component)
+  },
   name: 'brackets-curly',
   props: {
     size: {

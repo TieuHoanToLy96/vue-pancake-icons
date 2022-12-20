@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-rotated-off-pcon', component)
+  },
   name: 'square-rotated-off',
   props: {
     size: {

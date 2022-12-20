@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-redhat-pcon', component)
+  },
   name: 'brand-redhat',
   props: {
     size: {

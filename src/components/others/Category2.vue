@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('category-2-pcon', component)
+  },
   name: 'category-2',
   props: {
     size: {

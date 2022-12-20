@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('smiley-sad-pcon', component)
+  },
   name: 'smiley-sad',
   props: {
     size: {

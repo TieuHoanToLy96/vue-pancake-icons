@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('list-details-pcon', component)
+  },
   name: 'list-details',
   props: {
     size: {

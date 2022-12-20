@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lemon-svg-pcon', component)
+  },
   name: 'lemon-svg',
   props: {
     size: {

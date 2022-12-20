@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('skip-forward-circle-pcon', component)
+  },
   name: 'skip-forward-circle',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('location-svg-pcon', component)
+  },
   name: 'location-svg',
   props: {
     size: {

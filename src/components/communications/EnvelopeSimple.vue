@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('envelope-simple-pcon', component)
+  },
   name: 'envelope-simple',
   props: {
     size: {

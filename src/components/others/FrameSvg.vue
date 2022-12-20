@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('frame-svg-pcon', component)
+  },
   name: 'frame-svg',
   props: {
     size: {

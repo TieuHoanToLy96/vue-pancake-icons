@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('asterisk-svg-pcon', component)
+  },
   name: 'asterisk-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('logic-nand-pcon', component)
+  },
   name: 'logic-nand',
   props: {
     size: {

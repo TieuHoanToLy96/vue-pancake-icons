@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('trophy-off-pcon', component)
+  },
   name: 'trophy-off',
   props: {
     size: {

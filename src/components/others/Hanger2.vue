@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hanger-2-pcon', component)
+  },
   name: 'hanger-2',
   props: {
     size: {

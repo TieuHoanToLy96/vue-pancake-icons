@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('threed-cube-sphere-off-pcon', component)
+  },
   name: 'threed-cube-sphere-off',
   props: {
     size: {

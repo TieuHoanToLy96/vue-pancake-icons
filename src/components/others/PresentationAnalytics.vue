@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('presentation-analytics-pcon', component)
+  },
   name: 'presentation-analytics',
   props: {
     size: {

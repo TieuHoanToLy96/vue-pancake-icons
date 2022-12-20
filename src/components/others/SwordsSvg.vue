@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('swords-svg-pcon', component)
+  },
   name: 'swords-svg',
   props: {
     size: {

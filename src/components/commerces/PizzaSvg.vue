@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pizza-svg-pcon', component)
+  },
   name: 'pizza-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('player-track-prev-pcon', component)
+  },
   name: 'player-track-prev',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-rectangle-pcon', component)
+  },
   name: 'user-rectangle',
   props: {
     size: {

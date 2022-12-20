@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-taka-pcon', component)
+  },
   name: 'currency-taka',
   props: {
     size: {

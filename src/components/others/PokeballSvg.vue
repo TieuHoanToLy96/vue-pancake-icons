@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pokeball-svg-pcon', component)
+  },
   name: 'pokeball-svg',
   props: {
     size: {

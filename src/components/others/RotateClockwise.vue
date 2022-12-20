@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('rotate-clockwise-pcon', component)
+  },
   name: 'rotate-clockwise',
   props: {
     size: {

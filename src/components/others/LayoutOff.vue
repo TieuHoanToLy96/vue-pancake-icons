@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-off-pcon', component)
+  },
   name: 'layout-off',
   props: {
     size: {

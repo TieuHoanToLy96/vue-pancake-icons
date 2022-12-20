@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('magnet-straight-pcon', component)
+  },
   name: 'magnet-straight',
   props: {
     size: {

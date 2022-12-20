@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('battery-charging-vertical-pcon', component)
+  },
   name: 'battery-charging-vertical',
   props: {
     size: {

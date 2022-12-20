@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('space-off-pcon', component)
+  },
   name: 'space-off',
   props: {
     size: {

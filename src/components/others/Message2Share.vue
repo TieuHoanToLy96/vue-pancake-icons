@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('message-2-share-pcon', component)
+  },
   name: 'message-2-share',
   props: {
     size: {

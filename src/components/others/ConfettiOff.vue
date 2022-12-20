@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('confetti-off-pcon', component)
+  },
   name: 'confetti-off',
   props: {
     size: {

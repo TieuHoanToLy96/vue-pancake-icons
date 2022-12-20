@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('servicemark-svg-pcon', component)
+  },
   name: 'servicemark-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('fast-forward-circle-pcon', component)
+  },
   name: 'fast-forward-circle',
   props: {
     size: {

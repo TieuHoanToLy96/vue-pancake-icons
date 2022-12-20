@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chat-circle-text-pcon', component)
+  },
   name: 'chat-circle-text',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('layout-grid-add-pcon', component)
+  },
   name: 'layout-grid-add',
   props: {
     size: {

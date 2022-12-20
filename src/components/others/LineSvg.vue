@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('line-svg-pcon', component)
+  },
   name: 'line-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('link-break-pcon', component)
+  },
   name: 'link-break',
   props: {
     size: {

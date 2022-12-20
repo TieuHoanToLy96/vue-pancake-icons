@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-unity-pcon', component)
+  },
   name: 'brand-unity',
   props: {
     size: {

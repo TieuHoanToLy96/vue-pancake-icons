@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('heading-svg-pcon', component)
+  },
   name: 'heading-svg',
   props: {
     size: {

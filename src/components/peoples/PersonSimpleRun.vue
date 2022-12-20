@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('person-simple-run-pcon', component)
+  },
   name: 'person-simple-run',
   props: {
     size: {

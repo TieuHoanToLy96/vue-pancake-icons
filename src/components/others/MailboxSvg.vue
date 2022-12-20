@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mailbox-svg-pcon', component)
+  },
   name: 'mailbox-svg',
   props: {
     size: {

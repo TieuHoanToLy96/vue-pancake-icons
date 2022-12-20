@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('macro-off-pcon', component)
+  },
   name: 'macro-off',
   props: {
     size: {

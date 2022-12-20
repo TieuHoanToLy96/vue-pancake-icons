@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('server-bolt-pcon', component)
+  },
   name: 'server-bolt',
   props: {
     size: {

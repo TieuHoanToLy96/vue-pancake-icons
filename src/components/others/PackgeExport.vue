@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('packge-export-pcon', component)
+  },
   name: 'packge-export',
   props: {
     size: {

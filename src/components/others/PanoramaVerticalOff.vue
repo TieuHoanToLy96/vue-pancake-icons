@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('panorama-vertical-off-pcon', component)
+  },
   name: 'panorama-vertical-off',
   props: {
     size: {

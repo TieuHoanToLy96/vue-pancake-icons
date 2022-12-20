@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('history-toggle-pcon', component)
+  },
   name: 'history-toggle',
   props: {
     size: {

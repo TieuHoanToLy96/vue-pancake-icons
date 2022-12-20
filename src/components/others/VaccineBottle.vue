@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('vaccine-bottle-pcon', component)
+  },
   name: 'vaccine-bottle',
   props: {
     size: {

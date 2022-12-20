@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dental-off-pcon', component)
+  },
   name: 'dental-off',
   props: {
     size: {

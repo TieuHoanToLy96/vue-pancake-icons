@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-drops-pcon', component)
+  },
   name: 'brand-drops',
   props: {
     size: {

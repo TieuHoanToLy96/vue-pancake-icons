@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('book-upload-pcon', component)
+  },
   name: 'book-upload',
   props: {
     size: {

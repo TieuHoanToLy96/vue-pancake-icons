@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-renminbi-pcon', component)
+  },
   name: 'currency-renminbi',
   props: {
     size: {

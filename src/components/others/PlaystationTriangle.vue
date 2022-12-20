@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('playstation-triangle-pcon', component)
+  },
   name: 'playstation-triangle',
   props: {
     size: {

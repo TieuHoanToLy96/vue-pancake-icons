@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-clockwise-pcon', component)
+  },
   name: 'arrow-clockwise',
   props: {
     size: {

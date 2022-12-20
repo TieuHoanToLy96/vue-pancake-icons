@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('selection-background-pcon', component)
+  },
   name: 'selection-background',
   props: {
     size: {

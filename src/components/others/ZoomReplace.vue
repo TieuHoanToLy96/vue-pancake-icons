@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zoom-replace-pcon', component)
+  },
   name: 'zoom-replace',
   props: {
     size: {

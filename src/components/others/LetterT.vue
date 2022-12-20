@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('letter-t-pcon', component)
+  },
   name: 'letter-t',
   props: {
     size: {

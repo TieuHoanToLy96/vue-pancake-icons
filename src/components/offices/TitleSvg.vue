@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('title-svg-pcon', component)
+  },
   name: 'title-svg',
   props: {
     size: {

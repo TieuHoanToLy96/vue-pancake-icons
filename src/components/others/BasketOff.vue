@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('basket-off-pcon', component)
+  },
   name: 'basket-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('traffic-cone-off-pcon', component)
+  },
   name: 'traffic-cone-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('soup-off-pcon', component)
+  },
   name: 'soup-off',
   props: {
     size: {

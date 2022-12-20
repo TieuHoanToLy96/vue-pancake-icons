@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('discord-logo-pcon', component)
+  },
   name: 'discord-logo',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-shopee-pcon', component)
+  },
   name: 'brand-shopee',
   props: {
     size: {

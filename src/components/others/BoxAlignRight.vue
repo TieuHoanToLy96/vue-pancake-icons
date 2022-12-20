@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('box-align-right-pcon', component)
+  },
   name: 'box-align-right',
   props: {
     size: {

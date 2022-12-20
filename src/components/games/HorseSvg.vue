@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('horse-svg-pcon', component)
+  },
   name: 'horse-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('folder-notch-plus-pcon', component)
+  },
   name: 'folder-notch-plus',
   props: {
     size: {

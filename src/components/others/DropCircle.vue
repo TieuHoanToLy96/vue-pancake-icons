@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('drop-circle-pcon', component)
+  },
   name: 'drop-circle',
   props: {
     size: {

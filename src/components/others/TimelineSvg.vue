@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('timeline-svg-pcon', component)
+  },
   name: 'timeline-svg',
   props: {
     size: {

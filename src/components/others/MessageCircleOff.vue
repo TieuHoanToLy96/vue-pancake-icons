@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('message-circle-off-pcon', component)
+  },
   name: 'message-circle-off',
   props: {
     size: {

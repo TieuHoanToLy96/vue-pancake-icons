@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-vinted-pcon', component)
+  },
   name: 'brand-vinted',
   props: {
     size: {

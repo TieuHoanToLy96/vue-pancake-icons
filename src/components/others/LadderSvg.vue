@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ladder-svg-pcon', component)
+  },
   name: 'ladder-svg',
   props: {
     size: {

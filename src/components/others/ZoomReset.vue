@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zoom-reset-pcon', component)
+  },
   name: 'zoom-reset',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('player-eject-pcon', component)
+  },
   name: 'player-eject',
   props: {
     size: {

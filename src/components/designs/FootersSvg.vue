@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('footers-svg-pcon', component)
+  },
   name: 'footers-svg',
   props: {
     size: {

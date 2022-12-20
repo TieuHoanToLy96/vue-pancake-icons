@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wifi-slash-pcon', component)
+  },
   name: 'wifi-slash',
   props: {
     size: {

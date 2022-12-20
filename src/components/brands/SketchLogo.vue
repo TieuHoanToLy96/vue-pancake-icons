@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sketch-logo-pcon', component)
+  },
   name: 'sketch-logo',
   props: {
     size: {

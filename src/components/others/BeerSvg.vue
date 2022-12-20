@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('beer-svg-pcon', component)
+  },
   name: 'beer-svg',
   props: {
     size: {

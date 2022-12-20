@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('order-product-pcon', component)
+  },
   name: 'order-product',
   props: {
     size: {

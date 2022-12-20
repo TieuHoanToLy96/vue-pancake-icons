@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sos-svg-pcon', component)
+  },
   name: 'sos-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flask-svg-pcon', component)
+  },
   name: 'flask-svg',
   props: {
     size: {

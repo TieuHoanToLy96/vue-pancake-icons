@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('helmet-off-pcon', component)
+  },
   name: 'helmet-off',
   props: {
     size: {

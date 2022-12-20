@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-half-2-pcon', component)
+  },
   name: 'circle-half-2',
   props: {
     size: {

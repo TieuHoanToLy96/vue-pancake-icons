@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chart-radar-pcon', component)
+  },
   name: 'chart-radar',
   props: {
     size: {

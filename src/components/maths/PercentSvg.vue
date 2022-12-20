@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('percent-svg-pcon', component)
+  },
   name: 'percent-svg',
   props: {
     size: {

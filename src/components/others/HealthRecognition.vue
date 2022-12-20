@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('health-recognition-pcon', component)
+  },
   name: 'health-recognition',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chisel-svg-pcon', component)
+  },
   name: 'chisel-svg',
   props: {
     size: {

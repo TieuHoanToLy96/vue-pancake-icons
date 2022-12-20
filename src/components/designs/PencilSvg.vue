@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pencil-svg-pcon', component)
+  },
   name: 'pencil-svg',
   props: {
     size: {

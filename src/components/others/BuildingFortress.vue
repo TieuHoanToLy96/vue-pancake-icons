@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-fortress-pcon', component)
+  },
   name: 'building-fortress',
   props: {
     size: {

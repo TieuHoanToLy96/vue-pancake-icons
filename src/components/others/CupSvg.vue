@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cup-svg-pcon', component)
+  },
   name: 'cup-svg',
   props: {
     size: {

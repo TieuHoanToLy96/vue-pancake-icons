@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sun-low-pcon', component)
+  },
   name: 'sun-low',
   props: {
     size: {

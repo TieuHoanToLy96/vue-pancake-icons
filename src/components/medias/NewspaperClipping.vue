@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('newspaper-clipping-pcon', component)
+  },
   name: 'newspaper-clipping',
   props: {
     size: {

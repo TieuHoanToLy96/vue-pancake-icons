@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-amazon-pcon', component)
+  },
   name: 'brand-amazon',
   props: {
     size: {

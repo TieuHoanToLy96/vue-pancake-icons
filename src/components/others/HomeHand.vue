@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-hand-pcon', component)
+  },
   name: 'home-hand',
   props: {
     size: {

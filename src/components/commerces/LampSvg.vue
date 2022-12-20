@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lamp-svg-pcon', component)
+  },
   name: 'lamp-svg',
   props: {
     size: {

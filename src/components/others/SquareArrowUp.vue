@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('square-arrow-up-pcon', component)
+  },
   name: 'square-arrow-up',
   props: {
     size: {

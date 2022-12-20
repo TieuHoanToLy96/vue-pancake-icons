@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('linkedin-logo-pcon', component)
+  },
   name: 'linkedin-logo',
   props: {
     size: {

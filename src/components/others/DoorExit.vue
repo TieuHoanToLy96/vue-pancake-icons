@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('door-exit-pcon', component)
+  },
   name: 'door-exit',
   props: {
     size: {

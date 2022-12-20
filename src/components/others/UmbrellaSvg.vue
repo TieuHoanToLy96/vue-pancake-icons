@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('umbrella-svg-pcon', component)
+  },
   name: 'umbrella-svg',
   props: {
     size: {

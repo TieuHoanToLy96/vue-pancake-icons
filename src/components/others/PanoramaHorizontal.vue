@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('panorama-horizontal-pcon', component)
+  },
   name: 'panorama-horizontal',
   props: {
     size: {

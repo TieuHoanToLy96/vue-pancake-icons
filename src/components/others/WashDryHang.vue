@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('wash-dry-hang-pcon', component)
+  },
   name: 'wash-dry-hang',
   props: {
     size: {

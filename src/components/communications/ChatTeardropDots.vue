@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chat-teardrop-dots-pcon', component)
+  },
   name: 'chat-teardrop-dots',
   props: {
     size: {

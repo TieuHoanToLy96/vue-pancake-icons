@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('table-off-pcon', component)
+  },
   name: 'table-off',
   props: {
     size: {

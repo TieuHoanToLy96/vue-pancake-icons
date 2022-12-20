@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('direction-sign-off-pcon', component)
+  },
   name: 'direction-sign-off',
   props: {
     size: {

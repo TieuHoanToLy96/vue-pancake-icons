@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-wordpress-pcon', component)
+  },
   name: 'brand-wordpress',
   props: {
     size: {

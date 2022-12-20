@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('filter-svg-pcon', component)
+  },
   name: 'filter-svg',
   props: {
     size: {

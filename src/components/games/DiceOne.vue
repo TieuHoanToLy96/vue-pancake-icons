@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dice-one-pcon', component)
+  },
   name: 'dice-one',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('vector-bezier-circle-pcon', component)
+  },
   name: 'vector-bezier-circle',
   props: {
     size: {

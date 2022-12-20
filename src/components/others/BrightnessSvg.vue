@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brightness-svg-pcon', component)
+  },
   name: 'brightness-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('triangle-inverted-pcon', component)
+  },
   name: 'triangle-inverted',
   props: {
     size: {

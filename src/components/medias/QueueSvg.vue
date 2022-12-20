@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('queue-svg-pcon', component)
+  },
   name: 'queue-svg',
   props: {
     size: {

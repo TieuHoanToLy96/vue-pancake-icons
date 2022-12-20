@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('alert-octagon-pcon', component)
+  },
   name: 'alert-octagon',
   props: {
     size: {

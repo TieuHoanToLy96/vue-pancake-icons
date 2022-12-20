@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-up-bar-pcon', component)
+  },
   name: 'arrow-up-bar',
   props: {
     size: {

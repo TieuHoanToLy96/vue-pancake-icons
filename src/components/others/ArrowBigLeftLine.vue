@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-big-left-line-pcon', component)
+  },
   name: 'arrow-big-left-line',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('network-off-pcon', component)
+  },
   name: 'network-off',
   props: {
     size: {

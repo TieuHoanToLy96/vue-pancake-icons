@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lock-open-off-pcon', component)
+  },
   name: 'lock-open-off',
   props: {
     size: {

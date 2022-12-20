@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bandage-svg-pcon', component)
+  },
   name: 'bandage-svg',
   props: {
     size: {

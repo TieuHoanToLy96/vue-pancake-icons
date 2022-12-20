@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sort-descending-numbers-pcon', component)
+  },
   name: 'sort-descending-numbers',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('pokeball-off-pcon', component)
+  },
   name: 'pokeball-off',
   props: {
     size: {

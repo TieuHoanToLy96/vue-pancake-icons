@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-yahoo-pcon', component)
+  },
   name: 'brand-yahoo',
   props: {
     size: {

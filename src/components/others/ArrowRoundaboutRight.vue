@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-roundabout-right-pcon', component)
+  },
   name: 'arrow-roundabout-right',
   props: {
     size: {

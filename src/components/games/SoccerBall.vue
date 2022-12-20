@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('soccer-ball-pcon', component)
+  },
   name: 'soccer-ball',
   props: {
     size: {

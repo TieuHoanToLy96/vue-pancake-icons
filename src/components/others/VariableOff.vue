@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('variable-off-pcon', component)
+  },
   name: 'variable-off',
   props: {
     size: {

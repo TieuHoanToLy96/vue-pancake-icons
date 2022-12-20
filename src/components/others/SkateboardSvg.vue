@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('skateboard-svg-pcon', component)
+  },
   name: 'skateboard-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-behance-pcon', component)
+  },
   name: 'brand-behance',
   props: {
     size: {

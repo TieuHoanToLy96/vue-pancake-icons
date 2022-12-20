@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-letter-s-pcon', component)
+  },
   name: 'circle-letter-s',
   props: {
     size: {

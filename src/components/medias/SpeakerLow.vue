@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('speaker-low-pcon', component)
+  },
   name: 'speaker-low',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tooltip-svg-pcon', component)
+  },
   name: 'tooltip-svg',
   props: {
     size: {

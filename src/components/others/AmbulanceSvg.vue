@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ambulance-svg-pcon', component)
+  },
   name: 'ambulance-svg',
   props: {
     size: {

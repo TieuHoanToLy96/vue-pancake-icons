@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('drag-drop-pcon', component)
+  },
   name: 'drag-drop',
   props: {
     size: {

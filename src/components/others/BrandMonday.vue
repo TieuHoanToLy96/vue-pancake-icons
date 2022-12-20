@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-monday-pcon', component)
+  },
   name: 'brand-monday',
   props: {
     size: {

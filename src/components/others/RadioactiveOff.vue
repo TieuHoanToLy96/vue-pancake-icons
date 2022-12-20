@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('radioactive-off-pcon', component)
+  },
   name: 'radioactive-off',
   props: {
     size: {

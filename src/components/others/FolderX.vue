@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('folder-x-pcon', component)
+  },
   name: 'folder-x',
   props: {
     size: {

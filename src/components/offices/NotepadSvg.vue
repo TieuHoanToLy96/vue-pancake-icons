@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('notepad-svg-pcon', component)
+  },
   name: 'notepad-svg',
   props: {
     size: {

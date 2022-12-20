@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('step-out-pcon', component)
+  },
   name: 'step-out',
   props: {
     size: {

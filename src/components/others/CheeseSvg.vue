@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cheese-svg-pcon', component)
+  },
   name: 'cheese-svg',
   props: {
     size: {

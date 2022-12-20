@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('album-picture-pcon', component)
+  },
   name: 'album-picture',
   props: {
     size: {

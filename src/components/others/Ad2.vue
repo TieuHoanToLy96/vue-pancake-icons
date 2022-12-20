@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ad-2-pcon', component)
+  },
   name: 'ad-2',
   props: {
     size: {

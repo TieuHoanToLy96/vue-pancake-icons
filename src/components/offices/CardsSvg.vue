@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cards-svg-pcon', component)
+  },
   name: 'cards-svg',
   props: {
     size: {

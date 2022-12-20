@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-airtable-pcon', component)
+  },
   name: 'brand-airtable',
   props: {
     size: {

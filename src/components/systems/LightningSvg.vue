@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lightning-svg-pcon', component)
+  },
   name: 'lightning-svg',
   props: {
     size: {

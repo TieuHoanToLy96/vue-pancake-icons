@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-x-pcon', component)
+  },
   name: 'file-x',
   props: {
     size: {

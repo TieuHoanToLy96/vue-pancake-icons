@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-rufiyaa-pcon', component)
+  },
   name: 'currency-rufiyaa',
   props: {
     size: {

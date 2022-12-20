@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('eraser-off-pcon', component)
+  },
   name: 'eraser-off',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hands-clapping-pcon', component)
+  },
   name: 'hands-clapping',
   props: {
     size: {

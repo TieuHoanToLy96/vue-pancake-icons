@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('math-svg-pcon', component)
+  },
   name: 'math-svg',
   props: {
     size: {

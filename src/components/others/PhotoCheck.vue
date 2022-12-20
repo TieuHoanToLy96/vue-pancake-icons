@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('photo-check-pcon', component)
+  },
   name: 'photo-check',
   props: {
     size: {

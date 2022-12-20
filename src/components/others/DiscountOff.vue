@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('discount-off-pcon', component)
+  },
   name: 'discount-off',
   props: {
     size: {

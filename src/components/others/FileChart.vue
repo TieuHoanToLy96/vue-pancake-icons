@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-chart-pcon', component)
+  },
   name: 'file-chart',
   props: {
     size: {

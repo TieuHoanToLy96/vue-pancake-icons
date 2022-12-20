@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cursor-svg-pcon', component)
+  },
   name: 'cursor-svg',
   props: {
     size: {

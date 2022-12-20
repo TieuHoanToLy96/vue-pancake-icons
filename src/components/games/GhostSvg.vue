@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('ghost-svg-pcon', component)
+  },
   name: 'ghost-svg',
   props: {
     size: {

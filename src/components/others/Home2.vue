@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-2-pcon', component)
+  },
   name: 'home-2',
   props: {
     size: {

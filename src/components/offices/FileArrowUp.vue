@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-arrow-up-pcon', component)
+  },
   name: 'file-arrow-up',
   props: {
     size: {

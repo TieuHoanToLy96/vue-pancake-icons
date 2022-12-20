@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('refresh-off-pcon', component)
+  },
   name: 'refresh-off',
   props: {
     size: {

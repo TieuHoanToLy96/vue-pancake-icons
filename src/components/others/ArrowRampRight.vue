@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-ramp-right-pcon', component)
+  },
   name: 'arrow-ramp-right',
   props: {
     size: {

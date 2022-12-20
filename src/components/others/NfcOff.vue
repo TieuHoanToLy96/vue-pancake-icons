@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('nfc-off-pcon', component)
+  },
   name: 'nfc-off',
   props: {
     size: {

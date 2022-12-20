@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bat-svg-pcon', component)
+  },
   name: 'bat-svg',
   props: {
     size: {

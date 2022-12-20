@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-envato-pcon', component)
+  },
   name: 'brand-envato',
   props: {
     size: {

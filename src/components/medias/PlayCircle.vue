@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('play-circle-pcon', component)
+  },
   name: 'play-circle',
   props: {
     size: {

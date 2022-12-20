@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-tv-pcon', component)
+  },
   name: 'device-tv',
   props: {
     size: {

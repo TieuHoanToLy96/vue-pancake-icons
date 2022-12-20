@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sword-off-pcon', component)
+  },
   name: 'sword-off',
   props: {
     size: {

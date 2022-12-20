@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circuit-ground-digital-pcon', component)
+  },
   name: 'circuit-ground-digital',
   props: {
     size: {

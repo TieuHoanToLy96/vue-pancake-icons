@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('skip-back-pcon', component)
+  },
   name: 'skip-back',
   props: {
     size: {

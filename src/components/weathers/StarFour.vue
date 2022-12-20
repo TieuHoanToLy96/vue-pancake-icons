@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('star-four-pcon', component)
+  },
   name: 'star-four',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('adjustments-off-pcon', component)
+  },
   name: 'adjustments-off',
   props: {
     size: {

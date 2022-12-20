@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('prompt-svg-pcon', component)
+  },
   name: 'prompt-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('database-import-pcon', component)
+  },
   name: 'database-import',
   props: {
     size: {

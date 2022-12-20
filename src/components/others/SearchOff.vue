@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('search-off-pcon', component)
+  },
   name: 'search-off',
   props: {
     size: {

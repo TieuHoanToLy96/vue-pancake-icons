@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('chevrons-down-left-pcon', component)
+  },
   name: 'chevrons-down-left',
   props: {
     size: {

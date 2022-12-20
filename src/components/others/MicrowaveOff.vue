@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('microwave-off-pcon', component)
+  },
   name: 'microwave-off',
   props: {
     size: {

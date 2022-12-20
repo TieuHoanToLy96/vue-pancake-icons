@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('spacing-vertical-pcon', component)
+  },
   name: 'spacing-vertical',
   props: {
     size: {

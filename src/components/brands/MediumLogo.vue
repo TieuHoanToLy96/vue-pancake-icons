@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('medium-logo-pcon', component)
+  },
   name: 'medium-logo',
   props: {
     size: {

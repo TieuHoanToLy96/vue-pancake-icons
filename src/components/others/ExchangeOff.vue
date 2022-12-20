@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('exchange-off-pcon', component)
+  },
   name: 'exchange-off',
   props: {
     size: {

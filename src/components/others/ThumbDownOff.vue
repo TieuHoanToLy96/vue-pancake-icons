@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('thumb-down-off-pcon', component)
+  },
   name: 'thumb-down-off',
   props: {
     size: {

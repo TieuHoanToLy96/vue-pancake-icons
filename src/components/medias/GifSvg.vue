@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gif-svg-pcon', component)
+  },
   name: 'gif-svg',
   props: {
     size: {

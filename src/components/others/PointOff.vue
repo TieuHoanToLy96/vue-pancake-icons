@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('point-off-pcon', component)
+  },
   name: 'point-off',
   props: {
     size: {

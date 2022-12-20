@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('network-svg-pcon', component)
+  },
   name: 'network-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('order-check-pcon', component)
+  },
   name: 'order-check',
   props: {
     size: {

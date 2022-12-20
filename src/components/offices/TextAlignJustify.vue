@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('text-align-justify-pcon', component)
+  },
   name: 'text-align-justify',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('power-svg-pcon', component)
+  },
   name: 'power-svg',
   props: {
     size: {

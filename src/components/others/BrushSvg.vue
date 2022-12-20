@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brush-svg-pcon', component)
+  },
   name: 'brush-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('face-mask-pcon', component)
+  },
   name: 'face-mask',
   props: {
     size: {

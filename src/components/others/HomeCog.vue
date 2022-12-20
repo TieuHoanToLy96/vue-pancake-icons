@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('home-cog-pcon', component)
+  },
   name: 'home-cog',
   props: {
     size: {

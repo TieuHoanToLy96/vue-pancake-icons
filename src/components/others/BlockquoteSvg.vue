@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('blockquote-svg-pcon', component)
+  },
   name: 'blockquote-svg',
   props: {
     size: {

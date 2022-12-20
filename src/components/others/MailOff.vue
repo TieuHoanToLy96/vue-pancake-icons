@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mail-off-pcon', component)
+  },
   name: 'mail-off',
   props: {
     size: {

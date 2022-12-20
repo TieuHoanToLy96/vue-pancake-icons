@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-euro-pcon', component)
+  },
   name: 'file-euro',
   props: {
     size: {

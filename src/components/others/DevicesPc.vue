@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('devices-pc-pcon', component)
+  },
   name: 'devices-pc',
   props: {
     size: {

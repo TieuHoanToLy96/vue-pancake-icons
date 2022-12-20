@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('globe-stand-pcon', component)
+  },
   name: 'globe-stand',
   props: {
     size: {

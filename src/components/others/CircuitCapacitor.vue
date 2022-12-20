@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circuit-capacitor-pcon', component)
+  },
   name: 'circuit-capacitor',
   props: {
     size: {

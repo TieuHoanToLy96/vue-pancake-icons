@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-css3-pcon', component)
+  },
   name: 'brand-css3',
   props: {
     size: {

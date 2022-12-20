@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('scan-svg-pcon', component)
+  },
   name: 'scan-svg',
   props: {
     size: {

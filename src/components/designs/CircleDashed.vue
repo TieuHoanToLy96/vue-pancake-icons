@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circle-dashed-pcon', component)
+  },
   name: 'circle-dashed',
   props: {
     size: {

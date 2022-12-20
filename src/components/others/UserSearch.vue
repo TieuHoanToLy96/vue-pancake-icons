@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-search-pcon', component)
+  },
   name: 'user-search',
   props: {
     size: {

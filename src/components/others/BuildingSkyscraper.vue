@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-skyscraper-pcon', component)
+  },
   name: 'building-skyscraper',
   props: {
     size: {

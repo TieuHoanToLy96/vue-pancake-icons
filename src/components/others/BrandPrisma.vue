@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-prisma-pcon', component)
+  },
   name: 'brand-prisma',
   props: {
     size: {

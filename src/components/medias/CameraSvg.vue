@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('camera-svg-pcon', component)
+  },
   name: 'camera-svg',
   props: {
     size: {

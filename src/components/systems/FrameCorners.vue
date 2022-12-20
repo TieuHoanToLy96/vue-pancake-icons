@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('frame-corners-pcon', component)
+  },
   name: 'frame-corners',
   props: {
     size: {

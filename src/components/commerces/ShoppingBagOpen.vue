@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('shopping-bag-open-pcon', component)
+  },
   name: 'shopping-bag-open',
   props: {
     size: {

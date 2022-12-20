@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('device-watch-pcon', component)
+  },
   name: 'device-watch',
   props: {
     size: {

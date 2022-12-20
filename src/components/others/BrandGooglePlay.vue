@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-google-play-pcon', component)
+  },
   name: 'brand-google-play',
   props: {
     size: {

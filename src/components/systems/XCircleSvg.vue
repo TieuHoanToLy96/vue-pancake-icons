@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('xcircle-svg-pcon', component)
+  },
   name: 'xcircle-svg',
   props: {
     size: {

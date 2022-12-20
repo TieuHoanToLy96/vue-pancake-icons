@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-dotted-pcon', component)
+  },
   name: 'file-dotted',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('folder-simple-minus-pcon', component)
+  },
   name: 'folder-simple-minus',
   props: {
     size: {

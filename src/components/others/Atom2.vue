@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('atom-2-pcon', component)
+  },
   name: 'atom-2',
   props: {
     size: {

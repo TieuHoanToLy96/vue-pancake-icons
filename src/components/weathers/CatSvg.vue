@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cat-svg-pcon', component)
+  },
   name: 'cat-svg',
   props: {
     size: {

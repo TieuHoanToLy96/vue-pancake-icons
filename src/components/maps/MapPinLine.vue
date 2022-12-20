@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('map-pin-line-pcon', component)
+  },
   name: 'map-pin-line',
   props: {
     size: {

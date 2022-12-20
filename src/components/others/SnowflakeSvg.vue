@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('snowflake-svg-pcon', component)
+  },
   name: 'snowflake-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('plane-off-pcon', component)
+  },
   name: 'plane-off',
   props: {
     size: {

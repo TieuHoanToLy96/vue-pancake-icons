@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('browser-off-pcon', component)
+  },
   name: 'browser-off',
   props: {
     size: {

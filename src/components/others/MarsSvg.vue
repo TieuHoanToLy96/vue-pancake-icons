@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mars-svg-pcon', component)
+  },
   name: 'mars-svg',
   props: {
     size: {

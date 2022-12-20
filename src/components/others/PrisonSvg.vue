@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('prison-svg-pcon', component)
+  },
   name: 'prison-svg',
   props: {
     size: {

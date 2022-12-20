@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('deer-svg-pcon', component)
+  },
   name: 'deer-svg',
   props: {
     size: {

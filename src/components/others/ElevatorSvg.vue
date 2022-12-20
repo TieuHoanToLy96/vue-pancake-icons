@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('elevator-svg-pcon', component)
+  },
   name: 'elevator-svg',
   props: {
     size: {

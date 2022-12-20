@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-pushbullet-pcon', component)
+  },
   name: 'brand-pushbullet',
   props: {
     size: {

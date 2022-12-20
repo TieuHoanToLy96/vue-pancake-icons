@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('dna-svg-pcon', component)
+  },
   name: 'dna-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('script-minus-pcon', component)
+  },
   name: 'script-minus',
   props: {
     size: {

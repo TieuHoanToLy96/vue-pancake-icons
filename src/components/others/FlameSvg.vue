@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('flame-svg-pcon', component)
+  },
   name: 'flame-svg',
   props: {
     size: {

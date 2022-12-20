@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tournament-svg-pcon', component)
+  },
   name: 'tournament-svg',
   props: {
     size: {

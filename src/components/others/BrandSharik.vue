@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-sharik-pcon', component)
+  },
   name: 'brand-sharik',
   props: {
     size: {

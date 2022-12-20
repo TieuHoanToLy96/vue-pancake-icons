@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('carousel-svg-pcon', component)
+  },
   name: 'carousel-svg',
   props: {
     size: {

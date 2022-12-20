@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bleach-off-pcon', component)
+  },
   name: 'bleach-off',
   props: {
     size: {

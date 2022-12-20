@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('meteor-svg-pcon', component)
+  },
   name: 'meteor-svg',
   props: {
     size: {

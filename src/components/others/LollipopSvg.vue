@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lollipop-svg-pcon', component)
+  },
   name: 'lollipop-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('activity-svg-pcon', component)
+  },
   name: 'activity-svg',
   props: {
     size: {

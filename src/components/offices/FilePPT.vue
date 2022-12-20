@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-ppt-pcon', component)
+  },
   name: 'file-ppt',
   props: {
     size: {

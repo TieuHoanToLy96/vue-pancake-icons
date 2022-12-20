@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('currency-forint-pcon', component)
+  },
   name: 'currency-forint',
   props: {
     size: {

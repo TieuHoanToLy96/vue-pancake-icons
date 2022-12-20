@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sock-svg-pcon', component)
+  },
   name: 'sock-svg',
   props: {
     size: {

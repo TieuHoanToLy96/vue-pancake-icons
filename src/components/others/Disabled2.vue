@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('disabled-2-pcon', component)
+  },
   name: 'disabled-2',
   props: {
     size: {

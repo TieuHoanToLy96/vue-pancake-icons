@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('bell-plus-pcon', component)
+  },
   name: 'bell-plus',
   props: {
     size: {

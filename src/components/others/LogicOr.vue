@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('logic-or-pcon', component)
+  },
   name: 'logic-or',
   props: {
     size: {

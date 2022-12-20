@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('paperclip-svg-pcon', component)
+  },
   name: 'paperclip-svg',
   props: {
     size: {

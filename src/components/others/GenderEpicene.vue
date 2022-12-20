@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('gender-epicene-pcon', component)
+  },
   name: 'gender-epicene',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-html5-pcon', component)
+  },
   name: 'brand-html5',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('lasso-off-pcon', component)
+  },
   name: 'lasso-off',
   props: {
     size: {

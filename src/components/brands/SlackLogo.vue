@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('slack-logo-pcon', component)
+  },
   name: 'slack-logo',
   props: {
     size: {

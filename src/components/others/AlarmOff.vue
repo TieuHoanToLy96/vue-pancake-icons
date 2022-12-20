@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('alarm-off-pcon', component)
+  },
   name: 'alarm-off',
   props: {
     size: {

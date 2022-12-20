@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-fork-pcon', component)
+  },
   name: 'arrow-fork',
   props: {
     size: {

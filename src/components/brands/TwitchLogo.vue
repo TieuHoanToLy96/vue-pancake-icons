@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('twitch-logo-pcon', component)
+  },
   name: 'twitch-logo',
   props: {
     size: {

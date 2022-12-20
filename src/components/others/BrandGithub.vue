@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-github-pcon', component)
+  },
   name: 'brand-github',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-bank-pcon', component)
+  },
   name: 'building-bank',
   props: {
     size: {

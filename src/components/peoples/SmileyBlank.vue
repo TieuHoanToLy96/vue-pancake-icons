@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('smiley-blank-pcon', component)
+  },
   name: 'smiley-blank',
   props: {
     size: {

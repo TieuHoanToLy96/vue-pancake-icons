@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('snowman-svg-pcon', component)
+  },
   name: 'snowman-svg',
   props: {
     size: {

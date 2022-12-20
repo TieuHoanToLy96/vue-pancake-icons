@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('hand-two-fingers-pcon', component)
+  },
   name: 'hand-two-fingers',
   props: {
     size: {

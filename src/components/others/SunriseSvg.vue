@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sunrise-svg-pcon', component)
+  },
   name: 'sunrise-svg',
   props: {
     size: {

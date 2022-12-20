@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('zoom-money-pcon', component)
+  },
   name: 'zoom-money',
   props: {
     size: {

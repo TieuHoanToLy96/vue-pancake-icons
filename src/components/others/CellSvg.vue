@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('cell-svg-pcon', component)
+  },
   name: 'cell-svg',
   props: {
     size: {

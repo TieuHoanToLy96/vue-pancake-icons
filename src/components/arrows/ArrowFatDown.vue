@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-fat-down-pcon', component)
+  },
   name: 'arrow-fat-down',
   props: {
     size: {

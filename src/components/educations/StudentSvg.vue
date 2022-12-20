@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('student-svg-pcon', component)
+  },
   name: 'student-svg',
   props: {
     size: {

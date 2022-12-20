@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('photo-search-pcon', component)
+  },
   name: 'photo-search',
   props: {
     size: {

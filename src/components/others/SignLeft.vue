@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('sign-left-pcon', component)
+  },
   name: 'sign-left',
   props: {
     size: {

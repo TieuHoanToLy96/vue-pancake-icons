@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('file-pdf-pcon', component)
+  },
   name: 'file-pdf',
   props: {
     size: {

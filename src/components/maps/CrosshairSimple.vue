@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('crosshair-simple-pcon', component)
+  },
   name: 'crosshair-simple',
   props: {
     size: {

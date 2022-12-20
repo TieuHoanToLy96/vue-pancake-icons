@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('database-svg-pcon', component)
+  },
   name: 'database-svg',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('transform-svg-pcon', component)
+  },
   name: 'transform-svg',
   props: {
     size: {

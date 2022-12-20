@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tir-svg-pcon', component)
+  },
   name: 'tir-svg',
   props: {
     size: {

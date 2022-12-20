@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-bounce-pcon', component)
+  },
   name: 'arrow-bounce',
   props: {
     size: {

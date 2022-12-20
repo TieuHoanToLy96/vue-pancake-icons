@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('report-money-pcon', component)
+  },
   name: 'report-money',
   props: {
     size: {

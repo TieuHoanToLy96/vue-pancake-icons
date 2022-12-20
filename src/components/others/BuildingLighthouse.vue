@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('building-lighthouse-pcon', component)
+  },
   name: 'building-lighthouse',
   props: {
     size: {

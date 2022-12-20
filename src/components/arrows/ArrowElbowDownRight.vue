@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('arrow-elbow-down-right-pcon', component)
+  },
   name: 'arrow-elbow-down-right',
   props: {
     size: {

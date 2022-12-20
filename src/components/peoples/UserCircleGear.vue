@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('user-circle-gear-pcon', component)
+  },
   name: 'user-circle-gear',
   props: {
     size: {

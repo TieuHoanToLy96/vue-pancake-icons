@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-grammarly-pcon', component)
+  },
   name: 'brand-grammarly',
   props: {
     size: {

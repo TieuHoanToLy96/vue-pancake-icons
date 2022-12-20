@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('circuit-bulb-pcon', component)
+  },
   name: 'circuit-bulb',
   props: {
     size: {

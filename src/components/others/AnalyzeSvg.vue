@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('analyze-svg-pcon', component)
+  },
   name: 'analyze-svg',
   props: {
     size: {

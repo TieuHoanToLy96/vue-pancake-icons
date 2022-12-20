@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('tag-chevron-pcon', component)
+  },
   name: 'tag-chevron',
   props: {
     size: {

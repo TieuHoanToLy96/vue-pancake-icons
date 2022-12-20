@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('masks-theater-pcon', component)
+  },
   name: 'masks-theater',
   props: {
     size: {

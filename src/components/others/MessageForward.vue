@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('message-forward-pcon', component)
+  },
   name: 'message-forward',
   props: {
     size: {

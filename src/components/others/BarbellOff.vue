@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('barbell-off-pcon', component)
+  },
   name: 'barbell-off',
   props: {
     size: {

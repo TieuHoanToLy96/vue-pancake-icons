@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('letter-case-lower-pcon', component)
+  },
   name: 'letter-case-lower',
   props: {
     size: {

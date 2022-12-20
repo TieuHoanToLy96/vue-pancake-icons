@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-python-pcon', component)
+  },
   name: 'brand-python',
   props: {
     size: {

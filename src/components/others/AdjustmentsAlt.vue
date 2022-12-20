@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('adjustments-alt-pcon', component)
+  },
   name: 'adjustments-alt',
   props: {
     size: {

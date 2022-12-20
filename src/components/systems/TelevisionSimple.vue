@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('television-simple-pcon', component)
+  },
   name: 'television-simple',
   props: {
     size: {

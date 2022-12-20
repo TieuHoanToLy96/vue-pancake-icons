@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('list-svg-pcon', component)
+  },
   name: 'list-svg',
   props: {
     size: {

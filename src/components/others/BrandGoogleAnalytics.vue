@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-google-analytics-pcon', component)
+  },
   name: 'brand-google-analytics',
   props: {
     size: {

@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('marker-circle-pcon', component)
+  },
   name: 'marker-circle',
   props: {
     size: {

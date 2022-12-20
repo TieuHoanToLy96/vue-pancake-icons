@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('mood-angry-pcon', component)
+  },
   name: 'mood-angry',
   props: {
     size: {

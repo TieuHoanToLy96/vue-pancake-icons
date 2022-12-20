@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('border-outer-pcon', component)
+  },
   name: 'border-outer',
   props: {
     size: {

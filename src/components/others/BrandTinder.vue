@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('brand-tinder-pcon', component)
+  },
   name: 'brand-tinder',
   props: {
     size: {

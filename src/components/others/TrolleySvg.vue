@@ -1,5 +1,8 @@
 <script>
 export default {
+  install(Vue, options) {
+    Vue.component('trolley-svg-pcon', component)
+  },
   name: 'trolley-svg',
   props: {
     size: {
