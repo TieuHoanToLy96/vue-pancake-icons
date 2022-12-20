@@ -21,11 +21,11 @@ export default defineConfig({
       },
     },
   },
-  // server: {
-  //   port: 10001
-  // },
-  // preview: {
-  //   port: 10000
-  // },
+  server: {
+    port: 10001
+  },
+  preview: {
+    port: 10000
+  },
   plugins: [vue()]
 })
