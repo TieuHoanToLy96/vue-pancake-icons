@@ -1,5 +1,3 @@
-import { defineAsyncComponent } from "vue"
-
 import * as arrows from "./components/arrows"
 import * as brands from "./components/brands"
 import * as commerces from "./components/commerces"
@@ -20,24 +18,33 @@ import * as times from "./components/times"
 import * as weathers from "./components/weathers"
 import * as others from "./components/others"
 
-const VuePancakeIcons = {
-  install(Vue) {
+export * from "./components/arrows"
+
+let comps = []
+export default {
+  add(list) {
+    comps.concat(list)
+  },
+  install(Vue, options) {
+    console.log(options, "optionsss")
     let icons = [arrows, brands, commerces, communications, designs, developments, educations, games, healths, maps, maths, medias, offices, peoples, securitys, systems, times, weathers, others]
     for (let i = 0; i < icons.length; i++) {
       for (let props in icons[i]) {
         const component = icons[i][props]
-        // Vue.component(component.name + "-pcon", component)
-
-        Vue.component(component.name + "-pcon", defineAsyncComponent(() =>
-          component
-        ))
+        console.log(component, "commmmmmmm")
+        if (comps.length) {
+          if (comps.includes(component.name) || comps.includes(component.name + "-pcon")) {
+            Vue.component(component.name + "-pcon", component)
+          }
+        } else {
+          Vue.component(component.name + "-pcon", component)
+        }
       }
     }
   }
 }
 
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(VuePancakeIcons);
-}
+// if (typeof window !== 'undefined' && window.Vue) {
+//   window.Vue.use(VuePancakeIcons);
+// }
 
-export default VuePancakeIcons
