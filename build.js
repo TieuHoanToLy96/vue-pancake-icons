@@ -50,7 +50,7 @@ const convertVueComponent = (dirName = "arrows") => {
     let newContent = `<script>
 export default {
   install(Vue, options) {
-    Vue.component('${fileKebab}-pcon', component)
+    Vue.component('${fileKebab}-pcon', this)
   },
   name: '${fileKebab}',
   props: {
