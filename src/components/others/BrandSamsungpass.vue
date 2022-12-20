@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-samsungpass-pcon', component)
+    Vue.component('brand-samsungpass-pcon', this)
   },
   name: 'brand-samsungpass',
   props: {

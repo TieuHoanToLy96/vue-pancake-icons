@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sofa-off-pcon', component)
+    Vue.component('sofa-off-pcon', this)
   },
   name: 'sofa-off',
   props: {

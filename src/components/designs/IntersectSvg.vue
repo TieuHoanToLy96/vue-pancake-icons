@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('intersect-svg-pcon', component)
+    Vue.component('intersect-svg-pcon', this)
   },
   name: 'intersect-svg',
   props: {

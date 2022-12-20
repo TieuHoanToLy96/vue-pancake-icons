@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-nextjs-pcon', component)
+    Vue.component('brand-nextjs-pcon', this)
   },
   name: 'brand-nextjs',
   props: {

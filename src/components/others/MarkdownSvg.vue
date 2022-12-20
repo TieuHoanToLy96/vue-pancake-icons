@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('markdown-svg-pcon', component)
+    Vue.component('markdown-svg-pcon', this)
   },
   name: 'markdown-svg',
   props: {

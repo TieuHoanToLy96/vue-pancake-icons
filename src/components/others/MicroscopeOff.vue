@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('microscope-off-pcon', component)
+    Vue.component('microscope-off-pcon', this)
   },
   name: 'microscope-off',
   props: {

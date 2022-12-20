@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-flipboard-pcon', component)
+    Vue.component('brand-flipboard-pcon', this)
   },
   name: 'brand-flipboard',
   props: {

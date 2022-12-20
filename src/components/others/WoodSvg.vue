@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wood-svg-pcon', component)
+    Vue.component('wood-svg-pcon', this)
   },
   name: 'wood-svg',
   props: {

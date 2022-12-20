@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('palette-off-pcon', component)
+    Vue.component('palette-off-pcon', this)
   },
   name: 'palette-off',
   props: {

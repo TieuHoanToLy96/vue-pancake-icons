@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sunset-svg-pcon', component)
+    Vue.component('sunset-svg-pcon', this)
   },
   name: 'sunset-svg',
   props: {

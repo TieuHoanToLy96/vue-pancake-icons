@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('upload-svg-pcon', component)
+    Vue.component('upload-svg-pcon', this)
   },
   name: 'upload-svg',
   props: {

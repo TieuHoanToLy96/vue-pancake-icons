@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('barcode-off-pcon', component)
+    Vue.component('barcode-off-pcon', this)
   },
   name: 'barcode-off',
   props: {

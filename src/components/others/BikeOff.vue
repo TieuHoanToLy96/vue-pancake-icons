@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bike-off-pcon', component)
+    Vue.component('bike-off-pcon', this)
   },
   name: 'bike-off',
   props: {

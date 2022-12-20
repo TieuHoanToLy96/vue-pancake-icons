@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('train-regional-pcon', component)
+    Vue.component('train-regional-pcon', this)
   },
   name: 'train-regional',
   props: {

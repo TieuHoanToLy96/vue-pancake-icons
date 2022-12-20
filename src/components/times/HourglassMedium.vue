@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hourglass-medium-pcon', component)
+    Vue.component('hourglass-medium-pcon', this)
   },
   name: 'hourglass-medium',
   props: {

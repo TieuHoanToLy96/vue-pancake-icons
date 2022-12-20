@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('xbox-x-pcon', component)
+    Vue.component('xbox-x-pcon', this)
   },
   name: 'xbox-x',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('triangle-off-pcon', component)
+    Vue.component('triangle-off-pcon', this)
   },
   name: 'triangle-off',
   props: {

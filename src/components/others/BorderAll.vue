@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('border-all-pcon', component)
+    Vue.component('border-all-pcon', this)
   },
   name: 'border-all',
   props: {

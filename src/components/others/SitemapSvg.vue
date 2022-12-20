@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sitemap-svg-pcon', component)
+    Vue.component('sitemap-svg-pcon', this)
   },
   name: 'sitemap-svg',
   props: {

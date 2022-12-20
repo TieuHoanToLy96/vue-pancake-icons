@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-pavilon-pcon', component)
+    Vue.component('building-pavilon-pcon', this)
   },
   name: 'building-pavilon',
   props: {

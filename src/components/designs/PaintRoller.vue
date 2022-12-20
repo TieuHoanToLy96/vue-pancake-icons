@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paint-roller-pcon', component)
+    Vue.component('paint-roller-pcon', this)
   },
   name: 'paint-roller',
   props: {

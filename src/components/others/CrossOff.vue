@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cross-off-pcon', component)
+    Vue.component('cross-off-pcon', this)
   },
   name: 'cross-off',
   props: {

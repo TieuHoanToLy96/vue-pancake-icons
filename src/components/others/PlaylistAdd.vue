@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('playlist-add-pcon', component)
+    Vue.component('playlist-add-pcon', this)
   },
   name: 'playlist-add',
   props: {

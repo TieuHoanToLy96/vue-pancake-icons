@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('warning-svg-pcon', component)
+    Vue.component('warning-svg-pcon', this)
   },
   name: 'warning-svg',
   props: {

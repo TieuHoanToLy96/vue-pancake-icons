@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wash-tumble-dry-pcon', component)
+    Vue.component('wash-tumble-dry-pcon', this)
   },
   name: 'wash-tumble-dry',
   props: {

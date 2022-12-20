@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lock-off-pcon', component)
+    Vue.component('lock-off-pcon', this)
   },
   name: 'lock-off',
   props: {

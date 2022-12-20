@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('asterisk-simple-pcon', component)
+    Vue.component('asterisk-simple-pcon', this)
   },
   name: 'asterisk-simple',
   props: {

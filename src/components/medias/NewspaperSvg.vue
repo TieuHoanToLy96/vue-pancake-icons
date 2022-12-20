@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('newspaper-svg-pcon', component)
+    Vue.component('newspaper-svg-pcon', this)
   },
   name: 'newspaper-svg',
   props: {

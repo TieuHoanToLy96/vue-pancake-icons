@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('kering-svg-pcon', component)
+    Vue.component('kering-svg-pcon', this)
   },
   name: 'kering-svg',
   props: {

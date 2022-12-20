@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('line-segments-pcon', component)
+    Vue.component('line-segments-pcon', this)
   },
   name: 'line-segments',
   props: {

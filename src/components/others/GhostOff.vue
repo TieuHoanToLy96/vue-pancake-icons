@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ghost-off-pcon', component)
+    Vue.component('ghost-off-pcon', this)
   },
   name: 'ghost-off',
   props: {

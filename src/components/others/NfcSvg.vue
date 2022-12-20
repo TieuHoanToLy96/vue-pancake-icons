@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('nfc-svg-pcon', component)
+    Vue.component('nfc-svg-pcon', this)
   },
   name: 'nfc-svg',
   props: {

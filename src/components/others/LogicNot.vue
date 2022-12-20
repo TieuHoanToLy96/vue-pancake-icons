@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('logic-not-pcon', component)
+    Vue.component('logic-not-pcon', this)
   },
   name: 'logic-not',
   props: {

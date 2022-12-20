@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-cottage-pcon', component)
+    Vue.component('building-cottage-pcon', this)
   },
   name: 'building-cottage',
   props: {

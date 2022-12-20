@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dots-three-circle-pcon', component)
+    Vue.component('dots-three-circle-pcon', this)
   },
   name: 'dots-three-circle',
   props: {

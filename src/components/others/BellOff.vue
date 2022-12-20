@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bell-off-pcon', component)
+    Vue.component('bell-off-pcon', this)
   },
   name: 'bell-off',
   props: {

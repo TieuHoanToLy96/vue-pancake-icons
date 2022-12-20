@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('headset-off-pcon', component)
+    Vue.component('headset-off-pcon', this)
   },
   name: 'headset-off',
   props: {

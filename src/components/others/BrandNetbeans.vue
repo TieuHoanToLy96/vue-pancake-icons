@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-netbeans-pcon', component)
+    Vue.component('brand-netbeans-pcon', this)
   },
   name: 'brand-netbeans',
   props: {

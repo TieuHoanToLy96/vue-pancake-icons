@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-badoo-pcon', component)
+    Vue.component('brand-badoo-pcon', this)
   },
   name: 'brand-badoo',
   props: {

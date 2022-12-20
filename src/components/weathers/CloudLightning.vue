@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cloud-lightning-pcon', component)
+    Vue.component('cloud-lightning-pcon', this)
   },
   name: 'cloud-lightning',
   props: {

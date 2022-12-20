@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('key-return-pcon', component)
+    Vue.component('key-return-pcon', this)
   },
   name: 'key-return',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('history-svg-pcon', component)
+    Vue.component('history-svg-pcon', this)
   },
   name: 'history-svg',
   props: {

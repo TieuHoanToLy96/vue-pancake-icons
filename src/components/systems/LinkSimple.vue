@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('link-simple-pcon', component)
+    Vue.component('link-simple-pcon', this)
   },
   name: 'link-simple',
   props: {

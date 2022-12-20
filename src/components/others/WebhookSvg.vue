@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('webhook-svg-pcon', component)
+    Vue.component('webhook-svg-pcon', this)
   },
   name: 'webhook-svg',
   props: {

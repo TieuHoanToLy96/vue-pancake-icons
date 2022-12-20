@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('elevator-off-pcon', component)
+    Vue.component('elevator-off-pcon', this)
   },
   name: 'elevator-off',
   props: {

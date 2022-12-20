@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paper-bag-pcon', component)
+    Vue.component('paper-bag-pcon', this)
   },
   name: 'paper-bag',
   props: {

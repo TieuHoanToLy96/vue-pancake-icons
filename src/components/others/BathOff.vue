@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bath-off-pcon', component)
+    Vue.component('bath-off-pcon', this)
   },
   name: 'bath-off',
   props: {

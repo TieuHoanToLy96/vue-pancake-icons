@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('live-photo-off-pcon', component)
+    Vue.component('live-photo-off-pcon', this)
   },
   name: 'live-photo-off',
   props: {

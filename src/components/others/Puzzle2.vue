@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('puzzle-2-pcon', component)
+    Vue.component('puzzle-2-pcon', this)
   },
   name: 'puzzle-2',
   props: {

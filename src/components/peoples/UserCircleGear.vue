@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('user-circle-gear-pcon', component)
+    Vue.component('user-circle-gear-pcon', this)
   },
   name: 'user-circle-gear',
   props: {

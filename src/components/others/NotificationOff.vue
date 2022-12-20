@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('notification-off-pcon', component)
+    Vue.component('notification-off-pcon', this)
   },
   name: 'notification-off',
   props: {

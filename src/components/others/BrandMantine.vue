@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-mantine-pcon', component)
+    Vue.component('brand-mantine-pcon', this)
   },
   name: 'brand-mantine',
   props: {

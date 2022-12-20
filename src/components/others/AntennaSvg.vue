@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('antenna-svg-pcon', component)
+    Vue.component('antenna-svg-pcon', this)
   },
   name: 'antenna-svg',
   props: {

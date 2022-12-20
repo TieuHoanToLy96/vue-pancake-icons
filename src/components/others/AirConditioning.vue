@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('air-conditioning-pcon', component)
+    Vue.component('air-conditioning-pcon', this)
   },
   name: 'air-conditioning',
   props: {

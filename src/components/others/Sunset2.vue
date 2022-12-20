@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sunset-2-pcon', component)
+    Vue.component('sunset-2-pcon', this)
   },
   name: 'sunset-2',
   props: {

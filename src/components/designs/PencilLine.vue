@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pencil-line-pcon', component)
+    Vue.component('pencil-line-pcon', this)
   },
   name: 'pencil-line',
   props: {

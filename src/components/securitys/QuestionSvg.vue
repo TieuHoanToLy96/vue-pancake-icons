@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('question-svg-pcon', component)
+    Vue.component('question-svg-pcon', this)
   },
   name: 'question-svg',
   props: {

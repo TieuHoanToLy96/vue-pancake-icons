@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-google-fit-pcon', component)
+    Vue.component('brand-google-fit-pcon', this)
   },
   name: 'brand-google-fit',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('butterfly-svg-pcon', component)
+    Vue.component('butterfly-svg-pcon', this)
   },
   name: 'butterfly-svg',
   props: {

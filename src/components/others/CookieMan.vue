@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cookie-man-pcon', component)
+    Vue.component('cookie-man-pcon', this)
   },
   name: 'cookie-man',
   props: {

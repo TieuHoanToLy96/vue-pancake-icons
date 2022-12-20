@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('corners-out-pcon', component)
+    Vue.component('corners-out-pcon', this)
   },
   name: 'corners-out',
   props: {

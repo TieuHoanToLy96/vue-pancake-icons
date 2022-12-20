@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-h-pcon', component)
+    Vue.component('text-h-pcon', this)
   },
   name: 'text-h',
   props: {

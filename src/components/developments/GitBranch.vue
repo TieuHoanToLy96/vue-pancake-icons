@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('git-branch-pcon', component)
+    Vue.component('git-branch-pcon', this)
   },
   name: 'git-branch',
   props: {

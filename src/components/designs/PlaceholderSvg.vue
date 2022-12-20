@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('placeholder-svg-pcon', component)
+    Vue.component('placeholder-svg-pcon', this)
   },
   name: 'placeholder-svg',
   props: {

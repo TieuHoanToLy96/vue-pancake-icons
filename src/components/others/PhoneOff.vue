@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('phone-off-pcon', component)
+    Vue.component('phone-off-pcon', this)
   },
   name: 'phone-off',
   props: {

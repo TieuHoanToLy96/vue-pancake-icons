@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('game-controller-pcon', component)
+    Vue.component('game-controller-pcon', this)
   },
   name: 'game-controller',
   props: {

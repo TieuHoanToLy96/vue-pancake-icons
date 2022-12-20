@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tools-kitchen-pcon', component)
+    Vue.component('tools-kitchen-pcon', this)
   },
   name: 'tools-kitchen',
   props: {

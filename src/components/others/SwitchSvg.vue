@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('switch-svg-pcon', component)
+    Vue.component('switch-svg-pcon', this)
   },
   name: 'switch-svg',
   props: {

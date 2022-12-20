@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('eye-slash-pcon', component)
+    Vue.component('eye-slash-pcon', this)
   },
   name: 'eye-slash',
   props: {

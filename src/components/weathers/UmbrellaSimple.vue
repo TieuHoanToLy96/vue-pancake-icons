@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('umbrella-simple-pcon', component)
+    Vue.component('umbrella-simple-pcon', this)
   },
   name: 'umbrella-simple',
   props: {

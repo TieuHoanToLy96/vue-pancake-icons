@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bug-beetle-pcon', component)
+    Vue.component('bug-beetle-pcon', this)
   },
   name: 'bug-beetle',
   props: {

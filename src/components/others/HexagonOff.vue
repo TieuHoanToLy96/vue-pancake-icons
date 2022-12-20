@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hexagon-off-pcon', component)
+    Vue.component('hexagon-off-pcon', this)
   },
   name: 'hexagon-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-meta-pcon', component)
+    Vue.component('brand-meta-pcon', this)
   },
   name: 'brand-meta',
   props: {

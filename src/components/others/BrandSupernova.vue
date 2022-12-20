@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-supernova-pcon', component)
+    Vue.component('brand-supernova-pcon', this)
   },
   name: 'brand-supernova',
   props: {

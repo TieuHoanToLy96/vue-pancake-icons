@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-django-pcon', component)
+    Vue.component('brand-django-pcon', this)
   },
   name: 'brand-django',
   props: {

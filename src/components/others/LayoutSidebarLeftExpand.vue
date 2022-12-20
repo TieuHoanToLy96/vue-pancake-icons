@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-sidebar-left-expand-pcon', component)
+    Vue.component('layout-sidebar-left-expand-pcon', this)
   },
   name: 'layout-sidebar-left-expand',
   props: {

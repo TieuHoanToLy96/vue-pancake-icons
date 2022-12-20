@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-rotary-last-left-pcon', component)
+    Vue.component('arrow-rotary-last-left-pcon', this)
   },
   name: 'arrow-rotary-last-left',
   props: {

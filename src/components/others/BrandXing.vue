@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-xing-pcon', component)
+    Vue.component('brand-xing-pcon', this)
   },
   name: 'brand-xing',
   props: {

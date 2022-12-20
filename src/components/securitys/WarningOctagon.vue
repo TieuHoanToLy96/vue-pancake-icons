@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('warning-octagon-pcon', component)
+    Vue.component('warning-octagon-pcon', this)
   },
   name: 'warning-octagon',
   props: {

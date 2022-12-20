@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dots-six-pcon', component)
+    Vue.component('dots-six-pcon', this)
   },
   name: 'dots-six',
   props: {

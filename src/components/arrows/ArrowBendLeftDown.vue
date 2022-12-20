@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-bend-left-down-pcon', component)
+    Vue.component('arrow-bend-left-down-pcon', this)
   },
   name: 'arrow-bend-left-down',
   props: {

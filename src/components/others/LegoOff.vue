@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lego-off-pcon', component)
+    Vue.component('lego-off-pcon', this)
   },
   name: 'lego-off',
   props: {

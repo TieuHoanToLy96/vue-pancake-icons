@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('armchair-off-pcon', component)
+    Vue.component('armchair-off-pcon', this)
   },
   name: 'armchair-off',
   props: {

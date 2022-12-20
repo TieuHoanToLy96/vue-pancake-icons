@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-merge-both-pcon', component)
+    Vue.component('arrow-merge-both-pcon', this)
   },
   name: 'arrow-merge-both',
   props: {

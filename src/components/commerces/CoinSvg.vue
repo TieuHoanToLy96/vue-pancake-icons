@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('coin-svg-pcon', component)
+    Vue.component('coin-svg-pcon', this)
   },
   name: 'coin-svg',
   props: {

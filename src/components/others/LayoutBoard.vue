@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-board-pcon', component)
+    Vue.component('layout-board-pcon', this)
   },
   name: 'layout-board',
   props: {

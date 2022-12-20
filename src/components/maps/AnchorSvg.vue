@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('anchor-svg-pcon', component)
+    Vue.component('anchor-svg-pcon', this)
   },
   name: 'anchor-svg',
   props: {

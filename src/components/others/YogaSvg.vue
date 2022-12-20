@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('yoga-svg-pcon', component)
+    Vue.component('yoga-svg-pcon', this)
   },
   name: 'yoga-svg',
   props: {

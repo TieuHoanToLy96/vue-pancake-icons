@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-minimize-pcon', component)
+    Vue.component('arrows-minimize-pcon', this)
   },
   name: 'arrows-minimize',
   props: {

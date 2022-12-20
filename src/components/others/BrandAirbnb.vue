@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-airbnb-pcon', component)
+    Vue.component('brand-airbnb-pcon', this)
   },
   name: 'brand-airbnb',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('calendar-off-pcon', component)
+    Vue.component('calendar-off-pcon', this)
   },
   name: 'calendar-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-move-pcon', component)
+    Vue.component('arrows-move-pcon', this)
   },
   name: 'arrows-move',
   props: {

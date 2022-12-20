@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('eject-simple-pcon', component)
+    Vue.component('eject-simple-pcon', this)
   },
   name: 'eject-simple',
   props: {

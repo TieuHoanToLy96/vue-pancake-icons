@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('notes-svg-pcon', component)
+    Vue.component('notes-svg-pcon', this)
   },
   name: 'notes-svg',
   props: {

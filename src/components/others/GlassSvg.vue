@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('glass-svg-pcon', component)
+    Vue.component('glass-svg-pcon', this)
   },
   name: 'glass-svg',
   props: {

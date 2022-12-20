@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fountain-off-pcon', component)
+    Vue.component('fountain-off-pcon', this)
   },
   name: 'fountain-off',
   props: {

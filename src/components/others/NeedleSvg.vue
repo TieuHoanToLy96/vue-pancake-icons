@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('needle-svg-pcon', component)
+    Vue.component('needle-svg-pcon', this)
   },
   name: 'needle-svg',
   props: {

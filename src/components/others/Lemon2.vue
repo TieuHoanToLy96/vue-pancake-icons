@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lemon-2-pcon', component)
+    Vue.component('lemon-2-pcon', this)
   },
   name: 'lemon-2',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fountain-svg-pcon', component)
+    Vue.component('fountain-svg-pcon', this)
   },
   name: 'fountain-svg',
   props: {

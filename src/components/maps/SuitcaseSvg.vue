@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('suitcase-svg-pcon', component)
+    Vue.component('suitcase-svg-pcon', this)
   },
   name: 'suitcase-svg',
   props: {

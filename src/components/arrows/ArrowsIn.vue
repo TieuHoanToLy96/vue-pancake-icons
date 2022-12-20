@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-in-pcon', component)
+    Vue.component('arrows-in-pcon', this)
   },
   name: 'arrows-in',
   props: {

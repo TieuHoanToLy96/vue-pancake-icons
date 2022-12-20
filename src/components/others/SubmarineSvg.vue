@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('submarine-svg-pcon', component)
+    Vue.component('submarine-svg-pcon', this)
   },
   name: 'submarine-svg',
   props: {

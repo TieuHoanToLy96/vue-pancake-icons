@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('message-share-pcon', component)
+    Vue.component('message-share-pcon', this)
   },
   name: 'message-share',
   props: {

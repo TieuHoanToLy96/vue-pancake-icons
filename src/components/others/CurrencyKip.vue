@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-kip-pcon', component)
+    Vue.component('currency-kip-pcon', this)
   },
   name: 'currency-kip',
   props: {

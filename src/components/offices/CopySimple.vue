@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('copy-simple-pcon', component)
+    Vue.component('copy-simple-pcon', this)
   },
   name: 'copy-simple',
   props: {

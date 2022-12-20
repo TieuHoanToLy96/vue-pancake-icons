@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('android-logo-pcon', component)
+    Vue.component('android-logo-pcon', this)
   },
   name: 'android-logo',
   props: {

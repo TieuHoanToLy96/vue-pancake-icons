@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cell-signal-full-pcon', component)
+    Vue.component('cell-signal-full-pcon', this)
   },
   name: 'cell-signal-full',
   props: {

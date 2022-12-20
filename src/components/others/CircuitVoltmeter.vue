@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-voltmeter-pcon', component)
+    Vue.component('circuit-voltmeter-pcon', this)
   },
   name: 'circuit-voltmeter',
   props: {

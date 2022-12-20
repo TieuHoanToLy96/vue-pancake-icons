@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('grain-svg-pcon', component)
+    Vue.component('grain-svg-pcon', this)
   },
   name: 'grain-svg',
   props: {

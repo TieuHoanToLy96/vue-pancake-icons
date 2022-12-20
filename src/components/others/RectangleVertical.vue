@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rectangle-vertical-pcon', component)
+    Vue.component('rectangle-vertical-pcon', this)
   },
   name: 'rectangle-vertical',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-description-pcon', component)
+    Vue.component('file-description-pcon', this)
   },
   name: 'file-description',
   props: {

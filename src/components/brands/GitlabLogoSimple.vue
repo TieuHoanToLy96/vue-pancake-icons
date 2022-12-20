@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gitlab-logo-simple-pcon', component)
+    Vue.component('gitlab-logo-simple-pcon', this)
   },
   name: 'gitlab-logo-simple',
   props: {

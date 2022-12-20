@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('check-square-pcon', component)
+    Vue.component('check-square-pcon', this)
   },
   name: 'check-square',
   props: {

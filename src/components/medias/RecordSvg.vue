@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('record-svg-pcon', component)
+    Vue.component('record-svg-pcon', this)
   },
   name: 'record-svg',
   props: {

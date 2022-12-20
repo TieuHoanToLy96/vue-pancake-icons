@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('float-none-pcon', component)
+    Vue.component('float-none-pcon', this)
   },
   name: 'float-none',
   props: {

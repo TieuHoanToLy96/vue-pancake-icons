@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('businessplan-svg-pcon', component)
+    Vue.component('businessplan-svg-pcon', this)
   },
   name: 'businessplan-svg',
   props: {

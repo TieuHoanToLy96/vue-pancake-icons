@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circle-off-pcon', component)
+    Vue.component('circle-off-pcon', this)
   },
   name: 'circle-off',
   props: {

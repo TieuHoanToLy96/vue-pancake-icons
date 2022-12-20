@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('film-strip-pcon', component)
+    Vue.component('film-strip-pcon', this)
   },
   name: 'film-strip',
   props: {

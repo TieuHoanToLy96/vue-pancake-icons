@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('droplet-off-pcon', component)
+    Vue.component('droplet-off-pcon', this)
   },
   name: 'droplet-off',
   props: {

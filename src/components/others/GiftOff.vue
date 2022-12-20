@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gift-off-pcon', component)
+    Vue.component('gift-off-pcon', this)
   },
   name: 'gift-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('candy-svg-pcon', component)
+    Vue.component('candy-svg-pcon', this)
   },
   name: 'candy-svg',
   props: {

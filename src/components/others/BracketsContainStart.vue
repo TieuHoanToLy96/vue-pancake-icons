@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brackets-contain-start-pcon', component)
+    Vue.component('brackets-contain-start-pcon', this)
   },
   name: 'brackets-contain-start',
   props: {

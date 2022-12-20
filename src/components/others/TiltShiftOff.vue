@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tilt-shift-off-pcon', component)
+    Vue.component('tilt-shift-off-pcon', this)
   },
   name: 'tilt-shift-off',
   props: {

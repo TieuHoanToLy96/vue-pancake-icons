@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shape-off-pcon', component)
+    Vue.component('shape-off-pcon', this)
   },
   name: 'shape-off',
   props: {

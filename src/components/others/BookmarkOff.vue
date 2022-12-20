@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bookmark-off-pcon', component)
+    Vue.component('bookmark-off-pcon', this)
   },
   name: 'bookmark-off',
   props: {

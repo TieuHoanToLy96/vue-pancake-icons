@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gas-station-off-pcon', component)
+    Vue.component('gas-station-off-pcon', this)
   },
   name: 'gas-station-off',
   props: {

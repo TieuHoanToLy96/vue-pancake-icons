@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-signal-pcon', component)
+    Vue.component('home-signal-pcon', this)
   },
   name: 'home-signal',
   props: {

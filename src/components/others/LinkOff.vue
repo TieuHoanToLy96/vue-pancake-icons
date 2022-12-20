@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('link-off-pcon', component)
+    Vue.component('link-off-pcon', this)
   },
   name: 'link-off',
   props: {

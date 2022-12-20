@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('storm-off-pcon', component)
+    Vue.component('storm-off-pcon', this)
   },
   name: 'storm-off',
   props: {

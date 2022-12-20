@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('logout-svg-pcon', component)
+    Vue.component('logout-svg-pcon', this)
   },
   name: 'logout-svg',
   props: {

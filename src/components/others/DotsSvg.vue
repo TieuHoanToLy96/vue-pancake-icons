@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dots-svg-pcon', component)
+    Vue.component('dots-svg-pcon', this)
   },
   name: 'dots-svg',
   props: {

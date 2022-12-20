@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('binary-off-pcon', component)
+    Vue.component('binary-off-pcon', this)
   },
   name: 'binary-off',
   props: {

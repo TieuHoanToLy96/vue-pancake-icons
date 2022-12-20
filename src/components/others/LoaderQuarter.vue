@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('loader-quarter-pcon', component)
+    Vue.component('loader-quarter-pcon', this)
   },
   name: 'loader-quarter',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chevron-down-right-pcon', component)
+    Vue.component('chevron-down-right-pcon', this)
   },
   name: 'chevron-down-right',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-pi-divide-2-pcon', component)
+    Vue.component('math-pi-divide-2-pcon', this)
   },
   name: 'math-pi-divide-2',
   props: {

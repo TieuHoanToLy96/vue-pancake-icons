@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('accessible-svg-pcon', component)
+    Vue.component('accessible-svg-pcon', this)
   },
   name: 'accessible-svg',
   props: {

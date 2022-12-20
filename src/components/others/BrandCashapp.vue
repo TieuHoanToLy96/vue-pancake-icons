@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-cashapp-pcon', component)
+    Vue.component('brand-cashapp-pcon', this)
   },
   name: 'brand-cashapp',
   props: {

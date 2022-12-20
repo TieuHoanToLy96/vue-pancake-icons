@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-kickstarter-pcon', component)
+    Vue.component('brand-kickstarter-pcon', this)
   },
   name: 'brand-kickstarter',
   props: {

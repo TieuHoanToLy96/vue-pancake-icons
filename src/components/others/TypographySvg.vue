@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('typography-svg-pcon', component)
+    Vue.component('typography-svg-pcon', this)
   },
   name: 'typography-svg',
   props: {

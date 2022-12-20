@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('egg-cracked-pcon', component)
+    Vue.component('egg-cracked-pcon', this)
   },
   name: 'egg-cracked',
   props: {

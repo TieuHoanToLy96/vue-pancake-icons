@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ironing-steam-off-pcon', component)
+    Vue.component('ironing-steam-off-pcon', this)
   },
   name: 'ironing-steam-off',
   props: {

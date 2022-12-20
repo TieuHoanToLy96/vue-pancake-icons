@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bluetooth-slash-pcon', component)
+    Vue.component('bluetooth-slash-pcon', this)
   },
   name: 'bluetooth-slash',
   props: {

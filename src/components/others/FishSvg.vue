@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fish-svg-pcon', component)
+    Vue.component('fish-svg-pcon', this)
   },
   name: 'fish-svg',
   props: {

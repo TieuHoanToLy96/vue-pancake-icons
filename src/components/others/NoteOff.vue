@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('note-off-pcon', component)
+    Vue.component('note-off-pcon', this)
   },
   name: 'note-off',
   props: {

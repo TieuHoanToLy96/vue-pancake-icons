@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circle-wavy-pcon', component)
+    Vue.component('circle-wavy-pcon', this)
   },
   name: 'circle-wavy',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('color-picker-pcon', component)
+    Vue.component('color-picker-pcon', this)
   },
   name: 'color-picker',
   props: {

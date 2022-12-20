@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circle-half-vertical-pcon', component)
+    Vue.component('circle-half-vertical-pcon', this)
   },
   name: 'circle-half-vertical',
   props: {

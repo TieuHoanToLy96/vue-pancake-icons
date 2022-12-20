@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-heart-pcon', component)
+    Vue.component('home-heart-pcon', this)
   },
   name: 'home-heart',
   props: {

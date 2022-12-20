@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bus-off-pcon', component)
+    Vue.component('bus-off-pcon', this)
   },
   name: 'bus-off',
   props: {

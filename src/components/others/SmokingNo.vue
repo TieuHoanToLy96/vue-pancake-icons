@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('smoking-no-pcon', component)
+    Vue.component('smoking-no-pcon', this)
   },
   name: 'smoking-no',
   props: {

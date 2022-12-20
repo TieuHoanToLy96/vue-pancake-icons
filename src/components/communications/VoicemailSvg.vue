@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('voicemail-svg-pcon', component)
+    Vue.component('voicemail-svg-pcon', this)
   },
   name: 'voicemail-svg',
   props: {

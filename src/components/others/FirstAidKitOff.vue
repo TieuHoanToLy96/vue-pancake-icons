@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('first-aid-kit-off-pcon', component)
+    Vue.component('first-aid-kit-off-pcon', this)
   },
   name: 'first-aid-kit-off',
   props: {

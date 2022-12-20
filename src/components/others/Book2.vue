@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('book-2-pcon', component)
+    Vue.component('book-2-pcon', this)
   },
   name: 'book-2',
   props: {

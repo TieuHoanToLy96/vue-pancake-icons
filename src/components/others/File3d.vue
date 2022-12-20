@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-3d-pcon', component)
+    Vue.component('file-3d-pcon', this)
   },
   name: 'file-3d',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-pagekit-pcon', component)
+    Vue.component('brand-pagekit-pcon', this)
   },
   name: 'brand-pagekit',
   props: {

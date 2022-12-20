@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('scooter-svg-pcon', component)
+    Vue.component('scooter-svg-pcon', this)
   },
   name: 'scooter-svg',
   props: {

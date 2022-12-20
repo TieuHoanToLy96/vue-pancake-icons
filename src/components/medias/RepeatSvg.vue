@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('repeat-svg-pcon', component)
+    Vue.component('repeat-svg-pcon', this)
   },
   name: 'repeat-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('live-view-pcon', component)
+    Vue.component('live-view-pcon', this)
   },
   name: 'live-view',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cloud-storm-pcon', component)
+    Vue.component('cloud-storm-pcon', this)
   },
   name: 'cloud-storm',
   props: {

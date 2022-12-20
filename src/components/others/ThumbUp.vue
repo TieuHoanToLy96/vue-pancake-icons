@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('thumb-up-pcon', component)
+    Vue.component('thumb-up-pcon', this)
   },
   name: 'thumb-up',
   props: {

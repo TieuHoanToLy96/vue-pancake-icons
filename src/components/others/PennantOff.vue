@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pennant-off-pcon', component)
+    Vue.component('pennant-off-pcon', this)
   },
   name: 'pennant-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('twitter-logo-pcon', component)
+    Vue.component('twitter-logo-pcon', this)
   },
   name: 'twitter-logo',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-plus-pcon', component)
+    Vue.component('text-plus-pcon', this)
   },
   name: 'text-plus',
   props: {

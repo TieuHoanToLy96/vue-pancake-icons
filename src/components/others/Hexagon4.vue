@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hexagon-4-pcon', component)
+    Vue.component('hexagon-4-pcon', this)
   },
   name: 'hexagon-4',
   props: {

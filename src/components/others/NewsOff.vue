@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('news-off-pcon', component)
+    Vue.component('news-off-pcon', this)
   },
   name: 'news-off',
   props: {

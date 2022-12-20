@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sword-off-pcon', component)
+    Vue.component('sword-off-pcon', this)
   },
   name: 'sword-off',
   props: {

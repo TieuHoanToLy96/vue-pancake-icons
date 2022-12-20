@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-guardian-pcon', component)
+    Vue.component('brand-guardian-pcon', this)
   },
   name: 'brand-guardian',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('signal-4g-plus-pcon', component)
+    Vue.component('signal-4g-plus-pcon', this)
   },
   name: 'signal-4g-plus',
   props: {

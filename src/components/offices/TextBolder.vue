@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-bolder-pcon', component)
+    Vue.component('text-bolder-pcon', this)
   },
   name: 'text-bolder',
   props: {

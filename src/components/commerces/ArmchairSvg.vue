@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('armchair-svg-pcon', component)
+    Vue.component('armchair-svg-pcon', this)
   },
   name: 'armchair-svg',
   props: {

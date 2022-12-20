@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-telegram-pcon', component)
+    Vue.component('brand-telegram-pcon', this)
   },
   name: 'brand-telegram',
   props: {

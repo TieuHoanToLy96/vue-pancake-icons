@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-pushbullet-pcon', component)
+    Vue.component('brand-pushbullet-pcon', this)
   },
   name: 'brand-pushbullet',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('planet-off-pcon', component)
+    Vue.component('planet-off-pcon', this)
   },
   name: 'planet-off',
   props: {

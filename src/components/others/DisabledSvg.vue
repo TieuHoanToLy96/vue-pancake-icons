@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('disabled-svg-pcon', component)
+    Vue.component('disabled-svg-pcon', this)
   },
   name: 'disabled-svg',
   props: {

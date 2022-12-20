@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('badge-svg-pcon', component)
+    Vue.component('badge-svg-pcon', this)
   },
   name: 'badge-svg',
   props: {

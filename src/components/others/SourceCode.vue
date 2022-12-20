@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('source-code-pcon', component)
+    Vue.component('source-code-pcon', this)
   },
   name: 'source-code',
   props: {

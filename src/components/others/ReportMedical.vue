@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('report-medical-pcon', component)
+    Vue.component('report-medical-pcon', this)
   },
   name: 'report-medical',
   props: {

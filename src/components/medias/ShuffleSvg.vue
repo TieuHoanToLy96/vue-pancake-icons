@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shuffle-svg-pcon', component)
+    Vue.component('shuffle-svg-pcon', this)
   },
   name: 'shuffle-svg',
   props: {

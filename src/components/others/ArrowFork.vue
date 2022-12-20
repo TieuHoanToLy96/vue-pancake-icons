@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-fork-pcon', component)
+    Vue.component('arrow-fork-pcon', this)
   },
   name: 'arrow-fork',
   props: {

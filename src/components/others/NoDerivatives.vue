@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('no-derivatives-pcon', component)
+    Vue.component('no-derivatives-pcon', this)
   },
   name: 'no-derivatives',
   props: {

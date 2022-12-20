@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-resistor-pcon', component)
+    Vue.component('circuit-resistor-pcon', this)
   },
   name: 'circuit-resistor',
   props: {

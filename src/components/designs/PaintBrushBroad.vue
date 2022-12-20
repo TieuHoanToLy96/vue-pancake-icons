@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paint-brush-broad-pcon', component)
+    Vue.component('paint-brush-broad-pcon', this)
   },
   name: 'paint-brush-broad',
   props: {

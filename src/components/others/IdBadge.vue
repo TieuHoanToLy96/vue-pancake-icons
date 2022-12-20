@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('id-badge-pcon', component)
+    Vue.component('id-badge-pcon', this)
   },
   name: 'id-badge',
   props: {

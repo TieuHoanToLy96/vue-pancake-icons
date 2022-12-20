@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pause-circle-pcon', component)
+    Vue.component('pause-circle-pcon', this)
   },
   name: 'pause-circle',
   props: {

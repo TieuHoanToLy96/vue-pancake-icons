@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-zoom-pcon', component)
+    Vue.component('brand-zoom-pcon', this)
   },
   name: 'brand-zoom',
   props: {

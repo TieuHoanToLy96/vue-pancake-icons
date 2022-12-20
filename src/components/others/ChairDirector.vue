@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chair-director-pcon', component)
+    Vue.component('chair-director-pcon', this)
   },
   name: 'chair-director',
   props: {

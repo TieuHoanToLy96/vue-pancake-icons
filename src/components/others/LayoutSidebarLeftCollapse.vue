@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-sidebar-left-collapse-pcon', component)
+    Vue.component('layout-sidebar-left-collapse-pcon', this)
   },
   name: 'layout-sidebar-left-collapse',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('player-stop-pcon', component)
+    Vue.component('player-stop-pcon', this)
   },
   name: 'player-stop',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('premium-rights-pcon', component)
+    Vue.component('premium-rights-pcon', this)
   },
   name: 'premium-rights',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('receipt-refund-pcon', component)
+    Vue.component('receipt-refund-pcon', this)
   },
   name: 'receipt-refund',
   props: {

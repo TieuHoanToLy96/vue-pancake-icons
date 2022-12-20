@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pig-off-pcon', component)
+    Vue.component('pig-off-pcon', this)
   },
   name: 'pig-off',
   props: {

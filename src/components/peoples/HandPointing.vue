@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hand-pointing-pcon', component)
+    Vue.component('hand-pointing-pcon', this)
   },
   name: 'hand-pointing',
   props: {

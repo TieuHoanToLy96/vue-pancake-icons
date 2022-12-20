@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wash-tumble-off-pcon', component)
+    Vue.component('wash-tumble-off-pcon', this)
   },
   name: 'wash-tumble-off',
   props: {

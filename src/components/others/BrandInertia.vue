@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-inertia-pcon', component)
+    Vue.component('brand-inertia-pcon', this)
   },
   name: 'brand-inertia',
   props: {

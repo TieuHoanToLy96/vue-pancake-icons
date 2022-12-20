@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('player-skip-forward-pcon', component)
+    Vue.component('player-skip-forward-pcon', this)
   },
   name: 'player-skip-forward',
   props: {

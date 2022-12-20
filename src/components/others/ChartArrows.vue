@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-arrows-pcon', component)
+    Vue.component('chart-arrows-pcon', this)
   },
   name: 'chart-arrows',
   props: {

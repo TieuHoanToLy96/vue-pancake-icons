@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wash-gentle-pcon', component)
+    Vue.component('wash-gentle-pcon', this)
   },
   name: 'wash-gentle',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paint-bucket-pcon', component)
+    Vue.component('paint-bucket-pcon', this)
   },
   name: 'paint-bucket',
   props: {

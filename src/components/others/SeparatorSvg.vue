@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('separator-svg-pcon', component)
+    Vue.component('separator-svg-pcon', this)
   },
   name: 'separator-svg',
   props: {

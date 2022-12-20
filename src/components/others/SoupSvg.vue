@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('soup-svg-pcon', component)
+    Vue.component('soup-svg-pcon', this)
   },
   name: 'soup-svg',
   props: {

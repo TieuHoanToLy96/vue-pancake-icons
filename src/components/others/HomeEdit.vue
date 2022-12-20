@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-edit-pcon', component)
+    Vue.component('home-edit-pcon', this)
   },
   name: 'home-edit',
   props: {

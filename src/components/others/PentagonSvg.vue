@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pentagon-svg-pcon', component)
+    Vue.component('pentagon-svg-pcon', this)
   },
   name: 'pentagon-svg',
   props: {

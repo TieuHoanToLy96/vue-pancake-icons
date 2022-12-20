@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('magnet-straight-pcon', component)
+    Vue.component('magnet-straight-pcon', this)
   },
   name: 'magnet-straight',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('compass-off-pcon', component)
+    Vue.component('compass-off-pcon', this)
   },
   name: 'compass-off',
   props: {

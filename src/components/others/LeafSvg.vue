@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('leaf-svg-pcon', component)
+    Vue.component('leaf-svg-pcon', this)
   },
   name: 'leaf-svg',
   props: {

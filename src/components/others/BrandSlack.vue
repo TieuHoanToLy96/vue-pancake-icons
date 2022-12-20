@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-slack-pcon', component)
+    Vue.component('brand-slack-pcon', this)
   },
   name: 'brand-slack',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('robot-off-pcon', component)
+    Vue.component('robot-off-pcon', this)
   },
   name: 'robot-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('drop-half-pcon', component)
+    Vue.component('drop-half-pcon', this)
   },
   name: 'drop-half',
   props: {

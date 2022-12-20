@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('phone-call-pcon', component)
+    Vue.component('phone-call-pcon', this)
   },
   name: 'phone-call',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bone-svg-pcon', component)
+    Vue.component('bone-svg-pcon', this)
   },
   name: 'bone-svg',
   props: {

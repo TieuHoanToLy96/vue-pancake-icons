@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('alert-circle-pcon', component)
+    Vue.component('alert-circle-pcon', this)
   },
   name: 'alert-circle',
   props: {

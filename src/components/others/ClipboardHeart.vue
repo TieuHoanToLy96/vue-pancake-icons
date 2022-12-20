@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('clipboard-heart-pcon', component)
+    Vue.component('clipboard-heart-pcon', this)
   },
   name: 'clipboard-heart',
   props: {

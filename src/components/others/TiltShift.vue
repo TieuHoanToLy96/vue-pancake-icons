@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tilt-shift-pcon', component)
+    Vue.component('tilt-shift-pcon', this)
   },
   name: 'tilt-shift',
   props: {

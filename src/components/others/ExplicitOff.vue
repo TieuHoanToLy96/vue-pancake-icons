@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('explicit-off-pcon', component)
+    Vue.component('explicit-off-pcon', this)
   },
   name: 'explicit-off',
   props: {

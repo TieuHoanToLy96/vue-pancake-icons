@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shield-check-pcon', component)
+    Vue.component('shield-check-pcon', this)
   },
   name: 'shield-check',
   props: {

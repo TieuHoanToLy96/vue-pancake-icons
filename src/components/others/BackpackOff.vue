@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('backpack-off-pcon', component)
+    Vue.component('backpack-off-pcon', this)
   },
   name: 'backpack-off',
   props: {

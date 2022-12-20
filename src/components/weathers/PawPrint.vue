@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paw-print-pcon', component)
+    Vue.component('paw-print-pcon', this)
   },
   name: 'paw-print',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('forbid-svg-pcon', component)
+    Vue.component('forbid-svg-pcon', this)
   },
   name: 'forbid-svg',
   props: {

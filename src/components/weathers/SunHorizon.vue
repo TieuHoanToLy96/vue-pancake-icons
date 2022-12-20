@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sun-horizon-pcon', component)
+    Vue.component('sun-horizon-pcon', this)
   },
   name: 'sun-horizon',
   props: {

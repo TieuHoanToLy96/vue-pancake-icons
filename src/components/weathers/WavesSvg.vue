@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('waves-svg-pcon', component)
+    Vue.component('waves-svg-pcon', this)
   },
   name: 'waves-svg',
   props: {

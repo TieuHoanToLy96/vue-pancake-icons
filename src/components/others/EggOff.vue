@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('egg-off-pcon', component)
+    Vue.component('egg-off-pcon', this)
   },
   name: 'egg-off',
   props: {

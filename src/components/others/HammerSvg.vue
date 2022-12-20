@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hammer-svg-pcon', component)
+    Vue.component('hammer-svg-pcon', this)
   },
   name: 'hammer-svg',
   props: {

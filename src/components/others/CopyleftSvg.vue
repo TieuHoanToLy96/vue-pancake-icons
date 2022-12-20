@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('copyleft-svg-pcon', component)
+    Vue.component('copyleft-svg-pcon', this)
   },
   name: 'copyleft-svg',
   props: {

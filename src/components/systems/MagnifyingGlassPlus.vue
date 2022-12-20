@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('magnifying-glass-plus-pcon', component)
+    Vue.component('magnifying-glass-plus-pcon', this)
   },
   name: 'magnifying-glass-plus',
   props: {

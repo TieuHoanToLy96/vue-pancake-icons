@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sun-dim-pcon', component)
+    Vue.component('sun-dim-pcon', this)
   },
   name: 'sun-dim',
   props: {

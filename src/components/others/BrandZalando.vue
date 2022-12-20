@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-zalando-pcon', component)
+    Vue.component('brand-zalando-pcon', this)
   },
   name: 'brand-zalando',
   props: {

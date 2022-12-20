@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-motor-pcon', component)
+    Vue.component('circuit-motor-pcon', this)
   },
   name: 'circuit-motor',
   props: {

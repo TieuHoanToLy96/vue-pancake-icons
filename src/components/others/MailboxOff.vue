@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mailbox-off-pcon', component)
+    Vue.component('mailbox-off-pcon', this)
   },
   name: 'mailbox-off',
   props: {

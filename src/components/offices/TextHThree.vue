@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-hthree-pcon', component)
+    Vue.component('text-hthree-pcon', this)
   },
   name: 'text-hthree',
   props: {

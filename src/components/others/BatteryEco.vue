@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('battery-eco-pcon', component)
+    Vue.component('battery-eco-pcon', this)
   },
   name: 'battery-eco',
   props: {

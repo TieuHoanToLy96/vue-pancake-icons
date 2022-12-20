@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('scale-off-pcon', component)
+    Vue.component('scale-off-pcon', this)
   },
   name: 'scale-off',
   props: {

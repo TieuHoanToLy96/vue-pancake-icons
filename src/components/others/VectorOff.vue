@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('vector-off-pcon', component)
+    Vue.component('vector-off-pcon', this)
   },
   name: 'vector-off',
   props: {

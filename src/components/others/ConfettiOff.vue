@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('confetti-off-pcon', component)
+    Vue.component('confetti-off-pcon', this)
   },
   name: 'confetti-off',
   props: {

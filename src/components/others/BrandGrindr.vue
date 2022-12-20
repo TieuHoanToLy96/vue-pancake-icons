@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-grindr-pcon', component)
+    Vue.component('brand-grindr-pcon', this)
   },
   name: 'brand-grindr',
   props: {

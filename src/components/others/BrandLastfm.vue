@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-lastfm-pcon', component)
+    Vue.component('brand-lastfm-pcon', this)
   },
   name: 'brand-lastfm',
   props: {

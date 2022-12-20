@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('volume-off-pcon', component)
+    Vue.component('volume-off-pcon', this)
   },
   name: 'volume-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-html5-pcon', component)
+    Vue.component('brand-html5-pcon', this)
   },
   name: 'brand-html5',
   props: {

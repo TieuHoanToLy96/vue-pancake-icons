@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('signature-off-pcon', component)
+    Vue.component('signature-off-pcon', this)
   },
   name: 'signature-off',
   props: {

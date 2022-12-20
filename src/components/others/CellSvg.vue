@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cell-svg-pcon', component)
+    Vue.component('cell-svg-pcon', this)
   },
   name: 'cell-svg',
   props: {

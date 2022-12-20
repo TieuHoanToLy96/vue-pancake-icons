@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('border-right-pcon', component)
+    Vue.component('border-right-pcon', this)
   },
   name: 'border-right',
   props: {

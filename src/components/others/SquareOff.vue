@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('square-off-pcon', component)
+    Vue.component('square-off-pcon', this)
   },
   name: 'square-off',
   props: {

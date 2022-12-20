@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-check-pcon', component)
+    Vue.component('home-check-pcon', this)
   },
   name: 'home-check',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('transition-right-pcon', component)
+    Vue.component('transition-right-pcon', this)
   },
   name: 'transition-right',
   props: {

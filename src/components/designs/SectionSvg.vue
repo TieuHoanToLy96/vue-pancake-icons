@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('section-svg-pcon', component)
+    Vue.component('section-svg-pcon', this)
   },
   name: 'section-svg',
   props: {

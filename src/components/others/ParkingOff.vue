@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('parking-off-pcon', component)
+    Vue.component('parking-off-pcon', this)
   },
   name: 'parking-off',
   props: {

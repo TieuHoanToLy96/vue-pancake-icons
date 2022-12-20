@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('radioactive-svg-pcon', component)
+    Vue.component('radioactive-svg-pcon', this)
   },
   name: 'radioactive-svg',
   props: {

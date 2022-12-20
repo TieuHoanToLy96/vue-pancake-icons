@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wand-off-pcon', component)
+    Vue.component('wand-off-pcon', this)
   },
   name: 'wand-off',
   props: {

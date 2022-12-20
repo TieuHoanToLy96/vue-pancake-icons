@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('smiley-svg-pcon', component)
+    Vue.component('smiley-svg-pcon', this)
   },
   name: 'smiley-svg',
   props: {

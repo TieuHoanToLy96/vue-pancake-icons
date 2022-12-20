@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-hone-pcon', component)
+    Vue.component('text-hone-pcon', this)
   },
   name: 'text-hone',
   props: {

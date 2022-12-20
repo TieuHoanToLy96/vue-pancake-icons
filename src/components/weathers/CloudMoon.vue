@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cloud-moon-pcon', component)
+    Vue.component('cloud-moon-pcon', this)
   },
   name: 'cloud-moon',
   props: {

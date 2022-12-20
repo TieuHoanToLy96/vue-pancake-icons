@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-appgallery-pcon', component)
+    Vue.component('brand-appgallery-pcon', this)
   },
   name: 'brand-appgallery',
   props: {

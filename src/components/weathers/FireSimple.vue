@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fire-simple-pcon', component)
+    Vue.component('fire-simple-pcon', this)
   },
   name: 'fire-simple',
   props: {

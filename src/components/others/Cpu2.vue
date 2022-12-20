@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cpu-2-pcon', component)
+    Vue.component('cpu-2-pcon', this)
   },
   name: 'cpu-2',
   props: {

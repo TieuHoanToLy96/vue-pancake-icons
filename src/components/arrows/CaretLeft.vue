@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('caret-left-pcon', component)
+    Vue.component('caret-left-pcon', this)
   },
   name: 'caret-left',
   props: {

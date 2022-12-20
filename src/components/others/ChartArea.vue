@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-area-pcon', component)
+    Vue.component('chart-area-pcon', this)
   },
   name: 'chart-area',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layers-off-pcon', component)
+    Vue.component('layers-off-pcon', this)
   },
   name: 'layers-off',
   props: {

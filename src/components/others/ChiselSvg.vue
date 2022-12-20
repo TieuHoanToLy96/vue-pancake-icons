@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chisel-svg-pcon', component)
+    Vue.component('chisel-svg-pcon', this)
   },
   name: 'chisel-svg',
   props: {

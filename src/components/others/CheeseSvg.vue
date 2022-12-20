@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cheese-svg-pcon', component)
+    Vue.component('cheese-svg-pcon', this)
   },
   name: 'cheese-svg',
   props: {

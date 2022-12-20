@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('golf-off-pcon', component)
+    Vue.component('golf-off-pcon', this)
   },
   name: 'golf-off',
   props: {

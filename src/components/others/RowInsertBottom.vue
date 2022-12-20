@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('row-insert-bottom-pcon', component)
+    Vue.component('row-insert-bottom-pcon', this)
   },
   name: 'row-insert-bottom',
   props: {

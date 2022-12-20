@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('polygon-off-pcon', component)
+    Vue.component('polygon-off-pcon', this)
   },
   name: 'polygon-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-merge-left-pcon', component)
+    Vue.component('arrow-merge-left-pcon', this)
   },
   name: 'arrow-merge-left',
   props: {

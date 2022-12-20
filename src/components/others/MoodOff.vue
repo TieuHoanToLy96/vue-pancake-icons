@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-off-pcon', component)
+    Vue.component('mood-off-pcon', this)
   },
   name: 'mood-off',
   props: {

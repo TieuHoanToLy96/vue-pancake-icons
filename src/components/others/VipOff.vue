@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('vip-off-pcon', component)
+    Vue.component('vip-off-pcon', this)
   },
   name: 'vip-off',
   props: {

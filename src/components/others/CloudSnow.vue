@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cloud-snow-pcon', component)
+    Vue.component('cloud-snow-pcon', this)
   },
   name: 'cloud-snow',
   props: {

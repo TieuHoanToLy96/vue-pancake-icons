@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('nurse-svg-pcon', component)
+    Vue.component('nurse-svg-pcon', this)
   },
   name: 'nurse-svg',
   props: {

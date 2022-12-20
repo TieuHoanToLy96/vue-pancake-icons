@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-mastodon-pcon', component)
+    Vue.component('brand-mastodon-pcon', this)
   },
   name: 'brand-mastodon',
   props: {

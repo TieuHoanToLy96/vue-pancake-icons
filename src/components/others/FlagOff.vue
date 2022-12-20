@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('flag-off-pcon', component)
+    Vue.component('flag-off-pcon', this)
   },
   name: 'flag-off',
   props: {

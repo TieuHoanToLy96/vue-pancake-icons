@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('selection-plus-pcon', component)
+    Vue.component('selection-plus-pcon', this)
   },
   name: 'selection-plus',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('marquee-2-pcon', component)
+    Vue.component('marquee-2-pcon', this)
   },
   name: 'marquee-2',
   props: {

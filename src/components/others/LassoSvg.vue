@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lasso-svg-pcon', component)
+    Vue.component('lasso-svg-pcon', this)
   },
   name: 'lasso-svg',
   props: {

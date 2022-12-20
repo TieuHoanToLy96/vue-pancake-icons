@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('propeller-svg-pcon', component)
+    Vue.component('propeller-svg-pcon', this)
   },
   name: 'propeller-svg',
   props: {

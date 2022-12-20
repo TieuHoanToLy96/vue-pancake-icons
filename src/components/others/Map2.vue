@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('map-2-pcon', component)
+    Vue.component('map-2-pcon', this)
   },
   name: 'map-2',
   props: {

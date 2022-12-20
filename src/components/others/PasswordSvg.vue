@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('password-svg-pcon', component)
+    Vue.component('password-svg-pcon', this)
   },
   name: 'password-svg',
   props: {

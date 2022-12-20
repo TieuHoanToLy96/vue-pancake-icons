@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('temperature-svg-pcon', component)
+    Vue.component('temperature-svg-pcon', this)
   },
   name: 'temperature-svg',
   props: {

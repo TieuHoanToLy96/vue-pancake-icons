@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('location-broken-pcon', component)
+    Vue.component('location-broken-pcon', this)
   },
   name: 'location-broken',
   props: {

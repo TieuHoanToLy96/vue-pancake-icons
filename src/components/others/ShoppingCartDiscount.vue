@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shopping-cart-discount-pcon', component)
+    Vue.component('shopping-cart-discount-pcon', this)
   },
   name: 'shopping-cart-discount',
   props: {

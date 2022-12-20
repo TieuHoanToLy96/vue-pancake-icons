@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chef-hat-pcon', component)
+    Vue.component('chef-hat-pcon', this)
   },
   name: 'chef-hat',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bolt-off-pcon', component)
+    Vue.component('bolt-off-pcon', this)
   },
   name: 'bolt-off',
   props: {

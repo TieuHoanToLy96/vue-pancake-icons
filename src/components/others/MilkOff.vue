@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('milk-off-pcon', component)
+    Vue.component('milk-off-pcon', this)
   },
   name: 'milk-off',
   props: {

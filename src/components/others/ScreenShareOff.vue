@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('screen-share-off-pcon', component)
+    Vue.component('screen-share-off-pcon', this)
   },
   name: 'screen-share-off',
   props: {

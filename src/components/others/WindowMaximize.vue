@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('window-maximize-pcon', component)
+    Vue.component('window-maximize-pcon', this)
   },
   name: 'window-maximize',
   props: {

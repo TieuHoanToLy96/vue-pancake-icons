@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dna-svg-pcon', component)
+    Vue.component('dna-svg-pcon', this)
   },
   name: 'dna-svg',
   props: {

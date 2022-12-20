@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-android-pcon', component)
+    Vue.component('brand-android-pcon', this)
   },
   name: 'brand-android',
   props: {

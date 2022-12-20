@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('droplet-half-pcon', component)
+    Vue.component('droplet-half-pcon', this)
   },
   name: 'droplet-half',
   props: {

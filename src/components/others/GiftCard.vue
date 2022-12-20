@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gift-card-pcon', component)
+    Vue.component('gift-card-pcon', this)
   },
   name: 'gift-card',
   props: {

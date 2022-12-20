@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sum-svg-pcon', component)
+    Vue.component('sum-svg-pcon', this)
   },
   name: 'sum-svg',
   props: {

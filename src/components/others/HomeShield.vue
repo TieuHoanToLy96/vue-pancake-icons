@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-shield-pcon', component)
+    Vue.component('home-shield-pcon', this)
   },
   name: 'home-shield',
   props: {

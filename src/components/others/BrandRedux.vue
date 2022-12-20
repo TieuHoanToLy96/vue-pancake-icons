@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-redux-pcon', component)
+    Vue.component('brand-redux-pcon', this)
   },
   name: 'brand-redux',
   props: {

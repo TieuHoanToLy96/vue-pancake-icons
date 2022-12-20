@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lungs-off-pcon', component)
+    Vue.component('lungs-off-pcon', this)
   },
   name: 'lungs-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gizmo-svg-pcon', component)
+    Vue.component('gizmo-svg-pcon', this)
   },
   name: 'gizmo-svg',
   props: {

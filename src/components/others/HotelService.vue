@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hotel-service-pcon', component)
+    Vue.component('hotel-service-pcon', this)
   },
   name: 'hotel-service',
   props: {

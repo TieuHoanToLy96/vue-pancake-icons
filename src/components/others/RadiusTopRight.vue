@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('radius-top-right-pcon', component)
+    Vue.component('radius-top-right-pcon', this)
   },
   name: 'radius-top-right',
   props: {

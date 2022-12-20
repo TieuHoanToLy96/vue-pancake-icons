@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('scissors-svg-pcon', component)
+    Vue.component('scissors-svg-pcon', this)
   },
   name: 'scissors-svg',
   props: {

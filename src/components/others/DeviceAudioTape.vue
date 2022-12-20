@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-audio-tape-pcon', component)
+    Vue.component('device-audio-tape-pcon', this)
   },
   name: 'device-audio-tape',
   props: {

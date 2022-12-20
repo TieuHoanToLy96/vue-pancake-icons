@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ice-cream-off-pcon', component)
+    Vue.component('ice-cream-off-pcon', this)
   },
   name: 'ice-cream-off',
   props: {

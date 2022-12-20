@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('medicine-syrup-pcon', component)
+    Vue.component('medicine-syrup-pcon', this)
   },
   name: 'medicine-syrup',
   props: {

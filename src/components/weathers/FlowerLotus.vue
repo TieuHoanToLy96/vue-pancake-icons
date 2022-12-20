@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('flower-lotus-pcon', component)
+    Vue.component('flower-lotus-pcon', this)
   },
   name: 'flower-lotus',
   props: {

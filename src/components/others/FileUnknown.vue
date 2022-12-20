@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-unknown-pcon', component)
+    Vue.component('file-unknown-pcon', this)
   },
   name: 'file-unknown',
   props: {

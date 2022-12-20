@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circles-relation-pcon', component)
+    Vue.component('circles-relation-pcon', this)
   },
   name: 'circles-relation',
   props: {

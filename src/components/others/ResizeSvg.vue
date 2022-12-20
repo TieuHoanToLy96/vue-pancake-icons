@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('resize-svg-pcon', component)
+    Vue.component('resize-svg-pcon', this)
   },
   name: 'resize-svg',
   props: {

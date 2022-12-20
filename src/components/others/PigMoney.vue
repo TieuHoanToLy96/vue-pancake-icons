@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pig-money-pcon', component)
+    Vue.component('pig-money-pcon', this)
   },
   name: 'pig-money',
   props: {

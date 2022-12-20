@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('order-delete-pcon', component)
+    Vue.component('order-delete-pcon', this)
   },
   name: 'order-delete',
   props: {

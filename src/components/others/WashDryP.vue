@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wash-dry-p-pcon', component)
+    Vue.component('wash-dry-p-pcon', this)
   },
   name: 'wash-dry-p',
   props: {

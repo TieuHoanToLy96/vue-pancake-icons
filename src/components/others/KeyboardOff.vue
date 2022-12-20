@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('keyboard-off-pcon', component)
+    Vue.component('keyboard-off-pcon', this)
   },
   name: 'keyboard-off',
   props: {

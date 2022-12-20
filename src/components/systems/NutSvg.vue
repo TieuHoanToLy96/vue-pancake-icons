@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('nut-svg-pcon', component)
+    Vue.component('nut-svg-pcon', this)
   },
   name: 'nut-svg',
   props: {

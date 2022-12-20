@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('share-network-pcon', component)
+    Vue.component('share-network-pcon', this)
   },
   name: 'share-network',
   props: {

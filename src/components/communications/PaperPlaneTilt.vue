@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paper-plane-tilt-pcon', component)
+    Vue.component('paper-plane-tilt-pcon', this)
   },
   name: 'paper-plane-tilt',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('storm-svg-pcon', component)
+    Vue.component('storm-svg-pcon', this)
   },
   name: 'storm-svg',
   props: {

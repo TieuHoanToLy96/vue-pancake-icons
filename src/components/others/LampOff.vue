@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lamp-off-pcon', component)
+    Vue.component('lamp-off-pcon', this)
   },
   name: 'lamp-off',
   props: {

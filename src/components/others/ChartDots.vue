@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-dots-pcon', component)
+    Vue.component('chart-dots-pcon', this)
   },
   name: 'chart-dots',
   props: {

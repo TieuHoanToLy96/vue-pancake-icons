@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('folder-open-pcon', component)
+    Vue.component('folder-open-pcon', this)
   },
   name: 'folder-open',
   props: {

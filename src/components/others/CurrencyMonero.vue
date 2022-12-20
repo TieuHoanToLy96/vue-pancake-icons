@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-monero-pcon', component)
+    Vue.component('currency-monero-pcon', this)
   },
   name: 'currency-monero',
   props: {

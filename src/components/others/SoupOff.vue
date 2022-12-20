@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('soup-off-pcon', component)
+    Vue.component('soup-off-pcon', this)
   },
   name: 'soup-off',
   props: {

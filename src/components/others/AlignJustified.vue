@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('align-justified-pcon', component)
+    Vue.component('align-justified-pcon', this)
   },
   name: 'align-justified',
   props: {

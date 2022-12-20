@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('warehouse-svg-pcon', component)
+    Vue.component('warehouse-svg-pcon', this)
   },
   name: 'warehouse-svg',
   props: {

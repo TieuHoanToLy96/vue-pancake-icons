@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('flashlight-svg-pcon', component)
+    Vue.component('flashlight-svg-pcon', this)
   },
   name: 'flashlight-svg',
   props: {

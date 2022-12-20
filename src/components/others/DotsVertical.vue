@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dots-vertical-pcon', component)
+    Vue.component('dots-vertical-pcon', this)
   },
   name: 'dots-vertical',
   props: {

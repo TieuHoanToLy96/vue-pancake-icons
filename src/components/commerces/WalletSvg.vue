@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wallet-svg-pcon', component)
+    Vue.component('wallet-svg-pcon', this)
   },
   name: 'wallet-svg',
   props: {

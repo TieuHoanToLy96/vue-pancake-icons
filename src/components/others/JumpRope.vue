@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('jump-rope-pcon', component)
+    Vue.component('jump-rope-pcon', this)
   },
   name: 'jump-rope',
   props: {

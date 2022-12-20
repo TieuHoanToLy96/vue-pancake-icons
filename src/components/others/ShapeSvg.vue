@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shape-svg-pcon', component)
+    Vue.component('shape-svg-pcon', this)
   },
   name: 'shape-svg',
   props: {

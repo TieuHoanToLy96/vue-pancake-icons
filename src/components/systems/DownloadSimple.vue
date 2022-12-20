@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('download-simple-pcon', component)
+    Vue.component('download-simple-pcon', this)
   },
   name: 'download-simple',
   props: {

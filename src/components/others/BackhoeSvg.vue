@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('backhoe-svg-pcon', component)
+    Vue.component('backhoe-svg-pcon', this)
   },
   name: 'backhoe-svg',
   props: {

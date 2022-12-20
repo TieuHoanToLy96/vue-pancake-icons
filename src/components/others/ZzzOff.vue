@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zzz-off-pcon', component)
+    Vue.component('zzz-off-pcon', this)
   },
   name: 'zzz-off',
   props: {

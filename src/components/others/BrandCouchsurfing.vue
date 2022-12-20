@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-couchsurfing-pcon', component)
+    Vue.component('brand-couchsurfing-pcon', this)
   },
   name: 'brand-couchsurfing',
   props: {

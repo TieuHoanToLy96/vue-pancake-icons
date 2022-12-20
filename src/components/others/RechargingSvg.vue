@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('recharging-svg-pcon', component)
+    Vue.component('recharging-svg-pcon', this)
   },
   name: 'recharging-svg',
   props: {

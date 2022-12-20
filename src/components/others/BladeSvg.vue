@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('blade-svg-pcon', component)
+    Vue.component('blade-svg-pcon', this)
   },
   name: 'blade-svg',
   props: {

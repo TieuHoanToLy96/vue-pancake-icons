@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lightning-slash-pcon', component)
+    Vue.component('lightning-slash-pcon', this)
   },
   name: 'lightning-slash',
   props: {

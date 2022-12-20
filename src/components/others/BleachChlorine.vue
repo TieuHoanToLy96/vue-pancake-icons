@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bleach-chlorine-pcon', component)
+    Vue.component('bleach-chlorine-pcon', this)
   },
   name: 'bleach-chlorine',
   props: {

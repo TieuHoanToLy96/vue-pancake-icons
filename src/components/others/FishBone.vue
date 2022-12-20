@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fish-bone-pcon', component)
+    Vue.component('fish-bone-pcon', this)
   },
   name: 'fish-bone',
   props: {

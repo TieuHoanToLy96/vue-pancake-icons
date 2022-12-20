@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('smiley-wink-pcon', component)
+    Vue.component('smiley-wink-pcon', this)
   },
   name: 'smiley-wink',
   props: {

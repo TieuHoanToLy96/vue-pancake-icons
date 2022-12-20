@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-bear-left-pcon', component)
+    Vue.component('arrow-bear-left-pcon', this)
   },
   name: 'arrow-bear-left',
   props: {

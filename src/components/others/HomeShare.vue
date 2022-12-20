@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-share-pcon', component)
+    Vue.component('home-share-pcon', this)
   },
   name: 'home-share',
   props: {

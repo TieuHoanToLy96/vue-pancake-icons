@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-off-pcon', component)
+    Vue.component('home-off-pcon', this)
   },
   name: 'home-off',
   props: {

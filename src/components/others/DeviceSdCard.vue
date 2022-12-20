@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-sd-card-pcon', component)
+    Vue.component('device-sd-card-pcon', this)
   },
   name: 'device-sd-card',
   props: {

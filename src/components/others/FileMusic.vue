@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-music-pcon', component)
+    Vue.component('file-music-pcon', this)
   },
   name: 'file-music',
   props: {

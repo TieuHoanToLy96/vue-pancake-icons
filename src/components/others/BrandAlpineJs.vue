@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-alpine-js-pcon', component)
+    Vue.component('brand-alpine-js-pcon', this)
   },
   name: 'brand-alpine-js',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bone-off-pcon', component)
+    Vue.component('bone-off-pcon', this)
   },
   name: 'bone-off',
   props: {

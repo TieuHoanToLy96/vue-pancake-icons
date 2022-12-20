@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paint-off-pcon', component)
+    Vue.component('paint-off-pcon', this)
   },
   name: 'paint-off',
   props: {

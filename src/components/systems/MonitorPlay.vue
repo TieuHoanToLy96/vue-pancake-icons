@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('monitor-play-pcon', component)
+    Vue.component('monitor-play-pcon', this)
   },
   name: 'monitor-play',
   props: {

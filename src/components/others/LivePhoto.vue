@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('live-photo-pcon', component)
+    Vue.component('live-photo-pcon', this)
   },
   name: 'live-photo',
   props: {

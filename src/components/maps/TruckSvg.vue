@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('truck-svg-pcon', component)
+    Vue.component('truck-svg-pcon', this)
   },
   name: 'truck-svg',
   props: {

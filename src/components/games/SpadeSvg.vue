@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('spade-svg-pcon', component)
+    Vue.component('spade-svg-pcon', this)
   },
   name: 'spade-svg',
   props: {

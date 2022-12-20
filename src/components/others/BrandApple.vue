@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-apple-pcon', component)
+    Vue.component('brand-apple-pcon', this)
   },
   name: 'brand-apple',
   props: {

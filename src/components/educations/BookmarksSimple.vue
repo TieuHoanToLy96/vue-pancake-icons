@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bookmarks-simple-pcon', component)
+    Vue.component('bookmarks-simple-pcon', this)
   },
   name: 'bookmarks-simple',
   props: {

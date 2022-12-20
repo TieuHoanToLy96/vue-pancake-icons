@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('smart-home-off-pcon', component)
+    Vue.component('smart-home-off-pcon', this)
   },
   name: 'smart-home-off',
   props: {

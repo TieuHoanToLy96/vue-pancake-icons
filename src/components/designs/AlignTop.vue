@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('align-top-pcon', component)
+    Vue.component('align-top-pcon', this)
   },
   name: 'align-top',
   props: {

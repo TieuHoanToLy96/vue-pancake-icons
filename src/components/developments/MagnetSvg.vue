@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('magnet-svg-pcon', component)
+    Vue.component('magnet-svg-pcon', this)
   },
   name: 'magnet-svg',
   props: {

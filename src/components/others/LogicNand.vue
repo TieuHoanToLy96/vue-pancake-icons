@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('logic-nand-pcon', component)
+    Vue.component('logic-nand-pcon', this)
   },
   name: 'logic-nand',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circle-letter-w-pcon', component)
+    Vue.component('circle-letter-w-pcon', this)
   },
   name: 'circle-letter-w',
   props: {

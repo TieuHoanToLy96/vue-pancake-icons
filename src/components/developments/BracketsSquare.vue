@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brackets-square-pcon', component)
+    Vue.component('brackets-square-pcon', this)
   },
   name: 'brackets-square',
   props: {

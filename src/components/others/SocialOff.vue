@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('social-off-pcon', component)
+    Vue.component('social-off-pcon', this)
   },
   name: 'social-off',
   props: {

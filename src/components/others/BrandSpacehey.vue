@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-spacehey-pcon', component)
+    Vue.component('brand-spacehey-pcon', this)
   },
   name: 'brand-spacehey',
   props: {

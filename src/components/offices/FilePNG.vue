@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-png-pcon', component)
+    Vue.component('file-png-pcon', this)
   },
   name: 'file-png',
   props: {

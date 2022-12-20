@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ping-pong-pcon', component)
+    Vue.component('ping-pong-pcon', this)
   },
   name: 'ping-pong',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sailboat-off-pcon', component)
+    Vue.component('sailboat-off-pcon', this)
   },
   name: 'sailboat-off',
   props: {

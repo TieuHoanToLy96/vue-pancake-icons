@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fish-off-pcon', component)
+    Vue.component('fish-off-pcon', this)
   },
   name: 'fish-off',
   props: {

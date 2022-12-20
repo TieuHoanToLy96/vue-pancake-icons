@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-merge-right-pcon', component)
+    Vue.component('arrow-merge-right-pcon', this)
   },
   name: 'arrow-merge-right',
   props: {

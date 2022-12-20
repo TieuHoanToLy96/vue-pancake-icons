@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('milk-svg-pcon', component)
+    Vue.component('milk-svg-pcon', this)
   },
   name: 'milk-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('globe-hemisphere-east-pcon', component)
+    Vue.component('globe-hemisphere-east-pcon', this)
   },
   name: 'globe-hemisphere-east',
   props: {

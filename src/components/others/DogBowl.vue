@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dog-bowl-pcon', component)
+    Vue.component('dog-bowl-pcon', this)
   },
   name: 'dog-bowl',
   props: {

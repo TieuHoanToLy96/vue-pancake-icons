@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-bottombar-expand-pcon', component)
+    Vue.component('layout-bottombar-expand-pcon', this)
   },
   name: 'layout-bottombar-expand',
   props: {

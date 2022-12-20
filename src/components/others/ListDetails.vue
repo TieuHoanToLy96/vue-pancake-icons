@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('list-details-pcon', component)
+    Vue.component('list-details-pcon', this)
   },
   name: 'list-details',
   props: {

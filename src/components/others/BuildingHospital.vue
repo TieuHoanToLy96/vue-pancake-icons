@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-hospital-pcon', component)
+    Vue.component('building-hospital-pcon', this)
   },
   name: 'building-hospital',
   props: {

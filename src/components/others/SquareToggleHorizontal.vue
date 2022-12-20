@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('square-toggle-horizontal-pcon', component)
+    Vue.component('square-toggle-horizontal-pcon', this)
   },
   name: 'square-toggle-horizontal',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-fat-line-right-pcon', component)
+    Vue.component('arrow-fat-line-right-pcon', this)
   },
   name: 'arrow-fat-line-right',
   props: {

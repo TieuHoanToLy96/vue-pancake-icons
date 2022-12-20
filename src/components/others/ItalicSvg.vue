@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('italic-svg-pcon', component)
+    Vue.component('italic-svg-pcon', this)
   },
   name: 'italic-svg',
   props: {

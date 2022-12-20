@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cup-svg-pcon', component)
+    Vue.component('cup-svg-pcon', this)
   },
   name: 'cup-svg',
   props: {

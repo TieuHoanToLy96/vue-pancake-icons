@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('message-2-code-pcon', component)
+    Vue.component('message-2-code-pcon', this)
   },
   name: 'message-2-code',
   props: {

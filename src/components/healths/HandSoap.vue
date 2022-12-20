@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hand-soap-pcon', component)
+    Vue.component('hand-soap-pcon', this)
   },
   name: 'hand-soap',
   props: {

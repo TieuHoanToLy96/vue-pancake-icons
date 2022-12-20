@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('macro-svg-pcon', component)
+    Vue.component('macro-svg-pcon', this)
   },
   name: 'macro-svg',
   props: {

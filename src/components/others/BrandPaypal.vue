@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-paypal-pcon', component)
+    Vue.component('brand-paypal-pcon', this)
   },
   name: 'brand-paypal',
   props: {

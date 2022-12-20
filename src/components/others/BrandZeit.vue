@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-zeit-pcon', component)
+    Vue.component('brand-zeit-pcon', this)
   },
   name: 'brand-zeit',
   props: {

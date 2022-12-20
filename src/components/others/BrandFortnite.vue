@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-fortnite-pcon', component)
+    Vue.component('brand-fortnite-pcon', this)
   },
   name: 'brand-fortnite',
   props: {

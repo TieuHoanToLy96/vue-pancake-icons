@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-pi-pcon', component)
+    Vue.component('math-pi-pcon', this)
   },
   name: 'math-pi',
   props: {

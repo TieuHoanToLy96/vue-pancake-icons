@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-sentry-pcon', component)
+    Vue.component('brand-sentry-pcon', this)
   },
   name: 'brand-sentry',
   props: {

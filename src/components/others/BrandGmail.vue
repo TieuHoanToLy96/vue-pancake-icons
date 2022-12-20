@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-gmail-pcon', component)
+    Vue.component('brand-gmail-pcon', this)
   },
   name: 'brand-gmail',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('projector-screen-pcon', component)
+    Vue.component('projector-screen-pcon', this)
   },
   name: 'projector-screen',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-random-pcon', component)
+    Vue.component('arrows-random-pcon', this)
   },
   name: 'arrows-random',
   props: {

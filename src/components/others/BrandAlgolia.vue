@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-algolia-pcon', component)
+    Vue.component('brand-algolia-pcon', this)
   },
   name: 'brand-algolia',
   props: {

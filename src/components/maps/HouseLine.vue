@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('house-line-pcon', component)
+    Vue.component('house-line-pcon', this)
   },
   name: 'house-line',
   props: {

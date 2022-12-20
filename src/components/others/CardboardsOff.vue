@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cardboards-off-pcon', component)
+    Vue.component('cardboards-off-pcon', this)
   },
   name: 'cardboards-off',
   props: {

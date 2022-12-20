@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('broadcast-off-pcon', component)
+    Vue.component('broadcast-off-pcon', this)
   },
   name: 'broadcast-off',
   props: {

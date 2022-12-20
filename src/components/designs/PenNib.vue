@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pen-nib-pcon', component)
+    Vue.component('pen-nib-pcon', this)
   },
   name: 'pen-nib',
   props: {

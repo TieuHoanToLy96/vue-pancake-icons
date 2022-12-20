@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tie-svg-pcon', component)
+    Vue.component('tie-svg-pcon', this)
   },
   name: 'tie-svg',
   props: {

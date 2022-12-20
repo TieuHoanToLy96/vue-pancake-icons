@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ambulance-svg-pcon', component)
+    Vue.component('ambulance-svg-pcon', this)
   },
   name: 'ambulance-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('scuba-mask-off-pcon', component)
+    Vue.component('scuba-mask-off-pcon', this)
   },
   name: 'scuba-mask-off',
   props: {

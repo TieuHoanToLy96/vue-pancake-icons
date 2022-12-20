@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rotate-rectangle-pcon', component)
+    Vue.component('rotate-rectangle-pcon', this)
   },
   name: 'rotate-rectangle',
   props: {

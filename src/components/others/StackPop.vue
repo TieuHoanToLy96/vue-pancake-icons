@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('stack-pop-pcon', component)
+    Vue.component('stack-pop-pcon', this)
   },
   name: 'stack-pop',
   props: {

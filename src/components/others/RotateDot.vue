@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rotate-dot-pcon', component)
+    Vue.component('rotate-dot-pcon', this)
   },
   name: 'rotate-dot',
   props: {

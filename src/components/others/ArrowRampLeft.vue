@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-ramp-left-pcon', component)
+    Vue.component('arrow-ramp-left-pcon', this)
   },
   name: 'arrow-ramp-left',
   props: {

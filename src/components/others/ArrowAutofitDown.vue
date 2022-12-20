@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-autofit-down-pcon', component)
+    Vue.component('arrow-autofit-down-pcon', this)
   },
   name: 'arrow-autofit-down',
   props: {

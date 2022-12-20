@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-nerd-pcon', component)
+    Vue.component('mood-nerd-pcon', this)
   },
   name: 'mood-nerd',
   props: {

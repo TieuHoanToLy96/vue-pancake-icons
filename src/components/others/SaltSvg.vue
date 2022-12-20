@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('salt-svg-pcon', component)
+    Vue.component('salt-svg-pcon', this)
   },
   name: 'salt-svg',
   props: {

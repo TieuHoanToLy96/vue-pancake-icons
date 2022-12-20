@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-capacitor-pcon', component)
+    Vue.component('circuit-capacitor-pcon', this)
   },
   name: 'circuit-capacitor',
   props: {

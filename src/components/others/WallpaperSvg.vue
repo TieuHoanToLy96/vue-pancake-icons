@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wallpaper-svg-pcon', component)
+    Vue.component('wallpaper-svg-pcon', this)
   },
   name: 'wallpaper-svg',
   props: {

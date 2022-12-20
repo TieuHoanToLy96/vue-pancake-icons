@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ripple-off-pcon', component)
+    Vue.component('ripple-off-pcon', this)
   },
   name: 'ripple-off',
   props: {

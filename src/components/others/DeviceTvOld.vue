@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-tv-old-pcon', component)
+    Vue.component('device-tv-old-pcon', this)
   },
   name: 'device-tv-old',
   props: {

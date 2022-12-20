@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layers-linked-pcon', component)
+    Vue.component('layers-linked-pcon', this)
   },
   name: 'layers-linked',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cannabis-svg-pcon', component)
+    Vue.component('cannabis-svg-pcon', this)
   },
   name: 'cannabis-svg',
   props: {

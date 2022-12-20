@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('h-4-pcon', component)
+    Vue.component('h-4-pcon', this)
   },
   name: 'h-4',
   props: {

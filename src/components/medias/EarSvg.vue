@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ear-svg-pcon', component)
+    Vue.component('ear-svg-pcon', this)
   },
   name: 'ear-svg',
   props: {

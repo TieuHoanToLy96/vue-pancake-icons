@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-carousel-pcon', component)
+    Vue.component('building-carousel-pcon', this)
   },
   name: 'building-carousel',
   props: {

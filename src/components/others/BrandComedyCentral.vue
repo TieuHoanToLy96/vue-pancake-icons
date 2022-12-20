@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-comedy-central-pcon', component)
+    Vue.component('brand-comedy-central-pcon', this)
   },
   name: 'brand-comedy-central',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-increase-pcon', component)
+    Vue.component('text-increase-pcon', this)
   },
   name: 'text-increase',
   props: {

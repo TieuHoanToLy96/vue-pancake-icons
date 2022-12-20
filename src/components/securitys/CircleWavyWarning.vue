@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circle-wavy-warning-pcon', component)
+    Vue.component('circle-wavy-warning-pcon', this)
   },
   name: 'circle-wavy-warning',
   props: {

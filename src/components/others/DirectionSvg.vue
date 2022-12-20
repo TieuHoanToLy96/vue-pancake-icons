@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('direction-svg-pcon', component)
+    Vue.component('direction-svg-pcon', this)
   },
   name: 'direction-svg',
   props: {

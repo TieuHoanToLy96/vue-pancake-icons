@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mist-svg-pcon', component)
+    Vue.component('mist-svg-pcon', this)
   },
   name: 'mist-svg',
   props: {

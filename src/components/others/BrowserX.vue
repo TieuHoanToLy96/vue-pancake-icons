@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('browser-x-pcon', component)
+    Vue.component('browser-x-pcon', this)
   },
   name: 'browser-x',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-quetzal-pcon', component)
+    Vue.component('currency-quetzal-pcon', this)
   },
   name: 'currency-quetzal',
   props: {

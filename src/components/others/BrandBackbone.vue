@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-backbone-pcon', component)
+    Vue.component('brand-backbone-pcon', this)
   },
   name: 'brand-backbone',
   props: {

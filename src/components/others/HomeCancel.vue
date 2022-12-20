@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-cancel-pcon', component)
+    Vue.component('home-cancel-pcon', this)
   },
   name: 'home-cancel',
   props: {

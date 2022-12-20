@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('perfume-svg-pcon', component)
+    Vue.component('perfume-svg-pcon', this)
   },
   name: 'perfume-svg',
   props: {

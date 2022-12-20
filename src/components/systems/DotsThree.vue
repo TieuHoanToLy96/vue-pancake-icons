@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dots-three-pcon', component)
+    Vue.component('dots-three-pcon', this)
   },
   name: 'dots-three',
   props: {

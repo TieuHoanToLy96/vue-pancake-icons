@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cloud-rain-pcon', component)
+    Vue.component('cloud-rain-pcon', this)
   },
   name: 'cloud-rain',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lifebuoy-svg-pcon', component)
+    Vue.component('lifebuoy-svg-pcon', this)
   },
   name: 'lifebuoy-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-equal-lower-pcon', component)
+    Vue.component('math-equal-lower-pcon', this)
   },
   name: 'math-equal-lower',
   props: {

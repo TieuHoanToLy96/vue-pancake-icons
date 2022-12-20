@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('parentheses-svg-pcon', component)
+    Vue.component('parentheses-svg-pcon', this)
   },
   name: 'parentheses-svg',
   props: {

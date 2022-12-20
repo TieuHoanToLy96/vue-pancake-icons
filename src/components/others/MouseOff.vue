@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mouse-off-pcon', component)
+    Vue.component('mouse-off-pcon', this)
   },
   name: 'mouse-off',
   props: {

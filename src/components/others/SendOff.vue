@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('send-off-pcon', component)
+    Vue.component('send-off-pcon', this)
   },
   name: 'send-off',
   props: {

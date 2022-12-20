@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('telegram-logo-pcon', component)
+    Vue.component('telegram-logo-pcon', this)
   },
   name: 'telegram-logo',
   props: {

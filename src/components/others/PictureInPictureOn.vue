@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('picture-in-picture-on-pcon', component)
+    Vue.component('picture-in-picture-on-pcon', this)
   },
   name: 'picture-in-picture-on',
   props: {

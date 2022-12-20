@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-cross-pcon', component)
+    Vue.component('arrows-cross-pcon', this)
   },
   name: 'arrows-cross',
   props: {

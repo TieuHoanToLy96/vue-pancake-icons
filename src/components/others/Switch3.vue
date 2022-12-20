@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('switch-3-pcon', component)
+    Vue.component('switch-3-pcon', this)
   },
   name: 'switch-3',
   props: {

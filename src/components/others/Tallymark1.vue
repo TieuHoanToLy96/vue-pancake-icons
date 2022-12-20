@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tallymark-1-pcon', component)
+    Vue.component('tallymark-1-pcon', this)
   },
   name: 'tallymark-1',
   props: {

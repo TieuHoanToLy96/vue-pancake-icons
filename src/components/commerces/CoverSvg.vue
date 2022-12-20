@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cover-svg-pcon', component)
+    Vue.component('cover-svg-pcon', this)
   },
   name: 'cover-svg',
   props: {

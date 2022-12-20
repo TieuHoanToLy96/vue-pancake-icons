@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('door-svg-pcon', component)
+    Vue.component('door-svg-pcon', this)
   },
   name: 'door-svg',
   props: {

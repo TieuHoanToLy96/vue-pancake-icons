@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rows-svg-pcon', component)
+    Vue.component('rows-svg-pcon', this)
   },
   name: 'rows-svg',
   props: {

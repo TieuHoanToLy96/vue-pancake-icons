@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('trophy-svg-pcon', component)
+    Vue.component('trophy-svg-pcon', this)
   },
   name: 'trophy-svg',
   props: {

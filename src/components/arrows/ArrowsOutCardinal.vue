@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-out-cardinal-pcon', component)
+    Vue.component('arrows-out-cardinal-pcon', this)
   },
   name: 'arrows-out-cardinal',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('eye-closed-pcon', component)
+    Vue.component('eye-closed-pcon', this)
   },
   name: 'eye-closed',
   props: {

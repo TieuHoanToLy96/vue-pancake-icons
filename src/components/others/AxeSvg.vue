@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('axe-svg-pcon', component)
+    Vue.component('axe-svg-pcon', this)
   },
   name: 'axe-svg',
   props: {

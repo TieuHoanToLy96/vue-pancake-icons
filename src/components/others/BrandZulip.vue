@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-zulip-pcon', component)
+    Vue.component('brand-zulip-pcon', this)
   },
   name: 'brand-zulip',
   props: {

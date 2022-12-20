@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('signature-svg-pcon', component)
+    Vue.component('signature-svg-pcon', this)
   },
   name: 'signature-svg',
   props: {

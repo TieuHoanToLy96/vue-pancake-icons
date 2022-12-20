@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('direction-sign-pcon', component)
+    Vue.component('direction-sign-pcon', this)
   },
   name: 'direction-sign',
   props: {

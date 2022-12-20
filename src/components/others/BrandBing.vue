@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-bing-pcon', component)
+    Vue.component('brand-bing-pcon', this)
   },
   name: 'brand-bing',
   props: {

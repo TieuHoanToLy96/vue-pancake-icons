@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-capacitor-polarized-pcon', component)
+    Vue.component('circuit-capacitor-polarized-pcon', this)
   },
   name: 'circuit-capacitor-polarized',
   props: {

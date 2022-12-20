@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-yahoo-pcon', component)
+    Vue.component('brand-yahoo-pcon', this)
   },
   name: 'brand-yahoo',
   props: {

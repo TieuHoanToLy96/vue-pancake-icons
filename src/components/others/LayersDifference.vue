@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layers-difference-pcon', component)
+    Vue.component('layers-difference-pcon', this)
   },
   name: 'layers-difference',
   props: {

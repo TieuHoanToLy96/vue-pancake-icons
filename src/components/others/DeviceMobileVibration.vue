@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-mobile-vibration-pcon', component)
+    Vue.component('device-mobile-vibration-pcon', this)
   },
   name: 'device-mobile-vibration',
   props: {

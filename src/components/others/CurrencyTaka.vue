@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-taka-pcon', component)
+    Vue.component('currency-taka-pcon', this)
   },
   name: 'currency-taka',
   props: {

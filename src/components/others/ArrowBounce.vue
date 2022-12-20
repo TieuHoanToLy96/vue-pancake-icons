@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-bounce-pcon', component)
+    Vue.component('arrow-bounce-pcon', this)
   },
   name: 'arrow-bounce',
   props: {

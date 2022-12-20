@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('car-crane-pcon', component)
+    Vue.component('car-crane-pcon', this)
   },
   name: 'car-crane',
   props: {

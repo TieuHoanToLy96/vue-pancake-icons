@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-windows-pcon', component)
+    Vue.component('brand-windows-pcon', this)
   },
   name: 'brand-windows',
   props: {

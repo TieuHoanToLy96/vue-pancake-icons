@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-ember-pcon', component)
+    Vue.component('brand-ember-pcon', this)
   },
   name: 'brand-ember',
   props: {

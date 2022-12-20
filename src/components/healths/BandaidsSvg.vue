@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bandaids-svg-pcon', component)
+    Vue.component('bandaids-svg-pcon', this)
   },
   name: 'bandaids-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tag-simple-pcon', component)
+    Vue.component('tag-simple-pcon', this)
   },
   name: 'tag-simple',
   props: {

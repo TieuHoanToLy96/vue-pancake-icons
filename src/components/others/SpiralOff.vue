@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('spiral-off-pcon', component)
+    Vue.component('spiral-off-pcon', this)
   },
   name: 'spiral-off',
   props: {

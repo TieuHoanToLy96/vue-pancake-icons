@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-star-pcon', component)
+    Vue.component('file-star-pcon', this)
   },
   name: 'file-star',
   props: {

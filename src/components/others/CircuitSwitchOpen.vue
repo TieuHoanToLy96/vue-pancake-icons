@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-switch-open-pcon', component)
+    Vue.component('circuit-switch-open-pcon', this)
   },
   name: 'circuit-switch-open',
   props: {

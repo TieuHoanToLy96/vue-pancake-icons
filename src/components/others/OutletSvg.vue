@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('outlet-svg-pcon', component)
+    Vue.component('outlet-svg-pcon', this)
   },
   name: 'outlet-svg',
   props: {

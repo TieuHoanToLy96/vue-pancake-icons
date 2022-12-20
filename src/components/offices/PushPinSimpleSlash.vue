@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('push-pin-simple-slash-pcon', component)
+    Vue.component('push-pin-simple-slash-pcon', this)
   },
   name: 'push-pin-simple-slash',
   props: {

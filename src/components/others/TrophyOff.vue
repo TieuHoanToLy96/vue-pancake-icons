@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('trophy-off-pcon', component)
+    Vue.component('trophy-off-pcon', this)
   },
   name: 'trophy-off',
   props: {

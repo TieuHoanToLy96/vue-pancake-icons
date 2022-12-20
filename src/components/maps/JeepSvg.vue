@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('jeep-svg-pcon', component)
+    Vue.component('jeep-svg-pcon', this)
   },
   name: 'jeep-svg',
   props: {

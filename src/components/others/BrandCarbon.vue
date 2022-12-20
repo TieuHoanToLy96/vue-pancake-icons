@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-carbon-pcon', component)
+    Vue.component('brand-carbon-pcon', this)
   },
   name: 'brand-carbon',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-split-2-pcon', component)
+    Vue.component('arrows-split-2-pcon', this)
   },
   name: 'arrows-split-2',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('eye-check-pcon', component)
+    Vue.component('eye-check-pcon', this)
   },
   name: 'eye-check',
   props: {

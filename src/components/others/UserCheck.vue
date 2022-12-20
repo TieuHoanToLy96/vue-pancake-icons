@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('user-check-pcon', component)
+    Vue.component('user-check-pcon', this)
   },
   name: 'user-check',
   props: {

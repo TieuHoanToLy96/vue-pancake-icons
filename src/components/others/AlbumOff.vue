@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('album-off-pcon', component)
+    Vue.component('album-off-pcon', this)
   },
   name: 'album-off',
   props: {

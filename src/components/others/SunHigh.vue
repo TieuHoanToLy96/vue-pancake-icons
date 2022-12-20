@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sun-high-pcon', component)
+    Vue.component('sun-high-pcon', this)
   },
   name: 'sun-high',
   props: {

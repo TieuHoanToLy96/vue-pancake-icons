@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-revolut-pcon', component)
+    Vue.component('brand-revolut-pcon', this)
   },
   name: 'brand-revolut',
   props: {

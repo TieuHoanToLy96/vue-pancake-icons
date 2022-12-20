@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bell-ringing-pcon', component)
+    Vue.component('bell-ringing-pcon', this)
   },
   name: 'bell-ringing',
   props: {

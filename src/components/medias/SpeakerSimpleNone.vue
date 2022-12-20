@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('speaker-simple-none-pcon', component)
+    Vue.component('speaker-simple-none-pcon', this)
   },
   name: 'speaker-simple-none',
   props: {

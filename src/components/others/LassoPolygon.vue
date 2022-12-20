@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lasso-polygon-pcon', component)
+    Vue.component('lasso-polygon-pcon', this)
   },
   name: 'lasso-polygon',
   props: {

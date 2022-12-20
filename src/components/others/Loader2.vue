@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('loader-2-pcon', component)
+    Vue.component('loader-2-pcon', this)
   },
   name: 'loader-2',
   props: {

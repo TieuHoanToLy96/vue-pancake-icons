@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('carrot-svg-pcon', component)
+    Vue.component('carrot-svg-pcon', this)
   },
   name: 'carrot-svg',
   props: {

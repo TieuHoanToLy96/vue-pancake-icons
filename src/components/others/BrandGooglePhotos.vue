@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-google-photos-pcon', component)
+    Vue.component('brand-google-photos-pcon', this)
   },
   name: 'brand-google-photos',
   props: {

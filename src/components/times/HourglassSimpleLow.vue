@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hourglass-simple-low-pcon', component)
+    Vue.component('hourglass-simple-low-pcon', this)
   },
   name: 'hourglass-simple-low',
   props: {

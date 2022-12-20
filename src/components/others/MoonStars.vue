@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('moon-stars-pcon', component)
+    Vue.component('moon-stars-pcon', this)
   },
   name: 'moon-stars',
   props: {

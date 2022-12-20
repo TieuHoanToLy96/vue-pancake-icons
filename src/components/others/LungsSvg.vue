@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lungs-svg-pcon', component)
+    Vue.component('lungs-svg-pcon', this)
   },
   name: 'lungs-svg',
   props: {

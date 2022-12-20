@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bell-slash-pcon', component)
+    Vue.component('bell-slash-pcon', this)
   },
   name: 'bell-slash',
   props: {

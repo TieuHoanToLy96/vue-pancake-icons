@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('grill-off-pcon', component)
+    Vue.component('grill-off-pcon', this)
   },
   name: 'grill-off',
   props: {

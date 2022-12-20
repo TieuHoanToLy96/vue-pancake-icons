@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-pocket-pcon', component)
+    Vue.component('brand-pocket-pcon', this)
   },
   name: 'brand-pocket',
   props: {

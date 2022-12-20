@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-apple-podcast-pcon', component)
+    Vue.component('brand-apple-podcast-pcon', this)
   },
   name: 'brand-apple-podcast',
   props: {

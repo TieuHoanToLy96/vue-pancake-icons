@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-reddit-pcon', component)
+    Vue.component('brand-reddit-pcon', this)
   },
   name: 'brand-reddit',
   props: {

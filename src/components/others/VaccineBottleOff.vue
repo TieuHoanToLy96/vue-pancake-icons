@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('vaccine-bottle-off-pcon', component)
+    Vue.component('vaccine-bottle-off-pcon', this)
   },
   name: 'vaccine-bottle-off',
   props: {

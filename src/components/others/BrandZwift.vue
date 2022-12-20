@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-zwift-pcon', component)
+    Vue.component('brand-zwift-pcon', this)
   },
   name: 'brand-zwift',
   props: {

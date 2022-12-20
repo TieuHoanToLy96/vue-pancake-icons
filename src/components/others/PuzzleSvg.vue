@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('puzzle-svg-pcon', component)
+    Vue.component('puzzle-svg-pcon', this)
   },
   name: 'puzzle-svg',
   props: {

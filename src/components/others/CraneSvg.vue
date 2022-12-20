@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('crane-svg-pcon', component)
+    Vue.component('crane-svg-pcon', this)
   },
   name: 'crane-svg',
   props: {

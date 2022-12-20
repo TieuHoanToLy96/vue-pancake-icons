@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-messenger-pcon', component)
+    Vue.component('brand-messenger-pcon', this)
   },
   name: 'brand-messenger',
   props: {

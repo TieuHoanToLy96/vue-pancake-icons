@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-disqus-pcon', component)
+    Vue.component('brand-disqus-pcon', this)
   },
   name: 'brand-disqus',
   props: {

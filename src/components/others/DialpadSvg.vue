@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dialpad-svg-pcon', component)
+    Vue.component('dialpad-svg-pcon', this)
   },
   name: 'dialpad-svg',
   props: {

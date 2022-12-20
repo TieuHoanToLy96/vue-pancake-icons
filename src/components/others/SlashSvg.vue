@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('slash-svg-pcon', component)
+    Vue.component('slash-svg-pcon', this)
   },
   name: 'slash-svg',
   props: {

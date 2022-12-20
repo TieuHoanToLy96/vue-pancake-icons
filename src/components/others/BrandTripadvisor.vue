@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-tripadvisor-pcon', component)
+    Vue.component('brand-tripadvisor-pcon', this)
   },
   name: 'brand-tripadvisor',
   props: {

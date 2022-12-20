@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('books-svg-pcon', component)
+    Vue.component('books-svg-pcon', this)
   },
   name: 'books-svg',
   props: {

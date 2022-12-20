@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chalkboard-svg-pcon', component)
+    Vue.component('chalkboard-svg-pcon', this)
   },
   name: 'chalkboard-svg',
   props: {

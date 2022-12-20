@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('viewfinder-svg-pcon', component)
+    Vue.component('viewfinder-svg-pcon', this)
   },
   name: 'viewfinder-svg',
   props: {

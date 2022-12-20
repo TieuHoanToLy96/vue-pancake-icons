@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('server-cog-pcon', component)
+    Vue.component('server-cog-pcon', this)
   },
   name: 'server-cog',
   props: {

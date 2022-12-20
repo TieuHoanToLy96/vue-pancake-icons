@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wind-svg-pcon', component)
+    Vue.component('wind-svg-pcon', this)
   },
   name: 'wind-svg',
   props: {

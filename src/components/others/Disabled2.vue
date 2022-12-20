@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('disabled-2-pcon', component)
+    Vue.component('disabled-2-pcon', this)
   },
   name: 'disabled-2',
   props: {

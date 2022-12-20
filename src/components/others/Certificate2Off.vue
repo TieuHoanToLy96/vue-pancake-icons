@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('certificate-2-off-pcon', component)
+    Vue.component('certificate-2-off-pcon', this)
   },
   name: 'certificate-2-off',
   props: {

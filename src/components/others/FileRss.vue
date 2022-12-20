@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-rss-pcon', component)
+    Vue.component('file-rss-pcon', this)
   },
   name: 'file-rss',
   props: {

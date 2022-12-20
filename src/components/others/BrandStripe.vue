@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-stripe-pcon', component)
+    Vue.component('brand-stripe-pcon', this)
   },
   name: 'brand-stripe',
   props: {

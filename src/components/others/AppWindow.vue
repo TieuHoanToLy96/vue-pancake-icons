@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('app-window-pcon', component)
+    Vue.component('app-window-pcon', this)
   },
   name: 'app-window',
   props: {

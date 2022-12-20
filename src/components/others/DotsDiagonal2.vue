@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dots-diagonal-2-pcon', component)
+    Vue.component('dots-diagonal-2-pcon', this)
   },
   name: 'dots-diagonal-2',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bell-x-pcon', component)
+    Vue.component('bell-x-pcon', this)
   },
   name: 'bell-x',
   props: {

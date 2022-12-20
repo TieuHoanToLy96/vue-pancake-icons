@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-diff-pcon', component)
+    Vue.component('file-diff-pcon', this)
   },
   name: 'file-diff',
   props: {

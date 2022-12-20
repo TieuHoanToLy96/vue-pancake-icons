@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('target-off-pcon', component)
+    Vue.component('target-off-pcon', this)
   },
   name: 'target-off',
   props: {

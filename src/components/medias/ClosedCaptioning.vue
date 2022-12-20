@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('closed-captioning-pcon', component)
+    Vue.component('closed-captioning-pcon', this)
   },
   name: 'closed-captioning',
   props: {

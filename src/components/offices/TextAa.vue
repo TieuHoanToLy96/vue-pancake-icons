@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-aa-pcon', component)
+    Vue.component('text-aa-pcon', this)
   },
   name: 'text-aa',
   props: {

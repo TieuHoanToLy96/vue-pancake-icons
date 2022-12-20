@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('camera-slash-pcon', component)
+    Vue.component('camera-slash-pcon', this)
   },
   name: 'camera-slash',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-wave-left-down-pcon', component)
+    Vue.component('arrow-wave-left-down-pcon', this)
   },
   name: 'arrow-wave-left-down',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-mastercard-pcon', component)
+    Vue.component('brand-mastercard-pcon', this)
   },
   name: 'brand-mastercard',
   props: {

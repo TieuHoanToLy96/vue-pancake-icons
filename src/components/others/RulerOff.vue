@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ruler-off-pcon', component)
+    Vue.component('ruler-off-pcon', this)
   },
   name: 'ruler-off',
   props: {

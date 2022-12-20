@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-distribute-vertical-pcon', component)
+    Vue.component('layout-distribute-vertical-pcon', this)
   },
   name: 'layout-distribute-vertical',
   props: {

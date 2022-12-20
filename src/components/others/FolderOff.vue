@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('folder-off-pcon', component)
+    Vue.component('folder-off-pcon', this)
   },
   name: 'folder-off',
   props: {

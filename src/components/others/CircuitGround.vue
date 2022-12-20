@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-ground-pcon', component)
+    Vue.component('circuit-ground-pcon', this)
   },
   name: 'circuit-ground',
   props: {

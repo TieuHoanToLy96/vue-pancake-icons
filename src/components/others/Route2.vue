@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('route-2-pcon', component)
+    Vue.component('route-2-pcon', this)
   },
   name: 'route-2',
   props: {

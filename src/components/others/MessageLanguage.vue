@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('message-language-pcon', component)
+    Vue.component('message-language-pcon', this)
   },
   name: 'message-language',
   props: {

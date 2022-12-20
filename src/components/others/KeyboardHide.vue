@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('keyboard-hide-pcon', component)
+    Vue.component('keyboard-hide-pcon', this)
   },
   name: 'keyboard-hide',
   props: {

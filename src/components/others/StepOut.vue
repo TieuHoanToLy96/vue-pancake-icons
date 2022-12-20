@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('step-out-pcon', component)
+    Vue.component('step-out-pcon', this)
   },
   name: 'step-out',
   props: {

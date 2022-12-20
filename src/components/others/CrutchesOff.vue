@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('crutches-off-pcon', component)
+    Vue.component('crutches-off-pcon', this)
   },
   name: 'crutches-off',
   props: {

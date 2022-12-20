@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gift-svg-pcon', component)
+    Vue.component('gift-svg-pcon', this)
   },
   name: 'gift-svg',
   props: {

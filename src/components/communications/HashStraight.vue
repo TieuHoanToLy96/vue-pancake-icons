@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hash-straight-pcon', component)
+    Vue.component('hash-straight-pcon', this)
   },
   name: 'hash-straight',
   props: {

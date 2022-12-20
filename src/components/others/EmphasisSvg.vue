@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('emphasis-svg-pcon', component)
+    Vue.component('emphasis-svg-pcon', this)
   },
   name: 'emphasis-svg',
   props: {

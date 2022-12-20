@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shovel-svg-pcon', component)
+    Vue.component('shovel-svg-pcon', this)
   },
   name: 'shovel-svg',
   props: {

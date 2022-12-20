@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('language-svg-pcon', component)
+    Vue.component('language-svg-pcon', this)
   },
   name: 'language-svg',
   props: {

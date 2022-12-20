@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wallet-off-pcon', component)
+    Vue.component('wallet-off-pcon', this)
   },
   name: 'wallet-off',
   props: {

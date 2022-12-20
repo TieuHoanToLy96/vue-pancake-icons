@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('video-camera-pcon', component)
+    Vue.component('video-camera-pcon', this)
   },
   name: 'video-camera',
   props: {

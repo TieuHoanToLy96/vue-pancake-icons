@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('album-svg-pcon', component)
+    Vue.component('album-svg-pcon', this)
   },
   name: 'album-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('clover-2-pcon', component)
+    Vue.component('clover-2-pcon', this)
   },
   name: 'clover-2',
   props: {

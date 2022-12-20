@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pentagon-off-pcon', component)
+    Vue.component('pentagon-off-pcon', this)
   },
   name: 'pentagon-off',
   props: {

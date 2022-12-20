@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('printer-svg-pcon', component)
+    Vue.component('printer-svg-pcon', this)
   },
   name: 'printer-svg',
   props: {

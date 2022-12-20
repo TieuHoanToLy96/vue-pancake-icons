@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('copyright-off-pcon', component)
+    Vue.component('copyright-off-pcon', this)
   },
   name: 'copyright-off',
   props: {

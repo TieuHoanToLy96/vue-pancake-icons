@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('list-check-pcon', component)
+    Vue.component('list-check-pcon', this)
   },
   name: 'list-check',
   props: {

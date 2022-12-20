@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('guitar-pick-pcon', component)
+    Vue.component('guitar-pick-pcon', this)
   },
   name: 'guitar-pick',
   props: {

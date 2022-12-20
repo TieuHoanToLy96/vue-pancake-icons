@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-chrome-pcon', component)
+    Vue.component('brand-chrome-pcon', this)
   },
   name: 'brand-chrome',
   props: {

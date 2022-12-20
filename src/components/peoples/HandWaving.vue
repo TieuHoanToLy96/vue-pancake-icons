@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hand-waving-pcon', component)
+    Vue.component('hand-waving-pcon', this)
   },
   name: 'hand-waving',
   props: {

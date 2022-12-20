@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('heart-handshake-pcon', component)
+    Vue.component('heart-handshake-pcon', this)
   },
   name: 'heart-handshake',
   props: {

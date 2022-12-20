@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('api-off-pcon', component)
+    Vue.component('api-off-pcon', this)
   },
   name: 'api-off',
   props: {

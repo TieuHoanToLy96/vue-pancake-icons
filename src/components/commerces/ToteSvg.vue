@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tote-svg-pcon', component)
+    Vue.component('tote-svg-pcon', this)
   },
   name: 'tote-svg',
   props: {

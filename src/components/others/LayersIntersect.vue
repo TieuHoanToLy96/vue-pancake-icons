@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layers-intersect-pcon', component)
+    Vue.component('layers-intersect-pcon', this)
   },
   name: 'layers-intersect',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('trash-simple-pcon', component)
+    Vue.component('trash-simple-pcon', this)
   },
   name: 'trash-simple',
   props: {

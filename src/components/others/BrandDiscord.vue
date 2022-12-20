@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-discord-pcon', component)
+    Vue.component('brand-discord-pcon', this)
   },
   name: 'brand-discord',
   props: {

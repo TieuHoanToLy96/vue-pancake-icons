@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-storybook-pcon', component)
+    Vue.component('brand-storybook-pcon', this)
   },
   name: 'brand-storybook',
   props: {

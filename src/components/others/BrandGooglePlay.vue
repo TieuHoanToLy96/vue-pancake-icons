@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-google-play-pcon', component)
+    Vue.component('brand-google-play-pcon', this)
   },
   name: 'brand-google-play',
   props: {

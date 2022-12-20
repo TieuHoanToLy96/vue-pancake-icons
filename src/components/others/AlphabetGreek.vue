@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('alphabet-greek-pcon', component)
+    Vue.component('alphabet-greek-pcon', this)
   },
   name: 'alphabet-greek',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('git-compare-pcon', component)
+    Vue.component('git-compare-pcon', this)
   },
   name: 'git-compare',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('regex-off-pcon', component)
+    Vue.component('regex-off-pcon', this)
   },
   name: 'regex-off',
   props: {

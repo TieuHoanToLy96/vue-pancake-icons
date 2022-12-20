@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('archive-tray-pcon', component)
+    Vue.component('archive-tray-pcon', this)
   },
   name: 'archive-tray',
   props: {

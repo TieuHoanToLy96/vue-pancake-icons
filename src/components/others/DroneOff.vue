@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('drone-off-pcon', component)
+    Vue.component('drone-off-pcon', this)
   },
   name: 'drone-off',
   props: {

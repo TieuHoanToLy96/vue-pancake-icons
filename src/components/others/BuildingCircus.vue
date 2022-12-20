@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-circus-pcon', component)
+    Vue.component('building-circus-pcon', this)
   },
   name: 'building-circus',
   props: {

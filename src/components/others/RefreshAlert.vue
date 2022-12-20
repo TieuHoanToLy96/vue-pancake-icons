@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('refresh-alert-pcon', component)
+    Vue.component('refresh-alert-pcon', this)
   },
   name: 'refresh-alert',
   props: {

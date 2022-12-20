@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dots-three-outline-pcon', component)
+    Vue.component('dots-three-outline-pcon', this)
   },
   name: 'dots-three-outline',
   props: {

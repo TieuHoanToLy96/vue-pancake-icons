@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-spotify-pcon', component)
+    Vue.component('brand-spotify-pcon', this)
   },
   name: 'brand-spotify',
   props: {

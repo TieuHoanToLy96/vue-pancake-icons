@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('list-numbers-pcon', component)
+    Vue.component('list-numbers-pcon', this)
   },
   name: 'list-numbers',
   props: {

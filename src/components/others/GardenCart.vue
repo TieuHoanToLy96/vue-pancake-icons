@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('garden-cart-pcon', component)
+    Vue.component('garden-cart-pcon', this)
   },
   name: 'garden-cart',
   props: {

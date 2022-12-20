@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-switch-closed-pcon', component)
+    Vue.component('circuit-switch-closed-pcon', this)
   },
   name: 'circuit-switch-closed',
   props: {

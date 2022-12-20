@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('oval-svg-pcon', component)
+    Vue.component('oval-svg-pcon', this)
   },
   name: 'oval-svg',
   props: {

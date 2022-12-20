@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('glass-full-pcon', component)
+    Vue.component('glass-full-pcon', this)
   },
   name: 'glass-full',
   props: {

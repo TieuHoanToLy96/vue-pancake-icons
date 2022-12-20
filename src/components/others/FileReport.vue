@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-report-pcon', component)
+    Vue.component('file-report-pcon', this)
   },
   name: 'file-report',
   props: {

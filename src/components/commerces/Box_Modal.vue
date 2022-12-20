@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('box-modal-pcon', component)
+    Vue.component('box-modal-pcon', this)
   },
   name: 'box-modal',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-zip-pcon', component)
+    Vue.component('file-zip-pcon', this)
   },
   name: 'file-zip',
   props: {

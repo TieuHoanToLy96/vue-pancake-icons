@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('movie-off-pcon', component)
+    Vue.component('movie-off-pcon', this)
   },
   name: 'movie-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-mp4-pcon', component)
+    Vue.component('file-mp4-pcon', this)
   },
   name: 'file-mp4',
   props: {

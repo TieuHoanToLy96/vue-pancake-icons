@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('floppy-disk-pcon', component)
+    Vue.component('floppy-disk-pcon', this)
   },
   name: 'floppy-disk',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('thermometer-simple-pcon', component)
+    Vue.component('thermometer-simple-pcon', this)
   },
   name: 'thermometer-simple',
   props: {

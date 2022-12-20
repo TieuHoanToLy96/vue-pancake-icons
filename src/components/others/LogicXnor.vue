@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('logic-xnor-pcon', component)
+    Vue.component('logic-xnor-pcon', this)
   },
   name: 'logic-xnor',
   props: {

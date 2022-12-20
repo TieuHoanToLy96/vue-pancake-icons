@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fall-svg-pcon', component)
+    Vue.component('fall-svg-pcon', this)
   },
   name: 'fall-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-plus-pcon', component)
+    Vue.component('home-plus-pcon', this)
   },
   name: 'home-plus',
   props: {

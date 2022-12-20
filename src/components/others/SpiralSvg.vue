@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('spiral-svg-pcon', component)
+    Vue.component('spiral-svg-pcon', this)
   },
   name: 'spiral-svg',
   props: {

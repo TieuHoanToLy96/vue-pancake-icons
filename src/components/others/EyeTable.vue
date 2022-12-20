@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('eye-table-pcon', component)
+    Vue.component('eye-table-pcon', this)
   },
   name: 'eye-table',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-big-right-pcon', component)
+    Vue.component('arrow-big-right-pcon', this)
   },
   name: 'arrow-big-right',
   props: {

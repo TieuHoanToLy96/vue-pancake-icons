@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-vinted-pcon', component)
+    Vue.component('brand-vinted-pcon', this)
   },
   name: 'brand-vinted',
   props: {

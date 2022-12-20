@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('desktop-svg-pcon', component)
+    Vue.component('desktop-svg-pcon', this)
   },
   name: 'desktop-svg',
   props: {

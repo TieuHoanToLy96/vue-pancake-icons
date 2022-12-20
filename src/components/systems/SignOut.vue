@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sign-out-pcon', component)
+    Vue.component('sign-out-pcon', this)
   },
   name: 'sign-out',
   props: {

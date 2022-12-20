@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('switch-vertical-pcon', component)
+    Vue.component('switch-vertical-pcon', this)
   },
   name: 'switch-vertical',
   props: {

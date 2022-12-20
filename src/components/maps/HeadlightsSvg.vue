@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('headlights-svg-pcon', component)
+    Vue.component('headlights-svg-pcon', this)
   },
   name: 'headlights-svg',
   props: {

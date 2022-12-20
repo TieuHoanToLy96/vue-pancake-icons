@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-deno-pcon', component)
+    Vue.component('brand-deno-pcon', this)
   },
   name: 'brand-deno',
   props: {

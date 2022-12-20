@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('border-vertical-pcon', component)
+    Vue.component('border-vertical-pcon', this)
   },
   name: 'border-vertical',
   props: {

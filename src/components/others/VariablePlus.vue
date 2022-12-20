@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('variable-plus-pcon', component)
+    Vue.component('variable-plus-pcon', this)
   },
   name: 'variable-plus',
   props: {

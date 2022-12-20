@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-like-pcon', component)
+    Vue.component('file-like-pcon', this)
   },
   name: 'file-like',
   props: {

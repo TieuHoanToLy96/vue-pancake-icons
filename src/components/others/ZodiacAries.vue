@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zodiac-aries-pcon', component)
+    Vue.component('zodiac-aries-pcon', this)
   },
   name: 'zodiac-aries',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('box-margin-pcon', component)
+    Vue.component('box-margin-pcon', this)
   },
   name: 'box-margin',
   props: {

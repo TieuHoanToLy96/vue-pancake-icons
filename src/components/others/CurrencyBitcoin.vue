@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-bitcoin-pcon', component)
+    Vue.component('currency-bitcoin-pcon', this)
   },
   name: 'currency-bitcoin',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-bandcamp-pcon', component)
+    Vue.component('brand-bandcamp-pcon', this)
   },
   name: 'brand-bandcamp',
   props: {

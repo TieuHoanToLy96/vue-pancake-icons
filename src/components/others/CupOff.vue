@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cup-off-pcon', component)
+    Vue.component('cup-off-pcon', this)
   },
   name: 'cup-off',
   props: {

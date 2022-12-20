@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rotate-clockwise-pcon', component)
+    Vue.component('rotate-clockwise-pcon', this)
   },
   name: 'rotate-clockwise',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pinterest-logo-pcon', component)
+    Vue.component('pinterest-logo-pcon', this)
   },
   name: 'pinterest-logo',
   props: {

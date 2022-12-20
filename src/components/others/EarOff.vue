@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ear-off-pcon', component)
+    Vue.component('ear-off-pcon', this)
   },
   name: 'ear-off',
   props: {

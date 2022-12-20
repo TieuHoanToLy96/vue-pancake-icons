@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('color-picker-off-pcon', component)
+    Vue.component('color-picker-off-pcon', this)
   },
   name: 'color-picker-off',
   props: {

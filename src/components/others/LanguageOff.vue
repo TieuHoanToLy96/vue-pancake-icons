@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('language-off-pcon', component)
+    Vue.component('language-off-pcon', this)
   },
   name: 'language-off',
   props: {

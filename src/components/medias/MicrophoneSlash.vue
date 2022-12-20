@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('microphone-slash-pcon', component)
+    Vue.component('microphone-slash-pcon', this)
   },
   name: 'microphone-slash',
   props: {

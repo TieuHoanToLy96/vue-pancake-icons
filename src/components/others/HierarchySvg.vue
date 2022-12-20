@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hierarchy-svg-pcon', component)
+    Vue.component('hierarchy-svg-pcon', this)
   },
   name: 'hierarchy-svg',
   props: {

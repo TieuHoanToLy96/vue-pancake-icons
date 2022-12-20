@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('medal-2-pcon', component)
+    Vue.component('medal-2-pcon', this)
   },
   name: 'medal-2',
   props: {

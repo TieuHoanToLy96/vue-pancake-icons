@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-adonis-js-pcon', component)
+    Vue.component('brand-adonis-js-pcon', this)
   },
   name: 'brand-adonis-js',
   props: {

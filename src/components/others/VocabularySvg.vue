@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('vocabulary-svg-pcon', component)
+    Vue.component('vocabulary-svg-pcon', this)
   },
   name: 'vocabulary-svg',
   props: {

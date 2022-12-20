@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sign-in-pcon', component)
+    Vue.component('sign-in-pcon', this)
   },
   name: 'sign-in',
   props: {

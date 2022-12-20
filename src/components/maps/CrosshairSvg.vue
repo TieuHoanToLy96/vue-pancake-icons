@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('crosshair-svg-pcon', component)
+    Vue.component('crosshair-svg-pcon', this)
   },
   name: 'crosshair-svg',
   props: {

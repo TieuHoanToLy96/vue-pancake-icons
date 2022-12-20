@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sliders-horizontal-pcon', component)
+    Vue.component('sliders-horizontal-pcon', this)
   },
   name: 'sliders-horizontal',
   props: {

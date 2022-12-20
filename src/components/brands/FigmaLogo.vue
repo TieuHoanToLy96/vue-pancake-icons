@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('figma-logo-pcon', component)
+    Vue.component('figma-logo-pcon', this)
   },
   name: 'figma-logo',
   props: {

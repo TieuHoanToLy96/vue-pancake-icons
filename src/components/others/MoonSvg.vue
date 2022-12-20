@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('moon-svg-pcon', component)
+    Vue.component('moon-svg-pcon', this)
   },
   name: 'moon-svg',
   props: {

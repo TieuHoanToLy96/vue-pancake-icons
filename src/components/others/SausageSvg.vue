@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sausage-svg-pcon', component)
+    Vue.component('sausage-svg-pcon', this)
   },
   name: 'sausage-svg',
   props: {

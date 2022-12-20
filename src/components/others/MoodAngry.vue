@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-angry-pcon', component)
+    Vue.component('mood-angry-pcon', this)
   },
   name: 'mood-angry',
   props: {

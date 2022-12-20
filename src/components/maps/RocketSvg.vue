@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rocket-svg-pcon', component)
+    Vue.component('rocket-svg-pcon', this)
   },
   name: 'rocket-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('world-off-pcon', component)
+    Vue.component('world-off-pcon', this)
   },
   name: 'world-off',
   props: {

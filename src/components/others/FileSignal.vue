@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-signal-pcon', component)
+    Vue.component('file-signal-pcon', this)
   },
   name: 'file-signal',
   props: {

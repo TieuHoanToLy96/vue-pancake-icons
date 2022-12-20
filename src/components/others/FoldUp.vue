@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fold-up-pcon', component)
+    Vue.component('fold-up-pcon', this)
   },
   name: 'fold-up',
   props: {

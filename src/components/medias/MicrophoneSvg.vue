@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('microphone-svg-pcon', component)
+    Vue.component('microphone-svg-pcon', this)
   },
   name: 'microphone-svg',
   props: {

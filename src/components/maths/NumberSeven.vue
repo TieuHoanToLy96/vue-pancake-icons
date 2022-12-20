@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('number-seven-pcon', component)
+    Vue.component('number-seven-pcon', this)
   },
   name: 'number-seven',
   props: {

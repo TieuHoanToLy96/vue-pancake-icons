@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('clock-svg-pcon', component)
+    Vue.component('clock-svg-pcon', this)
   },
   name: 'clock-svg',
   props: {

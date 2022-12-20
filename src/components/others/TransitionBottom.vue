@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('transition-bottom-pcon', component)
+    Vue.component('transition-bottom-pcon', this)
   },
   name: 'transition-bottom',
   props: {

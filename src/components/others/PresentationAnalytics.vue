@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('presentation-analytics-pcon', component)
+    Vue.component('presentation-analytics-pcon', this)
   },
   name: 'presentation-analytics',
   props: {

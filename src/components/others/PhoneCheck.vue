@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('phone-check-pcon', component)
+    Vue.component('phone-check-pcon', this)
   },
   name: 'phone-check',
   props: {

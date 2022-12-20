@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('logic-buffer-pcon', component)
+    Vue.component('logic-buffer-pcon', this)
   },
   name: 'logic-buffer',
   props: {

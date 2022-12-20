@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-trello-pcon', component)
+    Vue.component('brand-trello-pcon', this)
   },
   name: 'brand-trello',
   props: {

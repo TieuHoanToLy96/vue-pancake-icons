@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('table-options-pcon', component)
+    Vue.component('table-options-pcon', this)
   },
   name: 'table-options',
   props: {

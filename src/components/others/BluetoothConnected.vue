@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bluetooth-connected-pcon', component)
+    Vue.component('bluetooth-connected-pcon', this)
   },
   name: 'bluetooth-connected',
   props: {

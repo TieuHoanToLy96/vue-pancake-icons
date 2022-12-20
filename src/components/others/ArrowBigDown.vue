@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-big-down-pcon', component)
+    Vue.component('arrow-big-down-pcon', this)
   },
   name: 'arrow-big-down',
   props: {

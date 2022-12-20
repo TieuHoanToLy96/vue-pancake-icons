@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('photo-minus-pcon', component)
+    Vue.component('photo-minus-pcon', this)
   },
   name: 'photo-minus',
   props: {

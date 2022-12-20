@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('skateboard-svg-pcon', component)
+    Vue.component('skateboard-svg-pcon', this)
   },
   name: 'skateboard-svg',
   props: {

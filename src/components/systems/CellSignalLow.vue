@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cell-signal-low-pcon', component)
+    Vue.component('cell-signal-low-pcon', this)
   },
   name: 'cell-signal-low',
   props: {

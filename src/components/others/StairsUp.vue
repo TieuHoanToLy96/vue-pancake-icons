@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('stairs-up-pcon', component)
+    Vue.component('stairs-up-pcon', this)
   },
   name: 'stairs-up',
   props: {

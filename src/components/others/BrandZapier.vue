@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-zapier-pcon', component)
+    Vue.component('brand-zapier-pcon', this)
   },
   name: 'brand-zapier',
   props: {

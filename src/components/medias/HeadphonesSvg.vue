@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('headphones-svg-pcon', component)
+    Vue.component('headphones-svg-pcon', this)
   },
   name: 'headphones-svg',
   props: {

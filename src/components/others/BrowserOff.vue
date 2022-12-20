@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('browser-off-pcon', component)
+    Vue.component('browser-off-pcon', this)
   },
   name: 'browser-off',
   props: {

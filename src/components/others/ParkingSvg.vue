@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('parking-svg-pcon', component)
+    Vue.component('parking-svg-pcon', this)
   },
   name: 'parking-svg',
   props: {

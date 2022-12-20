@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('checklist-svg-pcon', component)
+    Vue.component('checklist-svg-pcon', this)
   },
   name: 'checklist-svg',
   props: {

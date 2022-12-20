@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-nintendo-off-pcon', component)
+    Vue.component('device-nintendo-off-pcon', this)
   },
   name: 'device-nintendo-off',
   props: {

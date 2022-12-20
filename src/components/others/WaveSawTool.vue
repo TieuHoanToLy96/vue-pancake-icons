@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wave-saw-tool-pcon', component)
+    Vue.component('wave-saw-tool-pcon', this)
   },
   name: 'wave-saw-tool',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('telescope-svg-pcon', component)
+    Vue.component('telescope-svg-pcon', this)
   },
   name: 'telescope-svg',
   props: {

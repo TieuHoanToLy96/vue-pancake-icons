@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-foursquare-pcon', component)
+    Vue.component('brand-foursquare-pcon', this)
   },
   name: 'brand-foursquare',
   props: {

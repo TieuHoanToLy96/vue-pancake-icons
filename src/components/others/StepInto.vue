@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('step-into-pcon', component)
+    Vue.component('step-into-pcon', this)
   },
   name: 'step-into',
   props: {

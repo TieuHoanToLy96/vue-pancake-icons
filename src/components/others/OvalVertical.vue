@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('oval-vertical-pcon', component)
+    Vue.component('oval-vertical-pcon', this)
   },
   name: 'oval-vertical',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wheelchair-off-pcon', component)
+    Vue.component('wheelchair-off-pcon', this)
   },
   name: 'wheelchair-off',
   props: {

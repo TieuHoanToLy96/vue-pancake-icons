@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brackets-curly-pcon', component)
+    Vue.component('brackets-curly-pcon', this)
   },
   name: 'brackets-curly',
   props: {

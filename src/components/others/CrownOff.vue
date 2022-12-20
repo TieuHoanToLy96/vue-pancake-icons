@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('crown-off-pcon', component)
+    Vue.component('crown-off-pcon', this)
   },
   name: 'crown-off',
   props: {

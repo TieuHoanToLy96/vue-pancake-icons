@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('airplane-takeoff-pcon', component)
+    Vue.component('airplane-takeoff-pcon', this)
   },
   name: 'airplane-takeoff',
   props: {

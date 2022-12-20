@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('note-blank-pcon', component)
+    Vue.component('note-blank-pcon', this)
   },
   name: 'note-blank',
   props: {

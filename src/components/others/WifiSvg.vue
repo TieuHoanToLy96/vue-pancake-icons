@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wifi-svg-pcon', component)
+    Vue.component('wifi-svg-pcon', this)
   },
   name: 'wifi-svg',
   props: {

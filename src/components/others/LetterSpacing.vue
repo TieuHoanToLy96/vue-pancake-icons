@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('letter-spacing-pcon', component)
+    Vue.component('letter-spacing-pcon', this)
   },
   name: 'letter-spacing',
   props: {

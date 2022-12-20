@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-mixpanel-pcon', component)
+    Vue.component('brand-mixpanel-pcon', this)
   },
   name: 'brand-mixpanel',
   props: {

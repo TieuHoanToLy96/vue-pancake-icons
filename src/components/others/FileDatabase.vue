@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-database-pcon', component)
+    Vue.component('file-database-pcon', this)
   },
   name: 'file-database',
   props: {

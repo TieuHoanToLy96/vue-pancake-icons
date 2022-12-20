@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-flutter-pcon', component)
+    Vue.component('brand-flutter-pcon', this)
   },
   name: 'brand-flutter',
   props: {

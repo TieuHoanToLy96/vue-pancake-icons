@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('clubs-svg-pcon', component)
+    Vue.component('clubs-svg-pcon', this)
   },
   name: 'clubs-svg',
   props: {

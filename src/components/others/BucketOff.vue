@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bucket-off-pcon', component)
+    Vue.component('bucket-off-pcon', this)
   },
   name: 'bucket-off',
   props: {

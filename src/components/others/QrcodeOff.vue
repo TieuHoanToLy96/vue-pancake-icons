@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('qrcode-off-pcon', component)
+    Vue.component('qrcode-off-pcon', this)
   },
   name: 'qrcode-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('radius-bottom-left-pcon', component)
+    Vue.component('radius-bottom-left-pcon', this)
   },
   name: 'radius-bottom-left',
   props: {

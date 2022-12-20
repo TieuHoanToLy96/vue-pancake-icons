@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('world-latitude-pcon', component)
+    Vue.component('world-latitude-pcon', this)
   },
   name: 'world-latitude',
   props: {

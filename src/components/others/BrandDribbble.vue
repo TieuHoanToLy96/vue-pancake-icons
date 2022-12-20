@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-dribbble-pcon', component)
+    Vue.component('brand-dribbble-pcon', this)
   },
   name: 'brand-dribbble',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-stackoverflow-pcon', component)
+    Vue.component('brand-stackoverflow-pcon', this)
   },
   name: 'brand-stackoverflow',
   props: {

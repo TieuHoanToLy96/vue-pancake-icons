@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cactus-svg-pcon', component)
+    Vue.component('cactus-svg-pcon', this)
   },
   name: 'cactus-svg',
   props: {

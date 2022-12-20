@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('military-award-pcon', component)
+    Vue.component('military-award-pcon', this)
   },
   name: 'military-award',
   props: {

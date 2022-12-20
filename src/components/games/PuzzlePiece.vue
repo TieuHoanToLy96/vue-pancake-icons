@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('puzzle-piece-pcon', component)
+    Vue.component('puzzle-piece-pcon', this)
   },
   name: 'puzzle-piece',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('umbrella-svg-pcon', component)
+    Vue.component('umbrella-svg-pcon', this)
   },
   name: 'umbrella-svg',
   props: {

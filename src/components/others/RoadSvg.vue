@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('road-svg-pcon', component)
+    Vue.component('road-svg-pcon', this)
   },
   name: 'road-svg',
   props: {

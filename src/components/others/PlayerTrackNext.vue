@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('player-track-next-pcon', component)
+    Vue.component('player-track-next-pcon', this)
   },
   name: 'player-track-next',
   props: {

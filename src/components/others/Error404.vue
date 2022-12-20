@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('error-404-pcon', component)
+    Vue.component('error-404-pcon', this)
   },
   name: 'error-404',
   props: {

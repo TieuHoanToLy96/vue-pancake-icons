@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('photo-x-pcon', component)
+    Vue.component('photo-x-pcon', this)
   },
   name: 'photo-x',
   props: {

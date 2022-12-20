@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('adjustments-horizontal-pcon', component)
+    Vue.component('adjustments-horizontal-pcon', this)
   },
   name: 'adjustments-horizontal',
   props: {

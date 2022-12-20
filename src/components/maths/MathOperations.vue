@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-operations-pcon', component)
+    Vue.component('math-operations-pcon', this)
   },
   name: 'math-operations',
   props: {

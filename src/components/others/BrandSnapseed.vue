@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-snapseed-pcon', component)
+    Vue.component('brand-snapseed-pcon', this)
   },
   name: 'brand-snapseed',
   props: {

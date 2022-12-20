@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('usb-svg-pcon', component)
+    Vue.component('usb-svg-pcon', this)
   },
   name: 'usb-svg',
   props: {

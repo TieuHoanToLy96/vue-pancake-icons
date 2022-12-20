@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('beer-off-pcon', component)
+    Vue.component('beer-off-pcon', this)
   },
   name: 'beer-off',
   props: {

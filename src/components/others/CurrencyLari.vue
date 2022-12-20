@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-lari-pcon', component)
+    Vue.component('currency-lari-pcon', this)
   },
   name: 'currency-lari',
   props: {

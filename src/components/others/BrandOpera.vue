@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-opera-pcon', component)
+    Vue.component('brand-opera-pcon', this)
   },
   name: 'brand-opera',
   props: {

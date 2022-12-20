@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brightness-down-pcon', component)
+    Vue.component('brightness-down-pcon', this)
   },
   name: 'brightness-down',
   props: {

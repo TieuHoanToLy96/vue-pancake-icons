@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tools-off-pcon', component)
+    Vue.component('tools-off-pcon', this)
   },
   name: 'tools-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('car-off-pcon', component)
+    Vue.component('car-off-pcon', this)
   },
   name: 'car-off',
   props: {

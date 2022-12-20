@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wash-off-pcon', component)
+    Vue.component('wash-off-pcon', this)
   },
   name: 'wash-off',
   props: {

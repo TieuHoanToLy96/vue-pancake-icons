@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('elements-svg-pcon', component)
+    Vue.component('elements-svg-pcon', this)
   },
   name: 'elements-svg',
   props: {

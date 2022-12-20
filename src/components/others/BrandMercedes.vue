@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-mercedes-pcon', component)
+    Vue.component('brand-mercedes-pcon', this)
   },
   name: 'brand-mercedes',
   props: {

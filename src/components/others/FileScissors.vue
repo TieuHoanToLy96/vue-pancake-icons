@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-scissors-pcon', component)
+    Vue.component('file-scissors-pcon', this)
   },
   name: 'file-scissors',
   props: {

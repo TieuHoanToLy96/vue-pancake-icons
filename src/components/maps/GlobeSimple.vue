@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('globe-simple-pcon', component)
+    Vue.component('globe-simple-pcon', this)
   },
   name: 'globe-simple',
   props: {

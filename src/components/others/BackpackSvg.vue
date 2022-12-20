@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('backpack-svg-pcon', component)
+    Vue.component('backpack-svg-pcon', this)
   },
   name: 'backpack-svg',
   props: {

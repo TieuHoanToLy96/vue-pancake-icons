@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('stretching-svg-pcon', component)
+    Vue.component('stretching-svg-pcon', this)
   },
   name: 'stretching-svg',
   props: {

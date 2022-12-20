@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-xbox-pcon', component)
+    Vue.component('brand-xbox-pcon', this)
   },
   name: 'brand-xbox',
   props: {

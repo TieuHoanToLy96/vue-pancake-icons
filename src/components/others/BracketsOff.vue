@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brackets-off-pcon', component)
+    Vue.component('brackets-off-pcon', this)
   },
   name: 'brackets-off',
   props: {

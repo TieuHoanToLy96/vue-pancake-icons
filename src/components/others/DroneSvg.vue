@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('drone-svg-pcon', component)
+    Vue.component('drone-svg-pcon', this)
   },
   name: 'drone-svg',
   props: {

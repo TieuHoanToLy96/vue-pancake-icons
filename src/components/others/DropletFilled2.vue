@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('droplet-filled-2-pcon', component)
+    Vue.component('droplet-filled-2-pcon', this)
   },
   name: 'droplet-filled-2',
   props: {

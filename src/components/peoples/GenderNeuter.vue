@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gender-neuter-pcon', component)
+    Vue.component('gender-neuter-pcon', this)
   },
   name: 'gender-neuter',
   props: {

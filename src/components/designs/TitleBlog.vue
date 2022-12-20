@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('title-blog-pcon', component)
+    Vue.component('title-blog-pcon', this)
   },
   name: 'title-blog',
   props: {

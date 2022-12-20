@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('refresh-svg-pcon', component)
+    Vue.component('refresh-svg-pcon', this)
   },
   name: 'refresh-svg',
   props: {

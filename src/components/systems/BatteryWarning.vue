@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('battery-warning-pcon', component)
+    Vue.component('battery-warning-pcon', this)
   },
   name: 'battery-warning',
   props: {

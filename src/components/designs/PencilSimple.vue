@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pencil-simple-pcon', component)
+    Vue.component('pencil-simple-pcon', this)
   },
   name: 'pencil-simple',
   props: {

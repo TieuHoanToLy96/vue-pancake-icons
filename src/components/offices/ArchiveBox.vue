@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('archive-box-pcon', component)
+    Vue.component('archive-box-pcon', this)
   },
   name: 'archive-box',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shield-warning-pcon', component)
+    Vue.component('shield-warning-pcon', this)
   },
   name: 'shield-warning',
   props: {

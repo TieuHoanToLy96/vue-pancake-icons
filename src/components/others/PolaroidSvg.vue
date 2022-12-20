@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('polaroid-svg-pcon', component)
+    Vue.component('polaroid-svg-pcon', this)
   },
   name: 'polaroid-svg',
   props: {

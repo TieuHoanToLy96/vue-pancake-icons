@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wine-svg-pcon', component)
+    Vue.component('wine-svg-pcon', this)
   },
   name: 'wine-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('crown-svg-pcon', component)
+    Vue.component('crown-svg-pcon', this)
   },
   name: 'crown-svg',
   props: {

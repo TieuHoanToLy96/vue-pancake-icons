@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-linkedin-pcon', component)
+    Vue.component('brand-linkedin-pcon', this)
   },
   name: 'brand-linkedin',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('exposure-svg-pcon', component)
+    Vue.component('exposure-svg-pcon', this)
   },
   name: 'exposure-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gradienter-svg-pcon', component)
+    Vue.component('gradienter-svg-pcon', this)
   },
   name: 'gradienter-svg',
   props: {

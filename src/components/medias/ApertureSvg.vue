@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('aperture-svg-pcon', component)
+    Vue.component('aperture-svg-pcon', this)
   },
   name: 'aperture-svg',
   props: {

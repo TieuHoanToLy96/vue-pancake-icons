@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-snapchat-pcon', component)
+    Vue.component('brand-snapchat-pcon', this)
   },
   name: 'brand-snapchat',
   props: {

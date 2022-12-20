@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('scribble-off-pcon', component)
+    Vue.component('scribble-off-pcon', this)
   },
   name: 'scribble-off',
   props: {

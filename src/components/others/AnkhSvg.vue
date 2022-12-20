@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ankh-svg-pcon', component)
+    Vue.component('ankh-svg-pcon', this)
   },
   name: 'ankh-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('edit-circle-pcon', component)
+    Vue.component('edit-circle-pcon', this)
   },
   name: 'edit-circle',
   props: {

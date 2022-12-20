@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('phone-svg-pcon', component)
+    Vue.component('phone-svg-pcon', this)
   },
   name: 'phone-svg',
   props: {

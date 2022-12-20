@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-double-ne-sw-pcon', component)
+    Vue.component('arrows-double-ne-sw-pcon', this)
   },
   name: 'arrows-double-ne-sw',
   props: {

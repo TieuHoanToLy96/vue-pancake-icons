@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('monitor-svg-pcon', component)
+    Vue.component('monitor-svg-pcon', this)
   },
   name: 'monitor-svg',
   props: {

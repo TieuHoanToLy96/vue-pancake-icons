@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('antenna-off-pcon', component)
+    Vue.component('antenna-off-pcon', this)
   },
   name: 'antenna-off',
   props: {

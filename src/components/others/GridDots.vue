@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('grid-dots-pcon', component)
+    Vue.component('grid-dots-pcon', this)
   },
   name: 'grid-dots',
   props: {

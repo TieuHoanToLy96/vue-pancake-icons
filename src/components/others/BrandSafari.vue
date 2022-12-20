@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-safari-pcon', component)
+    Vue.component('brand-safari-pcon', this)
   },
   name: 'brand-safari',
   props: {

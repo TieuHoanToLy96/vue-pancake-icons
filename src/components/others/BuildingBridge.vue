@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-bridge-pcon', component)
+    Vue.component('building-bridge-pcon', this)
   },
   name: 'building-bridge',
   props: {

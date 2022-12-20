@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('graduation-cap-pcon', component)
+    Vue.component('graduation-cap-pcon', this)
   },
   name: 'graduation-cap',
   props: {

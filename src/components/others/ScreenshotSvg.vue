@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('screenshot-svg-pcon', component)
+    Vue.component('screenshot-svg-pcon', this)
   },
   name: 'screenshot-svg',
   props: {

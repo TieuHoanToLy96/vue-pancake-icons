@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wall-off-pcon', component)
+    Vue.component('wall-off-pcon', this)
   },
   name: 'wall-off',
   props: {

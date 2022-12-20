@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wrecking-ball-pcon', component)
+    Vue.component('wrecking-ball-pcon', this)
   },
   name: 'wrecking-ball',
   props: {

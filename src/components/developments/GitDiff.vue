@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('git-diff-pcon', component)
+    Vue.component('git-diff-pcon', this)
   },
   name: 'git-diff',
   props: {

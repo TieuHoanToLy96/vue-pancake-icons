@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('camera-rotate-pcon', component)
+    Vue.component('camera-rotate-pcon', this)
   },
   name: 'camera-rotate',
   props: {

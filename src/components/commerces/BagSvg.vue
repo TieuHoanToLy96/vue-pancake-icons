@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bag-svg-pcon', component)
+    Vue.component('bag-svg-pcon', this)
   },
   name: 'bag-svg',
   props: {

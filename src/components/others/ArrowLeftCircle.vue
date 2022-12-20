@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-left-circle-pcon', component)
+    Vue.component('arrow-left-circle-pcon', this)
   },
   name: 'arrow-left-circle',
   props: {

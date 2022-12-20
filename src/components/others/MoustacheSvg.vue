@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('moustache-svg-pcon', component)
+    Vue.component('moustache-svg-pcon', this)
   },
   name: 'moustache-svg',
   props: {

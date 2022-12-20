@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('carrot-off-pcon', component)
+    Vue.component('carrot-off-pcon', this)
   },
   name: 'carrot-off',
   props: {

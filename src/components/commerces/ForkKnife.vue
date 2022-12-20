@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fork-knife-pcon', component)
+    Vue.component('fork-knife-pcon', this)
   },
   name: 'fork-knife',
   props: {

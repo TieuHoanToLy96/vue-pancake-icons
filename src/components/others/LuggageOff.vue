@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('luggage-off-pcon', component)
+    Vue.component('luggage-off-pcon', this)
   },
   name: 'luggage-off',
   props: {

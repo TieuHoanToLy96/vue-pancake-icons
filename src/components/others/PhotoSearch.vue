@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('photo-search-pcon', component)
+    Vue.component('photo-search-pcon', this)
   },
   name: 'photo-search',
   props: {

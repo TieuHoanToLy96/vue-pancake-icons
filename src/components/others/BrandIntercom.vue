@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-intercom-pcon', component)
+    Vue.component('brand-intercom-pcon', this)
   },
   name: 'brand-intercom',
   props: {

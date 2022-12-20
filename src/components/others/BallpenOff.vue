@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ballpen-off-pcon', component)
+    Vue.component('ballpen-off-pcon', this)
   },
   name: 'ballpen-off',
   props: {

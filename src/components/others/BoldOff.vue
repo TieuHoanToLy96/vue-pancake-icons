@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bold-off-pcon', component)
+    Vue.component('bold-off-pcon', this)
   },
   name: 'bold-off',
   props: {

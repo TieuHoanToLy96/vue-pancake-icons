@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('color-swatch-pcon', component)
+    Vue.component('color-swatch-pcon', this)
   },
   name: 'color-swatch',
   props: {

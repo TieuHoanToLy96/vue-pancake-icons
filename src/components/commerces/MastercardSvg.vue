@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mastercard-svg-pcon', component)
+    Vue.component('mastercard-svg-pcon', this)
   },
   name: 'mastercard-svg',
   props: {

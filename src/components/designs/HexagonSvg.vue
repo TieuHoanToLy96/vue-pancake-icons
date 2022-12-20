@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hexagon-svg-pcon', component)
+    Vue.component('hexagon-svg-pcon', this)
   },
   name: 'hexagon-svg',
   props: {

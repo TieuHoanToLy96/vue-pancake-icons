@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layers-subtract-pcon', component)
+    Vue.component('layers-subtract-pcon', this)
   },
   name: 'layers-subtract',
   props: {

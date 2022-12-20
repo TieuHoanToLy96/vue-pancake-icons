@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('access-point-pcon', component)
+    Vue.component('access-point-pcon', this)
   },
   name: 'access-point',
   props: {

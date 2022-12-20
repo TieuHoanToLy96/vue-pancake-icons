@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('link-simple-horizontal-break-pcon', component)
+    Vue.component('link-simple-horizontal-break-pcon', this)
   },
   name: 'link-simple-horizontal-break',
   props: {

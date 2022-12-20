@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('box-model-off-pcon', component)
+    Vue.component('box-model-off-pcon', this)
   },
   name: 'box-model-off',
   props: {

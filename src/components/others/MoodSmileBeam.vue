@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-smile-beam-pcon', component)
+    Vue.component('mood-smile-beam-pcon', this)
   },
   name: 'mood-smile-beam',
   props: {

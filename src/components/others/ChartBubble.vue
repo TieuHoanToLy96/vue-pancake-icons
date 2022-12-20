@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-bubble-pcon', component)
+    Vue.component('chart-bubble-pcon', this)
   },
   name: 'chart-bubble',
   props: {

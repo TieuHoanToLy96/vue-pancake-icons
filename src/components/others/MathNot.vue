@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-not-pcon', component)
+    Vue.component('math-not-pcon', this)
   },
   name: 'math-not',
   props: {

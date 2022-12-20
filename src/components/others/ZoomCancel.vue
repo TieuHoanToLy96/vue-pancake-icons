@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zoom-cancel-pcon', component)
+    Vue.component('zoom-cancel-pcon', this)
   },
   name: 'zoom-cancel',
   props: {

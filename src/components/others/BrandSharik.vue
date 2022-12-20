@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-sharik-pcon', component)
+    Vue.component('brand-sharik-pcon', this)
   },
   name: 'brand-sharik',
   props: {

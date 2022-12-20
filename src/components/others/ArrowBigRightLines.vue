@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-big-right-lines-pcon', component)
+    Vue.component('arrow-big-right-lines-pcon', this)
   },
   name: 'arrow-big-right-lines',
   props: {

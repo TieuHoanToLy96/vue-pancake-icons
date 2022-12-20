@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-drops-pcon', component)
+    Vue.component('brand-drops-pcon', this)
   },
   name: 'brand-drops',
   props: {

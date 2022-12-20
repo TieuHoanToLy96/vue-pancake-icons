@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-move-right-pcon', component)
+    Vue.component('arrow-move-right-pcon', this)
   },
   name: 'arrow-move-right',
   props: {

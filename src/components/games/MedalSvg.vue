@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('medal-svg-pcon', component)
+    Vue.component('medal-svg-pcon', this)
   },
   name: 'medal-svg',
   props: {

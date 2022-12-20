@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-stats-pcon', component)
+    Vue.component('home-stats-pcon', this)
   },
   name: 'home-stats',
   props: {

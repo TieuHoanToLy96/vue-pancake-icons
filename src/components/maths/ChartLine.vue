@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-line-pcon', component)
+    Vue.component('chart-line-pcon', this)
   },
   name: 'chart-line',
   props: {

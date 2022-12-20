@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('slideshow-svg-pcon', component)
+    Vue.component('slideshow-svg-pcon', this)
   },
   name: 'slideshow-svg',
   props: {

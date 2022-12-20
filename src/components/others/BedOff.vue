@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bed-off-pcon', component)
+    Vue.component('bed-off-pcon', this)
   },
   name: 'bed-off',
   props: {

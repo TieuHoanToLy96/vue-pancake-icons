@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pizza-off-pcon', component)
+    Vue.component('pizza-off-pcon', this)
   },
   name: 'pizza-off',
   props: {

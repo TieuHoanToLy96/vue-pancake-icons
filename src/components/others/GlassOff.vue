@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('glass-off-pcon', component)
+    Vue.component('glass-off-pcon', this)
   },
   name: 'glass-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gas-pump-pcon', component)
+    Vue.component('gas-pump-pcon', this)
   },
   name: 'gas-pump',
   props: {

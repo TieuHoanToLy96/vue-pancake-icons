@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('upload-simple-pcon', component)
+    Vue.component('upload-simple-pcon', this)
   },
   name: 'upload-simple',
   props: {

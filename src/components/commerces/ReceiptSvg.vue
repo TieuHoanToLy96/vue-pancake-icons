@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('receipt-svg-pcon', component)
+    Vue.component('receipt-svg-pcon', this)
   },
   name: 'receipt-svg',
   props: {

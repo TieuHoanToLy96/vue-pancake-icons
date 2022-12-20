@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('player-record-pcon', component)
+    Vue.component('player-record-pcon', this)
   },
   name: 'player-record',
   props: {

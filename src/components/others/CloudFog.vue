@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cloud-fog-pcon', component)
+    Vue.component('cloud-fog-pcon', this)
   },
   name: 'cloud-fog',
   props: {

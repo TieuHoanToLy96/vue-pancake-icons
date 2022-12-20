@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('trash-svg-pcon', component)
+    Vue.component('trash-svg-pcon', this)
   },
   name: 'trash-svg',
   props: {

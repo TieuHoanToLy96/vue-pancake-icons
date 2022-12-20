@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-gitlab-pcon', component)
+    Vue.component('brand-gitlab-pcon', this)
   },
   name: 'brand-gitlab',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('windsock-svg-pcon', component)
+    Vue.component('windsock-svg-pcon', this)
   },
   name: 'windsock-svg',
   props: {

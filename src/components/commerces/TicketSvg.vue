@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ticket-svg-pcon', component)
+    Vue.component('ticket-svg-pcon', this)
   },
   name: 'ticket-svg',
   props: {

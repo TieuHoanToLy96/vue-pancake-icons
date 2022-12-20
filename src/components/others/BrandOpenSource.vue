@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-open-source-pcon', component)
+    Vue.component('brand-open-source-pcon', this)
   },
   name: 'brand-open-source',
   props: {

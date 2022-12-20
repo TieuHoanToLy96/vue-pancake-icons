@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cards-svg-pcon', component)
+    Vue.component('cards-svg-pcon', this)
   },
   name: 'cards-svg',
   props: {

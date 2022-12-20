@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('slogan-svg-pcon', component)
+    Vue.component('slogan-svg-pcon', this)
   },
   name: 'slogan-svg',
   props: {

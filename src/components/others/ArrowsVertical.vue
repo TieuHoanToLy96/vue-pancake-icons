@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-vertical-pcon', component)
+    Vue.component('arrows-vertical-pcon', this)
   },
   name: 'arrows-vertical',
   props: {

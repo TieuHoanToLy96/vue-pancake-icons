@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-mailgun-pcon', component)
+    Vue.component('brand-mailgun-pcon', this)
   },
   name: 'brand-mailgun',
   props: {

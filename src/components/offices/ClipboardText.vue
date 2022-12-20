@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('clipboard-text-pcon', component)
+    Vue.component('clipboard-text-pcon', this)
   },
   name: 'clipboard-text',
   props: {

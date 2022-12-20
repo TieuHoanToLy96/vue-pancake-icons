@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bookmarks-svg-pcon', component)
+    Vue.component('bookmarks-svg-pcon', this)
   },
   name: 'bookmarks-svg',
   props: {

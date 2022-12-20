@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-distribute-horizontal-pcon', component)
+    Vue.component('layout-distribute-horizontal-pcon', this)
   },
   name: 'layout-distribute-horizontal',
   props: {

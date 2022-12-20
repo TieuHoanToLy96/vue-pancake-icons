@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-circles-pcon', component)
+    Vue.component('chart-circles-pcon', this)
   },
   name: 'chart-circles',
   props: {

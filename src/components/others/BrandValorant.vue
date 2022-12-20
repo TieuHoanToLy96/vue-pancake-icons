@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-valorant-pcon', component)
+    Vue.component('brand-valorant-pcon', this)
   },
   name: 'brand-valorant',
   props: {

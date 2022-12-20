@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('massage-svg-pcon', component)
+    Vue.component('massage-svg-pcon', this)
   },
   name: 'massage-svg',
   props: {

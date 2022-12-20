@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('player-skip-back-pcon', component)
+    Vue.component('player-skip-back-pcon', this)
   },
   name: 'player-skip-back',
   props: {

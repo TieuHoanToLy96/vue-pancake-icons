@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('caret-double-down-pcon', component)
+    Vue.component('caret-double-down-pcon', this)
   },
   name: 'caret-double-down',
   props: {

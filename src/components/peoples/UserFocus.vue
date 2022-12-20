@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('user-focus-pcon', component)
+    Vue.component('user-focus-pcon', this)
   },
   name: 'user-focus',
   props: {

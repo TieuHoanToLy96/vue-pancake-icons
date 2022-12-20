@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('message-dots-pcon', component)
+    Vue.component('message-dots-pcon', this)
   },
   name: 'message-dots',
   props: {

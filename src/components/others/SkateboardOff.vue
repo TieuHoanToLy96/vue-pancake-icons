@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('skateboard-off-pcon', component)
+    Vue.component('skateboard-off-pcon', this)
   },
   name: 'skateboard-off',
   props: {

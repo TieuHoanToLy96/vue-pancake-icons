@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('clipboard-svg-pcon', component)
+    Vue.component('clipboard-svg-pcon', this)
   },
   name: 'clipboard-svg',
   props: {

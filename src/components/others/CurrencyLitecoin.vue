@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-litecoin-pcon', component)
+    Vue.component('currency-litecoin-pcon', this)
   },
   name: 'currency-litecoin',
   props: {

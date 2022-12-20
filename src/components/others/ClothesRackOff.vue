@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('clothes-rack-off-pcon', component)
+    Vue.component('clothes-rack-off-pcon', this)
   },
   name: 'clothes-rack-off',
   props: {

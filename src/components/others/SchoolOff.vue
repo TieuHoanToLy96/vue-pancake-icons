@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('school-off-pcon', component)
+    Vue.component('school-off-pcon', this)
   },
   name: 'school-off',
   props: {

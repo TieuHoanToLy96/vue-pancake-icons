@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('salad-svg-pcon', component)
+    Vue.component('salad-svg-pcon', this)
   },
   name: 'salad-svg',
   props: {

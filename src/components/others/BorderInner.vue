@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('border-inner-pcon', component)
+    Vue.component('border-inner-pcon', this)
   },
   name: 'border-inner',
   props: {

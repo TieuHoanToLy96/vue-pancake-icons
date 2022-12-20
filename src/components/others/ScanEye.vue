@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('scan-eye-pcon', component)
+    Vue.component('scan-eye-pcon', this)
   },
   name: 'scan-eye',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('feather-off-pcon', component)
+    Vue.component('feather-off-pcon', this)
   },
   name: 'feather-off',
   props: {

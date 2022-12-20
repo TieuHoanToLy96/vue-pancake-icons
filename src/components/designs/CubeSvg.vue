@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cube-svg-pcon', component)
+    Vue.component('cube-svg-pcon', this)
   },
   name: 'cube-svg',
   props: {

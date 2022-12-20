@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-sidebar-right-pcon', component)
+    Vue.component('layout-sidebar-right-pcon', this)
   },
   name: 'layout-sidebar-right',
   props: {

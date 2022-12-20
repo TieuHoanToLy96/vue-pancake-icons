@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('medical-cross-off-pcon', component)
+    Vue.component('medical-cross-off-pcon', this)
   },
   name: 'medical-cross-off',
   props: {

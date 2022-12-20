@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-infinity-pcon', component)
+    Vue.component('home-infinity-pcon', this)
   },
   name: 'home-infinity',
   props: {

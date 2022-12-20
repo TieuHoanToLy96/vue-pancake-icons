@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-vercel-pcon', component)
+    Vue.component('brand-vercel-pcon', this)
   },
   name: 'brand-vercel',
   props: {

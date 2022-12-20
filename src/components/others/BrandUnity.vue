@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-unity-pcon', component)
+    Vue.component('brand-unity-pcon', this)
   },
   name: 'brand-unity',
   props: {

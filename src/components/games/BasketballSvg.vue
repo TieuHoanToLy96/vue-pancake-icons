@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('basketball-svg-pcon', component)
+    Vue.component('basketball-svg-pcon', this)
   },
   name: 'basketball-svg',
   props: {

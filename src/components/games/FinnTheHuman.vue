@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('finn-the-human-pcon', component)
+    Vue.component('finn-the-human-pcon', this)
   },
   name: 'finn-the-human',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('feather-svg-pcon', component)
+    Vue.component('feather-svg-pcon', this)
   },
   name: 'feather-svg',
   props: {

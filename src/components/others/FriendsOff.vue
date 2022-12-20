@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('friends-off-pcon', component)
+    Vue.component('friends-off-pcon', this)
   },
   name: 'friends-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('box-model-pcon', component)
+    Vue.component('box-model-pcon', this)
   },
   name: 'box-model',
   props: {

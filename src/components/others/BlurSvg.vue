@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('blur-svg-pcon', component)
+    Vue.component('blur-svg-pcon', this)
   },
   name: 'blur-svg',
   props: {

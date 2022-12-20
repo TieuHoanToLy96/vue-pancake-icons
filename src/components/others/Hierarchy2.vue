@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hierarchy-2-pcon', component)
+    Vue.component('hierarchy-2-pcon', this)
   },
   name: 'hierarchy-2',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shield-off-pcon', component)
+    Vue.component('shield-off-pcon', this)
   },
   name: 'shield-off',
   props: {

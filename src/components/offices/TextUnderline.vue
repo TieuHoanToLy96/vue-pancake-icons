@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-underline-pcon', component)
+    Vue.component('text-underline-pcon', this)
   },
   name: 'text-underline',
   props: {

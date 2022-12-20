@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wash-press-pcon', component)
+    Vue.component('wash-press-pcon', this)
   },
   name: 'wash-press',
   props: {

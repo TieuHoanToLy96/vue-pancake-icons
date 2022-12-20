@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('plug-connected-pcon', component)
+    Vue.component('plug-connected-pcon', this)
   },
   name: 'plug-connected',
   props: {

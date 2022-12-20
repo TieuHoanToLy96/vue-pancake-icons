@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('article-ny-times-pcon', component)
+    Vue.component('article-ny-times-pcon', this)
   },
   name: 'article-ny-times',
   props: {

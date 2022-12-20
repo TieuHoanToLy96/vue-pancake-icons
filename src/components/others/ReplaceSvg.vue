@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('replace-svg-pcon', component)
+    Vue.component('replace-svg-pcon', this)
   },
   name: 'replace-svg',
   props: {

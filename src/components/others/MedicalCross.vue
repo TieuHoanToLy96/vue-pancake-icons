@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('medical-cross-pcon', component)
+    Vue.component('medical-cross-pcon', this)
   },
   name: 'medical-cross',
   props: {

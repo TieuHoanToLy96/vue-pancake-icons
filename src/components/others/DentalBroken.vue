@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dental-broken-pcon', component)
+    Vue.component('dental-broken-pcon', this)
   },
   name: 'dental-broken',
   props: {

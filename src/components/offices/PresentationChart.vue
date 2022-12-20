@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('presentation-chart-pcon', component)
+    Vue.component('presentation-chart-pcon', this)
   },
   name: 'presentation-chart',
   props: {

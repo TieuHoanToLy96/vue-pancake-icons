@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('caret-double-right-pcon', component)
+    Vue.component('caret-double-right-pcon', this)
   },
   name: 'caret-double-right',
   props: {

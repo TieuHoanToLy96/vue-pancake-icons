@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-ripple-pcon', component)
+    Vue.component('currency-ripple-pcon', this)
   },
   name: 'currency-ripple',
   props: {

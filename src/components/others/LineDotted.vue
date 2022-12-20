@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('line-dotted-pcon', component)
+    Vue.component('line-dotted-pcon', this)
   },
   name: 'line-dotted',
   props: {

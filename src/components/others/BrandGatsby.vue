@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-gatsby-pcon', component)
+    Vue.component('brand-gatsby-pcon', this)
   },
   name: 'brand-gatsby',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-behance-pcon', component)
+    Vue.component('brand-behance-pcon', this)
   },
   name: 'brand-behance',
   props: {

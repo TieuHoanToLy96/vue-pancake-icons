@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('git-commit-pcon', component)
+    Vue.component('git-commit-pcon', this)
   },
   name: 'git-commit',
   props: {

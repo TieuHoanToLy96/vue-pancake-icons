@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('geometry-svg-pcon', component)
+    Vue.component('geometry-svg-pcon', this)
   },
   name: 'geometry-svg',
   props: {

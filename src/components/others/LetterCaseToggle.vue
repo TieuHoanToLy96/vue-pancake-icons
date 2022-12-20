@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('letter-case-toggle-pcon', component)
+    Vue.component('letter-case-toggle-pcon', this)
   },
   name: 'letter-case-toggle',
   props: {

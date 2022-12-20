@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('writing-svg-pcon', component)
+    Vue.component('writing-svg-pcon', this)
   },
   name: 'writing-svg',
   props: {

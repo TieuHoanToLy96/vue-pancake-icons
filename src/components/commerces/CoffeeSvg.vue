@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('coffee-svg-pcon', component)
+    Vue.component('coffee-svg-pcon', this)
   },
   name: 'coffee-svg',
   props: {

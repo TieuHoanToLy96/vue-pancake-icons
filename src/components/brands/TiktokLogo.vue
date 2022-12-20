@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tiktok-logo-pcon', component)
+    Vue.component('tiktok-logo-pcon', this)
   },
   name: 'tiktok-logo',
   props: {

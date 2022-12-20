@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tree-evergreen-pcon', component)
+    Vue.component('tree-evergreen-pcon', this)
   },
   name: 'tree-evergreen',
   props: {

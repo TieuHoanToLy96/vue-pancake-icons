@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-decrease-pcon', component)
+    Vue.component('text-decrease-pcon', this)
   },
   name: 'text-decrease',
   props: {

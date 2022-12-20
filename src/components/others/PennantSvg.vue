@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pennant-svg-pcon', component)
+    Vue.component('pennant-svg-pcon', this)
   },
   name: 'pennant-svg',
   props: {

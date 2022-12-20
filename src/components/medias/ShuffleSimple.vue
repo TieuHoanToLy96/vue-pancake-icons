@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shuffle-simple-pcon', component)
+    Vue.component('shuffle-simple-pcon', this)
   },
   name: 'shuffle-simple',
   props: {

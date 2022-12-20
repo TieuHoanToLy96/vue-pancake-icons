@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('presentation-off-pcon', component)
+    Vue.component('presentation-off-pcon', this)
   },
   name: 'presentation-off',
   props: {

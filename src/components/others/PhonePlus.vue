@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('phone-plus-pcon', component)
+    Vue.component('phone-plus-pcon', this)
   },
   name: 'phone-plus',
   props: {

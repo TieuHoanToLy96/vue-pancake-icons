@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cloud-off-pcon', component)
+    Vue.component('cloud-off-pcon', this)
   },
   name: 'cloud-off',
   props: {

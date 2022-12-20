@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('compass-svg-pcon', component)
+    Vue.component('compass-svg-pcon', this)
   },
   name: 'compass-svg',
   props: {

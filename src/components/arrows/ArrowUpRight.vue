@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-up-right-pcon', component)
+    Vue.component('arrow-up-right-pcon', this)
   },
   name: 'arrow-up-right',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-dolby-digital-pcon', component)
+    Vue.component('brand-dolby-digital-pcon', this)
   },
   name: 'brand-dolby-digital',
   props: {

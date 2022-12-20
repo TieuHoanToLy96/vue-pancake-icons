@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-out-line-vertical-pcon', component)
+    Vue.component('arrows-out-line-vertical-pcon', this)
   },
   name: 'arrows-out-line-vertical',
   props: {

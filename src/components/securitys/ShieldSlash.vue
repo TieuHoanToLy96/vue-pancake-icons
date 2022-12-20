@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shield-slash-pcon', component)
+    Vue.component('shield-slash-pcon', this)
   },
   name: 'shield-slash',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-sublime-text-pcon', component)
+    Vue.component('brand-sublime-text-pcon', this)
   },
   name: 'brand-sublime-text',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brightness-off-pcon', component)
+    Vue.component('brightness-off-pcon', this)
   },
   name: 'brightness-off',
   props: {

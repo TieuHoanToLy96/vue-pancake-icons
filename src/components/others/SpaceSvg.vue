@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('space-svg-pcon', component)
+    Vue.component('space-svg-pcon', this)
   },
   name: 'space-svg',
   props: {

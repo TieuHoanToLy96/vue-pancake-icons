@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('magnifying-search-pcon', component)
+    Vue.component('magnifying-search-pcon', this)
   },
   name: 'magnifying-search',
   props: {

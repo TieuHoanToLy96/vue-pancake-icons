@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('loader-svg-pcon', component)
+    Vue.component('loader-svg-pcon', this)
   },
   name: 'loader-svg',
   props: {

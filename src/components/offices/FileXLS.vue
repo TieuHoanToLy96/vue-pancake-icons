@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-xls-pcon', component)
+    Vue.component('file-xls-pcon', this)
   },
   name: 'file-xls',
   props: {

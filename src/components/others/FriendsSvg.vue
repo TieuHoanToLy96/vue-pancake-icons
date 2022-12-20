@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('friends-svg-pcon', component)
+    Vue.component('friends-svg-pcon', this)
   },
   name: 'friends-svg',
   props: {

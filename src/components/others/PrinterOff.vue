@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('printer-off-pcon', component)
+    Vue.component('printer-off-pcon', this)
   },
   name: 'printer-off',
   props: {

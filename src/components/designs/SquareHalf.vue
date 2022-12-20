@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('square-half-pcon', component)
+    Vue.component('square-half-pcon', this)
   },
   name: 'square-half',
   props: {

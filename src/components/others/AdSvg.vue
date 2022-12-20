@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ad-svg-pcon', component)
+    Vue.component('ad-svg-pcon', this)
   },
   name: 'ad-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('briefcase-off-pcon', component)
+    Vue.component('briefcase-off-pcon', this)
   },
   name: 'briefcase-off',
   props: {

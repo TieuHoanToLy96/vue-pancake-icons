@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('microphone-2-off-pcon', component)
+    Vue.component('microphone-2-off-pcon', this)
   },
   name: 'microphone-2-off',
   props: {

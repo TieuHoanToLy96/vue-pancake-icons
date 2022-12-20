@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circle-number-3-pcon', component)
+    Vue.component('circle-number-3-pcon', this)
   },
   name: 'circle-number-3',
   props: {

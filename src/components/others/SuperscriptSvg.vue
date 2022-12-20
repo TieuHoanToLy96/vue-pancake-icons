@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('superscript-svg-pcon', component)
+    Vue.component('superscript-svg-pcon', this)
   },
   name: 'superscript-svg',
   props: {

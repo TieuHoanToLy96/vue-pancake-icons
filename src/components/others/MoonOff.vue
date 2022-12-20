@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('moon-off-pcon', component)
+    Vue.component('moon-off-pcon', this)
   },
   name: 'moon-off',
   props: {

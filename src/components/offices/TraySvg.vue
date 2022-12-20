@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tray-svg-pcon', component)
+    Vue.component('tray-svg-pcon', this)
   },
   name: 'tray-svg',
   props: {

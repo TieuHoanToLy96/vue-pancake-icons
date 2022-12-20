@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fast-forward-pcon', component)
+    Vue.component('fast-forward-pcon', this)
   },
   name: 'fast-forward',
   props: {

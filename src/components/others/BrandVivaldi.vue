@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-vivaldi-pcon', component)
+    Vue.component('brand-vivaldi-pcon', this)
   },
   name: 'brand-vivaldi',
   props: {

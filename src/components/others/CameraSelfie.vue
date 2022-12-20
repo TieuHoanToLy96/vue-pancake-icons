@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('camera-selfie-pcon', component)
+    Vue.component('camera-selfie-pcon', this)
   },
   name: 'camera-selfie',
   props: {

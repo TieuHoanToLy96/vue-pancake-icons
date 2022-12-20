@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-cctv-off-pcon', component)
+    Vue.component('device-cctv-off-pcon', this)
   },
   name: 'device-cctv-off',
   props: {

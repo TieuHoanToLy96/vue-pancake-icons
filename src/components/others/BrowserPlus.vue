@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('browser-plus-pcon', component)
+    Vue.component('browser-plus-pcon', this)
   },
   name: 'browser-plus',
   props: {

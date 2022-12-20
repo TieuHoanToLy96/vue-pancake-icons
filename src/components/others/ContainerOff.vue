@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('container-off-pcon', component)
+    Vue.component('container-off-pcon', this)
   },
   name: 'container-off',
   props: {

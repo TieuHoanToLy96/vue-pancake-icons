@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dashboard-svg-pcon', component)
+    Vue.component('dashboard-svg-pcon', this)
   },
   name: 'dashboard-svg',
   props: {

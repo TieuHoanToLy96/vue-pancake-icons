@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('table-alias-pcon', component)
+    Vue.component('table-alias-pcon', this)
   },
   name: 'table-alias',
   props: {

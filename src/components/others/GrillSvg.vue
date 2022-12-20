@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('grill-svg-pcon', component)
+    Vue.component('grill-svg-pcon', this)
   },
   name: 'grill-svg',
   props: {

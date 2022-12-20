@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('frame-corners-pcon', component)
+    Vue.component('frame-corners-pcon', this)
   },
   name: 'frame-corners',
   props: {

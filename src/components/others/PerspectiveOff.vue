@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('perspective-off-pcon', component)
+    Vue.component('perspective-off-pcon', this)
   },
   name: 'perspective-off',
   props: {

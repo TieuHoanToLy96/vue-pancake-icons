@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('indent-increase-pcon', component)
+    Vue.component('indent-increase-pcon', this)
   },
   name: 'indent-increase',
   props: {

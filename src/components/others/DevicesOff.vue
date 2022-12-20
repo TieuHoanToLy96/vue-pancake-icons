@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('devices-off-pcon', component)
+    Vue.component('devices-off-pcon', this)
   },
   name: 'devices-off',
   props: {

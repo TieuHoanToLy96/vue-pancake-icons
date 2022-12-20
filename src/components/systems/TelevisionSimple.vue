@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('television-simple-pcon', component)
+    Vue.component('television-simple-pcon', this)
   },
   name: 'television-simple',
   props: {

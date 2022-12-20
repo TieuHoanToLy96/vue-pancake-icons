@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('photo-check-pcon', component)
+    Vue.component('photo-check-pcon', this)
   },
   name: 'photo-check',
   props: {

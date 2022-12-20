@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sticker-svg-pcon', component)
+    Vue.component('sticker-svg-pcon', this)
   },
   name: 'sticker-svg',
   props: {

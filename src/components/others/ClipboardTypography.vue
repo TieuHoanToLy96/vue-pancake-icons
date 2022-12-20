@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('clipboard-typography-pcon', component)
+    Vue.component('clipboard-typography-pcon', this)
   },
   name: 'clipboard-typography',
   props: {

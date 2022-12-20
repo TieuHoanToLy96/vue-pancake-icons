@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('no-creative-commons-pcon', component)
+    Vue.component('no-creative-commons-pcon', this)
   },
   name: 'no-creative-commons',
   props: {

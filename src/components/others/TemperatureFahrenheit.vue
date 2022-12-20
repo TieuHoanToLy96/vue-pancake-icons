@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('temperature-fahrenheit-pcon', component)
+    Vue.component('temperature-fahrenheit-pcon', this)
   },
   name: 'temperature-fahrenheit',
   props: {

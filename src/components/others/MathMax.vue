@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-max-pcon', component)
+    Vue.component('math-max-pcon', this)
   },
   name: 'math-max',
   props: {

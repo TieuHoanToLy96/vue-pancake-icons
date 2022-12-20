@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('player-play-pcon', component)
+    Vue.component('player-play-pcon', this)
   },
   name: 'player-play',
   props: {

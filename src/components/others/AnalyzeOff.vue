@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('analyze-off-pcon', component)
+    Vue.component('analyze-off-pcon', this)
   },
   name: 'analyze-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hand-finger-pcon', component)
+    Vue.component('hand-finger-pcon', this)
   },
   name: 'hand-finger',
   props: {

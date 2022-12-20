@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-codesandbox-pcon', component)
+    Vue.component('brand-codesandbox-pcon', this)
   },
   name: 'brand-codesandbox',
   props: {

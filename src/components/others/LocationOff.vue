@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('location-off-pcon', component)
+    Vue.component('location-off-pcon', this)
   },
   name: 'location-off',
   props: {

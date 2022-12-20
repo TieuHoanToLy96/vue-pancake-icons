@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('satellite-svg-pcon', component)
+    Vue.component('satellite-svg-pcon', this)
   },
   name: 'satellite-svg',
   props: {

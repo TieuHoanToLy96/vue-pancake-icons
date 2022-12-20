@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wiper-svg-pcon', component)
+    Vue.component('wiper-svg-pcon', this)
   },
   name: 'wiper-svg',
   props: {

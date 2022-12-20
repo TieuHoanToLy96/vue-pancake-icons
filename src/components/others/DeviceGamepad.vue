@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-gamepad-pcon', component)
+    Vue.component('device-gamepad-pcon', this)
   },
   name: 'device-gamepad',
   props: {

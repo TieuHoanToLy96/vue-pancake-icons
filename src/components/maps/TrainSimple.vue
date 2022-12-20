@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('train-simple-pcon', component)
+    Vue.component('train-simple-pcon', this)
   },
   name: 'train-simple',
   props: {

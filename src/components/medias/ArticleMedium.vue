@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('article-medium-pcon', component)
+    Vue.component('article-medium-pcon', this)
   },
   name: 'article-medium',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-nuxt-pcon', component)
+    Vue.component('brand-nuxt-pcon', this)
   },
   name: 'brand-nuxt',
   props: {

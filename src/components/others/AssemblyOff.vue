@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('assembly-off-pcon', component)
+    Vue.component('assembly-off-pcon', this)
   },
   name: 'assembly-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('order-product-pcon', component)
+    Vue.component('order-product-pcon', this)
   },
   name: 'order-product',
   props: {

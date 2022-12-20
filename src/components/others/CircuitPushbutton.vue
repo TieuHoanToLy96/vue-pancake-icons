@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-pushbutton-pcon', component)
+    Vue.component('circuit-pushbutton-pcon', this)
   },
   name: 'circuit-pushbutton',
   props: {

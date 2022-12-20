@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('clock-clockwise-pcon', component)
+    Vue.component('clock-clockwise-pcon', this)
   },
   name: 'clock-clockwise',
   props: {

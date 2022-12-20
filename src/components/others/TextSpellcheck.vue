@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-spellcheck-pcon', component)
+    Vue.component('text-spellcheck-pcon', this)
   },
   name: 'text-spellcheck',
   props: {

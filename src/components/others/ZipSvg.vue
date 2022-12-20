@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zip-svg-pcon', component)
+    Vue.component('zip-svg-pcon', this)
   },
   name: 'zip-svg',
   props: {

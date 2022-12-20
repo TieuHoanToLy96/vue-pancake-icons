@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('microwave-svg-pcon', component)
+    Vue.component('microwave-svg-pcon', this)
   },
   name: 'microwave-svg',
   props: {

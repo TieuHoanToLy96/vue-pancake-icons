@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hand-click-pcon', component)
+    Vue.component('hand-click-pcon', this)
   },
   name: 'hand-click',
   props: {

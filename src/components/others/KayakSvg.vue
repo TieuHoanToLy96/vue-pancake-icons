@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('kayak-svg-pcon', component)
+    Vue.component('kayak-svg-pcon', this)
   },
   name: 'kayak-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mask-off-pcon', component)
+    Vue.component('mask-off-pcon', this)
   },
   name: 'mask-off',
   props: {

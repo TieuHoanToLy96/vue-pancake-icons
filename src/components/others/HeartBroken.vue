@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('heart-broken-pcon', component)
+    Vue.component('heart-broken-pcon', this)
   },
   name: 'heart-broken',
   props: {

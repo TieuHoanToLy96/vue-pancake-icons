@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sos-svg-pcon', component)
+    Vue.component('sos-svg-pcon', this)
   },
   name: 'sos-svg',
   props: {

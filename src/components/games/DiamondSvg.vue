@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('diamond-svg-pcon', component)
+    Vue.component('diamond-svg-pcon', this)
   },
   name: 'diamond-svg',
   props: {

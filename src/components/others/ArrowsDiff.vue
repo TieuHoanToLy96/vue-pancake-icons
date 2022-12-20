@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-diff-pcon', component)
+    Vue.component('arrows-diff-pcon', this)
   },
   name: 'arrows-diff',
   props: {

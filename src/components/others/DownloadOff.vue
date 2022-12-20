@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('download-off-pcon', component)
+    Vue.component('download-off-pcon', this)
   },
   name: 'download-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layers-union-pcon', component)
+    Vue.component('layers-union-pcon', this)
   },
   name: 'layers-union',
   props: {

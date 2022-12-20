@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-tongue-pcon', component)
+    Vue.component('mood-tongue-pcon', this)
   },
   name: 'mood-tongue',
   props: {

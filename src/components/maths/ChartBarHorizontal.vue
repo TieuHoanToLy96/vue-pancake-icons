@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-bar-horizontal-pcon', component)
+    Vue.component('chart-bar-horizontal-pcon', this)
   },
   name: 'chart-bar-horizontal',
   props: {

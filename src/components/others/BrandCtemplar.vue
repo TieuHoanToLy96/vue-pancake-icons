@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-ctemplar-pcon', component)
+    Vue.component('brand-ctemplar-pcon', this)
   },
   name: 'brand-ctemplar',
   props: {

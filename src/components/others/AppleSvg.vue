@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('apple-svg-pcon', component)
+    Vue.component('apple-svg-pcon', this)
   },
   name: 'apple-svg',
   props: {

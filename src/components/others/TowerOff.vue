@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tower-off-pcon', component)
+    Vue.component('tower-off-pcon', this)
   },
   name: 'tower-off',
   props: {

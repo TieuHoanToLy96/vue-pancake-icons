@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-shuffle-pcon', component)
+    Vue.component('arrows-shuffle-pcon', this)
   },
   name: 'arrows-shuffle',
   props: {

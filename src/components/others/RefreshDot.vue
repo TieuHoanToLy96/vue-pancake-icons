@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('refresh-dot-pcon', component)
+    Vue.component('refresh-dot-pcon', this)
   },
   name: 'refresh-dot',
   props: {

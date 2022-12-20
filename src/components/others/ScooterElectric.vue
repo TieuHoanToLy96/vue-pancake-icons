@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('scooter-electric-pcon', component)
+    Vue.component('scooter-electric-pcon', this)
   },
   name: 'scooter-electric',
   props: {

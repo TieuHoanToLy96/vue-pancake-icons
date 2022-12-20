@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('logic-xor-pcon', component)
+    Vue.component('logic-xor-pcon', this)
   },
   name: 'logic-xor',
   props: {

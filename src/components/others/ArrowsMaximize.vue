@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-maximize-pcon', component)
+    Vue.component('arrows-maximize-pcon', this)
   },
   name: 'arrows-maximize',
   props: {

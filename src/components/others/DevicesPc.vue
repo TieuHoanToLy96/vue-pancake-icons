@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('devices-pc-pcon', component)
+    Vue.component('devices-pc-pcon', this)
   },
   name: 'devices-pc',
   props: {

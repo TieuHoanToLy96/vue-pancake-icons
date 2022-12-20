@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ruler-measure-pcon', component)
+    Vue.component('ruler-measure-pcon', this)
   },
   name: 'ruler-measure',
   props: {

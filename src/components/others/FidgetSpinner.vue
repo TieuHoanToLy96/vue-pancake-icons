@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fidget-spinner-pcon', component)
+    Vue.component('fidget-spinner-pcon', this)
   },
   name: 'fidget-spinner',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('delete-file-pcon', component)
+    Vue.component('delete-file-pcon', this)
   },
   name: 'delete-file',
   props: {

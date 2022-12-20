@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-area-line-pcon', component)
+    Vue.component('chart-area-line-pcon', this)
   },
   name: 'chart-area-line',
   props: {

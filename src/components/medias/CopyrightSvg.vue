@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('copyright-svg-pcon', component)
+    Vue.component('copyright-svg-pcon', this)
   },
   name: 'copyright-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-loom-pcon', component)
+    Vue.component('brand-loom-pcon', this)
   },
   name: 'brand-loom',
   props: {

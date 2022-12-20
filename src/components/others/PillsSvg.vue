@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pills-svg-pcon', component)
+    Vue.component('pills-svg-pcon', this)
   },
   name: 'pills-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-back-pcon', component)
+    Vue.component('arrow-back-pcon', this)
   },
   name: 'arrow-back',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('capture-off-pcon', component)
+    Vue.component('capture-off-pcon', this)
   },
   name: 'capture-off',
   props: {

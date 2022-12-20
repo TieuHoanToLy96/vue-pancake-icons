@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-check-pcon', component)
+    Vue.component('file-check-pcon', this)
   },
   name: 'file-check',
   props: {

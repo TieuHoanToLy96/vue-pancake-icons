@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('float-center-pcon', component)
+    Vue.component('float-center-pcon', this)
   },
   name: 'float-center',
   props: {

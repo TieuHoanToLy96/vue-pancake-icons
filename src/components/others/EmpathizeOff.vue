@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('empathize-off-pcon', component)
+    Vue.component('empathize-off-pcon', this)
   },
   name: 'empathize-off',
   props: {

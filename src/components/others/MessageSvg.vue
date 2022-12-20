@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('message-svg-pcon', component)
+    Vue.component('message-svg-pcon', this)
   },
   name: 'message-svg',
   props: {

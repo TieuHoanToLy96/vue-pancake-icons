@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-vector-pcon', component)
+    Vue.component('file-vector-pcon', this)
   },
   name: 'file-vector',
   props: {

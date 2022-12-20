@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('award-svg-pcon', component)
+    Vue.component('award-svg-pcon', this)
   },
   name: 'award-svg',
   props: {

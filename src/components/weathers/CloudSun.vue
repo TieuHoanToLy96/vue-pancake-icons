@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cloud-sun-pcon', component)
+    Vue.component('cloud-sun-pcon', this)
   },
   name: 'cloud-sun',
   props: {

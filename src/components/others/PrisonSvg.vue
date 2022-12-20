@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('prison-svg-pcon', component)
+    Vue.component('prison-svg-pcon', this)
   },
   name: 'prison-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('window-svg-pcon', component)
+    Vue.component('window-svg-pcon', this)
   },
   name: 'window-svg',
   props: {

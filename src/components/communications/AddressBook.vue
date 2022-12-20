@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('address-book-pcon', component)
+    Vue.component('address-book-pcon', this)
   },
   name: 'address-book',
   props: {

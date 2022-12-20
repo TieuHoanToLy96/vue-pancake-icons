@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('corner-right-up-pcon', component)
+    Vue.component('corner-right-up-pcon', this)
   },
   name: 'corner-right-up',
   props: {

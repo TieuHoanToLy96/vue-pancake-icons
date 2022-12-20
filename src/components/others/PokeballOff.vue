@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pokeball-off-pcon', component)
+    Vue.component('pokeball-off-pcon', this)
   },
   name: 'pokeball-off',
   props: {

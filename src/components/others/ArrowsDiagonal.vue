@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-diagonal-pcon', component)
+    Vue.component('arrows-diagonal-pcon', this)
   },
   name: 'arrows-diagonal',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wifi-low-pcon', component)
+    Vue.component('wifi-low-pcon', this)
   },
   name: 'wifi-low',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('filter-off-pcon', component)
+    Vue.component('filter-off-pcon', this)
   },
   name: 'filter-off',
   props: {

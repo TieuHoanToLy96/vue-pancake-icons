@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-git-pcon', component)
+    Vue.component('brand-git-pcon', this)
   },
   name: 'brand-git',
   props: {

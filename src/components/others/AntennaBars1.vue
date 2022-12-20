@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('antenna-bars-1-pcon', component)
+    Vue.component('antenna-bars-1-pcon', this)
   },
   name: 'antenna-bars-1',
   props: {

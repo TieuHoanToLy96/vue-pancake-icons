@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ironing-1-pcon', component)
+    Vue.component('ironing-1-pcon', this)
   },
   name: 'ironing-1',
   props: {

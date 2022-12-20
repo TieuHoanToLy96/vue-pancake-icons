@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-jpy-pcon', component)
+    Vue.component('currency-jpy-pcon', this)
   },
   name: 'currency-jpy',
   props: {

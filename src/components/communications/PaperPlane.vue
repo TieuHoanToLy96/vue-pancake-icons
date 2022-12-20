@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paper-plane-pcon', component)
+    Vue.component('paper-plane-pcon', this)
   },
   name: 'paper-plane',
   props: {

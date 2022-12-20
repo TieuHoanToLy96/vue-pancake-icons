@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('music-notes-pcon', component)
+    Vue.component('music-notes-pcon', this)
   },
   name: 'music-notes',
   props: {

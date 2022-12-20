@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lock-access-pcon', component)
+    Vue.component('lock-access-pcon', this)
   },
   name: 'lock-access',
   props: {

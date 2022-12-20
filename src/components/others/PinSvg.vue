@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pin-svg-pcon', component)
+    Vue.component('pin-svg-pcon', this)
   },
   name: 'pin-svg',
   props: {

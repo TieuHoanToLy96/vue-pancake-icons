@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('schema-off-pcon', component)
+    Vue.component('schema-off-pcon', this)
   },
   name: 'schema-off',
   props: {

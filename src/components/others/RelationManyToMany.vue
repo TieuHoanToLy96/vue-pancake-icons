@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('relation-many-to-many-pcon', component)
+    Vue.component('relation-many-to-many-pcon', this)
   },
   name: 'relation-many-to-many',
   props: {

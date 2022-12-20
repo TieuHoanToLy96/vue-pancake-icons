@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-mobile-charging-pcon', component)
+    Vue.component('device-mobile-charging-pcon', this)
   },
   name: 'device-mobile-charging',
   props: {

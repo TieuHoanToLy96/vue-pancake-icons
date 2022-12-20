@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('broadcast-svg-pcon', component)
+    Vue.component('broadcast-svg-pcon', this)
   },
   name: 'broadcast-svg',
   props: {

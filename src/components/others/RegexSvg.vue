@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('regex-svg-pcon', component)
+    Vue.component('regex-svg-pcon', this)
   },
   name: 'regex-svg',
   props: {

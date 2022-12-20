@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-confuzed-pcon', component)
+    Vue.component('mood-confuzed-pcon', this)
   },
   name: 'mood-confuzed',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tank-svg-pcon', component)
+    Vue.component('tank-svg-pcon', this)
   },
   name: 'tank-svg',
   props: {

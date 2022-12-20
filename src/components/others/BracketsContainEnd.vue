@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brackets-contain-end-pcon', component)
+    Vue.component('brackets-contain-end-pcon', this)
   },
   name: 'brackets-contain-end',
   props: {

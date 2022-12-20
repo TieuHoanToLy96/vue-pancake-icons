@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('squares-filled-pcon', component)
+    Vue.component('squares-filled-pcon', this)
   },
   name: 'squares-filled',
   props: {

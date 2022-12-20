@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rotate-360-pcon', component)
+    Vue.component('rotate-360-pcon', this)
   },
   name: 'rotate-360',
   props: {

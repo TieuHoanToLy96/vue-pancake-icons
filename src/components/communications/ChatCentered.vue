@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chat-centered-pcon', component)
+    Vue.component('chat-centered-pcon', this)
   },
   name: 'chat-centered',
   props: {

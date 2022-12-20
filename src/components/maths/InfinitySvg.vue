@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('infinity-svg-pcon', component)
+    Vue.component('infinity-svg-pcon', this)
   },
   name: 'infinity-svg',
   props: {

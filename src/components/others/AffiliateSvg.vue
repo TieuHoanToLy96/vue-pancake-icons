@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('affiliate-svg-pcon', component)
+    Vue.component('affiliate-svg-pcon', this)
   },
   name: 'affiliate-svg',
   props: {

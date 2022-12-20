@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rainbow-cloud-pcon', component)
+    Vue.component('rainbow-cloud-pcon', this)
   },
   name: 'rainbow-cloud',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('devices-2-pcon', component)
+    Vue.component('devices-2-pcon', this)
   },
   name: 'devices-2',
   props: {

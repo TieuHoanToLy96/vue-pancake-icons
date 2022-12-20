@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('volume-3-pcon', component)
+    Vue.component('volume-3-pcon', this)
   },
   name: 'volume-3',
   props: {

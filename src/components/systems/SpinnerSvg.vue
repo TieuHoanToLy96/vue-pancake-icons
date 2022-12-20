@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('spinner-svg-pcon', component)
+    Vue.component('spinner-svg-pcon', this)
   },
   name: 'spinner-svg',
   props: {

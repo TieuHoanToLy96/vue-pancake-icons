@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('laptop-svg-pcon', component)
+    Vue.component('laptop-svg-pcon', this)
   },
   name: 'laptop-svg',
   props: {

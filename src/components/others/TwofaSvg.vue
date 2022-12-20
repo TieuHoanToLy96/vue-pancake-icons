@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('twofa-svg-pcon', component)
+    Vue.component('twofa-svg-pcon', this)
   },
   name: 'twofa-svg',
   props: {

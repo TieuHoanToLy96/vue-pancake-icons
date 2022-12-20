@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('help-off-pcon', component)
+    Vue.component('help-off-pcon', this)
   },
   name: 'help-off',
   props: {

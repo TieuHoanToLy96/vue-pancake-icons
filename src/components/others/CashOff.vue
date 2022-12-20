@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cash-off-pcon', component)
+    Vue.component('cash-off-pcon', this)
   },
   name: 'cash-off',
   props: {

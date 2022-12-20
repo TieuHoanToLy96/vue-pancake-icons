@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('razor-electric-pcon', component)
+    Vue.component('razor-electric-pcon', this)
   },
   name: 'razor-electric',
   props: {

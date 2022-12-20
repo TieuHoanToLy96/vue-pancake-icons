@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-grammarly-pcon', component)
+    Vue.component('brand-grammarly-pcon', this)
   },
   name: 'brand-grammarly',
   props: {

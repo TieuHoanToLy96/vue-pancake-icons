@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wrench-svg-pcon', component)
+    Vue.component('wrench-svg-pcon', this)
   },
   name: 'wrench-svg',
   props: {

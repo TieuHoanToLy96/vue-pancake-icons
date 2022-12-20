@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('barrel-off-pcon', component)
+    Vue.component('barrel-off-pcon', this)
   },
   name: 'barrel-off',
   props: {

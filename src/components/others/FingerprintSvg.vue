@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fingerprint-svg-pcon', component)
+    Vue.component('fingerprint-svg-pcon', this)
   },
   name: 'fingerprint-svg',
   props: {

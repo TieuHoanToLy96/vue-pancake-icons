@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('battery-1-pcon', component)
+    Vue.component('battery-1-pcon', this)
   },
   name: 'battery-1',
   props: {

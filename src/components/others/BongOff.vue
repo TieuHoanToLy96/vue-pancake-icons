@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bong-off-pcon', component)
+    Vue.component('bong-off-pcon', this)
   },
   name: 'bong-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('versions-off-pcon', component)
+    Vue.component('versions-off-pcon', this)
   },
   name: 'versions-off',
   props: {

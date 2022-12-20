@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bird-svg-pcon', component)
+    Vue.component('bird-svg-pcon', this)
   },
   name: 'bird-svg',
   props: {

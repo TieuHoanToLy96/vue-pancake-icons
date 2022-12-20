@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-heart-monitor-pcon', component)
+    Vue.component('device-heart-monitor-pcon', this)
   },
   name: 'device-heart-monitor',
   props: {

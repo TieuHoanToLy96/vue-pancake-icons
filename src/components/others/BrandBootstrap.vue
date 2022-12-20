@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-bootstrap-pcon', component)
+    Vue.component('brand-bootstrap-pcon', this)
   },
   name: 'brand-bootstrap',
   props: {

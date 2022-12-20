@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('helicopter-landing-pcon', component)
+    Vue.component('helicopter-landing-pcon', this)
   },
   name: 'helicopter-landing',
   props: {

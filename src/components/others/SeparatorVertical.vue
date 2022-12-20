@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('separator-vertical-pcon', component)
+    Vue.component('separator-vertical-pcon', this)
   },
   name: 'separator-vertical',
   props: {

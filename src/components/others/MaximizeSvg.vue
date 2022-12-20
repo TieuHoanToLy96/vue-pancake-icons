@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('maximize-svg-pcon', component)
+    Vue.component('maximize-svg-pcon', this)
   },
   name: 'maximize-svg',
   props: {

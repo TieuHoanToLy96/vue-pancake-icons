@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-deviantart-pcon', component)
+    Vue.component('brand-deviantart-pcon', this)
   },
   name: 'brand-deviantart',
   props: {

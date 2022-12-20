@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-bar-to-left-pcon', component)
+    Vue.component('arrow-bar-to-left-pcon', this)
   },
   name: 'arrow-bar-to-left',
   props: {

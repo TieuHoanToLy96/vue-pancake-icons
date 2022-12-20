@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-curve-left-pcon', component)
+    Vue.component('arrow-curve-left-pcon', this)
   },
   name: 'arrow-curve-left',
   props: {

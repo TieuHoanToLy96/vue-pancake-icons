@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-dollar-pcon', component)
+    Vue.component('home-dollar-pcon', this)
   },
   name: 'home-dollar',
   props: {

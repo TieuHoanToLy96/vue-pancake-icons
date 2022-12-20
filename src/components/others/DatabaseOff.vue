@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('database-off-pcon', component)
+    Vue.component('database-off-pcon', this)
   },
   name: 'database-off',
   props: {

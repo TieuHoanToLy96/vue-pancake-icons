@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('outbound-svg-pcon', component)
+    Vue.component('outbound-svg-pcon', this)
   },
   name: 'outbound-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-youtube-kids-pcon', component)
+    Vue.component('brand-youtube-kids-pcon', this)
   },
   name: 'brand-youtube-kids',
   props: {

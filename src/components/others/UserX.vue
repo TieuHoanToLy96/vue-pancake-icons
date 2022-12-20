@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('user-x-pcon', component)
+    Vue.component('user-x-pcon', this)
   },
   name: 'user-x',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-hsix-pcon', component)
+    Vue.component('text-hsix-pcon', this)
   },
   name: 'text-hsix',
   props: {

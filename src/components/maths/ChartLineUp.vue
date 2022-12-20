@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-line-up-pcon', component)
+    Vue.component('chart-line-up-pcon', this)
   },
   name: 'chart-line-up',
   props: {

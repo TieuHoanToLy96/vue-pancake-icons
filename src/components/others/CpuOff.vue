@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cpu-off-pcon', component)
+    Vue.component('cpu-off-pcon', this)
   },
   name: 'cpu-off',
   props: {

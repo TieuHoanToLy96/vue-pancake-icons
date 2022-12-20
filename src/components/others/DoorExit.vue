@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('door-exit-pcon', component)
+    Vue.component('door-exit-pcon', this)
   },
   name: 'door-exit',
   props: {

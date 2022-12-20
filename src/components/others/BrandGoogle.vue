@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-google-pcon', component)
+    Vue.component('brand-google-pcon', this)
   },
   name: 'brand-google',
   props: {

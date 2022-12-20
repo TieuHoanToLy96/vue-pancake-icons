@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bucket-svg-pcon', component)
+    Vue.component('bucket-svg-pcon', this)
   },
   name: 'bucket-svg',
   props: {

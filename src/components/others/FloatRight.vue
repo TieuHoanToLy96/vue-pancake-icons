@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('float-right-pcon', component)
+    Vue.component('float-right-pcon', this)
   },
   name: 'float-right',
   props: {

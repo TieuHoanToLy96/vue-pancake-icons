@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wheelchair-svg-pcon', component)
+    Vue.component('wheelchair-svg-pcon', this)
   },
   name: 'wheelchair-svg',
   props: {

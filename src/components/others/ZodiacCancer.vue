@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zodiac-cancer-pcon', component)
+    Vue.component('zodiac-cancer-pcon', this)
   },
   name: 'zodiac-cancer',
   props: {

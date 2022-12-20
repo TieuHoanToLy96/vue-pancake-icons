@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('calendar-stats-pcon', component)
+    Vue.component('calendar-stats-pcon', this)
   },
   name: 'calendar-stats',
   props: {

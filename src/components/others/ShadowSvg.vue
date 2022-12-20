@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shadow-svg-pcon', component)
+    Vue.component('shadow-svg-pcon', this)
   },
   name: 'shadow-svg',
   props: {

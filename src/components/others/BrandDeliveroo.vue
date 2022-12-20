@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-deliveroo-pcon', component)
+    Vue.component('brand-deliveroo-pcon', this)
   },
   name: 'brand-deliveroo',
   props: {

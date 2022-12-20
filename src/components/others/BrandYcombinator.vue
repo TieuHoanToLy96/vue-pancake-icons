@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-ycombinator-pcon', component)
+    Vue.component('brand-ycombinator-pcon', this)
   },
   name: 'brand-ycombinator',
   props: {

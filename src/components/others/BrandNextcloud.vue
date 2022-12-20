@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-nextcloud-pcon', component)
+    Vue.component('brand-nextcloud-pcon', this)
   },
   name: 'brand-nextcloud',
   props: {

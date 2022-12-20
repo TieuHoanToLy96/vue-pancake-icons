@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-whatsapp-pcon', component)
+    Vue.component('brand-whatsapp-pcon', this)
   },
   name: 'brand-whatsapp',
   props: {

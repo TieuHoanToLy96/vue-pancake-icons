@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('logic-or-pcon', component)
+    Vue.component('logic-or-pcon', this)
   },
   name: 'logic-or',
   props: {

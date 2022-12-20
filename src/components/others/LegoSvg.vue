@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lego-svg-pcon', component)
+    Vue.component('lego-svg-pcon', this)
   },
   name: 'lego-svg',
   props: {

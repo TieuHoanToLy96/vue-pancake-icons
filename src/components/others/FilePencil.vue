@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-pencil-pcon', component)
+    Vue.component('file-pencil-pcon', this)
   },
   name: 'file-pencil',
   props: {

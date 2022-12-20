@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('artboard-off-pcon', component)
+    Vue.component('artboard-off-pcon', this)
   },
   name: 'artboard-off',
   props: {

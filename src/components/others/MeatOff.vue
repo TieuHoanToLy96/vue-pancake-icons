@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('meat-off-pcon', component)
+    Vue.component('meat-off-pcon', this)
   },
   name: 'meat-off',
   props: {

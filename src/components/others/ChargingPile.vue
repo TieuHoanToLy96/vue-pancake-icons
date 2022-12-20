@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('charging-pile-pcon', component)
+    Vue.component('charging-pile-pcon', this)
   },
   name: 'charging-pile',
   props: {

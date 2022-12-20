@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('military-rank-pcon', component)
+    Vue.component('military-rank-pcon', this)
   },
   name: 'military-rank',
   props: {

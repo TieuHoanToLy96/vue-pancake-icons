@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-roundabout-left-pcon', component)
+    Vue.component('arrow-roundabout-left-pcon', this)
   },
   name: 'arrow-roundabout-left',
   props: {

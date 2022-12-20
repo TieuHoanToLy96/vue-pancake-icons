@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('map-search-pcon', component)
+    Vue.component('map-search-pcon', this)
   },
   name: 'map-search',
   props: {

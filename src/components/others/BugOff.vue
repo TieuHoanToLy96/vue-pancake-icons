@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bug-off-pcon', component)
+    Vue.component('bug-off-pcon', this)
   },
   name: 'bug-off',
   props: {

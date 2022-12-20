@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-minus-pcon', component)
+    Vue.component('file-minus-pcon', this)
   },
   name: 'file-minus',
   props: {

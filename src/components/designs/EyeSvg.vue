@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('eye-svg-pcon', component)
+    Vue.component('eye-svg-pcon', this)
   },
   name: 'eye-svg',
   props: {

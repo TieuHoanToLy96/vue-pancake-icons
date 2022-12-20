@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('edit-off-pcon', component)
+    Vue.component('edit-off-pcon', this)
   },
   name: 'edit-off',
   props: {

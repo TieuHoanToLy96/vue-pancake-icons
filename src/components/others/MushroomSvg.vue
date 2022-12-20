@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mushroom-svg-pcon', component)
+    Vue.component('mushroom-svg-pcon', this)
   },
   name: 'mushroom-svg',
   props: {

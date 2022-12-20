@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lock-square-pcon', component)
+    Vue.component('lock-square-pcon', this)
   },
   name: 'lock-square',
   props: {

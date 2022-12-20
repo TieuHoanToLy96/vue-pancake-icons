@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bleach-svg-pcon', component)
+    Vue.component('bleach-svg-pcon', this)
   },
   name: 'bleach-svg',
   props: {

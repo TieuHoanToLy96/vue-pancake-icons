@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-back-up-pcon', component)
+    Vue.component('arrow-back-up-pcon', this)
   },
   name: 'arrow-back-up',
   props: {

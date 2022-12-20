@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('curly-loop-pcon', component)
+    Vue.component('curly-loop-pcon', this)
   },
   name: 'curly-loop',
   props: {

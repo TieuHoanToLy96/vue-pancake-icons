@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('skull-svg-pcon', component)
+    Vue.component('skull-svg-pcon', this)
   },
   name: 'skull-svg',
   props: {

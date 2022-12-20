@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-wish-pcon', component)
+    Vue.component('brand-wish-pcon', this)
   },
   name: 'brand-wish',
   props: {

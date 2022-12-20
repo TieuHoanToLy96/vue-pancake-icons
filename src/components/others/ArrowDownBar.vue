@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-down-bar-pcon', component)
+    Vue.component('arrow-down-bar-pcon', this)
   },
   name: 'arrow-down-bar',
   props: {

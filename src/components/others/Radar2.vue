@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('radar-2-pcon', component)
+    Vue.component('radar-2-pcon', this)
   },
   name: 'radar-2',
   props: {

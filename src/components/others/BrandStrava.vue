@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-strava-pcon', component)
+    Vue.component('brand-strava-pcon', this)
   },
   name: 'brand-strava',
   props: {

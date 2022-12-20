@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-euro-pcon', component)
+    Vue.component('file-euro-pcon', this)
   },
   name: 'file-euro',
   props: {

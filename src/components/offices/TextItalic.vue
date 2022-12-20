@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-italic-pcon', component)
+    Vue.component('text-italic-pcon', this)
   },
   name: 'text-italic',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('envelope-open-pcon', component)
+    Vue.component('envelope-open-pcon', this)
   },
   name: 'envelope-open',
   props: {

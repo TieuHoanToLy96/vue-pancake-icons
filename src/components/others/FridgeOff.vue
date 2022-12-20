@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fridge-off-pcon', component)
+    Vue.component('fridge-off-pcon', this)
   },
   name: 'fridge-off',
   props: {

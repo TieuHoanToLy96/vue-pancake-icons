@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-sim-1-pcon', component)
+    Vue.component('device-sim-1-pcon', this)
   },
   name: 'device-sim-1',
   props: {

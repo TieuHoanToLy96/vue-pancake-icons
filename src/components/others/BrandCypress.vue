@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-cypress-pcon', component)
+    Vue.component('brand-cypress-pcon', this)
   },
   name: 'brand-cypress',
   props: {

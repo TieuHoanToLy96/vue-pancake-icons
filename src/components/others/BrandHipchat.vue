@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-hipchat-pcon', component)
+    Vue.component('brand-hipchat-pcon', this)
   },
   name: 'brand-hipchat',
   props: {

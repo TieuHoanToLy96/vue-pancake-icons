@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hand-off-pcon', component)
+    Vue.component('hand-off-pcon', this)
   },
   name: 'hand-off',
   props: {

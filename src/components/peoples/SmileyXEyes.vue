@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('smiley-xeyes-pcon', component)
+    Vue.component('smiley-xeyes-pcon', this)
   },
   name: 'smiley-xeyes',
   props: {

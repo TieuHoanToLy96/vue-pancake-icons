@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('status-change-pcon', component)
+    Vue.component('status-change-pcon', this)
   },
   name: 'status-change',
   props: {

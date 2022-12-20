@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('browsers-svg-pcon', component)
+    Vue.component('browsers-svg-pcon', this)
   },
   name: 'browsers-svg',
   props: {

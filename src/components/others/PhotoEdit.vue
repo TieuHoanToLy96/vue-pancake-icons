@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('photo-edit-pcon', component)
+    Vue.component('photo-edit-pcon', this)
   },
   name: 'photo-edit',
   props: {

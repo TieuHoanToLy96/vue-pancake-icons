@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cast-svg-pcon', component)
+    Vue.component('cast-svg-pcon', this)
   },
   name: 'cast-svg',
   props: {

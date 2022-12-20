@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('overline-svg-pcon', component)
+    Vue.component('overline-svg-pcon', this)
   },
   name: 'overline-svg',
   props: {

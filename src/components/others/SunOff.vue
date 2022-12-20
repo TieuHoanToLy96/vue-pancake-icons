@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sun-off-pcon', component)
+    Vue.component('sun-off-pcon', this)
   },
   name: 'sun-off',
   props: {

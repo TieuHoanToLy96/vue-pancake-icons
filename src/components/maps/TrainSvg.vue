@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('train-svg-pcon', component)
+    Vue.component('train-svg-pcon', this)
   },
   name: 'train-svg',
   props: {

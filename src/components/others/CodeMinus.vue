@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('code-minus-pcon', component)
+    Vue.component('code-minus-pcon', this)
   },
   name: 'code-minus',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('poker-chip-pcon', component)
+    Vue.component('poker-chip-pcon', this)
   },
   name: 'poker-chip',
   props: {

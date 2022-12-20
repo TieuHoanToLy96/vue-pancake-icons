@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-text-pcon', component)
+    Vue.component('file-text-pcon', this)
   },
   name: 'file-text',
   props: {

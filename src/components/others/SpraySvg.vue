@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('spray-svg-pcon', component)
+    Vue.component('spray-svg-pcon', this)
   },
   name: 'spray-svg',
   props: {

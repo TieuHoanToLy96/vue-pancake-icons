@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-sing-pcon', component)
+    Vue.component('mood-sing-pcon', this)
   },
   name: 'mood-sing',
   props: {

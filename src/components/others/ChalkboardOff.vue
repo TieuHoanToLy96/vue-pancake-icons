@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chalkboard-off-pcon', component)
+    Vue.component('chalkboard-off-pcon', this)
   },
   name: 'chalkboard-off',
   props: {

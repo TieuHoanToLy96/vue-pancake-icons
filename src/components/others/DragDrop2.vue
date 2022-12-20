@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('drag-drop-2-pcon', component)
+    Vue.component('drag-drop-2-pcon', this)
   },
   name: 'drag-drop-2',
   props: {

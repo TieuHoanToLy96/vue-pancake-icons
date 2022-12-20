@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('box-align-top-right-pcon', component)
+    Vue.component('box-align-top-right-pcon', this)
   },
   name: 'box-align-top-right',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('flower-off-pcon', component)
+    Vue.component('flower-off-pcon', this)
   },
   name: 'flower-off',
   props: {

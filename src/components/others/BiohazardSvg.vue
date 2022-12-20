@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('biohazard-svg-pcon', component)
+    Vue.component('biohazard-svg-pcon', this)
   },
   name: 'biohazard-svg',
   props: {

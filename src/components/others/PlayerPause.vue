@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('player-pause-pcon', component)
+    Vue.component('player-pause-pcon', this)
   },
   name: 'player-pause',
   props: {

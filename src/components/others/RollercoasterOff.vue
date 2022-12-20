@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rollercoaster-off-pcon', component)
+    Vue.component('rollercoaster-off-pcon', this)
   },
   name: 'rollercoaster-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-envato-pcon', component)
+    Vue.component('brand-envato-pcon', this)
   },
   name: 'brand-envato',
   props: {

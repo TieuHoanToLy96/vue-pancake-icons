@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('toggle-right-pcon', component)
+    Vue.component('toggle-right-pcon', this)
   },
   name: 'toggle-right',
   props: {

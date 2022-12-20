@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pencil-circle-pcon', component)
+    Vue.component('pencil-circle-pcon', this)
   },
   name: 'pencil-circle',
   props: {

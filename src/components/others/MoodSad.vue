@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-sad-pcon', component)
+    Vue.component('mood-sad-pcon', this)
   },
   name: 'mood-sad',
   props: {

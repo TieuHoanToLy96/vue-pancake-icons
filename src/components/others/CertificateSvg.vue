@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('certificate-svg-pcon', component)
+    Vue.component('certificate-svg-pcon', this)
   },
   name: 'certificate-svg',
   props: {

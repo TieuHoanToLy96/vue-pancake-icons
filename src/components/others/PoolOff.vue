@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pool-off-pcon', component)
+    Vue.component('pool-off-pcon', this)
   },
   name: 'pool-off',
   props: {

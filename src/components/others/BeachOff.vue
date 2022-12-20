@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('beach-off-pcon', component)
+    Vue.component('beach-off-pcon', this)
   },
   name: 'beach-off',
   props: {

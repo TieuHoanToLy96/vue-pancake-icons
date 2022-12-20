@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-greater-pcon', component)
+    Vue.component('math-greater-pcon', this)
   },
   name: 'math-greater',
   props: {

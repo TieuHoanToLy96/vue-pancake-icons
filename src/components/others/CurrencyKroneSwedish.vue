@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-krone-swedish-pcon', component)
+    Vue.component('currency-krone-swedish-pcon', this)
   },
   name: 'currency-krone-swedish',
   props: {

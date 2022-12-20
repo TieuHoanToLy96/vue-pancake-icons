@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-uber-pcon', component)
+    Vue.component('brand-uber-pcon', this)
   },
   name: 'brand-uber',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('box-multiple-8-pcon', component)
+    Vue.component('box-multiple-8-pcon', this)
   },
   name: 'box-multiple-8',
   props: {

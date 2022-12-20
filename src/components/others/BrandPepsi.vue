@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-pepsi-pcon', component)
+    Vue.component('brand-pepsi-pcon', this)
   },
   name: 'brand-pepsi',
   props: {

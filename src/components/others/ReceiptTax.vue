@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('receipt-tax-pcon', component)
+    Vue.component('receipt-tax-pcon', this)
   },
   name: 'receipt-tax',
   props: {

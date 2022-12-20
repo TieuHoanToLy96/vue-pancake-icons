@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-hfive-pcon', component)
+    Vue.component('text-hfive-pcon', this)
   },
   name: 'text-hfive',
   props: {

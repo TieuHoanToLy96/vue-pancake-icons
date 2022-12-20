@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('archive-svg-pcon', component)
+    Vue.component('archive-svg-pcon', this)
   },
   name: 'archive-svg',
   props: {

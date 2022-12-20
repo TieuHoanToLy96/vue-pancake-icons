@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-picsart-pcon', component)
+    Vue.component('brand-picsart-pcon', this)
   },
   name: 'brand-picsart',
   props: {

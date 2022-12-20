@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zoom-in-pcon', component)
+    Vue.component('zoom-in-pcon', this)
   },
   name: 'zoom-in',
   props: {

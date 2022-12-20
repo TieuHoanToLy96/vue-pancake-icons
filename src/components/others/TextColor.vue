@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-color-pcon', component)
+    Vue.component('text-color-pcon', this)
   },
   name: 'text-color',
   props: {

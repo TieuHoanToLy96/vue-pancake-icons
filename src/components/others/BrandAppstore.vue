@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-appstore-pcon', component)
+    Vue.component('brand-appstore-pcon', this)
   },
   name: 'brand-appstore',
   props: {

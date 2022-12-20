@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fence-svg-pcon', component)
+    Vue.component('fence-svg-pcon', this)
   },
   name: 'fence-svg',
   props: {

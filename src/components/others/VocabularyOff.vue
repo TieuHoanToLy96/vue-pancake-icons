@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('vocabulary-off-pcon', component)
+    Vue.component('vocabulary-off-pcon', this)
   },
   name: 'vocabulary-off',
   props: {

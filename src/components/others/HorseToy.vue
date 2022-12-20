@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('horse-toy-pcon', component)
+    Vue.component('horse-toy-pcon', this)
   },
   name: 'horse-toy',
   props: {

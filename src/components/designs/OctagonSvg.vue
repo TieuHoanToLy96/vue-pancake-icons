@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('octagon-svg-pcon', component)
+    Vue.component('octagon-svg-pcon', this)
   },
   name: 'octagon-svg',
   props: {

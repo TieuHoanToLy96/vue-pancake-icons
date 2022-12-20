@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mail-forward-pcon', component)
+    Vue.component('mail-forward-pcon', this)
   },
   name: 'mail-forward',
   props: {

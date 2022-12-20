@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wash-svg-pcon', component)
+    Vue.component('wash-svg-pcon', this)
   },
   name: 'wash-svg',
   props: {

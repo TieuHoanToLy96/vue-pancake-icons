@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-campaignmonitor-pcon', component)
+    Vue.component('brand-campaignmonitor-pcon', this)
   },
   name: 'brand-campaignmonitor',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-empty-pcon', component)
+    Vue.component('mood-empty-pcon', this)
   },
   name: 'mood-empty',
   props: {

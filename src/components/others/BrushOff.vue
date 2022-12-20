@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brush-off-pcon', component)
+    Vue.component('brush-off-pcon', this)
   },
   name: 'brush-off',
   props: {

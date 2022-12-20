@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('icons-off-pcon', component)
+    Vue.component('icons-off-pcon', this)
   },
   name: 'icons-off',
   props: {

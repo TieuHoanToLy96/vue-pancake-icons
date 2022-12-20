@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('settings-automation-pcon', component)
+    Vue.component('settings-automation-pcon', this)
   },
   name: 'settings-automation',
   props: {

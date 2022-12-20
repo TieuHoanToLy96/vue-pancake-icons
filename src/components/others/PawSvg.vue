@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paw-svg-pcon', component)
+    Vue.component('paw-svg-pcon', this)
   },
   name: 'paw-svg',
   props: {

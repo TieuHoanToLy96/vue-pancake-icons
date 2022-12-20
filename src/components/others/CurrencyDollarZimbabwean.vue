@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-dollar-zimbabwean-pcon', component)
+    Vue.component('currency-dollar-zimbabwean-pcon', this)
   },
   name: 'currency-dollar-zimbabwean',
   props: {

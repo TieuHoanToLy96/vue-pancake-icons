@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('parentheses-off-pcon', component)
+    Vue.component('parentheses-off-pcon', this)
   },
   name: 'parentheses-off',
   props: {

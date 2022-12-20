@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ripple-svg-pcon', component)
+    Vue.component('ripple-svg-pcon', this)
   },
   name: 'ripple-svg',
   props: {

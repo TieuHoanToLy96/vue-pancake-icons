@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('notebook-off-pcon', component)
+    Vue.component('notebook-off-pcon', this)
   },
   name: 'notebook-off',
   props: {

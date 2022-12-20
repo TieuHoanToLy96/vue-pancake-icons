@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-code-pcon', component)
+    Vue.component('file-code-pcon', this)
   },
   name: 'file-code',
   props: {

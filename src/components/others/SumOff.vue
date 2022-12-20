@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sum-off-pcon', component)
+    Vue.component('sum-off-pcon', this)
   },
   name: 'sum-off',
   props: {

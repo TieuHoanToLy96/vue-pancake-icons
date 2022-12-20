@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('list-dashes-pcon', component)
+    Vue.component('list-dashes-pcon', this)
   },
   name: 'list-dashes',
   props: {

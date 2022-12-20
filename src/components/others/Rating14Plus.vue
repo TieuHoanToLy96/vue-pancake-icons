@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rating-14-plus-pcon', component)
+    Vue.component('rating-14-plus-pcon', this)
   },
   name: 'rating-14-plus',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('phosphor-logo-pcon', component)
+    Vue.component('phosphor-logo-pcon', this)
   },
   name: 'phosphor-logo',
   props: {

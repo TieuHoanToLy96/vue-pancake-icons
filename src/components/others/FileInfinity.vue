@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-infinity-pcon', component)
+    Vue.component('file-infinity-pcon', this)
   },
   name: 'file-infinity',
   props: {

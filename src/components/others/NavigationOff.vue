@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('navigation-off-pcon', component)
+    Vue.component('navigation-off-pcon', this)
   },
   name: 'navigation-off',
   props: {

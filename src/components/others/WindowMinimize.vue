@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('window-minimize-pcon', component)
+    Vue.component('window-minimize-pcon', this)
   },
   name: 'window-minimize',
   props: {

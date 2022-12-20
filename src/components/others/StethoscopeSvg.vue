@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('stethoscope-svg-pcon', component)
+    Vue.component('stethoscope-svg-pcon', this)
   },
   name: 'stethoscope-svg',
   props: {

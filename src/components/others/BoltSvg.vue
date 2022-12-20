@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bolt-svg-pcon', component)
+    Vue.component('bolt-svg-pcon', this)
   },
   name: 'bolt-svg',
   props: {

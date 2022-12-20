@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('projector-screen-chart-pcon', component)
+    Vue.component('projector-screen-chart-pcon', this)
   },
   name: 'projector-screen-chart',
   props: {

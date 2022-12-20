@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pen-nib-straight-pcon', component)
+    Vue.component('pen-nib-straight-pcon', this)
   },
   name: 'pen-nib-straight',
   props: {

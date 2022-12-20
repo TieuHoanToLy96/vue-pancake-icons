@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('motorbike-svg-pcon', component)
+    Vue.component('motorbike-svg-pcon', this)
   },
   name: 'motorbike-svg',
   props: {

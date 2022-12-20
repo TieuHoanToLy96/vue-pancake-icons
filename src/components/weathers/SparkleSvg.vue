@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sparkle-svg-pcon', component)
+    Vue.component('sparkle-svg-pcon', this)
   },
   name: 'sparkle-svg',
   props: {

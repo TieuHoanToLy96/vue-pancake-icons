@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('separator-horizontal-pcon', component)
+    Vue.component('separator-horizontal-pcon', this)
   },
   name: 'separator-horizontal',
   props: {

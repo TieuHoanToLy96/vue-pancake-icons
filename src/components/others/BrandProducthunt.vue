@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-producthunt-pcon', component)
+    Vue.component('brand-producthunt-pcon', this)
   },
   name: 'brand-producthunt',
   props: {

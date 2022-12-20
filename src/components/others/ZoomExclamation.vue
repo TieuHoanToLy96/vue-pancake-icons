@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zoom-exclamation-pcon', component)
+    Vue.component('zoom-exclamation-pcon', this)
   },
   name: 'zoom-exclamation',
   props: {

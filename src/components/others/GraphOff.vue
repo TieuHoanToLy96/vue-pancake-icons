@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('graph-off-pcon', component)
+    Vue.component('graph-off-pcon', this)
   },
   name: 'graph-off',
   props: {

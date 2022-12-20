@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('transition-left-pcon', component)
+    Vue.component('transition-left-pcon', this)
   },
   name: 'transition-left',
   props: {

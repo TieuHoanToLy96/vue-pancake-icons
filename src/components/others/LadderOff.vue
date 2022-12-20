@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ladder-off-pcon', component)
+    Vue.component('ladder-off-pcon', this)
   },
   name: 'ladder-off',
   props: {

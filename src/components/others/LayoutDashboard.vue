@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-dashboard-pcon', component)
+    Vue.component('layout-dashboard-pcon', this)
   },
   name: 'layout-dashboard',
   props: {

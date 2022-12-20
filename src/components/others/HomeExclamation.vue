@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-exclamation-pcon', component)
+    Vue.component('home-exclamation-pcon', this)
   },
   name: 'home-exclamation',
   props: {

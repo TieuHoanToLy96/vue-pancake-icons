@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('play-card-off-pcon', component)
+    Vue.component('play-card-off-pcon', this)
   },
   name: 'play-card-off',
   props: {

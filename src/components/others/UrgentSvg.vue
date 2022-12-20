@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('urgent-svg-pcon', component)
+    Vue.component('urgent-svg-pcon', this)
   },
   name: 'urgent-svg',
   props: {

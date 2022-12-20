@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('refresh-off-pcon', component)
+    Vue.component('refresh-off-pcon', this)
   },
   name: 'refresh-off',
   props: {

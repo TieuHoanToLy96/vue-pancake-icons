@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('id-off-pcon', component)
+    Vue.component('id-off-pcon', this)
   },
   name: 'id-off',
   props: {

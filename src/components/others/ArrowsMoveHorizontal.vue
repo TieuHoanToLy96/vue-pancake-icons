@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-move-horizontal-pcon', component)
+    Vue.component('arrows-move-horizontal-pcon', this)
   },
   name: 'arrows-move-horizontal',
   props: {

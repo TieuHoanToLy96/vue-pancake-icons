@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('roller-skating-pcon', component)
+    Vue.component('roller-skating-pcon', this)
   },
   name: 'roller-skating',
   props: {

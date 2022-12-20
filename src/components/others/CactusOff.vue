@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cactus-off-pcon', component)
+    Vue.component('cactus-off-pcon', this)
   },
   name: 'cactus-off',
   props: {

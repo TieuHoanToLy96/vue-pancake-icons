@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('user-gear-pcon', component)
+    Vue.component('user-gear-pcon', this)
   },
   name: 'user-gear',
   props: {

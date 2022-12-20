@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('activity-heartbeat-pcon', component)
+    Vue.component('activity-heartbeat-pcon', this)
   },
   name: 'activity-heartbeat',
   props: {

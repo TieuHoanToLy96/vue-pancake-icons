@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('user-list-pcon', component)
+    Vue.component('user-list-pcon', this)
   },
   name: 'user-list',
   props: {

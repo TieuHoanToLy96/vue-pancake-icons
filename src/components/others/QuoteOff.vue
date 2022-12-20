@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('quote-off-pcon', component)
+    Vue.component('quote-off-pcon', this)
   },
   name: 'quote-off',
   props: {

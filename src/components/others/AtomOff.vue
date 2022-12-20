@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('atom-off-pcon', component)
+    Vue.component('atom-off-pcon', this)
   },
   name: 'atom-off',
   props: {

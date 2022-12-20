@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('list-plus-pcon', component)
+    Vue.component('list-plus-pcon', this)
   },
   name: 'list-plus',
   props: {

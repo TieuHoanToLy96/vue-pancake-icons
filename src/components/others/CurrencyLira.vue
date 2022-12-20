@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-lira-pcon', component)
+    Vue.component('currency-lira-pcon', this)
   },
   name: 'currency-lira',
   props: {

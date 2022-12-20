@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-svelte-pcon', component)
+    Vue.component('brand-svelte-pcon', this)
   },
   name: 'brand-svelte',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-tabler-pcon', component)
+    Vue.component('brand-tabler-pcon', this)
   },
   name: 'brand-tabler',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hanger-off-pcon', component)
+    Vue.component('hanger-off-pcon', this)
   },
   name: 'hanger-off',
   props: {

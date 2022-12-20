@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('archive-off-pcon', component)
+    Vue.component('archive-off-pcon', this)
   },
   name: 'archive-off',
   props: {

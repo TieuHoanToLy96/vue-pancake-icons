@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('view-360-pcon', component)
+    Vue.component('view-360-pcon', this)
   },
   name: 'view-360',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('youtube-logo-pcon', component)
+    Vue.component('youtube-logo-pcon', this)
   },
   name: 'youtube-logo',
   props: {

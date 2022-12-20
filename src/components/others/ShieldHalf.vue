@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shield-half-pcon', component)
+    Vue.component('shield-half-pcon', this)
   },
   name: 'shield-half',
   props: {

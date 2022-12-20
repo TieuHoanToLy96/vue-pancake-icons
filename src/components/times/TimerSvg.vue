@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('timer-svg-pcon', component)
+    Vue.component('timer-svg-pcon', this)
   },
   name: 'timer-svg',
   props: {

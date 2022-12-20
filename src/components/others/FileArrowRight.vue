@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-arrow-right-pcon', component)
+    Vue.component('file-arrow-right-pcon', this)
   },
   name: 'file-arrow-right',
   props: {

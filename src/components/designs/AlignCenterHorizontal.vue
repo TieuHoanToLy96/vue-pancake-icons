@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('align-center-horizontal-pcon', component)
+    Vue.component('align-center-horizontal-pcon', this)
   },
   name: 'align-center-horizontal',
   props: {

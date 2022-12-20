@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('toilet-paper-off-pcon', component)
+    Vue.component('toilet-paper-off-pcon', this)
   },
   name: 'toilet-paper-off',
   props: {

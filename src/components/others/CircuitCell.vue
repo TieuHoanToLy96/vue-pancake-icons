@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-cell-pcon', component)
+    Vue.component('circuit-cell-pcon', this)
   },
   name: 'circuit-cell',
   props: {

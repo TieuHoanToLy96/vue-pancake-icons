@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shoe-off-pcon', component)
+    Vue.component('shoe-off-pcon', this)
   },
   name: 'shoe-off',
   props: {

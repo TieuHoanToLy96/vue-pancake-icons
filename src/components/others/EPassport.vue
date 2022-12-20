@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('e-passport-pcon', component)
+    Vue.component('e-passport-pcon', this)
   },
   name: 'e-passport',
   props: {

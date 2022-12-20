@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fold-svg-pcon', component)
+    Vue.component('fold-svg-pcon', this)
   },
   name: 'fold-svg',
   props: {

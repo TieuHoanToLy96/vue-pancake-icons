@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tent-off-pcon', component)
+    Vue.component('tent-off-pcon', this)
   },
   name: 'tent-off',
   props: {

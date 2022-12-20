@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mist-off-pcon', component)
+    Vue.component('mist-off-pcon', this)
   },
   name: 'mist-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-walmart-pcon', component)
+    Vue.component('brand-walmart-pcon', this)
   },
   name: 'brand-walmart',
   props: {

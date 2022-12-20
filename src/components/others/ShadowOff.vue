@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shadow-off-pcon', component)
+    Vue.component('shadow-off-pcon', this)
   },
   name: 'shadow-off',
   props: {

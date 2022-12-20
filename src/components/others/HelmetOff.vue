@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('helmet-off-pcon', component)
+    Vue.component('helmet-off-pcon', this)
   },
   name: 'helmet-off',
   props: {

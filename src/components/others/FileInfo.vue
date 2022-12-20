@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-info-pcon', component)
+    Vue.component('file-info-pcon', this)
   },
   name: 'file-info',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('subtask-svg-pcon', component)
+    Vue.component('subtask-svg-pcon', this)
   },
   name: 'subtask-svg',
   props: {

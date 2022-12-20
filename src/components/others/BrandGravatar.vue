@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-gravatar-pcon', component)
+    Vue.component('brand-gravatar-pcon', this)
   },
   name: 'brand-gravatar',
   props: {

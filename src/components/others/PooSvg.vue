@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('poo-svg-pcon', component)
+    Vue.component('poo-svg-pcon', this)
   },
   name: 'poo-svg',
   props: {

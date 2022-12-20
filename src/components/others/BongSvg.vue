@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bong-svg-pcon', component)
+    Vue.component('bong-svg-pcon', this)
   },
   name: 'bong-svg',
   props: {

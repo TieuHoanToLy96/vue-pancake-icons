@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('north-star-pcon', component)
+    Vue.component('north-star-pcon', this)
   },
   name: 'north-star',
   props: {

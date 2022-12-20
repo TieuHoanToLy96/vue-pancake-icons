@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('stereo-glasses-pcon', component)
+    Vue.component('stereo-glasses-pcon', this)
   },
   name: 'stereo-glasses',
   props: {

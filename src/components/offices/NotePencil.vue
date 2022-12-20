@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('note-pencil-pcon', component)
+    Vue.component('note-pencil-pcon', this)
   },
   name: 'note-pencil',
   props: {

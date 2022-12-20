@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-candle-pcon', component)
+    Vue.component('chart-candle-pcon', this)
   },
   name: 'chart-candle',
   props: {

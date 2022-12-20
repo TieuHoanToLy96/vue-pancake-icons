@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-vscode-pcon', component)
+    Vue.component('brand-vscode-pcon', this)
   },
   name: 'brand-vscode',
   props: {

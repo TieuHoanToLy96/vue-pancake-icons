@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lightbulb-filament-pcon', component)
+    Vue.component('lightbulb-filament-pcon', this)
   },
   name: 'lightbulb-filament',
   props: {

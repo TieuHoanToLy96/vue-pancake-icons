@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('webhook-off-pcon', component)
+    Vue.component('webhook-off-pcon', this)
   },
   name: 'webhook-off',
   props: {

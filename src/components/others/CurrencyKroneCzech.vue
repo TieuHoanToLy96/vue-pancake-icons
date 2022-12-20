@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-krone-czech-pcon', component)
+    Vue.component('currency-krone-czech-pcon', this)
   },
   name: 'currency-krone-czech',
   props: {

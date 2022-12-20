@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-bar-off-pcon', component)
+    Vue.component('chart-bar-off-pcon', this)
   },
   name: 'chart-bar-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('users-three-pcon', component)
+    Vue.component('users-three-pcon', this)
   },
   name: 'users-three',
   props: {

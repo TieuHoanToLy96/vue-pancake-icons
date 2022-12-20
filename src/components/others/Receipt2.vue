@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('receipt-2-pcon', component)
+    Vue.component('receipt-2-pcon', this)
   },
   name: 'receipt-2',
   props: {

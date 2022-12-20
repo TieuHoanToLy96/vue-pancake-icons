@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('track-svg-pcon', component)
+    Vue.component('track-svg-pcon', this)
   },
   name: 'track-svg',
   props: {

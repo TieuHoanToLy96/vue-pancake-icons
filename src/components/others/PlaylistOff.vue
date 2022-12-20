@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('playlist-off-pcon', component)
+    Vue.component('playlist-off-pcon', this)
   },
   name: 'playlist-off',
   props: {

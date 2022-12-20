@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('disc-golf-pcon', component)
+    Vue.component('disc-golf-pcon', this)
   },
   name: 'disc-golf',
   props: {

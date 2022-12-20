@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sliders-svg-pcon', component)
+    Vue.component('sliders-svg-pcon', this)
   },
   name: 'sliders-svg',
   props: {

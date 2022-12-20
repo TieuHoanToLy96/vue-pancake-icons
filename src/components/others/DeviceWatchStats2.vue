@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-watch-stats-2-pcon', component)
+    Vue.component('device-watch-stats-2-pcon', this)
   },
   name: 'device-watch-stats-2',
   props: {

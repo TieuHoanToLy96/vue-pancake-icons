@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('manual-gearbox-pcon', component)
+    Vue.component('manual-gearbox-pcon', this)
   },
   name: 'manual-gearbox',
   props: {

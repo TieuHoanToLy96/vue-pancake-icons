@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-arrow-down-pcon', component)
+    Vue.component('file-arrow-down-pcon', this)
   },
   name: 'file-arrow-down',
   props: {

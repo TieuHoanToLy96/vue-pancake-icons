@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('book-off-pcon', component)
+    Vue.component('book-off-pcon', this)
   },
   name: 'book-off',
   props: {

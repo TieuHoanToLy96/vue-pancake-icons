@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('crown-simple-pcon', component)
+    Vue.component('crown-simple-pcon', this)
   },
   name: 'crown-simple',
   props: {

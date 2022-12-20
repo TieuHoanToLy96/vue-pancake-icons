@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-diode-zener-pcon', component)
+    Vue.component('circuit-diode-zener-pcon', this)
   },
   name: 'circuit-diode-zener',
   props: {

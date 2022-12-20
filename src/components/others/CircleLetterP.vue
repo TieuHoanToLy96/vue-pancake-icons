@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circle-letter-p-pcon', component)
+    Vue.component('circle-letter-p-pcon', this)
   },
   name: 'circle-letter-p',
   props: {

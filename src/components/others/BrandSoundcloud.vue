@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-soundcloud-pcon', component)
+    Vue.component('brand-soundcloud-pcon', this)
   },
   name: 'brand-soundcloud',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dna-2-off-pcon', component)
+    Vue.component('dna-2-off-pcon', this)
   },
   name: 'dna-2-off',
   props: {

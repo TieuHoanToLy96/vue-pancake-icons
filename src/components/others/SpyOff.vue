@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('spy-off-pcon', component)
+    Vue.component('spy-off-pcon', this)
   },
   name: 'spy-off',
   props: {

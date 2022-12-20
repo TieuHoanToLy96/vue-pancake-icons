@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sketch-logo-pcon', component)
+    Vue.component('sketch-logo-pcon', this)
   },
   name: 'sketch-logo',
   props: {

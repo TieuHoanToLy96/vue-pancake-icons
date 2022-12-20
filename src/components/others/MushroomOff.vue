@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mushroom-off-pcon', component)
+    Vue.component('mushroom-off-pcon', this)
   },
   name: 'mushroom-off',
   props: {

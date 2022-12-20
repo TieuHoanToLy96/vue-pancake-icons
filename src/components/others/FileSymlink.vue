@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-symlink-pcon', component)
+    Vue.component('file-symlink-pcon', this)
   },
   name: 'file-symlink',
   props: {

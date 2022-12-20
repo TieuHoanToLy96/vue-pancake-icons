@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('git-merge-pcon', component)
+    Vue.component('git-merge-pcon', this)
   },
   name: 'git-merge',
   props: {

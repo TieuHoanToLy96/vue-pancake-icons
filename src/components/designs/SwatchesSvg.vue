@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('swatches-svg-pcon', component)
+    Vue.component('swatches-svg-pcon', this)
   },
   name: 'swatches-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wand-svg-pcon', component)
+    Vue.component('wand-svg-pcon', this)
   },
   name: 'wand-svg',
   props: {

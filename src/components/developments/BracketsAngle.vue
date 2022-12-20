@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brackets-angle-pcon', component)
+    Vue.component('brackets-angle-pcon', this)
   },
   name: 'brackets-angle',
   props: {

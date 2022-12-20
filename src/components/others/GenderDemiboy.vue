@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gender-demiboy-pcon', component)
+    Vue.component('gender-demiboy-pcon', this)
   },
   name: 'gender-demiboy',
   props: {

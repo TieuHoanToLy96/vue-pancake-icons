@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('equal-not-pcon', component)
+    Vue.component('equal-not-pcon', this)
   },
   name: 'equal-not',
   props: {

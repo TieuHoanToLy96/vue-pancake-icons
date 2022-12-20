@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-church-pcon', component)
+    Vue.component('building-church-pcon', this)
   },
   name: 'building-church',
   props: {

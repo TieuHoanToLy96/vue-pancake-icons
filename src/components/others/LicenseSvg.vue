@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('license-svg-pcon', component)
+    Vue.component('license-svg-pcon', this)
   },
   name: 'license-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-exchange-pcon', component)
+    Vue.component('arrows-exchange-pcon', this)
   },
   name: 'arrows-exchange',
   props: {

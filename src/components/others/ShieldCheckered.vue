@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shield-checkered-pcon', component)
+    Vue.component('shield-checkered-pcon', this)
   },
   name: 'shield-checkered',
   props: {

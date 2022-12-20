@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('ball-tennis-pcon', component)
+    Vue.component('ball-tennis-pcon', this)
   },
   name: 'ball-tennis',
   props: {

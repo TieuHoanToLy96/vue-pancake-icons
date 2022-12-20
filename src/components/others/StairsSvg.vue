@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('stairs-svg-pcon', component)
+    Vue.component('stairs-svg-pcon', this)
   },
   name: 'stairs-svg',
   props: {

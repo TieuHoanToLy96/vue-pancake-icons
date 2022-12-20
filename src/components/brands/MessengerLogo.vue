@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('messenger-logo-pcon', component)
+    Vue.component('messenger-logo-pcon', this)
   },
   name: 'messenger-logo',
   props: {

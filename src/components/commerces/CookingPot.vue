@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cooking-pot-pcon', component)
+    Vue.component('cooking-pot-pcon', this)
   },
   name: 'cooking-pot',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bottle-off-pcon', component)
+    Vue.component('bottle-off-pcon', this)
   },
   name: 'bottle-off',
   props: {

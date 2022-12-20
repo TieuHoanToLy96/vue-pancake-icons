@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('face-id-error-pcon', component)
+    Vue.component('face-id-error-pcon', this)
   },
   name: 'face-id-error',
   props: {

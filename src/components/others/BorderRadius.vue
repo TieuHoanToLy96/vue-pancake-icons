@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('border-radius-pcon', component)
+    Vue.component('border-radius-pcon', this)
   },
   name: 'border-radius',
   props: {

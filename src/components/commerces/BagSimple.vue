@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bag-simple-pcon', component)
+    Vue.component('bag-simple-pcon', this)
   },
   name: 'bag-simple',
   props: {

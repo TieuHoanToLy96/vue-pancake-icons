@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('calculator-svg-pcon', component)
+    Vue.component('calculator-svg-pcon', this)
   },
   name: 'calculator-svg',
   props: {

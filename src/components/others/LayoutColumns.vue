@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-columns-pcon', component)
+    Vue.component('layout-columns-pcon', this)
   },
   name: 'layout-columns',
   props: {

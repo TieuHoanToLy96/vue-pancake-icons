@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('photo-up-pcon', component)
+    Vue.component('photo-up-pcon', this)
   },
   name: 'photo-up',
   props: {

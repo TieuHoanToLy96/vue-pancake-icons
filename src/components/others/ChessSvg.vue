@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chess-svg-pcon', component)
+    Vue.component('chess-svg-pcon', this)
   },
   name: 'chess-svg',
   props: {

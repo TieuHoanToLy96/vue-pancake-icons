@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('question-mark-pcon', component)
+    Vue.component('question-mark-pcon', this)
   },
   name: 'question-mark',
   props: {

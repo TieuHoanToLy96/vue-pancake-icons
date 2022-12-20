@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('robot-svg-pcon', component)
+    Vue.component('robot-svg-pcon', this)
   },
   name: 'robot-svg',
   props: {

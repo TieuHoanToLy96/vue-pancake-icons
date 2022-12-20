@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dialpad-off-pcon', component)
+    Vue.component('dialpad-off-pcon', this)
   },
   name: 'dialpad-off',
   props: {

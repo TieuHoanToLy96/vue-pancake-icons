@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shopping-bag-pcon', component)
+    Vue.component('shopping-bag-pcon', this)
   },
   name: 'shopping-bag',
   props: {

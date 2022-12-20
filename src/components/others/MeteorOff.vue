@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('meteor-off-pcon', component)
+    Vue.component('meteor-off-pcon', this)
   },
   name: 'meteor-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-days-counter-pcon', component)
+    Vue.component('brand-days-counter-pcon', this)
   },
   name: 'brand-days-counter',
   props: {

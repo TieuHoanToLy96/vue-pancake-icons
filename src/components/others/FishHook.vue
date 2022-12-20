@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fish-hook-pcon', component)
+    Vue.component('fish-hook-pcon', this)
   },
   name: 'fish-hook',
   props: {

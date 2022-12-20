@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-integrals-pcon', component)
+    Vue.component('math-integrals-pcon', this)
   },
   name: 'math-integrals',
   props: {

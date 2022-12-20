@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('playlist-svg-pcon', component)
+    Vue.component('playlist-svg-pcon', this)
   },
   name: 'playlist-svg',
   props: {

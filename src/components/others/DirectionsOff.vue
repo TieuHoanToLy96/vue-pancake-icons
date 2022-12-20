@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('directions-off-pcon', component)
+    Vue.component('directions-off-pcon', this)
   },
   name: 'directions-off',
   props: {

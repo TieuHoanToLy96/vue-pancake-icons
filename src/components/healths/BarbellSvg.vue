@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('barbell-svg-pcon', component)
+    Vue.component('barbell-svg-pcon', this)
   },
   name: 'barbell-svg',
   props: {

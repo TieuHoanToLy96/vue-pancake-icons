@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-neutral-pcon', component)
+    Vue.component('mood-neutral-pcon', this)
   },
   name: 'mood-neutral',
   props: {

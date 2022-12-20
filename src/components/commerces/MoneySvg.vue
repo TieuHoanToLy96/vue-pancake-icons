@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('money-svg-pcon', component)
+    Vue.component('money-svg-pcon', this)
   },
   name: 'money-svg',
   props: {

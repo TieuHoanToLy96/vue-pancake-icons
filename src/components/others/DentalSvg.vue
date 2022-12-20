@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dental-svg-pcon', component)
+    Vue.component('dental-svg-pcon', this)
   },
   name: 'dental-svg',
   props: {

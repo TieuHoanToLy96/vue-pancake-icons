@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('highlight-off-pcon', component)
+    Vue.component('highlight-off-pcon', this)
   },
   name: 'highlight-off',
   props: {

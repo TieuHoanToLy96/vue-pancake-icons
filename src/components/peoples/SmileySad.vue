@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('smiley-sad-pcon', component)
+    Vue.component('smiley-sad-pcon', this)
   },
   name: 'smiley-sad',
   props: {

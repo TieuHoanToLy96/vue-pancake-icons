@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-doc-pcon', component)
+    Vue.component('file-doc-pcon', this)
   },
   name: 'file-doc',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lifebuoy-off-pcon', component)
+    Vue.component('lifebuoy-off-pcon', this)
   },
   name: 'lifebuoy-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brightness-half-pcon', component)
+    Vue.component('brightness-half-pcon', this)
   },
   name: 'brightness-half',
   props: {

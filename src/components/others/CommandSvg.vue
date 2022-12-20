@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('command-svg-pcon', component)
+    Vue.component('command-svg-pcon', this)
   },
   name: 'command-svg',
   props: {

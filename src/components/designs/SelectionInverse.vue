@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('selection-inverse-pcon', component)
+    Vue.component('selection-inverse-pcon', this)
   },
   name: 'selection-inverse',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('faders-horizontal-pcon', component)
+    Vue.component('faders-horizontal-pcon', this)
   },
   name: 'faders-horizontal',
   props: {

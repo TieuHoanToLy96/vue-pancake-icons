@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('world-longitude-pcon', component)
+    Vue.component('world-longitude-pcon', this)
   },
   name: 'world-longitude',
   props: {

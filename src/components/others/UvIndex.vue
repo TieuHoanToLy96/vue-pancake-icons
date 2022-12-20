@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('uv-index-pcon', component)
+    Vue.component('uv-index-pcon', this)
   },
   name: 'uv-index',
   props: {

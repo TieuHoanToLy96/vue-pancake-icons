@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-4chan-pcon', component)
+    Vue.component('brand-4chan-pcon', this)
   },
   name: 'brand-4chan',
   props: {

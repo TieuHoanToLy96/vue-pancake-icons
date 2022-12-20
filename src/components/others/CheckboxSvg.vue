@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('checkbox-svg-pcon', component)
+    Vue.component('checkbox-svg-pcon', this)
   },
   name: 'checkbox-svg',
   props: {

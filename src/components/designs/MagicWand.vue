@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('magic-wand-pcon', component)
+    Vue.component('magic-wand-pcon', this)
   },
   name: 'magic-wand',
   props: {

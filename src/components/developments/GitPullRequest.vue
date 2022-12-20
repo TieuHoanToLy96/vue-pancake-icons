@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('git-pull-request-pcon', component)
+    Vue.component('git-pull-request-pcon', this)
   },
   name: 'git-pull-request',
   props: {

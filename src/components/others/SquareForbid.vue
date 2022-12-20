@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('square-forbid-pcon', component)
+    Vue.component('square-forbid-pcon', this)
   },
   name: 'square-forbid',
   props: {

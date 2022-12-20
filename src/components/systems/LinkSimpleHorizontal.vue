@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('link-simple-horizontal-pcon', component)
+    Vue.component('link-simple-horizontal-pcon', this)
   },
   name: 'link-simple-horizontal',
   props: {

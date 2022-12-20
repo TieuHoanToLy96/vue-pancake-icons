@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('beach-svg-pcon', component)
+    Vue.component('beach-svg-pcon', this)
   },
   name: 'beach-svg',
   props: {

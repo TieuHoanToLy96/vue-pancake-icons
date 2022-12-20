@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('smiley-nervous-pcon', component)
+    Vue.component('smiley-nervous-pcon', this)
   },
   name: 'smiley-nervous',
   props: {

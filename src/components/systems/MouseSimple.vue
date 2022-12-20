@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mouse-simple-pcon', component)
+    Vue.component('mouse-simple-pcon', this)
   },
   name: 'mouse-simple',
   props: {

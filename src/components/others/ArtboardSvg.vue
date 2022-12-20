@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('artboard-svg-pcon', component)
+    Vue.component('artboard-svg-pcon', this)
   },
   name: 'artboard-svg',
   props: {

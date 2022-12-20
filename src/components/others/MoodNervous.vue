@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-nervous-pcon', component)
+    Vue.component('mood-nervous-pcon', this)
   },
   name: 'mood-nervous',
   props: {

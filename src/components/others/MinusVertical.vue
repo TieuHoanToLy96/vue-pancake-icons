@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('minus-vertical-pcon', component)
+    Vue.component('minus-vertical-pcon', this)
   },
   name: 'minus-vertical',
   props: {

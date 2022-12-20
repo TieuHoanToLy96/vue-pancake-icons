@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-pdf-pcon', component)
+    Vue.component('file-pdf-pcon', this)
   },
   name: 'file-pdf',
   props: {

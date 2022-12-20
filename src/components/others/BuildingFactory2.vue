@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-factory-2-pcon', component)
+    Vue.component('building-factory-2-pcon', this)
   },
   name: 'building-factory-2',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-prisma-pcon', component)
+    Vue.component('brand-prisma-pcon', this)
   },
   name: 'brand-prisma',
   props: {

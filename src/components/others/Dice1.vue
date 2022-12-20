@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dice-1-pcon', component)
+    Vue.component('dice-1-pcon', this)
   },
   name: 'dice-1',
   props: {

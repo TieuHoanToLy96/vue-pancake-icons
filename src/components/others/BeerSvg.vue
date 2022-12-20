@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('beer-svg-pcon', component)
+    Vue.component('beer-svg-pcon', this)
   },
   name: 'beer-svg',
   props: {

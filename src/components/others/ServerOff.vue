@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('server-off-pcon', component)
+    Vue.component('server-off-pcon', this)
   },
   name: 'server-off',
   props: {

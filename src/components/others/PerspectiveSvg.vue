@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('perspective-svg-pcon', component)
+    Vue.component('perspective-svg-pcon', this)
   },
   name: 'perspective-svg',
   props: {

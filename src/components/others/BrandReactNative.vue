@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-react-native-pcon', component)
+    Vue.component('brand-react-native-pcon', this)
   },
   name: 'brand-react-native',
   props: {

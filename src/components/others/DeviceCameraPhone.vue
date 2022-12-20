@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-camera-phone-pcon', component)
+    Vue.component('device-camera-phone-pcon', this)
   },
   name: 'device-camera-phone',
   props: {

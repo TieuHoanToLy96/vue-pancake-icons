@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('desktop-tower-pcon', component)
+    Vue.component('desktop-tower-pcon', this)
   },
   name: 'desktop-tower',
   props: {

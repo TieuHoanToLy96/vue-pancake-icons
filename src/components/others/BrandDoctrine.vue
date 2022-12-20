@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-doctrine-pcon', component)
+    Vue.component('brand-doctrine-pcon', this)
   },
   name: 'brand-doctrine',
   props: {

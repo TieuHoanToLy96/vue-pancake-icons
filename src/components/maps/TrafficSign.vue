@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('traffic-sign-pcon', component)
+    Vue.component('traffic-sign-pcon', this)
   },
   name: 'traffic-sign',
   props: {

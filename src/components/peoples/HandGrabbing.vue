@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hand-grabbing-pcon', component)
+    Vue.component('hand-grabbing-pcon', this)
   },
   name: 'hand-grabbing',
   props: {

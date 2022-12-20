@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('venus-svg-pcon', component)
+    Vue.component('venus-svg-pcon', this)
   },
   name: 'venus-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cone-2-pcon', component)
+    Vue.component('cone-2-pcon', this)
   },
   name: 'cone-2',
   props: {

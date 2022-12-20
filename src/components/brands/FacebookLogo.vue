@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('facebook-logo-pcon', component)
+    Vue.component('facebook-logo-pcon', this)
   },
   name: 'facebook-logo',
   props: {

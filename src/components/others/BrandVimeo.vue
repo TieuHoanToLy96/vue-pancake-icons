@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-vimeo-pcon', component)
+    Vue.component('brand-vimeo-pcon', this)
   },
   name: 'brand-vimeo',
   props: {

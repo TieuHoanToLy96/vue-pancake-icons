@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paint-brush-household-pcon', component)
+    Vue.component('paint-brush-household-pcon', this)
   },
   name: 'paint-brush-household',
   props: {

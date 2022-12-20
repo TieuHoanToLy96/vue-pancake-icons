@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('briefcase-metal-pcon', component)
+    Vue.component('briefcase-metal-pcon', this)
   },
   name: 'briefcase-metal',
   props: {

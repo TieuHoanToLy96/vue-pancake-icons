@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-navbar-pcon', component)
+    Vue.component('layout-navbar-pcon', this)
   },
   name: 'layout-navbar',
   props: {

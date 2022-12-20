@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-collage-pcon', component)
+    Vue.component('layout-collage-pcon', this)
   },
   name: 'layout-collage',
   props: {

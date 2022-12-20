@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-community-pcon', component)
+    Vue.component('building-community-pcon', this)
   },
   name: 'building-community',
   props: {

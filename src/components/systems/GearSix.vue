@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gear-six-pcon', component)
+    Vue.component('gear-six-pcon', this)
   },
   name: 'gear-six',
   props: {

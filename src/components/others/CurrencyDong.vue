@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-dong-pcon', component)
+    Vue.component('currency-dong-pcon', this)
   },
   name: 'currency-dong',
   props: {

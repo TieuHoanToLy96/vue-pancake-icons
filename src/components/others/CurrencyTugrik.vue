@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-tugrik-pcon', component)
+    Vue.component('currency-tugrik-pcon', this)
   },
   name: 'currency-tugrik',
   props: {

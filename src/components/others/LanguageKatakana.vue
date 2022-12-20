@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('language-katakana-pcon', component)
+    Vue.component('language-katakana-pcon', this)
   },
   name: 'language-katakana',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('crosshair-simple-pcon', component)
+    Vue.component('crosshair-simple-pcon', this)
   },
   name: 'crosshair-simple',
   props: {

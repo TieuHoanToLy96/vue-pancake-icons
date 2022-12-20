@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('keyboard-svg-pcon', component)
+    Vue.component('keyboard-svg-pcon', this)
   },
   name: 'keyboard-svg',
   props: {

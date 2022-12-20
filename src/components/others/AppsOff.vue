@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('apps-off-pcon', component)
+    Vue.component('apps-off-pcon', this)
   },
   name: 'apps-off',
   props: {

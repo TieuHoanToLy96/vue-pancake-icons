@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('signal-3g-pcon', component)
+    Vue.component('signal-3g-pcon', this)
   },
   name: 'signal-3g',
   props: {

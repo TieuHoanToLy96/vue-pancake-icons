@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('seeding-off-pcon', component)
+    Vue.component('seeding-off-pcon', this)
   },
   name: 'seeding-off',
   props: {

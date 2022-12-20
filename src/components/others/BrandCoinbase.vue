@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-coinbase-pcon', component)
+    Vue.component('brand-coinbase-pcon', this)
   },
   name: 'brand-coinbase',
   props: {

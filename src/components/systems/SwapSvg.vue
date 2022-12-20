@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('swap-svg-pcon', component)
+    Vue.component('swap-svg-pcon', this)
   },
   name: 'swap-svg',
   props: {

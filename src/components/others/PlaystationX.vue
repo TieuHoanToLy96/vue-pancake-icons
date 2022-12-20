@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('playstation-x-pcon', component)
+    Vue.component('playstation-x-pcon', this)
   },
   name: 'playstation-x',
   props: {

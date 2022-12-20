@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('spy-svg-pcon', component)
+    Vue.component('spy-svg-pcon', this)
   },
   name: 'spy-svg',
   props: {

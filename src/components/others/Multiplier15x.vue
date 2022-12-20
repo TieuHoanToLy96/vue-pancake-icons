@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('multiplier-1-5x-pcon', component)
+    Vue.component('multiplier-1-5x-pcon', this)
   },
   name: 'multiplier-1-5x',
   props: {

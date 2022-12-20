@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('plant-off-pcon', component)
+    Vue.component('plant-off-pcon', this)
   },
   name: 'plant-off',
   props: {

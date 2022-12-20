@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bell-school-pcon', component)
+    Vue.component('bell-school-pcon', this)
   },
   name: 'bell-school',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('checkup-list-pcon', component)
+    Vue.component('checkup-list-pcon', this)
   },
   name: 'checkup-list',
   props: {

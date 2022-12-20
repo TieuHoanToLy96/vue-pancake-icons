@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tallymarks-svg-pcon', component)
+    Vue.component('tallymarks-svg-pcon', this)
   },
   name: 'tallymarks-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('equal-double-pcon', component)
+    Vue.component('equal-double-pcon', this)
   },
   name: 'equal-double',
   props: {

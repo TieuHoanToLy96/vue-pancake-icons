@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-loop-left-pcon', component)
+    Vue.component('arrow-loop-left-pcon', this)
   },
   name: 'arrow-loop-left',
   props: {

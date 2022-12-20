@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paperclip-horizontal-pcon', component)
+    Vue.component('paperclip-horizontal-pcon', this)
   },
   name: 'paperclip-horizontal',
   props: {

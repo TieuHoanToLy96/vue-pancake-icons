@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('eyeglass-2-pcon', component)
+    Vue.component('eyeglass-2-pcon', this)
   },
   name: 'eyeglass-2',
   props: {

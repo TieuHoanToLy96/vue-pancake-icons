@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('traffic-lights-off-pcon', component)
+    Vue.component('traffic-lights-off-pcon', this)
   },
   name: 'traffic-lights-off',
   props: {

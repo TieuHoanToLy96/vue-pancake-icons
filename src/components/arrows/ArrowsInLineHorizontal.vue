@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-in-line-horizontal-pcon', component)
+    Vue.component('arrows-in-line-horizontal-pcon', this)
   },
   name: 'arrows-in-line-horizontal',
   props: {

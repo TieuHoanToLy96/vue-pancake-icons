@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('browser-check-pcon', component)
+    Vue.component('browser-check-pcon', this)
   },
   name: 'browser-check',
   props: {

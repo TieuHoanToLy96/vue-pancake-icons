@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('propeller-off-pcon', component)
+    Vue.component('propeller-off-pcon', this)
   },
   name: 'propeller-off',
   props: {

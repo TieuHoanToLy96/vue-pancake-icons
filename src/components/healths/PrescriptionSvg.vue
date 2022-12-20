@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('prescription-svg-pcon', component)
+    Vue.component('prescription-svg-pcon', this)
   },
   name: 'prescription-svg',
   props: {

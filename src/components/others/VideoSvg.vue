@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('video-svg-pcon', component)
+    Vue.component('video-svg-pcon', this)
   },
   name: 'video-svg',
   props: {

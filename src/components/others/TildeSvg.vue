@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tilde-svg-pcon', component)
+    Vue.component('tilde-svg-pcon', this)
   },
   name: 'tilde-svg',
   props: {

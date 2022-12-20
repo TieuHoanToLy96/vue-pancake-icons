@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fingerprint-simple-pcon', component)
+    Vue.component('fingerprint-simple-pcon', this)
   },
   name: 'fingerprint-simple',
   props: {

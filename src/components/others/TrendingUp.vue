@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('trending-up-pcon', component)
+    Vue.component('trending-up-pcon', this)
   },
   name: 'trending-up',
   props: {

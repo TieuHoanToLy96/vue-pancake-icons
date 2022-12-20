@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('newspaper-clipping-pcon', component)
+    Vue.component('newspaper-clipping-pcon', this)
   },
   name: 'newspaper-clipping',
   props: {

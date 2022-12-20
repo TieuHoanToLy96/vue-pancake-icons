@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('table-export-pcon', component)
+    Vue.component('table-export-pcon', this)
   },
   name: 'table-export',
   props: {

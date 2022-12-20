@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-docker-pcon', component)
+    Vue.component('brand-docker-pcon', this)
   },
   name: 'brand-docker',
   props: {

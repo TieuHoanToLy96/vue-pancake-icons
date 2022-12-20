@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('search-off-pcon', component)
+    Vue.component('search-off-pcon', this)
   },
   name: 'search-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cast-off-pcon', component)
+    Vue.component('cast-off-pcon', this)
   },
   name: 'cast-off',
   props: {

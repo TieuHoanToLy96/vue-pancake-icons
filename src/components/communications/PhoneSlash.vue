@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('phone-slash-pcon', component)
+    Vue.component('phone-slash-pcon', this)
   },
   name: 'phone-slash',
   props: {

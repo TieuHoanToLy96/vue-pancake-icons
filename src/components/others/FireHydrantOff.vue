@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fire-hydrant-off-pcon', component)
+    Vue.component('fire-hydrant-off-pcon', this)
   },
   name: 'fire-hydrant-off',
   props: {

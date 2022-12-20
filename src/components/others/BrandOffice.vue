@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-office-pcon', component)
+    Vue.component('brand-office-pcon', this)
   },
   name: 'brand-office',
   props: {

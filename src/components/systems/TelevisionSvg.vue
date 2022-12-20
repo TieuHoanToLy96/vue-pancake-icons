@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('television-svg-pcon', component)
+    Vue.component('television-svg-pcon', this)
   },
   name: 'television-svg',
   props: {

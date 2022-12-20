@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chat-svg-pcon', component)
+    Vue.component('chat-svg-pcon', this)
   },
   name: 'chat-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('octagon-off-pcon', component)
+    Vue.component('octagon-off-pcon', this)
   },
   name: 'octagon-off',
   props: {

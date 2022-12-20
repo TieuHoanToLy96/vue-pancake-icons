@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('truck-return-pcon', component)
+    Vue.component('truck-return-pcon', this)
   },
   name: 'truck-return',
   props: {

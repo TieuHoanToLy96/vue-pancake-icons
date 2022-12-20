@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('forbid-2-pcon', component)
+    Vue.component('forbid-2-pcon', this)
   },
   name: 'forbid-2',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('folders-svg-pcon', component)
+    Vue.component('folders-svg-pcon', this)
   },
   name: 'folders-svg',
   props: {

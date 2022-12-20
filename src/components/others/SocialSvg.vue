@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('social-svg-pcon', component)
+    Vue.component('social-svg-pcon', this)
   },
   name: 'social-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('braces-svg-pcon', component)
+    Vue.component('braces-svg-pcon', this)
   },
   name: 'braces-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('house-simple-pcon', component)
+    Vue.component('house-simple-pcon', this)
   },
   name: 'house-simple',
   props: {

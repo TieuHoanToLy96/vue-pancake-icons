@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-sharp-turn-left-pcon', component)
+    Vue.component('arrow-sharp-turn-left-pcon', this)
   },
   name: 'arrow-sharp-turn-left',
   props: {

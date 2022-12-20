@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('test-pipe-off-pcon', component)
+    Vue.component('test-pipe-off-pcon', this)
   },
   name: 'test-pipe-off',
   props: {

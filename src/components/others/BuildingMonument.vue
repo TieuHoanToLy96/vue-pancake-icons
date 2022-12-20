@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-monument-pcon', component)
+    Vue.component('building-monument-pcon', this)
   },
   name: 'building-monument',
   props: {

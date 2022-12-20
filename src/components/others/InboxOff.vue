@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('inbox-off-pcon', component)
+    Vue.component('inbox-off-pcon', this)
   },
   name: 'inbox-off',
   props: {

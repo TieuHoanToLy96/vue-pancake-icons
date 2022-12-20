@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-openvpn-pcon', component)
+    Vue.component('brand-openvpn-pcon', this)
   },
   name: 'brand-openvpn',
   props: {

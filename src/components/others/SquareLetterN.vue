@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('square-letter-n-pcon', component)
+    Vue.component('square-letter-n-pcon', this)
   },
   name: 'square-letter-n',
   props: {

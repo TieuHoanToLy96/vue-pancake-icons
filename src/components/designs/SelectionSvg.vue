@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('selection-svg-pcon', component)
+    Vue.component('selection-svg-pcon', this)
   },
   name: 'selection-svg',
   props: {

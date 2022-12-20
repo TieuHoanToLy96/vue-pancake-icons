@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('leaf-off-pcon', component)
+    Vue.component('leaf-off-pcon', this)
   },
   name: 'leaf-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('focus-2-pcon', component)
+    Vue.component('focus-2-pcon', this)
   },
   name: 'focus-2',
   props: {

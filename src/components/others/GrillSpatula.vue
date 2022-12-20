@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('grill-spatula-pcon', component)
+    Vue.component('grill-spatula-pcon', this)
   },
   name: 'grill-spatula',
   props: {

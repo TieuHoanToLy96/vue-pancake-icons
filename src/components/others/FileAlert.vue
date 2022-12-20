@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-alert-pcon', component)
+    Vue.component('file-alert-pcon', this)
   },
   name: 'file-alert',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('vaccine-svg-pcon', component)
+    Vue.component('vaccine-svg-pcon', this)
   },
   name: 'vaccine-svg',
   props: {

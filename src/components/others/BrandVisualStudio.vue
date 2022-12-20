@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-visual-studio-pcon', component)
+    Vue.component('brand-visual-studio-pcon', this)
   },
   name: 'brand-visual-studio',
   props: {

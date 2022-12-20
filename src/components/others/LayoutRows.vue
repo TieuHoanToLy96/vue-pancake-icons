@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-rows-pcon', component)
+    Vue.component('layout-rows-pcon', this)
   },
   name: 'layout-rows',
   props: {

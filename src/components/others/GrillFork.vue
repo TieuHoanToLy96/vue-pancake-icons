@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('grill-fork-pcon', component)
+    Vue.component('grill-fork-pcon', this)
   },
   name: 'grill-fork',
   props: {

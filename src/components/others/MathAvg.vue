@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-avg-pcon', component)
+    Vue.component('math-avg-pcon', this)
   },
   name: 'math-avg',
   props: {

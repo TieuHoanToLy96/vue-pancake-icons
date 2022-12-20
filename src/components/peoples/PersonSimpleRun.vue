@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('person-simple-run-pcon', component)
+    Vue.component('person-simple-run-pcon', this)
   },
   name: 'person-simple-run',
   props: {

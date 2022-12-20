@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-2-pcon', component)
+    Vue.component('layout-2-pcon', this)
   },
   name: 'layout-2',
   props: {

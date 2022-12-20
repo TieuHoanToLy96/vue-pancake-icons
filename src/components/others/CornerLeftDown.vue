@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('corner-left-down-pcon', component)
+    Vue.component('corner-left-down-pcon', this)
   },
   name: 'corner-left-down',
   props: {

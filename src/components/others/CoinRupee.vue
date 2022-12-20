@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('coin-rupee-pcon', component)
+    Vue.component('coin-rupee-pcon', this)
   },
   name: 'coin-rupee',
   props: {

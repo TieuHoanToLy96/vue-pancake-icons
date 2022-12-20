@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('command-off-pcon', component)
+    Vue.component('command-off-pcon', this)
   },
   name: 'command-off',
   props: {

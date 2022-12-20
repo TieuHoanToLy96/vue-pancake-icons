@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brandy-svg-pcon', component)
+    Vue.component('brandy-svg-pcon', this)
   },
   name: 'brandy-svg',
   props: {

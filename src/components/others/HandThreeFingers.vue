@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hand-three-fingers-pcon', component)
+    Vue.component('hand-three-fingers-pcon', this)
   },
   name: 'hand-three-fingers',
   props: {

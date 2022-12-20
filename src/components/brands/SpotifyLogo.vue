@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('spotify-logo-pcon', component)
+    Vue.component('spotify-logo-pcon', this)
   },
   name: 'spotify-logo',
   props: {

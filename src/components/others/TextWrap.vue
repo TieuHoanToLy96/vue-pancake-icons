@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-wrap-pcon', component)
+    Vue.component('text-wrap-pcon', this)
   },
   name: 'text-wrap',
   props: {

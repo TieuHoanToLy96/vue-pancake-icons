@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-down-pcon', component)
+    Vue.component('arrows-down-pcon', this)
   },
   name: 'arrows-down',
   props: {

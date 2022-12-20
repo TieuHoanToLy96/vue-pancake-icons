@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('plus-minus-pcon', component)
+    Vue.component('plus-minus-pcon', this)
   },
   name: 'plus-minus',
   props: {

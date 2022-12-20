@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('flag-3-pcon', component)
+    Vue.component('flag-3-pcon', this)
   },
   name: 'flag-3',
   props: {

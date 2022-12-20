@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('folder-notch-plus-pcon', component)
+    Vue.component('folder-notch-plus-pcon', this)
   },
   name: 'folder-notch-plus',
   props: {

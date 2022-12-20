@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-disney-pcon', component)
+    Vue.component('brand-disney-pcon', this)
   },
   name: 'brand-disney',
   props: {

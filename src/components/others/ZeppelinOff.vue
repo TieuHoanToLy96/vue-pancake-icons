@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zeppelin-off-pcon', component)
+    Vue.component('zeppelin-off-pcon', this)
   },
   name: 'zeppelin-off',
   props: {

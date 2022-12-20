@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('confetti-svg-pcon', component)
+    Vue.component('confetti-svg-pcon', this)
   },
   name: 'confetti-svg',
   props: {

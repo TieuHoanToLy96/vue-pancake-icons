@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lamp-2-pcon', component)
+    Vue.component('lamp-2-pcon', this)
   },
   name: 'lamp-2',
   props: {

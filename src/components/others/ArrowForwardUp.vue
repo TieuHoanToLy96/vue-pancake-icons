@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-forward-up-pcon', component)
+    Vue.component('arrow-forward-up-pcon', this)
   },
   name: 'arrow-forward-up',
   props: {

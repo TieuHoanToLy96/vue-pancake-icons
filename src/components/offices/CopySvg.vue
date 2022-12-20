@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('copy-svg-pcon', component)
+    Vue.component('copy-svg-pcon', this)
   },
   name: 'copy-svg',
   props: {

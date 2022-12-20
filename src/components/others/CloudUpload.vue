@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cloud-upload-pcon', component)
+    Vue.component('cloud-upload-pcon', this)
   },
   name: 'cloud-upload',
   props: {

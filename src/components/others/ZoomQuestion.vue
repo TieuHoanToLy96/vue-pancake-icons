@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zoom-question-pcon', component)
+    Vue.component('zoom-question-pcon', this)
   },
   name: 'zoom-question',
   props: {

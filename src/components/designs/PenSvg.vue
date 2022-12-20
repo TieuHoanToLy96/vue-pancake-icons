@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pen-svg-pcon', component)
+    Vue.component('pen-svg-pcon', this)
   },
   name: 'pen-svg',
   props: {

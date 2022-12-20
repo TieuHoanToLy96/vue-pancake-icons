@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rewind-circle-pcon', component)
+    Vue.component('rewind-circle-pcon', this)
   },
   name: 'rewind-circle',
   props: {

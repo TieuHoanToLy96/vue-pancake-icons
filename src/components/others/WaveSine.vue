@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('wave-sine-pcon', component)
+    Vue.component('wave-sine-pcon', this)
   },
   name: 'wave-sine',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-laptop-pcon', component)
+    Vue.component('device-laptop-pcon', this)
   },
   name: 'device-laptop',
   props: {

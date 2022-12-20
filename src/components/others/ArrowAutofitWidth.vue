@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-autofit-width-pcon', component)
+    Vue.component('arrow-autofit-width-pcon', this)
   },
   name: 'arrow-autofit-width',
   props: {

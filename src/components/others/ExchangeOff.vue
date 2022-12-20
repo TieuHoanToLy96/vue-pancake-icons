@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('exchange-off-pcon', component)
+    Vue.component('exchange-off-pcon', this)
   },
   name: 'exchange-off',
   props: {

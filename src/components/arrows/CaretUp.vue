@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('caret-up-pcon', component)
+    Vue.component('caret-up-pcon', this)
   },
   name: 'caret-up',
   props: {

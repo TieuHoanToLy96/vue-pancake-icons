@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-tablet-camera-pcon', component)
+    Vue.component('device-tablet-camera-pcon', this)
   },
   name: 'device-tablet-camera',
   props: {

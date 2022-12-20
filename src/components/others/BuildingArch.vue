@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('building-arch-pcon', component)
+    Vue.component('building-arch-pcon', this)
   },
   name: 'building-arch',
   props: {

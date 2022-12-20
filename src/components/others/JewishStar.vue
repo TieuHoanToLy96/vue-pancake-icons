@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('jewish-star-pcon', component)
+    Vue.component('jewish-star-pcon', this)
   },
   name: 'jewish-star',
   props: {

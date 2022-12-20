@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrows-sort-pcon', component)
+    Vue.component('arrows-sort-pcon', this)
   },
   name: 'arrows-sort',
   props: {

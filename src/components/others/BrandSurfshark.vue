@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-surfshark-pcon', component)
+    Vue.component('brand-surfshark-pcon', this)
   },
   name: 'brand-surfshark',
   props: {

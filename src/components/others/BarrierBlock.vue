@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('barrier-block-pcon', component)
+    Vue.component('barrier-block-pcon', this)
   },
   name: 'barrier-block',
   props: {

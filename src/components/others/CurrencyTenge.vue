@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-tenge-pcon', component)
+    Vue.component('currency-tenge-pcon', this)
   },
   name: 'currency-tenge',
   props: {

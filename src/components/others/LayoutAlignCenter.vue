@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-align-center-pcon', component)
+    Vue.component('layout-align-center-pcon', this)
   },
   name: 'layout-align-center',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-hfour-pcon', component)
+    Vue.component('text-hfour-pcon', this)
   },
   name: 'text-hfour',
   props: {

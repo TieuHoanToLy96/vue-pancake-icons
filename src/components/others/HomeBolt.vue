@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-bolt-pcon', component)
+    Vue.component('home-bolt-pcon', this)
   },
   name: 'home-bolt',
   props: {

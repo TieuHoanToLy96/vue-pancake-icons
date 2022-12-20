@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-htwo-pcon', component)
+    Vue.component('text-htwo-pcon', this)
   },
   name: 'text-htwo',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('empathize-svg-pcon', component)
+    Vue.component('empathize-svg-pcon', this)
   },
   name: 'empathize-svg',
   props: {

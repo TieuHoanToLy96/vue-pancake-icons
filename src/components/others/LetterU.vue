@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('letter-u-pcon', component)
+    Vue.component('letter-u-pcon', this)
   },
   name: 'letter-u',
   props: {

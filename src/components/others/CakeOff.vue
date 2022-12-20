@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('cake-off-pcon', component)
+    Vue.component('cake-off-pcon', this)
   },
   name: 'cake-off',
   props: {

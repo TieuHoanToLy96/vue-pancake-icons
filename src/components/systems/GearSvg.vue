@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gear-svg-pcon', component)
+    Vue.component('gear-svg-pcon', this)
   },
   name: 'gear-svg',
   props: {

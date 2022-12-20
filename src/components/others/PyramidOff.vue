@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('pyramid-off-pcon', component)
+    Vue.component('pyramid-off-pcon', this)
   },
   name: 'pyramid-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('viewport-narrow-pcon', component)
+    Vue.component('viewport-narrow-pcon', this)
   },
   name: 'viewport-narrow',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('connect1-svg-pcon', component)
+    Vue.component('connect1-svg-pcon', this)
   },
   name: 'connect1-svg',
   props: {

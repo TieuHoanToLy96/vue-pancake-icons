@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('alert-triangle-pcon', component)
+    Vue.component('alert-triangle-pcon', this)
   },
   name: 'alert-triangle',
   props: {

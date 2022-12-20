@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('spacing-horizontal-pcon', component)
+    Vue.component('spacing-horizontal-pcon', this)
   },
   name: 'spacing-horizontal',
   props: {

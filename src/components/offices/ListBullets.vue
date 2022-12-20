@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('list-bullets-pcon', component)
+    Vue.component('list-bullets-pcon', this)
   },
   name: 'list-bullets',
   props: {

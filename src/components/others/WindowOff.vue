@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('window-off-pcon', component)
+    Vue.component('window-off-pcon', this)
   },
   name: 'window-off',
   props: {

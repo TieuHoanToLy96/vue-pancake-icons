@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('route-off-pcon', component)
+    Vue.component('route-off-pcon', this)
   },
   name: 'route-off',
   props: {

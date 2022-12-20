@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paint-brush-pcon', component)
+    Vue.component('paint-brush-pcon', this)
   },
   name: 'paint-brush',
   props: {

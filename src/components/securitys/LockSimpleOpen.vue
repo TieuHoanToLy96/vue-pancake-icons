@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lock-simple-open-pcon', component)
+    Vue.component('lock-simple-open-pcon', this)
   },
   name: 'lock-simple-open',
   props: {

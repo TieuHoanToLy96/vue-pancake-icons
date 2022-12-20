@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('exposure-0-pcon', component)
+    Vue.component('exposure-0-pcon', this)
   },
   name: 'exposure-0',
   props: {

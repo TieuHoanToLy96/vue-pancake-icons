@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mountain-svg-pcon', component)
+    Vue.component('mountain-svg-pcon', this)
   },
   name: 'mountain-svg',
   props: {

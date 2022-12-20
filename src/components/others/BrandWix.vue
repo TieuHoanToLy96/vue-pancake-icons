@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-wix-pcon', component)
+    Vue.component('brand-wix-pcon', this)
   },
   name: 'brand-wix',
   props: {

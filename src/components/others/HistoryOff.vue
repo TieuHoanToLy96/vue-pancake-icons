@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('history-off-pcon', component)
+    Vue.component('history-off-pcon', this)
   },
   name: 'history-off',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('file-horizontal-pcon', component)
+    Vue.component('file-horizontal-pcon', this)
   },
   name: 'file-horizontal',
   props: {

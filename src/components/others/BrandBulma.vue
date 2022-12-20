@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-bulma-pcon', component)
+    Vue.component('brand-bulma-pcon', this)
   },
   name: 'brand-bulma',
   props: {

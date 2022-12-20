@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('hourglass-svg-pcon', component)
+    Vue.component('hourglass-svg-pcon', this)
   },
   name: 'hourglass-svg',
   props: {

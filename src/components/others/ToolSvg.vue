@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tool-svg-pcon', component)
+    Vue.component('tool-svg-pcon', this)
   },
   name: 'tool-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('map-off-pcon', component)
+    Vue.component('map-off-pcon', this)
   },
   name: 'map-off',
   props: {

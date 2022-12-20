@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('math-symbols-pcon', component)
+    Vue.component('math-symbols-pcon', this)
   },
   name: 'math-symbols',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('server-2-pcon', component)
+    Vue.component('server-2-pcon', this)
   },
   name: 'server-2',
   props: {

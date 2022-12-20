@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('yin-yang-pcon', component)
+    Vue.component('yin-yang-pcon', this)
   },
   name: 'yin-yang',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('layout-board-split-pcon', component)
+    Vue.component('layout-board-split-pcon', this)
   },
   name: 'layout-board-split',
   props: {

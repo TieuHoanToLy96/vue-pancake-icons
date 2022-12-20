@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('stripe-logo-pcon', component)
+    Vue.component('stripe-logo-pcon', this)
   },
   name: 'stripe-logo',
   props: {

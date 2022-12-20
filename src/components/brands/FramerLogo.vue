@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('framer-logo-pcon', component)
+    Vue.component('framer-logo-pcon', this)
   },
   name: 'framer-logo',
   props: {

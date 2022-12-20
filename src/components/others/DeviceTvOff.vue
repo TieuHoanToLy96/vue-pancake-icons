@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('device-tv-off-pcon', component)
+    Vue.component('device-tv-off-pcon', this)
   },
   name: 'device-tv-off',
   props: {

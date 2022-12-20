@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-tiktok-pcon', component)
+    Vue.component('brand-tiktok-pcon', this)
   },
   name: 'brand-tiktok',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('lollipop-off-pcon', component)
+    Vue.component('lollipop-off-pcon', this)
   },
   name: 'lollipop-off',
   props: {

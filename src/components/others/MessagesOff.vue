@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('messages-off-pcon', component)
+    Vue.component('messages-off-pcon', this)
   },
   name: 'messages-off',
   props: {

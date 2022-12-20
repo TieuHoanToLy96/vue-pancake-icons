@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('alphabet-latin-pcon', component)
+    Vue.component('alphabet-latin-pcon', this)
   },
   name: 'alphabet-latin',
   props: {

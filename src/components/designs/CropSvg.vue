@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('crop-svg-pcon', component)
+    Vue.component('crop-svg-pcon', this)
   },
   name: 'crop-svg',
   props: {

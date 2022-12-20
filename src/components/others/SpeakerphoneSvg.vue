@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('speakerphone-svg-pcon', component)
+    Vue.component('speakerphone-svg-pcon', this)
   },
   name: 'speakerphone-svg',
   props: {

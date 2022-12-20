@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('caravan-svg-pcon', component)
+    Vue.component('caravan-svg-pcon', this)
   },
   name: 'caravan-svg',
   props: {

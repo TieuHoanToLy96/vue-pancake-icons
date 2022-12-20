@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('database-import-pcon', component)
+    Vue.component('database-import-pcon', this)
   },
   name: 'database-import',
   props: {

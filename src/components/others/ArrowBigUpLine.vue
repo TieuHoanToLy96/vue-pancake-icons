@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('arrow-big-up-line-pcon', component)
+    Vue.component('arrow-big-up-line-pcon', this)
   },
   name: 'arrow-big-up-line',
   props: {

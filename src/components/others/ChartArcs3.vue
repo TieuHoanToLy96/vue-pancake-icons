@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('chart-arcs-3-pcon', component)
+    Vue.component('chart-arcs-3-pcon', this)
   },
   name: 'chart-arcs-3',
   props: {

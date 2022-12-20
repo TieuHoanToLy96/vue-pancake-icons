@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('tree-structure-pcon', component)
+    Vue.component('tree-structure-pcon', this)
   },
   name: 'tree-structure',
   props: {

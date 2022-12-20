@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('planet-svg-pcon', component)
+    Vue.component('planet-svg-pcon', this)
   },
   name: 'planet-svg',
   props: {

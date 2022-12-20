@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('shirt-sport-pcon', component)
+    Vue.component('shirt-sport-pcon', this)
   },
   name: 'shirt-sport',
   props: {

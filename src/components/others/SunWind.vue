@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sun-wind-pcon', component)
+    Vue.component('sun-wind-pcon', this)
   },
   name: 'sun-wind',
   props: {

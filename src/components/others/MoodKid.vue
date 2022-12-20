@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-kid-pcon', component)
+    Vue.component('mood-kid-pcon', this)
   },
   name: 'mood-kid',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-pushover-pcon', component)
+    Vue.component('brand-pushover-pcon', this)
   },
   name: 'brand-pushover',
   props: {

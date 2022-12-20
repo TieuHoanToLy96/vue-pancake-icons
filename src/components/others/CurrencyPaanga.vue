@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('currency-paanga-pcon', component)
+    Vue.component('currency-paanga-pcon', this)
   },
   name: 'currency-paanga',
   props: {

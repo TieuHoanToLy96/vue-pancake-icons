@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('road-sign-pcon', component)
+    Vue.component('road-sign-pcon', this)
   },
   name: 'road-sign',
   props: {

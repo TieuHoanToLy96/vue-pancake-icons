@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('border-style-2-pcon', component)
+    Vue.component('border-style-2-pcon', this)
   },
   name: 'border-style-2',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-sketch-pcon', component)
+    Vue.component('brand-sketch-pcon', this)
   },
   name: 'brand-sketch',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('test-tube-pcon', component)
+    Vue.component('test-tube-pcon', this)
   },
   name: 'test-tube',
   props: {

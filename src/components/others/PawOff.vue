@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('paw-off-pcon', component)
+    Vue.component('paw-off-pcon', this)
   },
   name: 'paw-off',
   props: {

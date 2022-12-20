@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('circuit-changeover-pcon', component)
+    Vue.component('circuit-changeover-pcon', this)
   },
   name: 'circuit-changeover',
   props: {

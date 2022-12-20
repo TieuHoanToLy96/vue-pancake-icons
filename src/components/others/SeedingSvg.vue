@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('seeding-svg-pcon', component)
+    Vue.component('seeding-svg-pcon', this)
   },
   name: 'seeding-svg',
   props: {

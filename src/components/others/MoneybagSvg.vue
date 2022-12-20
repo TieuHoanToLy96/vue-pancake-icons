@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('moneybag-svg-pcon', component)
+    Vue.component('moneybag-svg-pcon', this)
   },
   name: 'moneybag-svg',
   props: {

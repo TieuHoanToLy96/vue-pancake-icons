@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('rainbow-off-pcon', component)
+    Vue.component('rainbow-off-pcon', this)
   },
   name: 'rainbow-off',
   props: {

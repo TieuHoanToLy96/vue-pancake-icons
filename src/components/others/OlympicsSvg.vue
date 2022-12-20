@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('olympics-svg-pcon', component)
+    Vue.component('olympics-svg-pcon', this)
   },
   name: 'olympics-svg',
   props: {

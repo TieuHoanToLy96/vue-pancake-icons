@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('dots-circle-horizontal-pcon', component)
+    Vue.component('dots-circle-horizontal-pcon', this)
   },
   name: 'dots-circle-horizontal',
   props: {

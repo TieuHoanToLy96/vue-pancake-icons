@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('text-size-pcon', component)
+    Vue.component('text-size-pcon', this)
   },
   name: 'text-size',
   props: {

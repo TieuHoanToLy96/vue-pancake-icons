@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-skype-pcon', component)
+    Vue.component('brand-skype-pcon', this)
   },
   name: 'brand-skype',
   props: {

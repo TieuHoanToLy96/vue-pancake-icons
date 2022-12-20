@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('home-link-pcon', component)
+    Vue.component('home-link-pcon', this)
   },
   name: 'home-link',
   props: {

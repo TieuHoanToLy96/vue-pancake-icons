@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('world-www-pcon', component)
+    Vue.component('world-www-pcon', this)
   },
   name: 'world-www',
   props: {

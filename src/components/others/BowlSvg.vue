@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('bowl-svg-pcon', component)
+    Vue.component('bowl-svg-pcon', this)
   },
   name: 'bowl-svg',
   props: {

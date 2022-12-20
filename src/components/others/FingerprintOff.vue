@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('fingerprint-off-pcon', component)
+    Vue.component('fingerprint-off-pcon', this)
   },
   name: 'fingerprint-off',
   props: {

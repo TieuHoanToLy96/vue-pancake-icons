@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('zoom-pan-pcon', component)
+    Vue.component('zoom-pan-pcon', this)
   },
   name: 'zoom-pan',
   props: {

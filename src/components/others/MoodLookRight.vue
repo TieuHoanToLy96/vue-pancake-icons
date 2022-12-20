@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('mood-look-right-pcon', component)
+    Vue.component('mood-look-right-pcon', this)
   },
   name: 'mood-look-right',
   props: {

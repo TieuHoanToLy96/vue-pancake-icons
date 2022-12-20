@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('milkshake-svg-pcon', component)
+    Vue.component('milkshake-svg-pcon', this)
   },
   name: 'milkshake-svg',
   props: {

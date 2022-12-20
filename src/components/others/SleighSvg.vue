@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('sleigh-svg-pcon', component)
+    Vue.component('sleigh-svg-pcon', this)
   },
   name: 'sleigh-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('brand-google-drive-pcon', component)
+    Vue.component('brand-google-drive-pcon', this)
   },
   name: 'brand-google-drive',
   props: {

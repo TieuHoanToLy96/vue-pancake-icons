@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('capture-svg-pcon', component)
+    Vue.component('capture-svg-pcon', this)
   },
   name: 'capture-svg',
   props: {

@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('eye-off-pcon', component)
+    Vue.component('eye-off-pcon', this)
   },
   name: 'eye-off',
   props: {

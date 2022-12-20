@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('discount-2-pcon', component)
+    Vue.component('discount-2-pcon', this)
   },
   name: 'discount-2',
   props: {

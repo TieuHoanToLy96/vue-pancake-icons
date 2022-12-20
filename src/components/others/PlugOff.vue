@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('plug-off-pcon', component)
+    Vue.component('plug-off-pcon', this)
   },
   name: 'plug-off',
   props: {

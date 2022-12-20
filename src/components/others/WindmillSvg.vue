@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('windmill-svg-pcon', component)
+    Vue.component('windmill-svg-pcon', this)
   },
   name: 'windmill-svg',
   props: {

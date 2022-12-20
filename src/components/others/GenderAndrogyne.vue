@@ -1,7 +1,7 @@
 <script>
 export default {
   install(Vue, options) {
-    Vue.component('gender-androgyne-pcon', component)
+    Vue.component('gender-androgyne-pcon', this)
   },
   name: 'gender-androgyne',
   props: {
