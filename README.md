@@ -2,7 +2,8 @@
 npm install vue-pancake-icons
 
 # Use 1
-in component
+_in component
+```html
 <script>
 import { ArrowUp } from "vue-pancake-icons"
 export default {
@@ -12,16 +13,21 @@ export default {
 <template>
   <ArrowUp/>
 </template>
+```
 
 # Use 2
-multi component in app.js
+_multi component in app.js
+```html
 import { ArrowUp } from "vue-pancake-icons"
 app.use(ArrowUp)
+```
 
 # Use 3
-all component global in app.js
+_Note: this usage is not recommended as it cannot be tree-shaken
+_all component global in app.js
+```html
 import VuePancakeIcons from 'vue-pancake-icons'
 app.use(VuePancakeIcons)
-
+```
 # Demo
 Click [here](https://tieuhoan.dev)
